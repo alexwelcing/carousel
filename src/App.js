@@ -1,52 +1,36 @@
-import React, { useEffect, useState, useRef } from 'react';
-import * as THREE from 'three';
-import { Canvas, extend, useFrame } from '@react-three/fiber';
-import { Image, ScrollControls, useScroll, Billboard, Text } from '@react-three/drei';
-import { suspend } from 'suspend-react';
-import { generate } from 'random-words';
-import { easing, geometry } from 'maath';
-import LoginToSpotify from './components/LoginToSpotify'; // Adjust path as necessary
-import queryString from 'query-string';
+import * as THREE from 'three'
+import React, { useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { Canvas, extend, useFrame, useThree } from '@react-three/fiber'
+import { Image, ScrollControls, useScroll, Billboard, Text } from '@react-three/drei'
+import { suspend } from 'suspend-react'
+import { easing, geometry } from 'maath'
+import VideoPlayer from './Components/VideoPlayer'
+import cardData from './data.json'
 
-extend(geometry);
-const inter = import('@pmndrs/assets/fonts/inter_regular.woff');
+extend(geometry)
+const inter = import('@pmndrs/assets/fonts/inter_regular.woff')
 
-export const App = () => {
-  const [token, setToken] = useState(localStorage.getItem('spotify_access_token'));
-  const [tracks, setTracks] = useState([]);
+function App() {
+  const [selectedVideoId, setSelectedVideoId] = useState(null);
 
-  useEffect(() => {
-    const parsed = queryString.parse(window.location.hash);
-    const accessToken = parsed.access_token;
-
-    if (accessToken) {
-      setToken(accessToken);
-      localStorage.setItem('spotify_access_token', accessToken);
-      window.history.pushState("", document.title, window.location.pathname + window.location.search);
-
-      // TODO: Fetch the playlist data here using accessToken
-      // fetchPlaylistData(accessToken).then(setTracks);
-    }
-  }, []);
-
-  if (!token) {
-    return <LoginToSpotify />;
-  }
+  const handleVideoSelect = (videoId) => {
+    setSelectedVideoId(videoId);
+  };
 
   return (
     <Canvas dpr={[1, 1.5]}>
       <ScrollControls pages={4} infinite>
-        <Scene position={[0, 1.5, 0]} tracks={tracks} />
-        {/* Include any other components or context providers you need */}
+      <Scene position={[0, 1.5, 0]} handleVideoSelect={handleVideoSelect} />
       </ScrollControls>
+      {selectedVideoId && <VideoPlayer videoId={selectedVideoId} />}
     </Canvas>
   );
-};
+}
 
-function Scene({ tracks, ...props }) {
-  const ref = useRef();
-  const scroll = useScroll();
-  const [hovered, hover] = useState(null);
+function Scene({ children, ...props }) {
+  const ref = useRef()
+  const scroll = useScroll()
+  const [hovered, hover] = useState(null)
   useFrame((state, delta) => {
     ref.current.rotation.y = -scroll.offset * (Math.PI * 2) // Rotate contents
     state.events.update() // Raycasts every frame rather than on pointer-move
@@ -55,75 +39,89 @@ function Scene({ tracks, ...props }) {
   })
   return (
     <group ref={ref} {...props}>
-      <Cards category="spring" from={0} len={Math.PI / 4} onPointerOver={hover} onPointerOut={hover} />
-      <Cards category="summer" from={Math.PI / 4} len={Math.PI / 2} position={[0, 0.4, 0]} onPointerOver={hover} onPointerOut={hover} />
-      <Cards category="autumn" from={Math.PI / 4 + Math.PI / 2} len={Math.PI / 2} onPointerOver={hover} onPointerOut={hover} />
-      <Cards category="winter" from={Math.PI * 1.25} len={Math.PI * 2 - Math.PI * 1.25} position={[0, -0.4, 0]} onPointerOver={hover} onPointerOut={hover} />
+      {cardData.map((card, i) => {
+        const angle = from + (i / cardData.length) * len;
+
+        return (
+          <Card
+          key={angle}
+          onPointerOver={(e) => (e.stopPropagation(), hover(i))}
+          onPointerOut={() => (hover(null))}
+          onClick={() => handleVideoSelect(card.videoId)} // Use the videoId from the card object
+            position={[Math.sin(angle) * radius, 0, Math.cos(angle) * radius]}
+            rotation={[0, Math.PI / 2 + angle, 0]}
+            active={hovered !== null}
+            hovered={hovered === i}
+            url={`/${card.image}`} // Use the image filename from the card object
+          >
+            <Text font={suspend(inter).default} fontSize={0.25} anchorX="center" color="black">
+              {card.artist} - {card.song} {/* Display artist and song */}
+            </Text>
+          </Card>
+        )
+      })}
       <ActiveCard hovered={hovered} />
     </group>
   )
 }
 
-function Cards({ category, data, from = 0, len = Math.PI * 2, radius = 5.25, onPointerOver, onPointerOut, ...props }) {
-  const [hovered, hover] = useState(null)
-  const amount = Math.round(len * 22)
-  const textPosition = from + (amount / 2 / amount) * len
-  return (
-    <group {...props}>
-      <Billboard position={[Math.sin(textPosition) * radius * 1.4, 0.5, Math.cos(textPosition) * radius * 1.4]}>
-        <Text font={suspend(inter).default} fontSize={0.25} anchorX="center" color="black">
-          {category}
-        </Text>
-      </Billboard>
-      {Array.from({ length: amount - 3 /* minus 3 images at the end, creates a gap */ }, (_, i) => {
-        const angle = from + (i / amount) * len
-        return (
-          <Card
-            key={angle}
-            onPointerOver={(e) => (e.stopPropagation(), hover(i), onPointerOver(i))}
-            onPointerOut={() => (hover(null), onPointerOut(null))}
-            position={[Math.sin(angle) * radius, 0, Math.cos(angle) * radius]}
-            rotation={[0, Math.PI / 2 + angle, 0]}
-            active={hovered !== null}
-            hovered={hovered === i}
-            url={`/img${Math.floor(i % 10) + 1}.jpg`}
-          />
-        )
-      })}
-    </group>
-  )
-}
+const from = 0 // Define from
+const len = 0 // Define len
+const radius = 0 // Define radius
 
-function Card({ url, active, hovered, ...props }) {
-  const ref = useRef()
+function Card({ url, active, hovered, onPointerOver, onPointerOut, ...props }) {
+  const ref = useRef();
   useFrame((state, delta) => {
-    const f = hovered ? 1.4 : active ? 1.25 : 1
-    easing.damp3(ref.current.position, [0, hovered ? 0.25 : 0, 0], 0.1, delta)
-    easing.damp3(ref.current.scale, [1.618 * f, 1 * f, 1], 0.15, delta)
-  })
+    const f = hovered ? 1.4 : active ? 1.25 : 1;
+    easing.damp3(ref.current.position, [0, hovered ? 0.25 : 0, 0], 0.1, delta);
+    easing.damp3(ref.current.scale, [1.618 * f, 1 * f, 1], 0.15, delta);
+  });
+
   return (
-    <group {...props}>
+    <group {...props} onPointerOver={onPointerOver} onPointerOut={onPointerOut}>
       <Image ref={ref} url={url} scale={[1.618, 1, 1]} side={THREE.DoubleSide} />
     </group>
-  )
+  );
 }
 
 function ActiveCard({ hovered, ...props }) {
-  const ref = useRef()
-  const name = useMemo(() => generate({ exactly: 2 }).join(' '), [hovered])
-  useLayoutEffect(() => void (ref.current.material.zoom = 0.8), [hovered])
+  const ref = useRef();
+  const card = useMemo(() => {
+    if (hovered !== null && cardData[hovered]) {
+      return cardData[hovered];
+    }
+    return null;
+  }, [hovered]);
+
+  useLayoutEffect(() => {
+    if (ref.current && ref.current.material) {
+      ref.current.material.zoom = 0.8;
+    }
+  }, [hovered]);
+
   useFrame((state, delta) => {
-    easing.damp(ref.current.material, 'zoom', 1, 0.5, delta)
-    easing.damp(ref.current.material, 'opacity', hovered !== null, 0.3, delta)
-  })
+    if (ref.current && ref.current.material) {
+      easing.damp(ref.current.material, 'zoom', 1, 0.5, delta);
+      easing.damp(ref.current.material, 'opacity', hovered !== null, 0.3, delta);
+    }
+  });
+
   return (
     <Billboard {...props}>
-      <Text font={suspend(inter).default} fontSize={0.5} position={[2.15, 3.85, 0]} anchorX="left" color="black">
-        {hovered !== null && `${name}\n${hovered}`}
-      </Text>
-      <Image ref={ref} transparent position={[0, 1.5, 0]} url={`/img${Math.floor(hovered % 10) + 1}.jpg`}>
-        <roundedPlaneGeometry parameters={{ width: 3.5, height: 1.618 * 3.5 }} args={[3.5, 1.618 * 3.5, 0.2]} />
-      </Image>
+      {card && (
+        <>
+          <Text font={suspend(inter).default} fontSize={0.5} position={[2.15, 3.85, 0]} anchorX="left" color="black">
+            {`${card.artist} - ${card.song}`}
+          </Text>
+          {ref.current && ref.current.material && (
+            <Image transparent position={[0, 1.5, 0]} url={`${card.image}`}>
+              <roundedPlaneGeometry parameters={{ width: 3.5, height: 1.618 * 3.5 }} args={[3.5, 1.618 * 3.5, 0.2]} />
+            </Image>
+          )}
+        </>
+      )}
     </Billboard>
-  )
+  );
 }
+
+export default App
