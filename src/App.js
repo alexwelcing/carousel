@@ -1,26 +1,52 @@
-import * as THREE from 'three'
-import { useLayoutEffect, useMemo, useRef, useState } from 'react'
-import { Canvas, extend, useFrame } from '@react-three/fiber'
-import { Image, ScrollControls, useScroll, Billboard, Text } from '@react-three/drei'
-import { suspend } from 'suspend-react'
-import { generate } from 'random-words'
-import { easing, geometry } from 'maath'
+import React, { useEffect, useState, useRef } from 'react';
+import * as THREE from 'three';
+import { Canvas, extend, useFrame } from '@react-three/fiber';
+import { Image, ScrollControls, useScroll, Billboard, Text } from '@react-three/drei';
+import { suspend } from 'suspend-react';
+import { generate } from 'random-words';
+import { easing, geometry } from 'maath';
+import LoginToSpotify from './components/LoginToSpotify'; // Adjust path as necessary
+import queryString from 'query-string';
 
-extend(geometry)
-const inter = import('@pmndrs/assets/fonts/inter_regular.woff')
+extend(geometry);
+const inter = import('@pmndrs/assets/fonts/inter_regular.woff');
 
-export const App = () => (
-  <Canvas dpr={[1, 1.5]}>
-    <ScrollControls pages={4} infinite>
-      <Scene position={[0, 1.5, 0]} />
-    </ScrollControls>
-  </Canvas>
-)
+export const App = () => {
+  const [token, setToken] = useState(localStorage.getItem('spotify_access_token'));
+  const [tracks, setTracks] = useState([]);
 
-function Scene({ children, ...props }) {
-  const ref = useRef()
-  const scroll = useScroll()
-  const [hovered, hover] = useState(null)
+  useEffect(() => {
+    const parsed = queryString.parse(window.location.hash);
+    const accessToken = parsed.access_token;
+
+    if (accessToken) {
+      setToken(accessToken);
+      localStorage.setItem('spotify_access_token', accessToken);
+      window.history.pushState("", document.title, window.location.pathname + window.location.search);
+
+      // TODO: Fetch the playlist data here using accessToken
+      // fetchPlaylistData(accessToken).then(setTracks);
+    }
+  }, []);
+
+  if (!token) {
+    return <LoginToSpotify />;
+  }
+
+  return (
+    <Canvas dpr={[1, 1.5]}>
+      <ScrollControls pages={4} infinite>
+        <Scene position={[0, 1.5, 0]} tracks={tracks} />
+        {/* Include any other components or context providers you need */}
+      </ScrollControls>
+    </Canvas>
+  );
+};
+
+function Scene({ tracks, ...props }) {
+  const ref = useRef();
+  const scroll = useScroll();
+  const [hovered, hover] = useState(null);
   useFrame((state, delta) => {
     ref.current.rotation.y = -scroll.offset * (Math.PI * 2) // Rotate contents
     state.events.update() // Raycasts every frame rather than on pointer-move
