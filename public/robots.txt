@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Tailored, 1:1 application pages — keep them out of search results
+Disallow: /role/

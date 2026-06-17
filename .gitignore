@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+
+# Generated at build time by scripts/generate-resumes.tsx
+public/resume.pdf
+public/resume-light.pdf
+public/resumes/
+.netlify
+.env
+.env.*

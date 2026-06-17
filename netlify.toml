@@ -1,0 +1,16 @@
+# Netlify build config for welc.ing
+# Assumes this file sits at the repo root (the app/ contents are the repo root).
+# If instead you commit the project so this lives at /app, set base = "app" below.
+
+[build]
+  command = "pnpm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# SPA fallback so /role/:slug deep links resolve to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
