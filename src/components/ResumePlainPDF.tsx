@@ -21,8 +21,8 @@ const s = StyleSheet.create({
     fontFamily: 'Helvetica',
     fontSize: 9.5,
     lineHeight: 1.4,
-    paddingTop: 40,
-    paddingBottom: 30,
+    paddingTop: 38,
+    paddingBottom: 24,
     paddingHorizontal: 54,
   },
 
@@ -40,14 +40,14 @@ const s = StyleSheet.create({
     fontSize: 10,
     letterSpacing: 1.5,
     color: INK,
-    marginBottom: 6,
+    marginBottom: 5,
   },
-  section: { marginBottom: 10 },
+  section: { marginBottom: 9 },
 
   summary: { fontSize: 9.5, color: SUB, lineHeight: 1.5 },
 
   /* Experience */
-  job: { marginBottom: 7 },
+  job: { marginBottom: 6 },
   jobRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
   company: { fontFamily: 'Helvetica-Bold', fontSize: 10.5 },
   date: { fontSize: 9, color: FAINT },
@@ -87,7 +87,7 @@ export default function ResumePlainPDFDocument(
 ) {
   const summary = role
     ? role.intro
-    : 'Engineer turned product manager, relapsing back into engineering with AI. Fifteen years across AI and enterprise platforms — setting product strategy and shipping the code, from one person.';
+    : 'Product-minded engineer who owns problems end to end — from strategy to production code. Fifteen years across AI and enterprise platforms: multi-agent systems, LLM products, and identity infrastructure at billions-scale, built with the autonomy and pace of a founding engineer.';
 
   return (
     <Document
