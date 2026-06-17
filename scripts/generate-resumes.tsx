@@ -13,6 +13,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 import ResumePDFDocument, { type Wordmark } from '../src/components/ResumePDF';
+import ResumePlainPDFDocument from '../src/components/ResumePlainPDF';
 import type { TailoredRole } from '../src/data/roles';
 import { roles } from '../src/data/roles';
 import { computeScale, computeWordmark } from './pretext-fit';
@@ -56,6 +57,12 @@ async function emit(role: TailoredRole | undefined, darkPath: string, lightPath:
   count += 2;
   console.log(`[resumes] ${role ? role.slug : 'base'} → fit scale ${scale}`);
 }
+
+// Plain, conventional one-page variant (US Letter, Helvetica) — its own pipeline.
+const plainBuf = await renderToBuffer(createElement(ResumePlainPDFDocument, {}));
+await writeFile(resolve(publicDir, 'resume-plain.pdf'), plainBuf);
+count += 1;
+console.log(`[resumes] plain → ${pageCount(plainBuf)} page(s)`);
 
 // Base
 await emit(undefined, resolve(publicDir, 'resume.pdf'), resolve(publicDir, 'resume-light.pdf'));

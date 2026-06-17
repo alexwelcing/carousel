@@ -126,15 +126,26 @@ function HeroSection() {
             DOWNLOAD RESUME {'↓'}
           </a>
         </div>
-        <a
-          href="/resume-light.pdf"
-          className="font-caption mt-4 inline-block transition-colors duration-200"
-          style={{ color: '#8A8A8A' }}
-          onMouseEnter={(e) => { e.currentTarget.style.color = '#FF3366'; }}
-          onMouseLeave={(e) => { e.currentTarget.style.color = '#8A8A8A'; }}
-        >
-          {'> or grab the printer-friendly version'}
-        </a>
+        <div className="flex flex-wrap gap-x-5 gap-y-1 mt-4">
+          <a
+            href="/resume-light.pdf"
+            className="font-caption inline-block transition-colors duration-200"
+            style={{ color: '#8A8A8A' }}
+            onMouseEnter={(e) => { e.currentTarget.style.color = '#FF3366'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.color = '#8A8A8A'; }}
+          >
+            {'> printer-friendly version'}
+          </a>
+          <a
+            href="/resume-plain.pdf"
+            className="font-caption inline-block transition-colors duration-200"
+            style={{ color: '#8A8A8A' }}
+            onMouseEnter={(e) => { e.currentTarget.style.color = '#FF3366'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.color = '#8A8A8A'; }}
+          >
+            {'> plain text version'}
+          </a>
+        </div>
       </div>
     </section>
   );
