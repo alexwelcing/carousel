@@ -71,3 +71,24 @@ export default defineConfig([
   },
 ])
 ```
+
+## HyperFrames Video Pipeline
+
+This repo is configured for on-the-fly video generation with HyperFrames + Copilot skills.
+
+Quickstart:
+
+```bash
+npm run hf:doctor
+npm run hf:dev
+```
+
+Render from repo root:
+
+```bash
+npm run hf:render
+```
+
+Detailed guide: `HYPERFRAMES.md`
+
+HyperFrames docs index cached in repo: `docs/hyperframes/llms.txt`

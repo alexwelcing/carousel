@@ -1,0 +1,14 @@
+LinkedIn Promoted Roles - Enriched Research Pack
+Prepared for Alex Welcing  |  Capture/research date: 2026-06-23
+
+"Scope: 261 promoted/recommended roles across 149 companies, sourced from LinkedIn ""Top job picks for you"" then researched on the OPEN WEB (company sites, Crunchbase/Sacra, Levels.fyi, Glassdoor, news). LinkedIn was not used as a research source."
+
+Sheets:
+"  - Target Roles: every role with reconstructed JD summary, key requirements, comp benchmark, company intel, fit-to-Alex, and a resume/cover-letter positioning angle. Filter by the Fit column."
+"  - Company Profiles: one row per company - stage, funding/backing, HQ, size, what they do, AI focus, recent developments, website."
+"  - Top Targets (A): the strong-fit shortlist, ready to drive tailored applications."
+
+Fit tiers:  A - Strong fit = 119 roles  |  B - Possible fit = 115  |  C - Lower fit = 27.
+"Fit reflects Alex's background: identity/security (LBR), AI agents + developer tools (Obsess), document AI (Manatt), platforms (Arkadium), plus subscription/user growth.','"
+
+"Caveats: JD summaries marked ""inferred"" were reconstructed from company context where the exact posting was not retrievable without LinkedIn. Rows flagged ""Recruiter/intermediary"" hide the true employer behind a staffing firm - confirm the client before applying. Comp benchmarks are posting figures where available, otherwise Levels.fyi/Glassdoor bands or labeled estimates - verify before negotiating."

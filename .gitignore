@@ -9,3 +9,8 @@ public/resumes/
 .netlify
 .env
 .env.*
+
+# HyperFrames artifacts
+output/
+hyperframes-studio/renders/
+hyperframes-studio/.hyperframes/
