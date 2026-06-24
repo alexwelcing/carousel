@@ -47,6 +47,22 @@ export default function RivePanel({
     return () => mq.removeEventListener('change', update);
   }, []);
 
+  // The hero's GSAP reveal fades in the [data-hero-panel] wrapper, but the
+  // Rive WASM renderer initializing in this panel can starve GSAP's ticker and
+  // leave that tween frozen just short of opacity 1 — which makes the dark
+  // panel read grey over the light page. Once mounted, settle the wrapper to
+  // full opacity so the panel lands at its intended near-black.
+  useEffect(() => {
+    const t = window.setTimeout(() => {
+      const wrap = ref.current?.closest<HTMLElement>('[data-hero-panel]');
+      if (wrap) {
+        wrap.style.opacity = '1';
+        wrap.style.transform = 'none';
+      }
+    }, 1200);
+    return () => window.clearTimeout(t);
+  }, []);
+
   const handleMove = (e: MouseEvent<HTMLDivElement>) => {
     if (reducedMotion) return;
     const el = ref.current;
