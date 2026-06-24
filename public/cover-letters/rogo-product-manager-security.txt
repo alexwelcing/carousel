@@ -1,0 +1,27 @@
+Hiring Team at Rogo
+
+I am applying for the Product Manager | Security role (New York, NY).
+
+My pitch for this role is simple: I bring experience identity/security PM credentials applied to enterprise AI/agent trust and governance.
+
+Excellent: identity/security PM (LBR) + AI context (Obsess) is a rare and exact match for AI-security product.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Hands-on product plus engineering range.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 4+ yrs PM: I bring experience identity/security PM credentials applied to enterprise AI/agent trust and governance.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Hands-on product plus engineering range
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

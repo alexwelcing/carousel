@@ -1,0 +1,29 @@
+Hiring Team at Anthropic
+
+I am applying for the Forward Deployed Engineer, Applied AI role (New York City).
+
+My pitch for this role is simple: I already work the way Anthropic needs a forward-deployed engineer to work: I embed with users, build the system, and feed the learning back into product.
+
+A forward-deployed engineer who embeds with enterprises, builds the agents, and feeds patterns back to product. I have done exactly this: replacing critical systems at billions-scale, and building my own multi-agent orchestration platform from scratch.
+
+The strongest proof for this application is that I have already done adjacent work across Billions of monthly requests served by systems I rebuilt, 150+ enterprise SSO integrations delivered, MCP servers, sub-agents & skills shipped in side projects.
+
+Why I am a strong fit:
+- I build production agents, not prototypes: CreateSuite is my own multi-agent orchestration system — autonomous agents with git-backed persistence, an inter-agent mailbox, and 6 model providers (Claude, OpenAI, Gemini, MiniMax, Copilot, Z.ai).
+- Enterprise deployment is my day job: At Law Business Research I ran white-glove SSO (SAML/OIDC) onboarding for 150+ AmLaw 200 firms — the exact customer-facing, high-trust deployment motion an FDE lives in.
+- I prototype in TypeScript and Python and ship: Hands-on architect PM: launched an AI API execution workspace with oRPC, type safety, and live introspection that improved model accuracy across 3 internal APIs.
+
+Selected proof points:
+- Billions of monthly requests served by systems I rebuilt
+- 150+ enterprise SSO integrations delivered
+- MCP servers, sub-agents & skills shipped in side projects
+
+Note: Best used when the conversation should start on product instinct plus hands-on agent execution.
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

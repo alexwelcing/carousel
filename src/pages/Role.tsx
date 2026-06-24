@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight, ExternalLink, Check, Download } from 'lucide-react';
 import AmbientField from '@/components/AmbientField';
+import { applicationPacketOverrides, getApplicationPacketLinks } from '@/data/applicationPackets';
 import { getRole } from '@/data/roles';
 
 const easeOut = [0, 0, 0.2, 1] as [number, number, number, number];
@@ -57,6 +58,8 @@ export default function Role() {
   }
 
   const accent = role.accent ?? '#FF3366';
+  const packetLinks = getApplicationPacketLinks(role.slug);
+  const packetOverride = applicationPacketOverrides[role.slug];
 
   return (
     <div style={{ opacity: 0, position: 'relative' }} className="animate-fade-in">
@@ -121,78 +124,125 @@ export default function Role() {
           </motion.p>
 
           <motion.div
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col gap-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: easeOut }}
           >
-            <a
-              href={role.applyUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-nav inline-flex items-center justify-center gap-2 px-6 py-3 transition-all duration-200"
-              style={{
-                backgroundColor: accent,
-                color: '#050505',
-                border: '1px solid transparent',
-                borderRadius: '4px',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.opacity = '0.88';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.opacity = '1';
-              }}
-            >
-              APPLY / VIEW ROLE
-              <ExternalLink className="w-4 h-4" />
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                href={role.applyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-nav inline-flex items-center justify-center gap-2 px-6 py-3 transition-all duration-200"
+                style={{
+                  backgroundColor: accent,
+                  color: '#050505',
+                  border: '1px solid transparent',
+                  borderRadius: '4px',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.opacity = '0.88';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.opacity = '1';
+                }}
+              >
+                APPLY / VIEW ROLE
+                <ExternalLink className="w-4 h-4" />
+              </a>
 
-            <a
-              href={`/resumes/${role.slug}.pdf`}
-              download={`Alex-Welcing-${role.company.replace(/[^A-Za-z0-9]+/g, '-')}-Resume.pdf`}
-              className="font-nav inline-flex items-center justify-center gap-2 px-6 py-3 transition-all duration-200"
+              <a
+                href={packetLinks.resumePdf}
+                download={`Alex-Welcing-${role.company.replace(/[^A-Za-z0-9]+/g, '-')}-Resume.pdf`}
+                className="font-nav inline-flex items-center justify-center gap-2 px-6 py-3 transition-all duration-200"
+                style={{
+                  backgroundColor: 'var(--bg-elevated)',
+                  border: '1px solid var(--border-subtle)',
+                  color: 'var(--text-primary)',
+                  borderRadius: '4px',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = accent;
+                  e.currentTarget.style.color = accent;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--border-subtle)';
+                  e.currentTarget.style.color = 'var(--text-primary)';
+                }}
+              >
+                <Download className="w-4 h-4" />
+                RÉSUMÉ FOR {role.company.toUpperCase()}
+              </a>
+
+              <a
+                href={packetLinks.coverLetterTxt}
+                download={`Alex-Welcing-${role.company.replace(/[^A-Za-z0-9]+/g, '-')}-Cover-Letter.txt`}
+                className="font-nav inline-flex items-center justify-center gap-2 px-6 py-3 transition-all duration-200"
+                style={{
+                  backgroundColor: 'transparent',
+                  border: '1px solid var(--border-subtle)',
+                  color: 'var(--text-tertiary)',
+                  borderRadius: '4px',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = accent;
+                  e.currentTarget.style.color = accent;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--border-subtle)';
+                  e.currentTarget.style.color = 'var(--text-tertiary)';
+                }}
+              >
+                <Download className="w-4 h-4" />
+                COVER LETTER
+              </a>
+
+              <a
+                href={packetLinks.resumePrintPdf}
+                download={`Alex-Welcing-${role.company.replace(/[^A-Za-z0-9]+/g, '-')}-Resume-Print.pdf`}
+                className="font-nav inline-flex items-center justify-center gap-2 px-6 py-3 transition-all duration-200"
+                style={{
+                  backgroundColor: 'transparent',
+                  border: '1px solid var(--border-subtle)',
+                  color: 'var(--text-tertiary)',
+                  borderRadius: '4px',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = accent;
+                  e.currentTarget.style.color = accent;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--border-subtle)';
+                  e.currentTarget.style.color = 'var(--text-tertiary)';
+                }}
+              >
+                <Download className="w-4 h-4" />
+                PRINTER-FRIENDLY
+              </a>
+            </div>
+
+            <div
+              className="max-w-[760px]"
               style={{
                 backgroundColor: 'var(--bg-elevated)',
                 border: '1px solid var(--border-subtle)',
-                color: 'var(--text-primary)',
-                borderRadius: '4px',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = accent;
-                e.currentTarget.style.color = accent;
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = 'var(--border-subtle)';
-                e.currentTarget.style.color = 'var(--text-primary)';
+                borderRadius: '8px',
+                padding: '18px 20px',
               }}
             >
-              <Download className="w-4 h-4" />
-              RÉSUMÉ FOR {role.company.toUpperCase()}
-            </a>
-
-            <a
-              href={`/resumes/${role.slug}-light.pdf`}
-              download={`Alex-Welcing-${role.company.replace(/[^A-Za-z0-9]+/g, '-')}-Resume-Print.pdf`}
-              className="font-nav inline-flex items-center justify-center gap-2 px-6 py-3 transition-all duration-200"
-              style={{
-                backgroundColor: 'transparent',
-                border: '1px solid var(--border-subtle)',
-                color: 'var(--text-tertiary)',
-                borderRadius: '4px',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = accent;
-                e.currentTarget.style.color = accent;
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = 'var(--border-subtle)';
-                e.currentTarget.style.color = 'var(--text-tertiary)';
-              }}
-            >
-              <Download className="w-4 h-4" />
-              PRINTER-FRIENDLY
-            </a>
+              <div className="font-caption mb-3" style={{ color: accent }}>
+                [ APPLICATION PACKET READY ]
+              </div>
+              <p className="font-body-small" style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '10px' }}>
+                {packetOverride?.summary || `Tailored packet for ${role.company}: role-specific resume, direct cover letter, and print-ready variant prepared for outreach.`}
+              </p>
+              {packetOverride?.recruiterNote && (
+                <p className="font-caption" style={{ color: 'var(--text-tertiary)' }}>
+                  {packetOverride.recruiterNote}
+                </p>
+              )}
+            </div>
           </motion.div>
         </div>
       </section>

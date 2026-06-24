@@ -1,0 +1,27 @@
+Hiring Team at Adonis
+
+I am applying for the Director, AI role (New York, NY).
+
+My pitch for this role is simple: My document-AI work at Manatt, especially extraction/accuracy on regulated legal docs, is directly relevant to claims/denials accuracy: 'I ship trustworthy AI on messy regulated documents.'
+
+Strong on AI-agents/devtools + document-AI (claims docs); healthcare domain is the gap.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 7+ yrs product/AI leadership: My document-AI work at Manatt, especially extraction/accuracy on regulated legal docs, is directly relevant to claims/denials accuracy: 'I ship trustworthy AI on messy regulated documents.'
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Document and knowledge-work AI
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

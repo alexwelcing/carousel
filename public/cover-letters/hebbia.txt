@@ -1,0 +1,27 @@
+Hiring Team at Hebbia
+
+I am applying for the Product Manager, Document Intelligence role (New York City).
+
+My pitch for this role is simple: NextDocsSearch is my own semantic-search platform — OpenAI embeddings + pgvector in Supabase, deployed at alexwelcing.com.
+
+Document intelligence for finance and legal knowledge workers is exactly the problem I cut my teeth on — AI document processing, knowledge graphs, and access at scale.
+
+The strongest proof for this application is that I have already done adjacent work across AI document scanning shipped for legal publishing, Semantic search built with embeddings + pgvector, Publishing SaaS taken to millions in ARR.
+
+Why I am a strong fit:
+- Document AI is in my history: Built AI-based document scanning and knowledge-graph precision at Manatt; took the publishing SaaS to millions in ARR.
+- Knowledge-worker products at scale: Led IAM and product for a research platform serving top-1000 clients with secure access to legal & regulatory analysis.
+- PM who prototypes the hard parts: NextDocsSearch is my own semantic-search platform — OpenAI embeddings + pgvector in Supabase, deployed at alexwelcing.com.
+
+Selected proof points:
+- AI document scanning shipped for legal publishing
+- Semantic search built with embeddings + pgvector
+- Publishing SaaS taken to millions in ARR
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

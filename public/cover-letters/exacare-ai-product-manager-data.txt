@@ -1,0 +1,27 @@
+Hiring Team at exacare ai
+
+I am applying for the Product Manager, Data role (New York, NY).
+
+My pitch for this role is simple: I bring experience document-AI work turning messy documents into structured data powering AI agents (Manatt + Obsess).
+
+Excellent fit: Manatt document-AI (extracting structured data from unstructured docs) + Obsess agents map directly.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Hands-on product plus engineering range.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
+- 4+ yrs PM, data or AI products: I bring experience document-AI work turning messy documents into structured data powering AI agents (Manatt + Obsess).
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Document and knowledge-work AI
+- Hands-on product plus engineering range
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

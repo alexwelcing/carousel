@@ -1,0 +1,27 @@
+Hiring Team at LangChain
+
+I am applying for the Product Manager, LangSmith (Metro) role (New York City Metropolitan Area).
+
+My pitch for this role is simple: I bring experience AI-agent devtools PM experience and NYC presence.
+
+Excellent: same near-perfect match; NYC metro is a geographic plus for Alex.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Hands-on product plus engineering range, Enterprise deployment and trust.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Hands-on product plus engineering range: Architect PM who prototypes in TypeScript and Python, ships production systems, and closes the loop with customers.
+- 4+ yrs PM in developer tools/infra: I bring experience AI-agent devtools PM experience and NYC presence.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Hands-on product plus engineering range
+- Enterprise deployment and trust
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

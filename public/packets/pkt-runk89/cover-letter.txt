@@ -1,0 +1,29 @@
+Hiring Team at Runlayer
+
+I am applying for the Forward Deployed Engineer / MoTS, Identity role (Remote (US)).
+
+My pitch for this role is simple: I have already spent years solving the enterprise identity and trust problems that agent infrastructure is now inheriting.
+
+A secure MCP gateway that integrates with Okta and Entra, enforces credential boundaries, and governs what agents can touch. That is my background — SSO, OIDC, fine-grained access — applied to the agent era.
+
+The strongest proof for this application is that I have already done adjacent work across SAML / OIDC / SSO for 150+ AmLaw 200 firms, Unified access model across 10+ products, Multi-agent orchestration built end-to-end.
+
+Why I am a strong fit:
+- Identity is my deepest domain: I replaced a legacy identity & subscription system servicing billions of monthly requests across 10+ products, and configured SAML/OIDC SSO for 150+ enterprises.
+- I already think in agents + tool calls: CreateSuite coordinates autonomous agents with an inter-agent mailbox and persistence — I understand the access and audit surface agents create.
+- Forward-deployed credibility: Direct enterprise relationships with security-conscious legal teams; I translate between security requirements and shipped product.
+
+Selected proof points:
+- SAML / OIDC / SSO for 150+ AmLaw 200 firms
+- Unified access model across 10+ products
+- Multi-agent orchestration built end-to-end
+
+Note: Strongest when leading with SSO, OIDC, access boundaries, and trust in agent workflows.
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

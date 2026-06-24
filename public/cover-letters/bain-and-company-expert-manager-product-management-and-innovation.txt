@@ -1,0 +1,27 @@
+Hiring Team at Bain & Company
+
+I am applying for the Expert Manager, Product Management & Innovation role (New York, NY).
+
+My pitch for this role is simple: I bring experience breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems.
+
+Moderate-strong: broad multi-domain PM experience (AI, platforms, security, document AI) is exactly the breadth advisory roles value; pure consulting delivery is new.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 8+ yrs product management leadership: I bring experience breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Document and knowledge-work AI
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

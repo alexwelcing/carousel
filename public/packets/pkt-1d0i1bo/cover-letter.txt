@@ -1,0 +1,27 @@
+Hiring Team at Glean
+
+I am applying for the Founding Forward Deployed Engineer role (Remote (US)).
+
+My pitch for this role is simple: White-glove onboarding with enterprise legal leadership; I tailor depth to the room.
+
+A founding FDE discovers unsolved problems at strategic accounts and builds new product surfaces. I have done 0→1 inside enterprises and built full platforms solo.
+
+The strongest proof for this application is that I have already done adjacent work across Full marketing-automation OS built solo on GCP, Billions of requests, 10+ products unified, 348 public repos · Arctic Code Vault contributor.
+
+Why I am a strong fit:
+- 0→1 builder with enterprise reps: Rebuilt client settings & analytics apps from scratch at LBR, and built High Era — a full marketing-automation OS (FastAPI + SvelteKit + GCP) end-to-end.
+- Enterprise integration is muscle memory: SSO/connector-style integration across 10+ products and 150+ firms — exactly the connector + access surface Glean lives in.
+- I close trust with executives and engineers: White-glove onboarding with enterprise legal leadership; I tailor depth to the room.
+
+Selected proof points:
+- Full marketing-automation OS built solo on GCP
+- Billions of requests, 10+ products unified
+- 348 public repos · Arctic Code Vault contributor
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

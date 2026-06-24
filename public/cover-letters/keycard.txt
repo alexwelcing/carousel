@@ -1,0 +1,29 @@
+Hiring Team at Keycard
+
+I am applying for the Founding Product Manager (proactive) role (Remote (Americas)).
+
+My pitch for this role is simple: Identity for agents is the clearest through-line in my career, and it is rare to find a PM who can pair that domain depth with hands-on agent-building experience.
+
+Identity for agents is a 1:1 match with my career. I am reaching out proactively: this is the role I have been preparing for without knowing it.
+
+The strongest proof for this application is that I have already done adjacent work across IAM for 150+ enterprises, Unified access across 10+ products at billions-scale, Multi-agent system built solo.
+
+Why I am a strong fit:
+- Identity is my single deepest expertise: Replaced a legacy identity & subscription system at billions-scale; configured SAML/OIDC SSO for 150+ AmLaw 200 firms.
+- I understand agents at a build level: CreateSuite — my own multi-agent orchestration platform — means I understand the access, credential, and audit surface agents introduce.
+- First-PM range: strategy + hands-on: Architect PM who sets strategy and prototypes in TypeScript; comfortable owning product 0→1 with founders.
+
+Selected proof points:
+- IAM for 150+ enterprises
+- Unified access across 10+ products at billions-scale
+- Multi-agent system built solo
+
+Note: Strongest when sent as a direct proactive outreach packet rather than a formal application attachment.
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

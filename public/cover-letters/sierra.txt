@@ -1,0 +1,29 @@
+Hiring Team at Sierra
+
+I am applying for the Product Manager, Agent Development role (New York City).
+
+My pitch for this role is simple: I am most effective in roles where product strategy, agent behavior, and implementation details all need to stay in one person’s head at once.
+
+Product manager who ships code. I have set agent-platform strategy at Obsess and built my own multi-agent system — I can own agent development end-to-end.
+
+The strongest proof for this application is that I have already done adjacent work across Agent/3D platform shipped for global enterprise brands, Multi-agent orchestration built end-to-end, SOC2 + usage-analytics pipeline owned.
+
+Why I am a strong fit:
+- Agent platform product experience: Led 3D platform features (avatars, explorable spaces, auth) for Alo, Moncler, Ralph Lauren at Obsess, and set long-term SaaS + SOC2 strategy.
+- I build what I spec: CreateSuite is a working multi-agent orchestration system I designed and built — convoy task grouping, mailbox, persistence, 6 providers.
+- Enterprise scale + reliability instinct: Rebuilt systems serving billions of requests; I sweat reliability, access, and the long tail of enterprise needs.
+
+Selected proof points:
+- Agent/3D platform shipped for global enterprise brands
+- Multi-agent orchestration built end-to-end
+- SOC2 + usage-analytics pipeline owned
+
+Note: Best for founder-minded product teams that want an operator who can spec and prototype in the same motion.
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

@@ -1,0 +1,27 @@
+Hiring Team at JPMorganChase
+
+I am applying for the Vice President, Product Manager — Identity role (New York, NY).
+
+My pitch for this role is simple: I bring experience LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece — this is the closest-fit role in the batch.
+
+Excellent: this is Alex's strongest direct match — identity & security PM at LBR maps 1:1 to a VP Identity product role.
+
+The strongest proof for this application is that I have already done adjacent work across Enterprise deployment and trust, Hands-on product plus engineering range, Multi-agent systems built end to end.
+
+Why I am a strong fit:
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- Hands-on product plus engineering range: Architect PM who prototypes in TypeScript and Python, ships production systems, and closes the loop with customers.
+- 6-9+ yrs PM with identity/security/IAM: I bring experience LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece — this is the closest-fit role in the batch.
+
+Selected proof points:
+- Enterprise deployment and trust
+- Hands-on product plus engineering range
+- Multi-agent systems built end to end
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

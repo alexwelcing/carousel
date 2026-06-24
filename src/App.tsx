@@ -27,6 +27,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         {/* /role/:slug is intentionally unlisted — shared 1:1, never indexed or linked publicly */}
         <Route path="/role/:slug" element={<Role />} />
+        <Route path="/r/:slug" element={<Role />} />
         <Route path="/resume" element={<Suspense fallback={<ResumeSkeleton />}><Resume /></Suspense>} />
       </Routes>
     </Layout>

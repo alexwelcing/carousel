@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import AmbientField from '@/components/AmbientField';
+import { getAnonymousRolePath } from '@/lib/shareLinks';
 import { roles } from '@/data/roles';
 
 const easeOut = [0, 0, 0.2, 1] as [number, number, number, number];
@@ -85,7 +86,7 @@ export default function Roles() {
                 variants={fadeUp}
               >
                 <Link
-                  to={`/role/${role.slug}`}
+                  to={getAnonymousRolePath(role.slug)}
                   className="block h-full p-8 transition-all duration-200"
                   style={{
                     backgroundColor: 'var(--bg-primary)',

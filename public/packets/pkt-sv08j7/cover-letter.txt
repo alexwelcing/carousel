@@ -1,0 +1,27 @@
+Hiring Team at Gusto
+
+I am applying for the Senior Product Manager, Document Studio role (New York, NY).
+
+My pitch for this role is simple: I bring experience This is the strongest Gusto match — lead hard with document-AI platform experience (generation, extraction, compliant storage at scale).
+
+Excellent: this is Alex's document-AI sweet spot (Manatt) combined with platform PM (Arkadium) and security/identity rigor.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 5+ yrs PM: I bring experience This is the strongest Gusto match — lead hard with document-AI platform experience (generation, extraction, compliant storage at scale).
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Document and knowledge-work AI
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

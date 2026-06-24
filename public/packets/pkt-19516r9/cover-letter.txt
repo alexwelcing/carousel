@@ -1,0 +1,27 @@
+Hiring Team at DoorDash
+
+I am applying for the Product Manager, In-Store role (New York, NY).
+
+My pitch for this role is simple: I bring experience subscription/growth + 0-to-1 product launches; AI background as secondary edge.
+
+Moderate: consumer marketplace, less direct to Alex's AI/security/devtools core.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Hands-on product plus engineering range.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 3-7 yrs consumer PM: I bring experience subscription/growth + 0-to-1 product launches; AI background as secondary edge.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Hands-on product plus engineering range
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

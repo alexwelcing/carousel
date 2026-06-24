@@ -1,0 +1,27 @@
+Hiring Team at JPMorganChase
+
+I am applying for the Fraud AI/ML Platform Product Director role (New York, NY).
+
+My pitch for this role is simple: I bring experience building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust.
+
+Strong: Alex's identity & security PM work at LBR and AI/agents + devtools platform experience map directly to a fraud ML platform serving internal model-builders. Gap is bank-scale fraud domain depth and the Director seniority bar.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Platform and developer-tooling product work.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 8-12+ yrs product management, incl. ML/data platforms: I bring experience building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Platform and developer-tooling product work
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

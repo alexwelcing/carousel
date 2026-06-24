@@ -1,0 +1,29 @@
+Hiring Team at Harvey
+
+I am applying for the Founding Forward Deployed Engineer role (New York City).
+
+My pitch for this role is simple: My legal AI background is not adjacent to Harvey; it is the foundation of why I can help ship agentic legal workflows that teams will trust.
+
+Five years inside a top law firm building document AI and IAM for legal research, plus a career rebuilding enterprise legal platforms. I speak both lawyer and engineer.
+
+The strongest proof for this application is that I have already done adjacent work across Legal document AI shipped at a top-50 firm, IAM for a research platform serving top-1000 clients, 150+ AmLaw 200 enterprise relationships.
+
+Why I am a strong fit:
+- I have shipped legal document AI: At Manatt I devised AI-based document scanning for legal publication — automated image selection, sharpened knowledge-graph precision, eliminated manual error.
+- I know the AmLaw customer intimately: Onboarded 150+ AmLaw 200 firms onto enterprise SSO at LBR — I know how legal enterprises buy, deploy, and trust software.
+- Prototype-to-production is my pattern: Took a client publishing SaaS from beta to millions in ARR; rebuilt client apps cutting configuration time 60%.
+
+Selected proof points:
+- Legal document AI shipped at a top-50 firm
+- IAM for a research platform serving top-1000 clients
+- 150+ AmLaw 200 enterprise relationships
+
+Note: Use this when the reader cares about legal workflow credibility as much as raw AI enthusiasm.
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

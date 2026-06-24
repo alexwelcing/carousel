@@ -126,6 +126,7 @@ export interface PitchCompositionVariables {
 export interface ProofPointMapping {
   flagshipSlug: string; // e.g. 'lupi', 'createsuite'
   title: string;
+  description: string;
   stat: string;
   relevanceTags: string[]; // e.g. ['ML Scale', 'WebGL', 'High-Performance']
   fitTags: string[]; // e.g. ['Forward Deployed Engineer', 'ML Interop']
@@ -208,13 +209,14 @@ function parseRequirements(requirementsText: string): string[] {
   return requirementsText.split(/[,\n-]/).map(r => r.trim()).filter(Boolean).slice(0, 5);
 }
 
-function selectProofPoints(positioningAngle: string): ProofPointMapping[] {
+function selectProofPoints(_positioningAngle: string): ProofPointMapping[] {
   // In production, match proof points to the positioning angle
   // For now, return a fixed set
   const allProofs: ProofPointMapping[] = [
     {
       flagshipSlug: 'lupi',
       title: 'Lupi.Live',
+      description: 'Materials-science computing and million-atom molecular visualization in the browser.',
       stat: 'Materials-science ML rendered in real time',
       relevanceTags: ['ML Scale', 'WebGL', 'Physics'],
       fitTags: ['Forward Deployed Engineer', 'ML Interop', 'High-Performance'],
@@ -222,6 +224,7 @@ function selectProofPoints(positioningAngle: string): ProofPointMapping[] {
     {
       flagshipSlug: 'createsuite',
       title: 'CreateSuite',
+      description: 'Autonomous multi-agent orchestration with persistence, mailbox routing, and provider abstraction.',
       stat: 'Multi-agent orchestration platform I built solo',
       relevanceTags: ['Agents', 'LLM Orchestration', 'Persistence'],
       fitTags: ['Product Manager', 'Agent Platform PM', 'Developer Tools'],
@@ -229,6 +232,7 @@ function selectProofPoints(positioningAngle: string): ProofPointMapping[] {
     {
       flagshipSlug: 'alexwelcing',
       title: 'alexwelcing.com',
+      description: '3D content platform with semantic search, realtime physics, and interactive storytelling.',
       stat: 'AI semantic search + 3D web',
       relevanceTags: ['Semantic Search', 'Embeddings', '3D Web'],
       fitTags: ['Full-Stack', 'AI Integration', 'Creative Engineering'],

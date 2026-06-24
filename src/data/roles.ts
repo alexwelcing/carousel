@@ -1,3 +1,5 @@
+import { getAnonymousShareId } from '@/lib/shareLinks';
+
 /* ------------------------------------------------------------------ */
 /*  Per-role tailored landing-page data                                */
 /*  Each entry powers a page at /role/:slug — share one URL per app.   */
@@ -330,5 +332,5 @@ export const roles: TailoredRole[] = [
 
 export function getRole(slug: string | undefined): TailoredRole | undefined {
   if (!slug) return undefined;
-  return roles.find((r) => r.slug === slug);
+  return roles.find((r) => r.slug === slug || getAnonymousShareId(r.slug) === slug);
 }

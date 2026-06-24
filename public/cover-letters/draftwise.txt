@@ -1,0 +1,27 @@
+Hiring Team at DraftWise
+
+I am applying for the Senior Front End Engineer role (Remote (US)).
+
+My pitch for this role is simple: Rebuilt client settings & analytics applications from scratch at LBR, cutting configuration time 60%.
+
+A senior frontend engineer who has shipped legal software for years and lives in React, TypeScript, and modern frontend architecture.
+
+The strongest proof for this application is that I have already done adjacent work across 3D + semantic-search web app shipped (Next.js/R3F), 5 years building legal software, 348 public repos · 12 years shipping.
+
+Why I am a strong fit:
+- Frontend is my craft: TypeScript, React, Next.js, React Three Fiber, Tailwind — alexwelcing.com is a 3D content platform I built (Next.js 16 + R3F + Cannon physics + pgvector).
+- Legal domain fluency: Five years at Manatt building legal publishing and document AI; I understand the contract / drafting workflow DraftWise serves.
+- I rebuild client apps that scale: Rebuilt client settings & analytics applications from scratch at LBR, cutting configuration time 60%.
+
+Selected proof points:
+- 3D + semantic-search web app shipped (Next.js/R3F)
+- 5 years building legal software
+- 348 public repos · 12 years shipping
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

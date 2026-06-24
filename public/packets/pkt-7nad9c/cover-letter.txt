@@ -1,0 +1,27 @@
+Hiring Team at Gradial
+
+I am applying for the Forward Deployed Product Manager role (New York, NY).
+
+My pitch for this role is simple: I bring experience hands-on, customer-embedded shipping of AI agents into enterprise workflows; emphasize technical + client-facing combo.
+
+Excellent fit: AI-agents + devtools/platform PM (Obsess) plus enterprise document/workflow experience map directly to deploying agents at clients.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Platform and developer-tooling product work.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
+- 5+ yrs PM, ideally customer-facing/FDE: I bring experience hands-on, customer-embedded shipping of AI agents into enterprise workflows; emphasize technical + client-facing combo.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Document and knowledge-work AI
+- Platform and developer-tooling product work
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

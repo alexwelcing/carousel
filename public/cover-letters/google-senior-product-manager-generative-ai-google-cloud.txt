@@ -1,0 +1,27 @@
+Hiring Team at Google
+
+I am applying for the Senior Product Manager, Generative AI, Google Cloud role (New York, NY).
+
+My pitch for this role is simple: I bring experience shipping AI/agent developer tools at Obsess and document-AI products at Manatt; position as an enterprise generative-AI PM who ships, not just strategizes.
+
+Strong fit: IC senior PM on generative-AI devtools maps cleanly to Alex's Obsess (AI agents/devtools) and document-AI (Manatt) experience.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Platform and developer-tooling product work.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
+- 5+ years product management: I bring experience shipping AI/agent developer tools at Obsess and document-AI products at Manatt; position as an enterprise generative-AI PM who ships, not just strategizes.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Document and knowledge-work AI
+- Platform and developer-tooling product work
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing
