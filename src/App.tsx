@@ -17,8 +17,7 @@ function ResumeSkeleton() {
   );
 }
 
-/* Per-route SEO — sets document title, description, robots, canonical, and OG on navigation.
-   No dependencies; helps Google (which renders JS) index each route distinctly. */
+/* Per-route SEO — sets document title, description, robots, canonical, and OG on navigation. */
 const PAGE_SEO: Record<string, { title: string; description: string }> = {
   '/': {
     title: 'Alex Welcing — Technical Product Manager & AI Engineer (NYC) · Multi-Agent Systems, Enterprise Identity',
@@ -59,8 +58,45 @@ function setMeta(selector: string, attr: string, key: string, content: string) {
   el.setAttribute('content', content);
 }
 
+/* ── Cookieless open-pulse ──────────────────────────────────────────────
+   First-party engagement signal with NO cookies and NO browser storage.
+   On the first external entry to the site it POSTs a single ping to a
+   private ntfy topic so opens of shared 1:1 packet links surface in
+   real time. Skips automated and internal navigations. Privacy: sends
+   only the path/slug, the ?src channel tag, and the referrer host. */
+const PULSE_TOPIC = 'welcing-pulse-a9f3k7q2x5';
+let pulsed = false;
+
+function pulseOpen(pathname: string, search: string) {
+  if (pulsed) return;
+  pulsed = true;
+  try {
+    if (typeof navigator !== 'undefined' && navigator.webdriver) return; // skip bots/automation
+    const ref = document.referrer || '';
+    if (ref.indexOf('welc.ing') !== -1) return; // skip internal navigations
+    const isPacket = pathname.startsWith('/role/') || pathname.startsWith('/r/');
+    const label = isPacket ? (pathname.split('/').filter(Boolean).pop() || pathname) : pathname;
+    const src = new URLSearchParams(search).get('src') || '';
+    let host = 'direct';
+    try { if (ref) host = new URL(ref).host; } catch { host = 'unknown'; }
+    const body = `${isPacket ? 'OPEN' : 'visit'} ${label}${src ? ' · src=' + src : ''} · ref=${host} · ${new Date().toISOString()}`;
+    fetch('https://ntfy.sh/' + PULSE_TOPIC, {
+      method: 'POST',
+      headers: {
+        Title: (isPacket ? 'Packet opened: ' : 'welc.ing visit: ') + label,
+        Tags: isPacket ? 'eyes,fire' : 'eyes',
+        Priority: isPacket ? '4' : '2',
+      },
+      body,
+      keepalive: true,
+    }).catch(() => {});
+  } catch {
+    /* never let analytics break the page */
+  }
+}
+
 function Seo() {
-  const { pathname } = useLocation();
+  const { pathname, search } = useLocation();
   useEffect(() => {
     const isPrivate = pathname.startsWith('/role/') || pathname.startsWith('/r/');
     const cfg = PAGE_SEO[pathname] ?? DEFAULT_SEO;
@@ -81,7 +117,9 @@ function Seo() {
       document.head.appendChild(canonical);
     }
     canonical.setAttribute('href', isPrivate ? 'https://welc.ing/' : `https://welc.ing${pathname}`);
-  }, [pathname]);
+
+    pulseOpen(pathname, search);
+  }, [pathname, search]);
 
   return null;
 }
