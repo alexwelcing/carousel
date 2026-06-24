@@ -1,4 +1,12 @@
+# welc.ing — Alex Welcing
 User-agent: *
 Allow: /
-# Tailored, 1:1 application pages — keep them out of search results
+# Private 1:1 application packets — shareable by link, kept out of search
 Disallow: /role/
+Disallow: /r/
+Disallow: /applications/
+Disallow: /packets/
+Disallow: /cover-letters/
+Disallow: /resumes/
+
+Sitemap: https://welc.ing/sitemap.xml
