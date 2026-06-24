@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Linkedin, Github, FileText, MapPin, ArrowUpRight } from 'lucide-react';
 import AmbientField from '@/components/AmbientField';
+import PageIntro from '@/components/PageIntro';
 
 const easeOut = [0, 0, 0.2, 1] as [number, number, number, number];
 
@@ -25,44 +26,21 @@ export default function Contact() {
     <div style={{ backgroundColor: 'var(--bg-primary)', position: 'relative', minHeight: '100dvh' }} className="animate-fade-in">
       <AmbientField particleCount={40} opacity={0.1} connectDistance={140} />
 
+      <PageIntro
+        kicker="[ CONTACT ]"
+        title="Get in touch"
+        description="Open to Principal / Staff Product, Forward-Deployed Engineering, and founding roles where AI meets enterprise scale. The fastest way to reach me is email."
+      />
+
       <section
         className="relative"
         style={{
-          paddingTop: 'clamp(120px, 16vh, 200px)',
           paddingBottom: 'clamp(80px, 10vh, 140px)',
           paddingLeft: 'clamp(24px, 5vw, 80px)',
           paddingRight: 'clamp(24px, 5vw, 80px)',
         }}
       >
         <div className="max-w-[760px]">
-          <motion.span
-            className="font-caption block mb-5"
-            style={{ color: 'var(--accent-cyan)' }}
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: easeOut }}
-          >
-            [ CONTACT ]
-          </motion.span>
-          <motion.h1
-            className="font-display mb-6"
-            style={{ fontSize: 'clamp(2.5rem, 7vw, 6rem)', color: 'var(--text-primary)', lineHeight: 1 }}
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.08, ease: easeOut }}
-          >
-            GET IN TOUCH
-          </motion.h1>
-          <motion.p
-            className="font-body mb-12"
-            style={{ color: 'var(--text-secondary)', maxWidth: '560px', lineHeight: 1.7 }}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.16, ease: easeOut }}
-          >
-            Open to Principal / Staff Product, Forward-Deployed Engineering, and founding roles where
-            AI meets enterprise scale. The fastest way to reach me is email.
-          </motion.p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[640px]">
             {METHODS.map((m, i) => (
@@ -75,10 +53,10 @@ export default function Contact() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 + i * 0.06, ease: easeOut }}
-                onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#FF3366'; }}
+                onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--accent)'; }}
                 onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border-subtle)'; }}
               >
-                <span style={{ color: 'var(--accent-cyan)' }}>{m.icon}</span>
+                <span style={{ color: 'var(--accent)' }}>{m.icon}</span>
                 <span className="flex flex-col">
                   <span className="font-caption" style={{ color: 'var(--text-tertiary)' }}>{m.label}</span>
                   <span className="font-body-small" style={{ color: 'var(--text-primary)' }}>{m.value}</span>

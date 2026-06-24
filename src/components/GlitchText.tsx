@@ -30,7 +30,7 @@ export default function GlitchText({ text, className = '' }: GlitchTextProps) {
         aria-hidden="true"
         className="absolute top-0 left-0 opacity-0 pointer-events-none"
         style={{
-          color: '#d93eb2',
+          color: 'var(--accent)',
           animation: 'none',
         }}
         data-text={text}
@@ -51,7 +51,7 @@ export default function GlitchText({ text, className = '' }: GlitchTextProps) {
         aria-hidden="true"
         className="absolute top-0 left-0 opacity-0 pointer-events-none"
         style={{
-          color: '#a2d2ff',
+          color: 'rgba(16, 21, 31, 0.45)',
           animation: 'none',
         }}
         data-text={text}
@@ -72,7 +72,7 @@ export default function GlitchText({ text, className = '' }: GlitchTextProps) {
         aria-hidden="true"
         className="absolute top-0 left-0 opacity-0 pointer-events-none"
         style={{
-          color: '#90e66f',
+          color: 'rgba(16, 21, 31, 0.28)',
           animation: 'none',
         }}
         data-text={text}
@@ -93,7 +93,7 @@ export default function GlitchText({ text, className = '' }: GlitchTextProps) {
         aria-hidden="true"
         className="absolute top-0 left-0 opacity-0 pointer-events-none"
         style={{
-          color: '#ffec8a',
+          color: 'rgba(29, 63, 212, 0.5)',
           animation: 'none',
         }}
         data-text={text}

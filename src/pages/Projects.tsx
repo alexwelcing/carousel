@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Github } from 'lucide-react';
 import AmbientField from '@/components/AmbientField';
 import FlagshipCard from '@/components/FlagshipCard';
+import PageIntro from '@/components/PageIntro';
 import { flagships } from '@/data/projects';
 
 const easeOut = [0, 0, 0.2, 1] as [number, number, number, number];
@@ -10,50 +11,13 @@ const easeOut = [0, 0, 0.2, 1] as [number, number, number, number];
 export default function Projects() {
   return (
     <div style={{ backgroundColor: 'var(--bg-primary)', position: 'relative' }} className="animate-fade-in">
-      <AmbientField particleCount={40} opacity={0.08} color="#33CCFF" lineColor="rgba(51, 204, 255, 0.03)" connectDistance={140} />
+      <AmbientField particleCount={24} opacity={0.03} color="var(--accent)" lineColor="rgba(29, 63, 212, 0.04)" connectDistance={140} />
 
-      {/* Header */}
-      <section
-        className="relative overflow-hidden"
-        style={{
-          backgroundColor: 'var(--bg-primary)',
-          paddingTop: 'clamp(120px, 16vh, 200px)',
-          paddingBottom: 'clamp(48px, 6vh, 80px)',
-          paddingLeft: 'clamp(24px, 5vw, 80px)',
-          paddingRight: 'clamp(24px, 5vw, 80px)',
-        }}
-      >
-        <div className="max-w-[760px]">
-          <motion.span
-            className="font-caption block mb-5"
-            style={{ color: 'var(--accent-cyan)' }}
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: easeOut }}
-          >
-            [ SELECTED WORK ]
-          </motion.span>
-          <motion.h1
-            className="font-display mb-6"
-            style={{ fontSize: 'clamp(2.5rem, 7vw, 6rem)', color: 'var(--text-primary)', lineHeight: 1 }}
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.08, ease: easeOut }}
-          >
-            THINGS I BUILT
-          </motion.h1>
-          <motion.p
-            className="font-body"
-            style={{ color: 'var(--text-secondary)', maxWidth: '620px', lineHeight: 1.7 }}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.16, ease: easeOut }}
-          >
-            Multi-agent systems, enterprise platforms, 3D web, and materials-science AI —
-            designed and shipped, usually end to end.
-          </motion.p>
-        </div>
-      </section>
+      <PageIntro
+        kicker="[ SELECTED WORK ]"
+        title="Work with depth, not decoration."
+        description="Multi-agent systems, enterprise platforms, 3D web, and materials-science AI — designed and shipped, usually end to end."
+      />
 
       {/* Flagship grid */}
       <section
@@ -77,8 +41,8 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
             className="font-nav inline-flex items-center gap-2 px-6 py-3 transition-all duration-200"
-            style={{ backgroundColor: 'transparent', border: '1px solid var(--border-subtle)', color: 'var(--text-primary)', borderRadius: '4px' }}
-            onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#FF3366'; e.currentTarget.style.color = '#FF3366'; }}
+            style={{ backgroundColor: 'transparent', border: '1px solid var(--border-subtle)', color: 'var(--text-primary)', borderRadius: '999px' }}
+            onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; }}
             onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border-subtle)'; e.currentTarget.style.color = 'var(--text-primary)'; }}
           >
             <Github className="w-4 h-4" /> More on GitHub
@@ -105,9 +69,9 @@ export default function Projects() {
           <Link
             to="/contact"
             className="font-nav inline-flex items-center gap-2 px-6 py-3 transition-all duration-200"
-            style={{ backgroundColor: 'var(--bg-elevated)', border: '1px solid var(--border-subtle)', color: 'var(--text-primary)', borderRadius: '4px' }}
-            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#FF3366'; e.currentTarget.style.color = '#050505'; e.currentTarget.style.borderColor = 'transparent'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--bg-elevated)'; e.currentTarget.style.color = 'var(--text-primary)'; e.currentTarget.style.borderColor = 'var(--border-subtle)'; }}
+            style={{ backgroundColor: 'var(--text-primary)', border: '1px solid var(--text-primary)', color: 'var(--bg-primary)', borderRadius: '999px' }}
+            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--accent)'; e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.color = 'white'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'var(--text-primary)'; e.currentTarget.style.borderColor = 'var(--text-primary)'; e.currentTarget.style.color = 'var(--bg-primary)'; }}
           >
             GET IN TOUCH <ArrowRight className="w-4 h-4" />
           </Link>

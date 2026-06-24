@@ -16,7 +16,6 @@ const GradientBlobs = React.memo(function GradientBlobs({ className = '' }: Grad
         zIndex: 0,
       }}
     >
-      {/* Cyan blob — upper right */}
       <div
         aria-hidden="true"
         style={{
@@ -24,14 +23,13 @@ const GradientBlobs = React.memo(function GradientBlobs({ className = '' }: Grad
           width: '50vw',
           height: '50vw',
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(51, 204, 255, 0.04) 0%, transparent 70%)',
-          filter: 'blur(80px)',
-          top: '-10%',
-          right: '-10%',
-          animation: 'blob-float-1 20s ease-in-out infinite',
+          background: 'radial-gradient(circle, rgba(29, 63, 212, 0.05) 0%, transparent 68%)',
+          filter: 'blur(96px)',
+          top: '-14%',
+          right: '-8%',
+          animation: 'blob-float-1 24s ease-in-out infinite',
         }}
       />
-      {/* Magenta blob — lower left */}
       <div
         aria-hidden="true"
         style={{
@@ -39,14 +37,13 @@ const GradientBlobs = React.memo(function GradientBlobs({ className = '' }: Grad
           width: '45vw',
           height: '45vw',
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(255, 51, 102, 0.035) 0%, transparent 70%)',
-          filter: 'blur(80px)',
-          bottom: '-10%',
-          left: '-10%',
-          animation: 'blob-float-2 25s ease-in-out infinite',
+          background: 'radial-gradient(circle, rgba(138, 106, 47, 0.05) 0%, transparent 70%)',
+          filter: 'blur(100px)',
+          bottom: '-12%',
+          left: '-8%',
+          animation: 'blob-float-2 28s ease-in-out infinite',
         }}
       />
-      {/* White blob — center drift */}
       <div
         aria-hidden="true"
         style={{
@@ -54,11 +51,11 @@ const GradientBlobs = React.memo(function GradientBlobs({ className = '' }: Grad
           width: '40vw',
           height: '40vw',
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(230, 231, 232, 0.025) 0%, transparent 70%)',
-          filter: 'blur(100px)',
+          background: 'radial-gradient(circle, rgba(255, 255, 255, 0.45) 0%, transparent 72%)',
+          filter: 'blur(110px)',
           top: '30%',
           left: '30%',
-          animation: 'blob-float-3 22s ease-in-out infinite',
+          animation: 'blob-float-3 26s ease-in-out infinite',
         }}
       />
 

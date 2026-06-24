@@ -24,9 +24,11 @@ export default function FlagshipCard({ project, index = 0 }: { project: Flagship
     <motion.div
       className="flex flex-col overflow-hidden"
       style={{
-        backgroundColor: 'var(--bg-elevated)',
+        backgroundColor: 'rgba(255,255,255,0.78)',
         border: '1px solid var(--border-subtle)',
-        borderRadius: '6px',
+        borderRadius: '18px',
+        boxShadow: '0 20px 50px rgba(16, 20, 28, 0.06)',
+        backdropFilter: 'blur(12px)',
       }}
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -65,6 +67,7 @@ export default function FlagshipCard({ project, index = 0 }: { project: Flagship
             backgroundImage: `url(${project.image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
+            overflow: 'hidden',
           }}
         />
       ) : null}
@@ -89,9 +92,9 @@ export default function FlagshipCard({ project, index = 0 }: { project: Flagship
               key={s}
               className="font-caption"
               style={{
-                padding: '4px 10px',
-                borderRadius: '3px',
-                backgroundColor: 'var(--bg-hover)',
+                padding: '5px 11px',
+                borderRadius: '999px',
+                backgroundColor: 'rgba(29, 63, 212, 0.06)',
                 border: '1px solid var(--border-subtle)',
                 color: 'var(--text-primary)',
               }}

@@ -30,19 +30,20 @@ export default function Navbar() {
     <nav
       className="sticky top-0 z-50 w-full transition-all duration-300"
       style={{
-        backgroundColor: scrolled ? 'rgba(5,5,5,0.85)' : 'transparent',
-        backdropFilter: scrolled ? 'blur(12px)' : 'none',
+        backgroundColor: scrolled ? 'rgba(245,241,232,0.8)' : 'transparent',
+        backdropFilter: scrolled ? 'blur(18px)' : 'none',
+        borderBottom: scrolled ? '1px solid rgba(16, 20, 28, 0.08)' : '1px solid transparent',
       }}
     >
-      <div className="content-max-width flex items-center justify-between h-16">
+      <div className="content-max-width flex items-center justify-between min-h-[4.5rem] py-3">
         {/* Brand — Pretext wordmark */}
         <Link
           to="/"
           aria-label="Alex Welcing — home"
           className="inline-flex items-center transition-transform duration-200 hover:scale-105"
-          style={{ width: 150 }}
+          style={{ width: 184 }}
         >
-          <Wordmark maxWidth={150} slant={-3.5} />
+          <Wordmark maxWidth={184} color="var(--text-primary)" accent="var(--accent)" slant={-2} />
         </Link>
 
         {/* Desktop nav links */}
@@ -55,14 +56,14 @@ export default function Navbar() {
                 to={link.path}
                 className="font-nav relative py-1 transition-colors duration-200"
                 style={{
-                  color: isActive ? '#FF3366' : '#FFFFFF',
+                  color: isActive ? 'var(--accent)' : 'var(--text-primary)',
                 }}
               >
                 {link.label}
                 <span
                   className="absolute bottom-0 left-0 h-[1px] w-full transition-transform duration-200 origin-left"
                   style={{
-                    backgroundColor: '#FF3366',
+                    backgroundColor: 'var(--accent)',
                     transform: isActive ? 'scaleX(1)' : 'scaleX(0)',
                   }}
                 />
@@ -78,18 +79,20 @@ export default function Navbar() {
           aria-label="Toggle menu"
         >
           <span
-            className="block w-5 h-[1px] bg-[#FFFFFF] transition-transform duration-200"
+            className="block w-5 h-[1px] transition-transform duration-200"
             style={{
+              backgroundColor: 'var(--text-primary)',
               transform: menuOpen ? 'rotate(45deg) translateY(4px)' : 'none',
             }}
           />
           <span
-            className="block w-5 h-[1px] bg-[#FFFFFF] transition-opacity duration-200"
-            style={{ opacity: menuOpen ? 0 : 1 }}
+            className="block w-5 h-[1px] transition-opacity duration-200"
+            style={{ backgroundColor: 'var(--text-primary)', opacity: menuOpen ? 0 : 1 }}
           />
           <span
-            className="block w-5 h-[1px] bg-[#FFFFFF] transition-transform duration-200"
+            className="block w-5 h-[1px] transition-transform duration-200"
             style={{
+              backgroundColor: 'var(--text-primary)',
               transform: menuOpen ? 'rotate(-45deg) translateY(-4px)' : 'none',
             }}
           />
@@ -100,7 +103,7 @@ export default function Navbar() {
       {menuOpen && (
         <div
           className="md:hidden fixed inset-0 top-16 z-40 flex flex-col items-center justify-center gap-8"
-          style={{ backgroundColor: '#0A0A0A' }}
+          style={{ backgroundColor: 'rgba(245,241,232,0.96)', backdropFilter: 'blur(20px)' }}
         >
           {navLinks.map((link) => {
             const isActive = location.pathname === link.path;
@@ -110,7 +113,7 @@ export default function Navbar() {
                 to={link.path}
                 className="font-h2 transition-colors duration-200"
                 style={{
-                  color: isActive ? '#FF3366' : '#FFFFFF',
+                  color: isActive ? 'var(--accent)' : 'var(--text-primary)',
                 }}
                 onClick={() => setMenuOpen(false)}
               >

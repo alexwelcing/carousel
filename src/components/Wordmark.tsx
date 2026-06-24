@@ -20,7 +20,7 @@ interface Props {
 export default function Wordmark({
   maxWidth = 760,
   color = '#FFFFFF',
-  accent = '#FF3366',
+  accent = '#1d3fd4',
   slant = -3.5,
   className,
   style,

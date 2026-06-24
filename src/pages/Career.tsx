@@ -9,7 +9,7 @@ import {
   Snowflake,
   ArrowRight,
 } from 'lucide-react';
-import AmbientField from '@/components/AmbientField';
+import PageIntro from '@/components/PageIntro';
 
 /* ------------------------------------------------------------------ */
 /*  Data                                                               */
@@ -78,7 +78,7 @@ interface SkillCategory {
 const skillCategories: SkillCategory[] = [
   {
     name: 'AI/ML',
-    color: '#FF3366',
+    color: '#6E8FB8',
     skills: [
       'LLM Integration',
       'AI APIs',
@@ -352,71 +352,16 @@ function RadarChart() {
 export default function Career() {
   return (
     <div style={{ opacity: 0, position: 'relative' }} className="animate-fade-in">
-      <AmbientField particleCount={50} opacity={0.12} connectDistance={150} />
-      {/* ============================================================ */}
-      {/* SECTION 1 — Page Header                                      */}
-      {/* ============================================================ */}
-      <section
-        className="relative flex items-center overflow-hidden"
-        style={{
-          minHeight: '60vh',
-          backgroundColor: 'var(--bg-primary)',
-          paddingLeft: 'clamp(24px, 5vw, 80px)',
-          paddingRight: 'clamp(24px, 5vw, 80px)',
-        }}
-      >
-        <div className="max-w-[800px]">
-          <motion.span
-            className="font-caption block mb-6"
-            style={{ color: 'var(--text-tertiary)' }}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: easeOut }}
-          >
-            [ PROFESSIONAL HISTORY ]
-          </motion.span>
-
-          <motion.h1
-            className="font-display mb-6"
-            style={{
-              fontSize: 'clamp(2.5rem, 6vw, 6rem)',
-              color: 'var(--text-primary)',
-            }}
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1, ease: easeOut }}
-          >
-            15 YEARS OF BUILDING
-          </motion.h1>
-
-          <motion.p
-            className="font-body mb-8"
-            style={{
-              color: 'var(--text-secondary)',
-              maxWidth: '600px',
-              lineHeight: 1.7,
-            }}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2, ease: easeOut }}
-          >
-            From NLP-driven AI partnerships in 2011 to modern multi-agent systems
-            today. Fifteen years of technical product management, frontend
-            architecture, and enterprise SaaS at scale — strategy and shipped code,
-            from the same person.
-          </motion.p>
-
-          <motion.span
-            className="font-caption block"
-            style={{ color: 'var(--text-tertiary)' }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.35, ease: easeOut }}
-          >
-            2011–2026 | AI → PUBLISHING → VR → ENTERPRISE PLATFORMS
-          </motion.span>
-        </div>
-      </section>
+      <PageIntro
+        kicker="Professional history"
+        title="15 years of building"
+        description="From NLP-driven AI partnerships in 2011 to modern multi-agent systems today. Fifteen years of technical product management, frontend architecture, and enterprise SaaS at scale — strategy and shipped code from the same person."
+        meta={
+          <p className="font-caption" style={{ color: 'var(--text-tertiary)' }}>
+            2011-2026 | AI -&gt; PUBLISHING -&gt; VR -&gt; ENTERPRISE PLATFORMS
+          </p>
+        }
+      />
 
       {/* ============================================================ */}
       {/* SECTION 2 — Career Timeline                                  */}
@@ -443,7 +388,7 @@ export default function Career() {
             className="hidden lg:block absolute top-0 bottom-0 left-1/2 -translate-x-1/2"
             style={{
               width: '2px',
-              backgroundColor: '#FF3366',
+              backgroundColor: 'var(--accent)',
             }}
           />
 
@@ -452,7 +397,7 @@ export default function Career() {
             className="lg:hidden absolute top-0 bottom-0 left-[19px]"
             style={{
               width: '2px',
-              backgroundColor: '#FF3366',
+              backgroundColor: 'var(--accent)',
             }}
           />
 
@@ -536,7 +481,7 @@ export default function Career() {
                 viewport={{ once: true, amount: 0.3 }}
                 variants={slideInRight}
                 whileHover={{
-                  borderColor: 'var(--accent-cyan)',
+                  borderColor: 'var(--accent)',
                   y: -2,
                   transition: { duration: 0.2 },
                 }}
@@ -667,7 +612,7 @@ export default function Career() {
                 borderRadius: '4px',
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#FF3366';
+                e.currentTarget.style.backgroundColor = 'var(--accent)';
                 e.currentTarget.style.color = '#050505';
                 e.currentTarget.style.borderColor = 'transparent';
               }}
@@ -691,8 +636,8 @@ export default function Career() {
                 borderRadius: '4px',
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = '#FF3366';
-                e.currentTarget.style.color = '#FF3366';
+                e.currentTarget.style.borderColor = 'var(--accent)';
+                e.currentTarget.style.color = 'var(--accent)';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.borderColor = 'var(--border-subtle)';
@@ -754,7 +699,7 @@ function TimelineRole({ role, idx }: { role: Role; idx: number }) {
             borderRadius: '4px',
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.borderColor = '#FF3366';
+            e.currentTarget.style.borderColor = 'var(--accent)';
             e.currentTarget.style.transform = 'translateX(4px)';
           }}
           onMouseLeave={(e) => {
@@ -778,7 +723,7 @@ function TimelineRole({ role, idx }: { role: Role; idx: number }) {
           {/* Period */}
           <span
             className="font-caption block mb-4"
-            style={{ color: 'var(--accent-cyan)' }}
+            style={{ color: 'var(--accent)' }}
           >
             {role.period}
           </span>
@@ -791,7 +736,7 @@ function TimelineRole({ role, idx }: { role: Role; idx: number }) {
                 className="font-body-small flex gap-2"
                 style={{ color: 'var(--text-primary)' }}
               >
-                <span style={{ color: 'var(--accent-cyan)' }}>&gt;</span>
+                <span style={{ color: 'var(--accent)' }}>&gt;</span>
                 <span>{bullet}</span>
               </li>
             ))}

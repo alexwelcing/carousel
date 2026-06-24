@@ -5,24 +5,25 @@ export default function Footer() {
     <footer
       className="w-full py-12"
       style={{
-        borderTop: '1px solid #222222',
-        backgroundColor: '#050505',
+        borderTop: '1px solid var(--border-subtle)',
+        backgroundColor: 'rgba(255,255,255,0.45)',
+        backdropFilter: 'blur(16px)',
       }}
     >
-      <div className="content-max-width flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="flex flex-col items-center md:items-start gap-2">
-          <span className="font-jetbrains text-[0.875rem] font-bold tracking-[0.02em] uppercase text-[#FFFFFF]">
+      <div className="content-max-width flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div className="flex flex-col items-start gap-2">
+          <span className="font-caption" style={{ color: 'var(--text-primary)' }}>
             AW
           </span>
-          <span className="font-caption text-[#525252]">
+          <span className="font-body-small" style={{ color: 'var(--text-secondary)' }}>
             AI Engineer :: Open Source Builder
           </span>
         </div>
 
-        <div className="flex items-center gap-6">
+        <div className="flex flex-wrap items-center gap-5">
           <Link
             to="/"
-            className="font-nav text-[#A0A0A0] hover:text-[#FF3366] transition-colors duration-200"
+            className="font-nav text-[#A0A0A0] hover:text-[var(--accent)] transition-colors duration-200"
           >
             HOME
           </Link>
@@ -51,7 +52,7 @@ export default function Footer() {
             href="https://github.com/alexwelcing"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-caption text-[#525252] hover:text-[#33CCFF] transition-colors duration-200"
+            className="font-caption text-[#525252] hover:text-[var(--accent)] transition-colors duration-200"
           >
             GITHUB ↗
           </a>
@@ -59,7 +60,7 @@ export default function Footer() {
             href="https://linkedin.com/in/alexwelcing"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-caption text-[#525252] hover:text-[#33CCFF] transition-colors duration-200"
+            className="font-caption text-[#525252] hover:text-[var(--accent)] transition-colors duration-200"
           >
             LINKEDIN ↗
           </a>
@@ -67,7 +68,7 @@ export default function Footer() {
       </div>
 
       <div className="content-max-width mt-8 pt-6 flex justify-center">
-        <span className="font-caption text-[#525252]">
+        <span className="font-caption" style={{ color: 'var(--text-tertiary)' }}>
           © {new Date().getFullYear()} Alex Welcing. Built with code.
         </span>
       </div>

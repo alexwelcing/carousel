@@ -2,8 +2,7 @@ import { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Download, Loader2, ExternalLink, ArrowLeft } from 'lucide-react';
 import { generateResumePDF } from '@/lib/pdfGenerator';
-import AmbientField from '@/components/AmbientField';
-import GlitchText from '@/components/GlitchText';
+import PageIntro from '@/components/PageIntro';
 
 /* ─── Inline resume data (mirrors PDF) ─────────────────────────── */
 
@@ -90,12 +89,7 @@ export default function Resume() {
 
   return (
     <div className="w-full relative" style={{ backgroundColor: 'var(--bg-primary)' }}>
-      <AmbientField particleCount={50} opacity={0.1} connectDistance={150} />
-
-      {/* ─── Top accent bar ─── */}
-      <div style={{ height: 2, backgroundColor: 'var(--accent-glitch)' }} />
-
-      <div className="content-max-width" style={{ padding: '48px clamp(24px, 5vw, 80px) 60px' }}>
+      <div className="content-max-width" style={{ padding: '24px clamp(24px, 5vw, 80px) 60px' }}>
 
         {/* ─── Nav row ─── */}
         <div className="flex items-center justify-between mb-8">
@@ -103,7 +97,7 @@ export default function Resume() {
             to="/contact"
             className="font-nav inline-flex items-center gap-2 transition-colors duration-200"
             style={{ color: 'var(--text-tertiary)', fontSize: '0.75rem' }}
-            onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--accent-glitch)'; }}
+            onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--accent)'; }}
             onMouseLeave={(e) => { e.currentTarget.style.color = 'var(--text-tertiary)'; }}
           >
             <ArrowLeft size={12} /> BACK
@@ -114,7 +108,7 @@ export default function Resume() {
             className="font-nav inline-flex items-center gap-2 transition-all duration-200 cursor-pointer disabled:opacity-50"
             style={{
               padding: '10px 20px',
-              backgroundColor: 'var(--accent-glitch)',
+              backgroundColor: 'var(--accent)',
               borderRadius: '4px',
               color: 'var(--bg-primary)',
               fontSize: '0.8rem',
@@ -125,34 +119,29 @@ export default function Resume() {
           </button>
         </div>
 
-        {/* ═══════════ HEADER ═══════════ */}
-        <header style={{ borderBottom: '1px solid var(--border-subtle)', paddingBottom: 20, marginBottom: 20 }}>
-          <h1 className="font-display" style={{ color: 'var(--text-primary)', fontSize: 'clamp(2rem, 5vw, 3.5rem)', marginBottom: 6 }}>
-            <GlitchText text="ALEX WELCING" />
-          </h1>
-          <p
-            className="font-nav"
-            style={{ color: 'var(--accent-cyan)', letterSpacing: 0.08, fontSize: '0.8rem', marginBottom: 12 }}
-          >
-            AI ENGINEER · OPEN SOURCE BUILDER
-          </p>
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-1" style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-            <span style={{ color: 'var(--text-secondary)' }}>New York, NY</span>
-            <span style={{ color: 'var(--text-tertiary)' }}>|</span>
-            <span style={{ color: 'var(--text-secondary)' }}>alexwelcing@gmail.com</span>
-            <span style={{ color: 'var(--text-tertiary)' }}>|</span>
-            <a href="https://github.com/alexwelcing" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }} className="hover:text-[var(--accent-glitch)] transition-colors">
-              github.com/alexwelcing
-            </a>
-            <span style={{ color: 'var(--text-tertiary)' }}>|</span>
-            <a href="https://linkedin.com/in/alexwelcing" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }} className="hover:text-[var(--accent-glitch)] transition-colors">
-              linkedin.com/in/alexwelcing
-            </a>
-          </div>
-        </header>
+        <PageIntro
+          kicker="Downloadable resume"
+          title="Alex Welcing"
+          description="AI engineer, technical product manager, and open source builder focused on shipping useful systems with strong judgment."
+          meta={
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 font-caption" style={{ color: 'var(--text-tertiary)' }}>
+              <span>New York, NY</span>
+              <span>|</span>
+              <span>alexwelcing@gmail.com</span>
+              <span>|</span>
+              <a href="https://github.com/alexwelcing" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }} className="hover:text-[var(--accent)] transition-colors">
+                github.com/alexwelcing
+              </a>
+              <span>|</span>
+              <a href="https://linkedin.com/in/alexwelcing" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }} className="hover:text-[var(--accent)] transition-colors">
+                linkedin.com/in/alexwelcing
+              </a>
+            </div>
+          }
+        />
 
         {/* ═══════════ STATS ═══════════ */}
-        <div className="grid grid-cols-4 gap-0 mb-6" style={{ borderBottom: '1px solid var(--border-subtle)', paddingBottom: 16 }}>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-0 mb-6" style={{ borderBottom: '1px solid var(--border-subtle)', paddingBottom: 16 }}>
           {STATS.map((s, i) => (
             <div key={s.label} className="flex flex-col items-center" style={{ borderRight: i < 3 ? '1px solid var(--border-subtle)' : 'none' }}>
               <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 'clamp(1.5rem, 3vw, 2.2rem)', fontWeight: 700, color: 'var(--text-primary)' }}>
@@ -186,14 +175,14 @@ export default function Resume() {
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
                   <div>
                     <h3 className="font-h3" style={{ fontSize: '0.9rem', color: 'var(--text-primary)', marginBottom: 1 }}>{job.company}</h3>
-                    <span style={{ fontSize: '0.78rem', color: 'var(--accent-cyan)' }}>{job.role}</span>
+                    <span style={{ fontSize: '0.78rem', color: 'var(--accent)' }}>{job.role}</span>
                   </div>
                   <span className="font-caption" style={{ color: 'var(--text-tertiary)', fontSize: '0.65rem' }}>{job.dates}</span>
                 </div>
                 <ul className="flex flex-col gap-1">
                   {job.bullets.map((b, i) => (
                     <li key={i} className="font-body-small flex gap-2" style={{ color: 'var(--text-secondary)', fontSize: '0.78rem', lineHeight: 1.6 }}>
-                      <span style={{ color: 'var(--accent-glitch)', flexShrink: 0 }}>{'>'}</span>
+                      <span style={{ color: 'var(--accent)', flexShrink: 0 }}>{'>'}</span>
                       <span>{b}</span>
                     </li>
                   ))}
@@ -233,7 +222,7 @@ export default function Resume() {
                 marginBottom: 16,
               }}
             >
-              <h4 className="font-nav" style={{ color: 'var(--accent-cyan)', fontSize: '0.7rem', letterSpacing: 0.06, marginBottom: 6 }}>OPEN SOURCE</h4>
+              <h4 className="font-nav" style={{ color: 'var(--accent)', fontSize: '0.7rem', letterSpacing: 0.06, marginBottom: 6 }}>OPEN SOURCE</h4>
               <p className="font-body-small" style={{ color: 'var(--text-secondary)', fontSize: '0.72rem', lineHeight: 1.5 }}>
                 352 repositories spanning AI marketing tools, materials science ML, Ethereum clients, and creative coding. Active contributor — 1,708 contributions last year.
               </p>
@@ -259,14 +248,14 @@ export default function Resume() {
         >
           <div className="flex items-center gap-2">
             <span className="font-caption" style={{ color: 'var(--text-tertiary)', fontSize: '0.65rem' }}>
-              Full portfolio: <a href="https://alexwelcing.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-cyan)', textDecoration: 'none' }}>alexwelcing.com</a>
+              Full portfolio: <a href="https://alexwelcing.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>alexwelcing.com</a>
             </span>
           </div>
           <div className="flex items-center gap-4">
             <Link
               to="/contact"
               className="font-nav inline-flex items-center gap-2 transition-all duration-200"
-              style={{ color: 'var(--accent-glitch)', fontSize: '0.75rem', textDecoration: 'none' }}
+              style={{ color: 'var(--accent)', fontSize: '0.75rem', textDecoration: 'none' }}
             >
               GET IN TOUCH <ExternalLink size={10} />
             </Link>

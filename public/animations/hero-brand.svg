@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1080" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F1E7"/>
+      <stop offset="0.52" stop-color="#EFE7DA"/>
+      <stop offset="1" stop-color="#E6DFD3"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="188" y1="150" x2="986" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1218"/>
+      <stop offset="1" stop-color="#243042"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="330" y1="240" x2="862" y2="702" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86A7D0"/>
+      <stop offset="1" stop-color="#5B7FA8"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="1200" height="900" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#111827" flood-opacity="0.12"/>
+    </filter>
+    <filter id="blur" x="0" y="0" width="1200" height="900" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="804" rx="40" stroke="#1B2430" stroke-opacity="0.08"/>
+
+  <g opacity="0.7" filter="url(#blur)">
+    <circle cx="250" cy="180" r="160" fill="#DCE7F4" fill-opacity="0.8"/>
+    <circle cx="980" cy="250" r="190" fill="#C2D3E8" fill-opacity="0.58"/>
+    <circle cx="930" cy="720" r="170" fill="#E9DDD0" fill-opacity="0.72"/>
+  </g>
+
+  <g opacity="0.45">
+    <path d="M154 172H1046" stroke="#1B2430" stroke-opacity="0.14"/>
+    <path d="M154 252H1046" stroke="#1B2430" stroke-opacity="0.08"/>
+    <path d="M154 332H1046" stroke="#1B2430" stroke-opacity="0.08"/>
+    <path d="M154 412H1046" stroke="#1B2430" stroke-opacity="0.08"/>
+    <path d="M154 492H1046" stroke="#1B2430" stroke-opacity="0.08"/>
+    <path d="M154 572H1046" stroke="#1B2430" stroke-opacity="0.08"/>
+    <path d="M154 652H1046" stroke="#1B2430" stroke-opacity="0.08"/>
+    <path d="M154 732H1046" stroke="#1B2430" stroke-opacity="0.08"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="156" y="160" width="888" height="580" rx="34" fill="#F9F5EE" fill-opacity="0.7" stroke="#0E1218" stroke-opacity="0.08"/>
+    <rect x="188" y="192" width="824" height="516" rx="28" fill="url(#ink)" fill-opacity="0.96"/>
+  </g>
+
+  <g opacity="0.2">
+    <circle cx="258" cy="270" r="110" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="942" cy="612" r="120" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="310" cy="648" r="150" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(276 272)">
+    <path d="M0 232L92 0H186L278 232" stroke="#F6F1E7" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M126 128H182" stroke="#F6F1E7" stroke-width="18" stroke-linecap="round"/>
+    <path d="M336 0H432C470 0 494 22 494 58C494 91 472 112 438 116C478 124 506 154 506 198C506 247 472 272 416 272H336V0Z" stroke="#F6F1E7" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M574 0H700C742 0 768 22 768 58C768 93 744 118 708 124C754 132 784 165 784 212C784 250 760 272 720 272H574V0Z" stroke="url(#accent)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M574 0V272" stroke="url(#accent)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M356 74H414" stroke="#F6F1E7" stroke-width="14" stroke-linecap="round"/>
+    <path d="M356 190H420" stroke="#F6F1E7" stroke-width="14" stroke-linecap="round"/>
+    <path d="M606 74H680" stroke="url(#accent)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M606 190H688" stroke="url(#accent)" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="252" y="610" width="180" height="70" rx="20" fill="#F6F1E7" fill-opacity="0.12" stroke="#F6F1E7" stroke-opacity="0.14"/>
+    <rect x="452" y="610" width="180" height="70" rx="20" fill="#F6F1E7" fill-opacity="0.12" stroke="#F6F1E7" stroke-opacity="0.14"/>
+    <rect x="652" y="610" width="180" height="70" rx="20" fill="#F6F1E7" fill-opacity="0.12" stroke="#F6F1E7" stroke-opacity="0.14"/>
+    <rect x="852" y="610" width="114" height="70" rx="20" fill="#F6F1E7" fill-opacity="0.12" stroke="#F6F1E7" stroke-opacity="0.14"/>
+
+    <text x="282" y="652" fill="#F6F1E7" fill-opacity="0.8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="20" letter-spacing="2">STRATEGY</text>
+    <text x="485" y="652" fill="#F6F1E7" fill-opacity="0.8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="20" letter-spacing="2">CRAFT</text>
+    <text x="681" y="652" fill="#F6F1E7" fill-opacity="0.8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="20" letter-spacing="2">SPEED</text>
+    <text x="867" y="652" fill="#F6F1E7" fill-opacity="0.8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="20" letter-spacing="2">TASTE</text>
+  </g>
+
+  <g opacity="0.75">
+    <path d="M220 770C350 706 484 700 604 754C706 800 818 806 980 742" stroke="#1B2430" stroke-opacity="0.16" stroke-width="2" stroke-linecap="round"/>
+    <path d="M220 792C362 728 494 726 620 780C720 822 832 828 980 768" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.6">
+    <text x="220" y="128" fill="#1B2430" fill-opacity="0.56" font-family="IBM Plex Sans, Arial, sans-serif" font-size="18" letter-spacing="3">WELC.ING / ARTBOARD 01</text>
+    <text x="890" y="128" fill="#1B2430" fill-opacity="0.42" font-family="IBM Plex Sans, Arial, sans-serif" font-size="18" letter-spacing="3" text-anchor="end">EDITORIAL LOOP</text>
+  </g>
+</svg>

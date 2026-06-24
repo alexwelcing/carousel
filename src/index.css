@@ -4,88 +4,84 @@
 
 @layer base {
   :root {
-    --bg-primary: #050505;
-    --bg-elevated: #0A0A0A;
-    --bg-hover: rgba(255,255,255,0.05);
-    --text-primary: #FFFFFF;
-    --text-secondary: #A0A0A0;
-    --text-tertiary: #525252;
-    --accent: #E6E7E8;
-    --accent-glitch: #FF3366;
-    --accent-cyan: #33CCFF;
-    --border-subtle: #222222;
-    --border-hover: #444444;
+    --bg-primary: #f5f1e8;
+    --bg-elevated: rgba(255, 255, 255, 0.74);
+    --bg-hover: rgba(16, 20, 28, 0.05);
+    --text-primary: #10151f;
+    --text-secondary: #4f5764;
+    --text-tertiary: #727a86;
+    --accent: #1d3fd4;
+    --accent-glitch: #6b7280;
+    --accent-cyan: #1d3fd4;
+    --border-subtle: rgba(16, 20, 28, 0.12);
+    --border-hover: rgba(16, 20, 28, 0.22);
 
-    --background: 0 0% 2%;
-    --foreground: 0 0% 100%;
-    --card: 0 0% 4%;
-    --card-foreground: 0 0% 100%;
-    --popover: 0 0% 4%;
-    --popover-foreground: 0 0% 100%;
-    --primary: 0 0% 100%;
-    --primary-foreground: 0 0% 2%;
-    --secondary: 0 0% 6%;
-    --secondary-foreground: 0 0% 100%;
-    --muted: 0 0% 6%;
-    --muted-foreground: 0 0% 63%;
-    --accent: 0 0% 6%;
+    --background: 39 33% 94%;
+    --foreground: 219 26% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 219 26% 9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 219 26% 9%;
+    --primary: 226 75% 48%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 40 19% 90%;
+    --secondary-foreground: 219 26% 9%;
+    --muted: 40 19% 90%;
+    --muted-foreground: 219 10% 39%;
+    --accent: 226 75% 48%;
     --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
+    --destructive: 0 72% 45%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 13%;
-    --input: 0 0% 13%;
-    --ring: 0 0% 90%;
-    --radius: 4px;
+    --border: 218 18% 84%;
+    --input: 218 18% 84%;
+    --ring: 226 75% 48%;
+    --radius: 14px;
   }
 
   body {
-    background-color: var(--bg-primary);
+    background:
+      radial-gradient(circle at top left, rgba(29, 63, 212, 0.06), transparent 28%),
+      radial-gradient(circle at bottom right, rgba(16, 21, 31, 0.035), transparent 26%),
+      linear-gradient(180deg, #fbf9f4 0%, #f4efe6 100%);
     color: var(--text-primary);
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    scroll-behavior: smooth;
   }
 
-  /* Scanline CRT overlay */
   body::after {
     content: '';
     position: fixed;
     inset: 0;
-    z-index: 9999;
+    z-index: 1;
     pointer-events: none;
-    background: repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0,0,0,0.08) 2px,
-      rgba(0,0,0,0.08) 4px
-    );
-    opacity: 0.3;
+    background: linear-gradient(180deg, rgba(255,255,255,0.2), transparent 16%, transparent 84%, rgba(16,21,31,0.03));
   }
 
-  /* Film grain noise overlay */
   body::before {
     content: '';
     position: fixed;
     inset: 0;
-    z-index: 9998;
+    z-index: 0;
     pointer-events: none;
-    opacity: 0.035;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-    background-size: 256px 256px;
-    animation: grain-shift 0.5s steps(4) infinite;
+    opacity: 0.18;
+    background-image:
+      linear-gradient(rgba(16, 21, 31, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(16, 21, 31, 0.035) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(circle at center, black 48%, transparent 100%);
   }
 
-  @keyframes grain-shift {
-    0% { transform: translate(0, 0); }
-    25% { transform: translate(-5%, -5%); }
-    50% { transform: translate(5%, -10%); }
-    75% { transform: translate(-10%, 5%); }
-    100% { transform: translate(0, 0); }
+  #root {
+    position: relative;
+    z-index: 2;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Cardo', Georgia, serif;
+    font-weight: 700;
   }
 
   * {
@@ -95,84 +91,80 @@
 
 @layer components {
   .font-display {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: clamp(3rem, 8vw, 10rem);
+    font-family: 'Cardo', Georgia, serif;
+    font-size: clamp(3.5rem, 8vw, 8.5rem);
     font-weight: 700;
-    line-height: 0.95;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
+    line-height: 0.92;
+    letter-spacing: -0.05em;
   }
 
   .font-h1 {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: clamp(2rem, 5vw, 5rem);
+    font-family: 'Cardo', Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 5.2rem);
     font-weight: 700;
-    line-height: 1.0;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
+    line-height: 0.98;
+    letter-spacing: -0.04em;
   }
 
   .font-h2 {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-family: 'Cardo', Georgia, serif;
+    font-size: clamp(1.6rem, 3vw, 2.6rem);
     font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
   }
 
   .font-h3 {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 1.25rem;
+    font-family: 'Cardo', Georgia, serif;
+    font-size: 1.3rem;
     font-weight: 700;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
   }
 
   .font-body {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1rem;
+    font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+    font-size: 1.02rem;
+    font-weight: 400;
+    line-height: 1.75;
+  }
+
+  .font-body-small {
+    font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+    font-size: 0.92rem;
     font-weight: 400;
     line-height: 1.7;
   }
 
-  .font-body-small {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 1.6;
-  }
-
   .font-caption {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.75rem;
-    font-weight: 400;
+    font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+    font-size: 0.74rem;
+    font-weight: 600;
     line-height: 1.5;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
   }
 
   .font-nav {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.875rem;
-    font-weight: 500;
-    line-height: 1.0;
-    letter-spacing: 0.02em;
+    font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
   }
 
   .section-padding {
-    padding-top: clamp(80px, 10vh, 160px);
-    padding-bottom: clamp(80px, 10vh, 160px);
+    padding-top: clamp(72px, 9vh, 140px);
+    padding-bottom: clamp(72px, 9vh, 140px);
   }
 
   .content-max-width {
-    max-width: 1400px;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: clamp(24px, 5vw, 80px);
-    padding-right: clamp(24px, 5vw, 80px);
+    padding-left: clamp(20px, 4vw, 72px);
+    padding-right: clamp(20px, 4vw, 72px);
   }
 }
 
