@@ -47,20 +47,25 @@ export default function RivePanel({
     return () => mq.removeEventListener('change', update);
   }, []);
 
-  // The hero's GSAP reveal fades in the [data-hero-panel] wrapper, but the
-  // Rive WASM renderer initializing in this panel can starve GSAP's ticker and
-  // leave that tween frozen just short of opacity 1 — which makes the dark
-  // panel read grey over the light page. Once mounted, settle the wrapper to
-  // full opacity so the panel lands at its intended near-black.
+  // The hero's GSAP reveal fades the [data-hero-panel] wrapper, but with this
+  // dark panel inside, the tween can be left/re-applied at partial opacity —
+  // which renders the near-black panel as grey over the light page. Lock the
+  // wrapper to full opacity with !important so GSAP's (non-important) inline
+  // writes can't pull it back down. Applied a couple of times to cover the
+  // reveal window.
   useEffect(() => {
-    const t = window.setTimeout(() => {
-      const wrap = ref.current?.closest<HTMLElement>('[data-hero-panel]');
-      if (wrap) {
-        wrap.style.opacity = '1';
-        wrap.style.transform = 'none';
-      }
-    }, 1200);
-    return () => window.clearTimeout(t);
+    const wrap = ref.current?.closest<HTMLElement>('[data-hero-panel]');
+    if (!wrap) return;
+    const lock = () => {
+      wrap.style.setProperty('opacity', '1', 'important');
+      wrap.style.setProperty('transform', 'none', 'important');
+    };
+    const t1 = window.setTimeout(lock, 1100);
+    const t2 = window.setTimeout(lock, 2400);
+    return () => {
+      window.clearTimeout(t1);
+      window.clearTimeout(t2);
+    };
   }, []);
 
   const handleMove = (e: MouseEvent<HTMLDivElement>) => {
