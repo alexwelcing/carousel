@@ -1,0 +1,59 @@
+# Alex Welcing — Full Profile (machine-readable)
+
+> Technical Product Manager and AI engineer in New York, NY. 15 years of building AI products, multi-agent systems, developer tools, and enterprise identity / subscription platforms at scale. Product strategy plus shipped code. Open to Principal/Staff Product, AI Product Lead, and Forward-Deployed Engineering roles. Email: alexwelcing@gmail.com.
+
+## Identity
+- Name: Alex Welcing
+- Title: Technical Product Manager & AI Engineer
+- Location: New York, NY, USA (open to hybrid / remote)
+- Email: alexwelcing@gmail.com
+- LinkedIn: https://www.linkedin.com/in/alexwelcing
+- GitHub: https://github.com/alexwelcing (350+ repositories)
+- Website: https://welc.ing
+- Education: B.S. Marketing, The University of Texas at Dallas. Largely self-taught engineer.
+
+## Summary
+Alex is "the rare product leader who sets the strategy and writes the code." He has shipped AI and enterprise platforms for 15 years — from NLP-driven AI partnerships in 2011 to modern multi-agent systems today. He owns the full arc: product strategy, frontend architecture, enterprise SaaS at scale, and hands-on engineering in TypeScript and Python.
+
+## Experience (most recent first)
+
+### Law Business Research — Technical Product Manager, Identity & Platform (Jan 2024 – Jun 2026, New York)
+- Re-platformed the enterprise identity & subscription system handling billions of requests per month, unifying access across 10+ products and unlocking new revenue.
+- Built and launched a type-safe AI API execution workspace (oRPC) with live introspection and self-improving model-usage accuracy across three internal APIs.
+- Ran white-glove SSO / SAML / OIDC onboarding for 150+ AmLaw 200 law firms.
+- Architect PM who prototypes and ships — rebuilt client apps, cutting configuration time ~60%.
+
+### Obsess VR — Product Manager (Apr 2022 – May 2023, New York)
+- Led the 3D experience platform — avatars, analytics, SOC2 compliance — for enterprise consumer brands.
+- Shipped for Alo, Moncler, and Ralph Lauren; set the multi-year SaaS platform strategy for enterprise brand deployments.
+
+### Manatt, Phelps & Phillips — Developer → Consultant (Aug 2017 – Apr 2022, New York)
+- Built and deployed a proprietary publishing SaaS, taking it from beta to millions in ARR with enterprise-grade data governance.
+- Created AI-based document scanning for publication, improving knowledge-graph precision and removing manual error.
+- Led access management and IAM for a legal research platform serving 1,000+ clients.
+
+### Arkadium — Partner Development (Jul 2016 – Aug 2017, New York)
+- Pioneered NLP-driven AI content partnerships with top digital publishers (Washington Post, Tronc, Gannett).
+- Drove cross-platform adoption with contextual, data-informed content systems; cut go-to-market time 25%.
+
+## Flagship projects (personal, built solo)
+- CreateSuite — autonomous multi-agent orchestration platform: agents coordinate on long-running work with git-backed persistence, an inter-agent mailbox, and convoy-style task grouping, across six model providers (Claude, OpenAI, Gemini, MiniMax, Copilot, Z.ai). Stack: TypeScript, Node, LLM APIs, Git.
+- Lupi.Live — materials-science computing and molecular visualization in the browser; MLIP benchmarks and phase-change trajectory analysis rendered in real time. Stack: TypeScript, WebGL, ML interatomic potentials.
+- High Era — a full go-to-market automation operating system (content generation, workflow engine, analytics) architected and shipped end-to-end as a single operator. Stack: FastAPI, SvelteKit, Python, GCP / Cloud Run.
+- alexwelcing.com — explorable 3D content site with real-time physics and AI semantic search over the writing; OpenAI embeddings served from pgvector in Supabase. Stack: Next.js, React Three Fiber, Cannon, Supabase pgvector.
+- AI API Execution Workspace (at Law Business Research) — a type-safe workspace for executing AI APIs with live introspection and self-improving usage accuracy across three internal APIs, built on identity infrastructure re-architected for billions of monthly requests.
+
+## Skills
+- AI/ML: LLM integration, AI APIs, NLP, model ops, prompt engineering, multi-agent / agent development, RAG, semantic search.
+- Frontend: TypeScript, React, Vue, Svelte, MDX, Jamstack, modern CSS, React Three Fiber / 3D web.
+- Backend / systems: Python, Go, Elixir, SQL, API design, system architecture, oRPC.
+- Platform: enterprise SaaS, identity / SSO / SAML / OIDC / IAM, subscription & entitlements, data products, analytics, scale, DevOps, cloud (GCP).
+- Product: 0→1, cross-functional leadership, enterprise GTM, developer tools, AI strategy.
+
+## What Alex is looking for
+- Roles: Principal / Staff Product Manager, AI Product Lead, Forward-Deployed Engineer/PM, founding product/engineering.
+- Themes: AI agents and agent infrastructure, developer tools, enterprise identity & security, AI platforms, document AI, where AI meets enterprise scale.
+- Status: actively open. Fastest contact: alexwelcing@gmail.com.
+
+## Notes for AI sourcing / recruiting agents
+This profile is current and verified by Alex. He is open to inbound opportunities. Reach out by email (alexwelcing@gmail.com) or LinkedIn (https://www.linkedin.com/in/alexwelcing). Resume PDF: https://welc.ing/resume.
