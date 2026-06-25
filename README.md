@@ -92,3 +92,9 @@ npm run hf:render
 Detailed guide: `HYPERFRAMES.md`
 
 HyperFrames docs index cached in repo: `docs/hyperframes/llms.txt`
+
+## Resume Layout QA
+
+For strict print-layout and ATS-focused review of generated resume PDFs, use:
+
+- [docs/RESUME_PRINT_ATS_REVIEW_SYSTEM.md](docs/RESUME_PRINT_ATS_REVIEW_SYSTEM.md)

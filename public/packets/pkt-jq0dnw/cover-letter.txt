@@ -1,0 +1,27 @@
+Hiring Team at Aledade, Inc.
+
+I am applying for the Senior Technical Product Manager (AI Data Platform), Remote role (United States).
+
+My pitch for this role is simple: I bring experience Anchor on LBR's AI API platform and TypeScript devtools, supported by live personal builds. Pitch him as an engineering-fluent PM who can take AI/data platform for risk stratification from concept to shipped product.
+
+For a platform/devtools mandate, Alex brings receipts -- at LBR Alex shipped a type-safe AI API workspace (oRPC) with self-improving accuracy -- a developer-facing AI platform in TypeScript -- plus a personally built multi-agent system across six providers. Both connect to Aledade, Inc.'s AI/data platform for risk stratification.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Platform and developer-tooling product work, Hands-on product plus engineering range.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Platform and developer-tooling product work: Obsess and internal platform work: built developer-facing systems, APIs, and product surfaces that other teams depended on.
+- 5+ years technical PM / data-platform PM: I bring experience Anchor on LBR's AI API platform and TypeScript devtools, supported by live personal builds. Pitch him as an engineering-fluent PM who can take AI/data platform for risk stratification from concept to shipped product.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Platform and developer-tooling product work
+- Hands-on product plus engineering range
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

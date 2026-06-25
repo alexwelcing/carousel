@@ -1,0 +1,27 @@
+Hiring Team at SpotOn
+
+I am applying for the Product Manager (Dashboard) role (New York, NY).
+
+My pitch for this role is simple: I bring experience Open on platform scope -- LBR's identity/subscription infrastructure -- and add the AI API workspace. Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+
+Alex brings enterprise platform depth -- re-architecting LBR's identity and subscription systems at billions of requests/mo -- alongside a personally built multi-agent system. Both serve SpotOn's AI/automation in restaurant operations.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Platform and developer-tooling product work.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 4-7 yrs product management: I bring experience Open on platform scope -- LBR's identity/subscription infrastructure -- and add the AI API workspace. Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Platform and developer-tooling product work
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

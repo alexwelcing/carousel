@@ -1,0 +1,27 @@
+Hiring Team at Datadog
+
+I am applying for the Senior Product Manager, AAA/Enterprise Growth role (New York, NY).
+
+My pitch for this role is simple: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+
+This role sits squarely in Alex's wheelhouse: at LBR (Law Business Research) Alex re-platformed the identity & subscription system to handle billions of requests/mo across 10+ products, and ran SSO/SAML/OIDC onboarding for 150+ AmLaw 200 firms. That identity-and-security work maps directly onto Datadog's focus on LLM/Agent Observability.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 5+ yrs PM incl. growth/PLG: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Document and knowledge-work AI
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

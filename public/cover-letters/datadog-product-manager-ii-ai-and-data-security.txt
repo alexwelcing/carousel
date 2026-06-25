@@ -2,21 +2,21 @@ Hiring Team at Datadog
 
 I am applying for the Product Manager II, AI & Data Security role (New York, NY).
 
-My pitch for this role is simple: I bring experience the intersection of LBR security/identity and Obsess/Manatt AI work; position as the rare PM who secures AI and sensitive data.
+My pitch for this role is simple: I bring experience Anchor the pitch on identity-and-access depth: LBR's SSO/SAML/OIDC rollout and Manatt IAM for 1,000+ clients. Pitch him as an engineering-fluent PM who can take LLM/Agent Observability from concept to shipped product.
 
-Outstanding fit: directly combines Alex's two strongest themes (AI/agents + security/identity & data) into one role.
+Few PMs have owned enterprise identity at this scale. At LBR (Law Business Research) Alex re-platformed the identity & subscription system to handle billions of requests/mo across 10+ products, and ran SSO/SAML/OIDC onboarding for 150+ AmLaw 200 firms; at Manatt he led IAM for a research platform serving 1,000+ clients -- a strong match for a security-and-access mandate like this.
 
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Hands-on product plus engineering range.
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
 
 Why I am a strong fit:
 - Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
 - Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 3-5 yrs PM: I bring experience the intersection of LBR security/identity and Obsess/Manatt AI work; position as the rare PM who secures AI and sensitive data.
+- 3-5 yrs PM: I bring experience Anchor the pitch on identity-and-access depth: LBR's SSO/SAML/OIDC rollout and Manatt IAM for 1,000+ clients. Pitch him as an engineering-fluent PM who can take LLM/Agent Observability from concept to shipped product.
 
 Selected proof points:
 - Multi-agent systems built end to end
 - Enterprise deployment and trust
-- Hands-on product plus engineering range
+- Document and knowledge-work AI
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 

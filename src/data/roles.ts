@@ -35,6 +35,40 @@ export interface TailoredRole {
 
 export const roles: TailoredRole[] = [
   {
+    slug: 'tekshapers-marketing-expert-genai',
+    company: 'Tekshapers',
+    roleTitle: 'Marketing Expert - GenAI (Contract C2C)',
+    location: 'Remote / Michigan',
+    applyUrl: 'mailto:alexwelcing@gmail.com?subject=Tekshapers%20Marketing%20Expert%20-%20GenAI%20(C2C)',
+    accent: '#22C55E',
+    tagline: '[ MARKETING SME · GENAI TRAINING · C2C ]',
+    headline: 'Marketing leadership + AI workflow fluency: I can help train, evaluate, and improve GenAI systems for real campaign outcomes.',
+    intro:
+      'I bring end-to-end marketing experience from campaign strategy and brand operations to analytics and optimization, plus product and AI systems depth. I can translate marketing logic into structured training data, evaluate model outputs, and collaborate directly with engineering teams to improve quality.',
+    whyFit: [
+      {
+        point: 'Hands-on marketing across the full lifecycle',
+        detail:
+          'I have owned campaign planning, launch, optimization, and post-campaign analysis across digital, social, event, and performance channels. Earlier in my career I led retail and regional campaigns, managed agency spend, and drove multichannel execution for 20+ store networks and growth-stage clients.',
+      },
+      {
+        point: 'Marketing technology at the AI intersection',
+        detail:
+          'At Arkadium I drove partner development for knowledge-media products and pioneered NLP-oriented content partnership motions. At Obsess I led platform strategy and go-to-market-aligned product work for global brands including Alo, Moncler, and Ralph Lauren, where brand consistency and measurable engagement mattered.',
+      },
+      {
+        point: 'Structured thinking for model training and evaluation',
+        detail:
+          'My product background is centered on converting real workflows into systems: mapping decision points, defining metrics, and improving output quality with feedback loops. That directly supports domain annotation, workflow simulation, and model evaluation criteria for GenAI marketing assistants.',
+      },
+    ],
+    proof: [
+      '12+ years spanning campaign strategy, content, performance, and analytics workflows',
+      '20+ partnerships at Arkadium with projected $1M+ annual revenue contribution',
+      'Managed high-volume pipelines, media budgets, A/B testing motions, and ROI-focused optimization',
+    ],
+  },
+  {
     slug: 'anthropic',
     company: 'Anthropic',
     roleTitle: 'Forward Deployed Engineer, Applied AI',

@@ -1,0 +1,22 @@
+Hiring Team at Tekshapers
+
+I am applying for the Marketing Expert - GenAI contract role (C2C, Remote / Michigan).
+
+I combine hands-on marketing leadership across the full campaign lifecycle with practical experience translating domain workflows into structured systems that technical teams can build on.
+
+Across my career, I have led and executed multichannel marketing work spanning strategy, content, performance, and analytics. I have managed campaign operations, coordinated agency and cross-functional partners, and optimized for measurable outcomes using structured KPI frameworks.
+
+I can contribute immediately across your core responsibilities:
+- Domain Training & Annotation: define and validate marketing taxonomies, create realistic prompts/examples, and QA labeled outputs.
+- Workflow Simulation & Process Mapping: model campaign workflows (plan -> launch -> measure -> optimize) into AI-ready structures with clear decision points.
+- Model Evaluation & Feedback: review output quality for relevance, tone, and brand consistency; provide rubric-based improvement loops.
+- Strategic Collaboration: partner with product, data science, and engineering to operationalize campaign recommendations, personalization, segmentation, and performance prediction.
+
+Relevant background includes Obsess (marketing-adjacent platform work for global brands), Arkadium (knowledge-media + AI-oriented partnerships), and earlier campaign and analytics execution across YP Marketing Solutions, Texas Print Solutions, Goody Goody, and Red Bull.
+
+I would welcome a conversation about helping your team improve model quality and business usefulness for real-world marketing operations.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://linkedin.com/in/alexwelcing

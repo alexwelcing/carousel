@@ -198,6 +198,31 @@ export default function Role() {
                 COVER LETTER
               </a>
 
+              {packetLinks.coverLetterPdf && (
+                <a
+                  href={packetLinks.coverLetterPdf}
+                  download={`Alex-Welcing-${role.company.replace(/[^A-Za-z0-9]+/g, '-')}-Cover-Letter.pdf`}
+                  className="font-nav inline-flex items-center justify-center gap-2 px-6 py-3 transition-all duration-200"
+                  style={{
+                    backgroundColor: 'transparent',
+                    border: '1px solid var(--border-subtle)',
+                    color: 'var(--text-tertiary)',
+                    borderRadius: '4px',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = accent;
+                    e.currentTarget.style.color = accent;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = 'var(--border-subtle)';
+                    e.currentTarget.style.color = 'var(--text-tertiary)';
+                  }}
+                >
+                  <Download className="w-4 h-4" />
+                  COVER LETTER PDF
+                </a>
+              )}
+
               <a
                 href={packetLinks.resumePrintPdf}
                 download={`Alex-Welcing-${role.company.replace(/[^A-Za-z0-9]+/g, '-')}-Resume-Print.pdf`}

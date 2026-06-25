@@ -46,3 +46,6 @@ Generated: 2026-06-24T01:47:05.969Z
 ## Notes
 - These links are relative paths; prepend your deployed domain before sharing.
 - Example: `https://your-domain.com/r/<shareId>`
+| Company | Role | Share Link | Packet Files |
+| --- | --- | --- | --- |
+| Tekshapers | Marketing Expert - GenAI (Contract C2C) | /r/pkt-oydz7a | [resume](/packets/pkt-oydz7a/resume.pdf) · [resume-light](/packets/pkt-oydz7a/resume-light.pdf) · [cover-letter](/packets/pkt-oydz7a/cover-letter.txt) |

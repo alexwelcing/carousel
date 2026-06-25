@@ -1,0 +1,27 @@
+Hiring Team at SecurityScorecard
+
+I am applying for the Principal Product Manager, AI role (New York City Metropolitan Area).
+
+My pitch for this role is simple: I bring experience Open on CreateSuite's multi-agent orchestration, then show the LBR oRPC AI API workspace as production-grade proof. Pitch him as a builder-PM at IC/lead level -- a deliberate, honest framing given the seniority of this title.
+
+SecurityScorecard's emphasis on Agentic AI workflows for risk detection/response lines up with the identity and access work Alex has actually shipped -- Alex's LBR work re-architecting enterprise identity (SSO/SAML/OIDC, 150+ AmLaw 200 firms) and subscription/entitlements at billions of requests/mo, plus at Manatt he led IAM for a research platform serving 1,000+ clients.
+
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+
+Why I am a strong fit:
+- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 7+ yrs PM leading complex initiatives: I bring experience Open on CreateSuite's multi-agent orchestration, then show the LBR oRPC AI API workspace as production-grade proof. Pitch him as a builder-PM at IC/lead level -- a deliberate, honest framing given the seniority of this title.
+
+Selected proof points:
+- Multi-agent systems built end to end
+- Enterprise deployment and trust
+- Document and knowledge-work AI
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

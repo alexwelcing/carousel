@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-resumes.tsx && vite build",
     "generate:resumes": "TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-resumes.tsx",
+    "qa:resume-packets": "TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/validate-resume-packets.ts",
     "lint": "eslint .",
     "preview": "vite preview",
     "hf:dev": "npm --prefix hyperframes-studio run dev",

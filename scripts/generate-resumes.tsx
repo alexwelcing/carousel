@@ -9,11 +9,14 @@
  */
 import { renderToBuffer } from '@react-pdf/renderer';
 import { createElement } from 'react';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { copyFile, mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
+import { tmpdir } from 'node:os';
 import { parse as parseCsv } from 'csv-parse/sync';
+import { GlobalFonts, PDFDocument } from '@napi-rs/canvas';
+import * as pt from '@chenglou/pretext';
 import ResumePDFDocument, { type Wordmark } from '../src/components/ResumePDF';
 import ResumePlainPDFDocument from '../src/components/ResumePlainPDF';
 import { applicationPacketOverrides } from '../src/data/applicationPackets';
@@ -36,6 +39,544 @@ await mkdir(applicationPacketsDir, { recursive: true });
 
 const pageCount = (buf: Buffer) =>
   (buf.toString('latin1').match(/\/Type\s*\/Page(?![s])/g) || []).length;
+
+type CustomPacketSource = {
+  resumePdf: string;
+  resumeLightPdf?: string;
+  coverLetterTxt: string;
+  coverLetterPdf?: string;
+};
+
+const CUSTOM_PACKET_SOURCES: Record<string, CustomPacketSource> = {
+  'tekshapers-marketing-expert-genai': {
+    resumePdf: resolve(publicDir, 'resumes/tekshapers-marketing-expert-genai.pdf'),
+    resumeLightPdf: resolve(publicDir, 'resumes/tekshapers-marketing-expert-genai-light.pdf'),
+    coverLetterTxt: resolve(publicDir, 'cover-letters/tekshapers-marketing-expert-genai.txt'),
+    coverLetterPdf: resolve(publicDir, 'cover-letters/tekshapers-marketing-expert-genai.pdf'),
+  },
+};
+
+const CANVAS_FONTS: Record<string, string> = {
+  Cardo: 'https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/cardo/Cardo-Bold.ttf',
+  Mono: 'https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@master/fonts/ttf/JetBrainsMono-Regular.ttf',
+};
+
+let canvasFontsReady = false;
+async function ensureCanvasFonts() {
+  if (canvasFontsReady) return;
+
+  for (const [family, url] of Object.entries(CANVAS_FONTS)) {
+    const fontPath = join(tmpdir(), `${family}-resume.ttf`);
+    if (!existsSync(fontPath)) {
+      const response = await fetch(url);
+      const buffer = Buffer.from(await response.arrayBuffer());
+      await import('node:fs/promises').then(({ writeFile }) => writeFile(fontPath, buffer));
+    }
+    GlobalFonts.registerFromPath(fontPath, family);
+  }
+
+  canvasFontsReady = true;
+}
+
+const TEKSHAPERS_PALLETES = {
+  light: {
+    bg: '#F7F8F5',
+    panel: '#FFFFFF',
+    panelSoft: '#F1F4EF',
+    text: '#111111',
+    muted: '#4B5563',
+    faint: '#6B7280',
+    accent: '#0F7A4C',
+    accentSoft: '#E3F4EA',
+    border: '#D7DDD6',
+    chip: '#EDF7F1',
+  },
+  dark: {
+    bg: '#0D1110',
+    panel: '#141917',
+    panelSoft: '#101412',
+    text: '#F4F6F4',
+    muted: '#C1C9C3',
+    faint: '#92A09A',
+    accent: '#6CE0A4',
+    accentSoft: '#173629',
+    border: '#29312D',
+    chip: '#16231D',
+  },
+} as const;
+
+type TekshapersPalette = (typeof TEKSHAPERS_PALLETES)[keyof typeof TEKSHAPERS_PALLETES];
+
+type CanvasCtx = ReturnType<PDFDocument['beginPage']>;
+
+const TEKSHAPERS_PAGE_W = 612;
+const TEKSHAPERS_PAGE_H = 792;
+const TEKSHAPERS_MARGIN = 40;
+const TEKSHAPERS_GAP = 14;
+const TEKSHAPERS_COL_W = (TEKSHAPERS_PAGE_W - TEKSHAPERS_MARGIN * 2 - TEKSHAPERS_GAP) / 2;
+const TEKSHAPERS_CONTENT_TOP = 118;
+const TEKSHAPERS_CONTENT_BOTTOM = TEKSHAPERS_PAGE_H - 36;
+
+const TEKSHAPERS_SUMMARY =
+  'Marketing leader with 12+ years across campaign strategy, performance optimization, content systems, analytics, and AI-enabled workflow design. Experienced translating marketing operations into structured logic for technical teams, with a track record spanning global brand programs at Obsess, AI-oriented media partnerships at Arkadium, and hands-on execution in paid media, CRM, lifecycle planning, and multichannel growth.';
+
+const TEKSHAPERS_STRENGTHS = [
+  'Domain Training & Annotation: marketing taxonomy design, prompt scenario authoring, structured labeling, and QA.',
+  'Workflow Simulation: campaign lifecycle mapping, decision points, KPI frameworks, and operational dependencies.',
+  'Model Evaluation: relevance, tone, and brand-consistency review with rubric-based feedback loops.',
+  'Performance Marketing: keyword strategy, conversion tracking, A/B testing, and ROI optimization.',
+  'CRM & Automation: segmentation, journey mapping, lead-scoring logic, and lifecycle campaign orchestration.',
+  'SEO Research: query intent mapping, content cluster strategy, and iterative optimization using AI-assisted methods.',
+];
+
+const TEKSHAPERS_RECENT_JOBS = [
+  {
+    company: 'Law Business Research',
+    role: 'Technical Product Manager',
+    date: 'Jan 2024 - Jun 2026',
+    bullets: [
+      'Translated business rules into platform capabilities across 10+ products and improved operational clarity for cross-functional teams.',
+      'Shipped type-safe AI API workflows and enterprise SSO onboarding for 150+ AmLaw 200 firms with a high bar for precision and compliance.',
+    ],
+  },
+  {
+    company: 'Obsess',
+    role: 'Product Manager',
+    date: 'Apr 2022 - May 2023',
+    bullets: [
+      'Led strategy for immersive commerce experiences used by global brands including Alo, Moncler, and Ralph Lauren.',
+      'Drove analytics and platform improvements to support brand consistency, measurable engagement, and go-to-market execution.',
+    ],
+  },
+  {
+    company: 'Manatt, Phelps & Phillips',
+    role: 'Developer -> Consultant',
+    date: 'Aug 2017 - Apr 2022',
+    bullets: [
+      'Shipped AI-assisted document and publishing workflows where taxonomy quality, precision, and review rigor mattered.',
+      'Scaled legal publishing SaaS from beta to multi-million ARR while bridging domain experts and technical implementation.',
+    ],
+  },
+];
+
+const TEKSHAPERS_EARLIER_JOBS = [
+  {
+    company: 'Arkadium',
+    role: 'Partner Development',
+    date: 'Jul 2016 - Aug 2017',
+    bullets: [
+      'Signed 20+ strategic partnerships with projected $1M+ annual revenue and delivered the fastest sales growth in company history.',
+      'Worked at the intersection of knowledge media and AI-oriented content partnerships, translating partner needs into scalable motions.',
+    ],
+  },
+  {
+    company: 'Marketing Systems',
+    role: 'Consultant',
+    date: 'Nov 2015 - Jul 2016',
+    bullets: [
+      'Planned and closed campaign packages for growth-stage and nonprofit clients, launching web and social programs with measurable ROI.',
+      'Coordinated creative, influencer, and management stakeholders while building repeatable campaign planning workflows.',
+    ],
+  },
+  {
+    company: 'YP Marketing Solutions',
+    role: 'Digital Sales Executive',
+    date: 'Jun 2015 - Nov 2015',
+    bullets: [
+      'Managed a $200K+ SEM/mobile pipeline in Salesforce with high-volume activity and weekly meeting velocity.',
+      'Developed search, mobile, and local presence solutions that aligned campaign execution to concrete performance goals.',
+    ],
+  },
+  {
+    company: 'Texas Print Solutions',
+    role: 'Marketing Campaigns Manager',
+    date: 'May 2014 - Jun 2015',
+    bullets: [
+      'Launched an HTML5 conversion page and event campaign to open a new vertical, then managed the related production flow.',
+      'Directed an 8-person production and billing operation using lightweight cloud systems for inventory and communication.',
+    ],
+  },
+  {
+    company: 'Goody Goody Liquors',
+    role: 'Marketing Coordinator',
+    date: 'May 2013 - Jan 2014',
+    bullets: [
+      'Served as first corporate marketing coordinator for a 20+ store retailer, coordinating an agency-led rebrand across print, radio, OOH, and digital.',
+      'Managed analytics and vendor optimization across locations while protecting brand consistency and lowering spend.',
+    ],
+  },
+  {
+    company: 'Red Bull North America',
+    role: 'Culture Intern / Student Brand Manager',
+    date: 'Aug 2010 - Jul 2013',
+    bullets: [
+      'Executed campus and event activations, including SXSW operations, with strong focus on brand storytelling and audience fit.',
+      'Built early foundations in content strategy, experiential marketing, and cross-channel coordination.',
+    ],
+  },
+];
+
+const TEKSHAPERS_EDUCATION = [
+  'University of Texas at Dallas - B.S. Marketing',
+  'Texas Academy of Math and Science - Diploma',
+];
+
+const TEKSHAPERS_COVER_LETTER_SOURCE = resolve(publicDir, 'cover-letters/tekshapers-marketing-expert-genai.txt');
+
+function layoutLines(text: string, font: string, width: number, lineHeight: number) {
+  const prepared = pt.prepareWithSegments(text, font);
+  return pt.layoutWithLines(prepared, width, lineHeight).lines;
+}
+
+function assertPageContainment(section: string, bottomY: number) {
+  if (bottomY > TEKSHAPERS_CONTENT_BOTTOM) {
+    throw new Error(`[tekshapers-layout] ${section} overflow: bottom ${bottomY.toFixed(1)} exceeds ${TEKSHAPERS_CONTENT_BOTTOM}`);
+  }
+}
+
+function drawRoundedRect(ctx: CanvasCtx, x: number, y: number, w: number, h: number, radius: number, fill: string, stroke: string) {
+  ctx.beginPath();
+  ctx.roundRect(x, y, w, h, radius);
+  ctx.fillStyle = fill;
+  ctx.fill();
+  ctx.strokeStyle = stroke;
+  ctx.lineWidth = 1;
+  ctx.stroke();
+}
+
+function drawTextBlock(
+  ctx: CanvasCtx,
+  text: string,
+  x: number,
+  y: number,
+  width: number,
+  font: string,
+  color: string,
+  lineHeight: number,
+) {
+  const lines = layoutLines(text, font, width, lineHeight);
+  ctx.font = font;
+  ctx.fillStyle = color;
+  ctx.textBaseline = 'top';
+  for (const line of lines) {
+    ctx.fillText(line.text, x, y);
+    y += lineHeight;
+  }
+  return { y, lines };
+}
+
+function measureWrappedHeight(text: string, font: string, width: number, lineHeight: number) {
+  return pt.layoutWithLines(pt.prepareWithSegments(text, font), width, lineHeight).height;
+}
+
+function drawWrappedBulletList(
+  ctx: CanvasCtx,
+  items: string[],
+  x: number,
+  y: number,
+  width: number,
+  palette: TekshapersPalette,
+  options?: { fontSize?: number; lineHeight?: number; bulletGap?: number },
+) {
+  const fontSize = options?.fontSize ?? 10;
+  const lineHeight = options?.lineHeight ?? 13;
+  const bulletGap = options?.bulletGap ?? 5;
+  for (const item of items) {
+    ctx.font = `${fontSize}px Mono`;
+    ctx.fillStyle = palette.accent;
+    ctx.fillText('•', x, y + 1);
+    const block = drawTextBlock(ctx, item, x + 12, y, width - 12, `${fontSize}px Mono`, palette.muted, lineHeight);
+    y = block.y + bulletGap;
+  }
+  return y;
+}
+
+function drawTopBanner(ctx: CanvasCtx, palette: TekshapersPalette, pageNumber: number, title: string, subtitle: string) {
+  ctx.save();
+  ctx.fillStyle = palette.bg;
+  ctx.fillRect(0, 0, TEKSHAPERS_PAGE_W, TEKSHAPERS_PAGE_H);
+  ctx.fillStyle = palette.accentSoft;
+  ctx.fillRect(0, 0, TEKSHAPERS_PAGE_W, 18);
+  ctx.fillStyle = palette.panel;
+  ctx.fillRect(0, 18, TEKSHAPERS_PAGE_W, 74);
+  ctx.fillStyle = palette.border;
+  ctx.fillRect(TEKSHAPERS_MARGIN, 102, TEKSHAPERS_PAGE_W - TEKSHAPERS_MARGIN * 2, 1);
+
+  ctx.font = '700 24px Cardo';
+  ctx.fillStyle = palette.text;
+  ctx.textBaseline = 'top';
+  ctx.fillText('Alex Welcing', TEKSHAPERS_MARGIN, 28);
+
+  ctx.font = '700 10px Mono';
+  ctx.fillStyle = palette.accent;
+  ctx.fillText(title.toUpperCase(), TEKSHAPERS_MARGIN, 58);
+
+  ctx.font = '10px Mono';
+  ctx.fillStyle = palette.muted;
+  ctx.fillText(subtitle, TEKSHAPERS_MARGIN, 74);
+
+  ctx.font = '9px Mono';
+  ctx.fillStyle = palette.faint;
+  const contact = 'New York, NY | alexwelcing@gmail.com | linkedin.com/in/alexwelcing';
+  ctx.fillText(contact, TEKSHAPERS_MARGIN, 90);
+
+  ctx.font = '700 9px Mono';
+  ctx.fillStyle = palette.faint;
+  ctx.fillText(`Page ${pageNumber}`, TEKSHAPERS_PAGE_W - TEKSHAPERS_MARGIN - 44, 28);
+  ctx.restore();
+}
+
+function drawSectionHeader(ctx: CanvasCtx, palette: TekshapersPalette, x: number, y: number, label: string, width: number) {
+  ctx.fillStyle = palette.accent;
+  ctx.fillRect(x, y + 5, 24, 2);
+  ctx.font = '700 10px Mono';
+  ctx.fillStyle = palette.text;
+  ctx.fillText(label.toUpperCase(), x + 32, y);
+  ctx.fillStyle = palette.border;
+  ctx.fillRect(x, y + 20, width, 1);
+  return y + 28;
+}
+
+function drawPill(ctx: CanvasCtx, palette: TekshapersPalette, x: number, y: number, text: string, width: number) {
+  const height = 20;
+  ctx.save();
+  ctx.beginPath();
+  ctx.roundRect(x, y, width, height, 10);
+  ctx.fillStyle = palette.chip;
+  ctx.fill();
+  ctx.strokeStyle = palette.border;
+  ctx.stroke();
+  ctx.font = '700 8px Mono';
+  ctx.fillStyle = palette.accent;
+  ctx.textBaseline = 'middle';
+  const textWidth = ctx.measureText(text).width;
+  ctx.fillText(text, x + (width - textWidth) / 2, y + height / 2 + 0.5);
+  ctx.restore();
+}
+
+function drawSummaryPanel(ctx: CanvasCtx, palette: TekshapersPalette, x: number, y: number, w: number) {
+  const summaryWidth = w - 32;
+  const summaryTextHeight = measureWrappedHeight(TEKSHAPERS_SUMMARY, '11px Cardo', summaryWidth, 15);
+  const pillsHeight = 20 + 6 + 20;
+  const contentHeight = 16 + 20 + summaryTextHeight + 10 + pillsHeight + 16;
+  const height = Math.max(238, contentHeight);
+  drawRoundedRect(ctx, x, y, w, height, 14, palette.panel, palette.border);
+  let cursorY = y + 16;
+  ctx.font = '700 10px Mono';
+  ctx.fillStyle = palette.accent;
+  ctx.fillText('SUMMARY', x + 16, cursorY);
+  cursorY += 20;
+  cursorY = drawTextBlock(ctx, TEKSHAPERS_SUMMARY, x + 16, cursorY, summaryWidth, '11px Cardo', palette.text, 15).y;
+  cursorY += 10;
+  const pills = [
+    'Campaign Lifecycle',
+    'Model Evaluation',
+    'Workflow Mapping',
+    'SEO + AI Methodology',
+  ];
+  let pillX = x + 16;
+  let pillY = cursorY;
+  for (let index = 0; index < pills.length; index += 1) {
+    const pillWidth = index % 2 === 0 ? 110 : 118;
+    drawPill(ctx, palette, pillX, pillY, pills[index], pillWidth);
+    pillX += pillWidth + 8;
+    if (index % 2 === 1) {
+      pillX = x + 16;
+      pillY += 26;
+    }
+  }
+  return y + height;
+}
+
+function drawStrengthPanel(ctx: CanvasCtx, palette: TekshapersPalette, x: number, y: number, w: number) {
+  const listHeight = TEKSHAPERS_STRENGTHS.reduce(
+    (acc, item) => acc + measureWrappedHeight(item, '9.5px Mono', w - 44, 12.5) + 4,
+    0,
+  );
+  const contentHeight = 16 + 18 + listHeight + 16;
+  const height = Math.max(236, contentHeight);
+  drawRoundedRect(ctx, x, y, w, height, 14, palette.panel, palette.border);
+  let cursorY = y + 16;
+  ctx.font = '700 10px Mono';
+  ctx.fillStyle = palette.accent;
+  ctx.fillText('WHAT I CAN DO', x + 16, cursorY);
+  cursorY += 18;
+  cursorY = drawWrappedBulletList(ctx, TEKSHAPERS_STRENGTHS, x + 16, cursorY, w - 32, palette, { fontSize: 9.5, lineHeight: 12.5, bulletGap: 4 });
+  return y + height;
+}
+
+function drawExperienceCard(
+  ctx: CanvasCtx,
+  palette: TekshapersPalette,
+  x: number,
+  y: number,
+  w: number,
+  job: { company: string; role: string; date: string; bullets: string[] },
+  options?: { compact?: boolean },
+) {
+  const compact = options?.compact ?? false;
+  const innerWidth = w - 32;
+  const roleHeight = measureWrappedHeight(job.role, '10px Mono', innerWidth, 12);
+  const bulletHeights = job.bullets.reduce((total, bullet) => total + measureWrappedHeight(bullet, '9.2px Mono', innerWidth - 12, 12) + 4, 0);
+  const measuredHeight = 64 + roleHeight + bulletHeights;
+  const height = Math.max(compact ? 150 : 160, measuredHeight);
+  drawRoundedRect(ctx, x, y, w, height, 14, palette.panel, palette.border);
+  ctx.font = '700 11px Cardo';
+  ctx.fillStyle = palette.text;
+  ctx.fillText(job.company, x + 16, y + 14);
+  ctx.font = '700 8px Mono';
+  ctx.fillStyle = palette.faint;
+  ctx.fillText(job.date.toUpperCase(), x + 16, y + 32);
+  ctx.font = '10px Mono';
+  ctx.fillStyle = palette.accent;
+  const roleBlock = drawTextBlock(ctx, job.role, x + 16, y + 48, innerWidth, '10px Mono', palette.accent, 12);
+  let cursorY = roleBlock.y + 6;
+  cursorY = drawWrappedBulletList(ctx, job.bullets, x + 16, cursorY, innerWidth, palette, { fontSize: 9.2, lineHeight: 12, bulletGap: 4 });
+  return y + height;
+}
+
+function drawCoverLetterParagraphs(
+  ctx: CanvasCtx,
+  text: string,
+  x: number,
+  y: number,
+  width: number,
+  palette: TekshapersPalette,
+) {
+  const paragraphs = text.split(/\n\s*\n/).map((paragraph) => paragraph.trim()).filter(Boolean);
+  for (const paragraph of paragraphs) {
+    const font = paragraph.startsWith('- ') ? '9.5px Mono' : '10.8px Cardo';
+    const lineHeight = paragraph.startsWith('- ') ? 12.5 : 14.5;
+    y = drawTextBlock(ctx, paragraph, x, y, width, font, palette.text, lineHeight).y + 10;
+  }
+  return y;
+}
+
+async function renderTekshapersCoverLetterPage(theme: 'light' | 'dark') {
+  await ensureCanvasFonts();
+  const palette = TEKSHAPERS_PALLETES[theme];
+  const doc = new PDFDocument({
+    title: 'Alex Welcing - Tekshapers Cover Letter',
+    author: 'Alex Welcing',
+    subject: 'Tekshapers marketing SME cover letter',
+  });
+
+  const ctx = doc.beginPage(612, 792);
+  ctx.fillStyle = palette.bg;
+  ctx.fillRect(0, 0, 612, 792);
+  ctx.fillStyle = palette.panel;
+  ctx.fillRect(28, 28, 556, 736);
+  ctx.fillStyle = palette.accentSoft;
+  ctx.fillRect(28, 28, 556, 18);
+  ctx.fillStyle = palette.border;
+  ctx.fillRect(52, 104, 508, 1);
+
+  ctx.font = '700 24px Cardo';
+  ctx.fillStyle = palette.text;
+  ctx.textBaseline = 'top';
+  ctx.fillText('Alex Welcing', 52, 46);
+
+  ctx.font = '700 10px Mono';
+  ctx.fillStyle = palette.accent;
+  ctx.fillText('Cover Letter', 52, 76);
+
+  ctx.font = '9px Mono';
+  ctx.fillStyle = palette.faint;
+  ctx.fillText('Tekshapers · Marketing Expert - GenAI (C2C) · Remote / Michigan', 52, 92);
+
+  const letterText = readFileSync(TEKSHAPERS_COVER_LETTER_SOURCE, 'utf-8');
+  drawCoverLetterParagraphs(ctx, letterText, 52, 124, 508, palette);
+
+  ctx.font = '9px Mono';
+  ctx.fillStyle = palette.faint;
+  ctx.fillText('Generated packet PDF', 52, 712);
+  ctx.fillText('Page 1', 522, 712);
+
+  doc.endPage();
+  return doc.close();
+}
+
+async function renderTekshapersPacketPage(theme: 'light' | 'dark') {
+  await ensureCanvasFonts();
+  const palette = TEKSHAPERS_PALLETES[theme];
+  const doc = new PDFDocument({ title: 'Alex Welcing - Tekshapers Marketing Expert - GenAI', author: 'Alex Welcing', subject: 'Tekshapers marketing SME resume packet' });
+
+  const drawPage = (pageNumber: number, render: (ctx: CanvasCtx) => void) => {
+    const ctx = doc.beginPage(TEKSHAPERS_PAGE_W, TEKSHAPERS_PAGE_H);
+    render(ctx);
+    doc.endPage();
+  };
+
+  drawPage(1, (ctx) => {
+    drawTopBanner(ctx, palette, 1, 'Marketing Subject Matter Expert - GenAI | Contract C2C', 'Marketing strategy, campaign ops, analytics, and AI workflow translation');
+
+    const topY = TEKSHAPERS_CONTENT_TOP;
+    const leftX = TEKSHAPERS_MARGIN;
+    const rightX = TEKSHAPERS_MARGIN + TEKSHAPERS_COL_W + TEKSHAPERS_GAP;
+
+    const summaryBottom = drawSummaryPanel(ctx, palette, leftX, topY, TEKSHAPERS_COL_W);
+    const strengthBottom = drawStrengthPanel(ctx, palette, leftX, summaryBottom + 12, TEKSHAPERS_COL_W);
+    assertPageContainment('page1-left-column', strengthBottom);
+
+    let rightY = topY;
+    rightY = drawSectionHeader(ctx, palette, rightX, rightY, 'Recent Experience', TEKSHAPERS_COL_W);
+    for (let index = 0; index < TEKSHAPERS_RECENT_JOBS.length; index += 1) {
+      const job = TEKSHAPERS_RECENT_JOBS[index];
+      rightY = drawExperienceCard(ctx, palette, rightX, rightY, TEKSHAPERS_COL_W, job);
+      if (index < TEKSHAPERS_RECENT_JOBS.length - 1) rightY += 8;
+    }
+    assertPageContainment('page1-right-column', rightY);
+  });
+
+  drawPage(2, (ctx) => {
+    drawTopBanner(ctx, palette, 2, 'Marketing Subject Matter Expert - GenAI | Contract C2C', 'Historic marketing experience for workflow mapping, analytics, and campaign optimization');
+
+    const topY = TEKSHAPERS_CONTENT_TOP;
+    const leftX = TEKSHAPERS_MARGIN;
+    const rightX = TEKSHAPERS_MARGIN + TEKSHAPERS_COL_W + TEKSHAPERS_GAP;
+
+    let leftY = drawSectionHeader(ctx, palette, leftX, topY, 'Earlier Marketing Experience', TEKSHAPERS_COL_W);
+    let rightY = leftY;
+
+    for (let index = 0; index < TEKSHAPERS_EARLIER_JOBS.length; index += 1) {
+      const job = TEKSHAPERS_EARLIER_JOBS[index];
+      if (index < 3) {
+        leftY = drawExperienceCard(ctx, palette, leftX, leftY, TEKSHAPERS_COL_W, job, { compact: true });
+        if (index < 2) leftY += 8;
+      } else {
+        rightY = drawExperienceCard(ctx, palette, rightX, rightY, TEKSHAPERS_COL_W, job, { compact: true });
+        if (index < TEKSHAPERS_EARLIER_JOBS.length - 1) rightY += 8;
+      }
+    }
+    assertPageContainment('page2-left-column-jobs', leftY);
+    assertPageContainment('page2-right-column-jobs', rightY);
+
+    const educationY = 646;
+    drawRoundedRect(ctx, leftX, educationY, TEKSHAPERS_COL_W, 98, 14, palette.panel, palette.border);
+    ctx.font = '700 10px Mono';
+    ctx.fillStyle = palette.accent;
+    ctx.fillText('Education + Tools', leftX + 16, educationY + 14);
+    drawWrappedBulletList(ctx, TEKSHAPERS_EDUCATION, leftX + 16, educationY + 36, TEKSHAPERS_COL_W - 32, palette, { fontSize: 9.2, lineHeight: 12, bulletGap: 4 });
+    assertPageContainment('page2-education', educationY + 98);
+
+  });
+
+  return doc.close();
+}
+
+async function emitTekshapersPacket() {
+  const light = await renderTekshapersPacketPage('light');
+  const dark = await renderTekshapersPacketPage('dark');
+  const coverLetterPdf = await renderTekshapersCoverLetterPage('light');
+  await writeFile(resolve(publicDir, 'resumes/tekshapers-marketing-expert-genai.pdf'), light);
+  await writeFile(resolve(publicDir, 'resumes/tekshapers-marketing-expert-genai-light.pdf'), dark);
+  await writeFile(resolve(publicDir, 'cover-letters/tekshapers-marketing-expert-genai.pdf'), coverLetterPdf);
+  await writeFile(
+    resolve(publicDir, 'cover-letters/tekshapers-marketing-expert-genai.txt'),
+    readFileSync(TEKSHAPERS_COVER_LETTER_SOURCE, 'utf-8'),
+    'utf-8',
+  );
+}
 
 type Props = { role?: TailoredRole; theme?: 'dark' | 'light'; scale: number };
 const render = (p: Props) => renderToBuffer(createElement(ResumePDFDocument, { ...p, wordmark }));
@@ -327,6 +868,7 @@ type ApplicationPacket = {
   resumePdf: string;
   resumeLightPdf: string;
   coverLetterTxt: string;
+  coverLetterPdf?: string;
   source: 'curated-role' | 'top-target';
 };
 
@@ -336,19 +878,46 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
   const dark = `resumes/${role.slug}.pdf`;
   const light = `resumes/${role.slug}-light.pdf`;
   const letter = `cover-letters/${role.slug}.txt`;
+  const letterPdf = `cover-letters/${role.slug}.pdf`;
   const shareId = getAnonymousShareId(role.slug);
   const anonymousBasePath = getAnonymousPacketBasePath(role.slug);
   const anonymousDir = resolve(publicDir, anonymousBasePath.slice(1));
   const anonymousResume = resolve(anonymousDir, 'resume.pdf');
   const anonymousResumeLight = resolve(anonymousDir, 'resume-light.pdf');
   const anonymousCoverLetter = resolve(anonymousDir, 'cover-letter.txt');
+  const anonymousCoverLetterPdf = resolve(anonymousDir, 'cover-letter.pdf');
 
-  await emit(role, resolve(publicDir, dark), resolve(publicDir, light));
-  await writeFile(resolve(publicDir, letter), buildCoverLetter(role), 'utf-8');
+  const custom = CUSTOM_PACKET_SOURCES[role.slug];
+
+  if (
+    custom
+    && existsSync(custom.resumePdf)
+    && existsSync(custom.coverLetterTxt)
+    && (!custom.coverLetterPdf || existsSync(custom.coverLetterPdf))
+  ) {
+    const customLight = custom.resumeLightPdf && existsSync(custom.resumeLightPdf)
+      ? custom.resumeLightPdf
+      : custom.resumePdf;
+    await copyFile(custom.resumePdf, resolve(publicDir, dark));
+    await copyFile(customLight, resolve(publicDir, light));
+    await copyFile(custom.coverLetterTxt, resolve(publicDir, letter));
+    if (custom.coverLetterPdf) {
+      await copyFile(custom.coverLetterPdf, resolve(publicDir, letterPdf));
+    }
+    count += 2;
+    console.log(`[resumes] ${role.slug} → custom packet assets`);
+  } else {
+    await emit(role, resolve(publicDir, dark), resolve(publicDir, light));
+    await writeFile(resolve(publicDir, letter), buildCoverLetter(role), 'utf-8');
+  }
+
   await mkdir(anonymousDir, { recursive: true });
   await copyFile(resolve(publicDir, dark), anonymousResume);
   await copyFile(resolve(publicDir, light), anonymousResumeLight);
   await copyFile(resolve(publicDir, letter), anonymousCoverLetter);
+  if (custom?.coverLetterPdf && existsSync(resolve(publicDir, letterPdf))) {
+    await copyFile(resolve(publicDir, letterPdf), anonymousCoverLetterPdf);
+  }
 
   packets.push({
     slug: role.slug,
@@ -361,6 +930,7 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
     resumePdf: `${anonymousBasePath}/resume.pdf`,
     resumeLightPdf: `${anonymousBasePath}/resume-light.pdf`,
     coverLetterTxt: `${anonymousBasePath}/cover-letter.txt`,
+    ...(custom?.coverLetterPdf ? { coverLetterPdf: `${anonymousBasePath}/cover-letter.pdf` } : {}),
     source,
   });
 }
@@ -370,6 +940,10 @@ const plainBuf = await renderToBuffer(createElement(ResumePlainPDFDocument, {}))
 await writeFile(resolve(publicDir, 'resume-plain.pdf'), plainBuf);
 count += 1;
 console.log(`[resumes] plain → ${pageCount(plainBuf)} page(s)`);
+
+// Special canvas-built marketing resume packet.
+await emitTekshapersPacket();
+console.log('[resumes] tekshapers-marketing-expert-genai → canvas packet');
 
 // Base
 await emit(undefined, resolve(publicDir, 'resume.pdf'), resolve(publicDir, 'resume-light.pdf'));

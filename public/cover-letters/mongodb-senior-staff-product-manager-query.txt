@@ -1,0 +1,27 @@
+Hiring Team at MongoDB
+
+I am applying for the Senior Staff Product Manager, Query role (United States).
+
+My pitch for this role is simple: I bring experience Open the resume on the LBR identity re-platform -- SSO/SAML/OIDC for 150+ AmLaw 200 firms and subscription at billions of requests/mo. Frame Alex as a technical PM who ships 0-to-1 and partners tightly with engineering.
+
+Alex has lived this problem from the inside: at LBR (Law Business Research) Alex re-platformed the identity & subscription system to handle billions of requests/mo across 10+ products, and ran SSO/SAML/OIDC onboarding for 150+ AmLaw 200 firms. Combined with leading IAM at Manatt for 1,000+ clients, it's a direct fit for MongoDB's trust-and-security surface.
+
+The strongest proof for this application is that I have already done adjacent work across Enterprise deployment and trust, Document and knowledge-work AI, Platform and developer-tooling product work.
+
+Why I am a strong fit:
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
+- 8+ yrs PM, senior/staff level: I bring experience Open the resume on the LBR identity re-platform -- SSO/SAML/OIDC for 150+ AmLaw 200 firms and subscription at billions of requests/mo. Frame Alex as a technical PM who ships 0-to-1 and partners tightly with engineering.
+
+Selected proof points:
+- Enterprise deployment and trust
+- Document and knowledge-work AI
+- Platform and developer-tooling product work
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

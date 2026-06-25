@@ -2,21 +2,21 @@ Hiring Team at Datadog
 
 I am applying for the Product Manager II - Model Lab role (New York, NY).
 
-My pitch for this role is simple: I bring experience Obsess agent/devtools PM and Manatt document-AI eval work; position as the PM who builds tools for AI builders.
+My pitch for this role is simple: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
 
-Excellent fit: AI/agents + devtools + document-AI experience maps directly to model experimentation/eval tooling for AI builders.
+Datadog's emphasis on LLM/Agent Observability lines up with the identity and access work Alex has actually shipped -- Alex's LBR work re-architecting enterprise identity (SSO/SAML/OIDC, 150+ AmLaw 200 firms) and subscription/entitlements at billions of requests/mo, plus at Manatt he led IAM for a research platform serving 1,000+ clients.
 
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Platform and developer-tooling product work.
+The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
 
 Why I am a strong fit:
 - Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
-- 3-5 yrs PM: I bring experience Obsess agent/devtools PM and Manatt document-AI eval work; position as the PM who builds tools for AI builders.
+- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
+- 3-5 yrs PM: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
 
 Selected proof points:
 - Multi-agent systems built end to end
+- Enterprise deployment and trust
 - Document and knowledge-work AI
-- Platform and developer-tooling product work
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 

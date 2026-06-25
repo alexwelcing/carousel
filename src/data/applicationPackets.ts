@@ -7,6 +7,11 @@ export interface ApplicationPacketOverride {
 }
 
 export const applicationPacketOverrides: Record<string, ApplicationPacketOverride> = {
+  'tekshapers-marketing-expert-genai': {
+    summary: 'A two-page, marketing-first packet tailored for C2C GenAI model-training work: lifecycle strategy, structured workflow mapping, evaluation rigor, and hands-on campaign execution history.',
+    coverLetterLead: 'I bring a rare combination for this role: deep hands-on marketing execution across the full funnel and practical experience translating messy real-world workflows into systems and data structures AI teams can use.',
+    recruiterNote: 'Best used when the hiring team needs a marketing SME who can collaborate fluently with ML, product, and engineering partners.',
+  },
   anthropic: {
     summary: 'A founder-grade forward-deployed packet built around agent systems, enterprise deployments, and direct product feedback loops.',
     coverLetterLead: 'I already work the way Anthropic needs a forward-deployed engineer to work: I embed with users, build the system, and feed the learning back into product.',
@@ -38,6 +43,7 @@ export interface ApplicationPacketLinks {
   resumePdf: string;
   resumePrintPdf: string;
   coverLetterTxt: string;
+  coverLetterPdf?: string;
 }
 
 export function getApplicationPacketLinks(slug: string): ApplicationPacketLinks {
@@ -46,5 +52,6 @@ export function getApplicationPacketLinks(slug: string): ApplicationPacketLinks 
     resumePdf: `${basePath}/resume.pdf`,
     resumePrintPdf: `${basePath}/resume-light.pdf`,
     coverLetterTxt: `${basePath}/cover-letter.txt`,
+    ...(slug === 'tekshapers-marketing-expert-genai' ? { coverLetterPdf: `${basePath}/cover-letter.pdf` } : {}),
   };
 }
