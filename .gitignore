@@ -14,3 +14,8 @@ public/resumes/
 output/
 hyperframes-studio/renders/
 hyperframes-studio/.hyperframes/
+
+# Local source resume PDFs (keep untracked)
+Alex Welcing Resume.pdf
+AlexWelcingResume.pdf
+AlexWelcingResume2017.pdf
