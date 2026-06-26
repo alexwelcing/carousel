@@ -36,13 +36,13 @@ export const flagships: Flagship[] = [
     tag: 'R3F MOLECULE VIEWER · PRODUCT SURFACE',
     status: 'LIVE',
     description:
-      'The interactive molecule viewer: a TypeScript / React Three Fiber / WebGL surface for inspecting molecular structures and trajectories in the browser. This is the product interface — the thing people can touch.',
+      'Built the public product surface: a browser-based molecular trajectory viewer using TypeScript, React Three Fiber, and WebGL. Owns interaction model, frontend architecture, and live scientific demo.',
     stack: ['TypeScript', 'React Three Fiber', 'WebGL', 'Molecular Visualization', 'Browser Product'],
     links: [
       { label: 'lupi.live', url: 'https://lupi.live' },
       { label: 'GitHub', url: 'https://github.com/alexwelcing/lupine' },
     ],
-    accent: '#33CCFF',
+    accent: '#0B5CAD',
     molecule: true,
   },
   {
@@ -51,13 +51,13 @@ export const flagships: Flagship[] = [
     tag: 'MATERIALS-SCIENCE AI · COMPANY / RESEARCH',
     status: 'RESEARCH SITE',
     description:
-      'The mathematical and scientific layer behind Lupine Science: MLIP benchmarks, phase-change trajectory simulation, and the research argument for applying machine-learned potentials to materials discovery.',
+      'Built the research/company layer behind Lupine Science: MLIP benchmarks, phase-change trajectory simulation, and the technical narrative for applying machine-learned potentials to materials discovery.',
     stack: ['MLIP', 'Phase-Change Simulation', 'Python', 'Scientific Computing', 'Research Narrative'],
     links: [
       { label: 'lupine.science', url: 'https://lupine.science' },
       { label: 'GitHub', url: 'https://github.com/alexwelcing/lupine' },
     ],
-    accent: '#6C63FF',
+    accent: '#4B3EC8',
     molecule: true,
   },
   {
@@ -66,7 +66,7 @@ export const flagships: Flagship[] = [
     tag: '3D WEB · SEMANTIC SEARCH',
     status: 'LIVE',
     description:
-      'An explorable 3D content site with real-time physics and AI semantic search over the writing — OpenAI embeddings served from pgvector in Supabase.',
+      'Built a 3D writing/product site with real-time physics and semantic search over the archive — OpenAI embeddings served from pgvector in Supabase.',
     stack: ['Next.js', 'React Three Fiber', 'Cannon', 'Supabase pgvector'],
     links: [
       { label: 'alexwelcing.com', url: 'https://alexwelcing.com' },
@@ -80,7 +80,7 @@ export const flagships: Flagship[] = [
     tag: 'MARKETING-AUTOMATION OS',
     status: 'PRODUCTION · GCP',
     description:
-      'A full go-to-market automation operating system — content generation, a workflow engine, and analytics — architected and shipped end-to-end as a single operator on Google Cloud.',
+      'Architected and shipped a go-to-market automation OS end-to-end: content generation, workflow engine, analytics, and Google Cloud deployment as a single operator.',
     stack: ['FastAPI', 'SvelteKit', 'Python', 'GCP / Cloud Run'],
     links: [],
     accent: '#3178C6',

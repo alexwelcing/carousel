@@ -2,7 +2,6 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
-import Wordmark from '../components/Wordmark';
 import BalancedText from '../components/BalancedText';
 import FlagshipCard from '../components/FlagshipCard';
 import { flagships } from '../data/projects';
@@ -146,27 +145,22 @@ function HeroSection() {
   }, []);
 
   return (
-    <section ref={heroRef} className="relative overflow-hidden" style={{ paddingTop: 'clamp(64px, 9vh, 152px)', paddingBottom: 'clamp(56px, 8vh, 112px)' }}>
+    <section ref={heroRef} className="relative overflow-hidden" style={{ paddingTop: 'clamp(36px, 7vh, 96px)', paddingBottom: 'clamp(40px, 7vh, 88px)' }}>
       <div className="content-max-width grid gap-8 lg:gap-10 lg:grid-cols-[1.08fr_0.92fr] lg:items-start">
         <div className="min-w-0">
           <div data-hero-kicker>
             <SectionLabel>welc.ing · Alex Welcing</SectionLabel>
           </div>
 
-          <div data-hero-wordmark className="hidden sm:block mb-6 lg:mb-7">
-            <Wordmark maxWidth={640} color="var(--text-primary)" accent="var(--accent)" slant={-1.1} />
-          </div>
-          <h2 className="sm:hidden font-display mb-6" style={{ color: "var(--text-primary)" }}>Alex Welcing</h2>
-
           <div data-hero-heading>
             <BalancedText as="h1" className="font-h1 mb-4 lg:mb-5" style={{ color: 'var(--text-primary)' }}>
-              I build AI products from zero to shipped — solo when needed, at enterprise scale when it matters.
+              I build complex AI products from zero to shipped.
             </BalancedText>
           </div>
 
           <div data-hero-copy>
             <BalancedText as="p" className="font-body" style={{ color: 'var(--text-secondary)' }}>
-              Twelve-plus years across enterprise platforms, AI agents, materials-science ML, and document understanding. lupi.live is the R3F molecule viewer; lupine.science is the company and mathematical research layer. Considering principal / staff / forward-deployed PM roles in New York.
+              12+ years across enterprise platforms, AI agents, scientific interfaces, and document intelligence — hands-on enough to build, senior enough to align roadmap, UX, technical risk, and delivery.
             </BalancedText>
           </div>
 
@@ -176,48 +170,37 @@ function HeroSection() {
               data-hero-action
               className="font-nav inline-flex items-center gap-2 px-5 py-3 lg:px-6 transition-all duration-200"
               style={{
-                backgroundColor: 'var(--text-primary)',
-                color: 'var(--bg-primary)',
+                backgroundColor: '#1d3fd4',
+                color: '#ffffff',
+                border: '1px solid #1d3fd4',
                 borderRadius: '999px',
-                boxShadow: '0 14px 30px rgba(16, 21, 31, 0.14)',
+                boxShadow: '0 16px 34px rgba(29, 63, 212, 0.28)',
               }}
             >
-              VIEW WORK <span aria-hidden="true">→</span>
+              VIEW SELECTED WORK <span aria-hidden="true">→</span>
             </Link>
             <Link
               to="/contact"
               data-hero-action
               className="font-nav inline-flex items-center gap-2 px-5 py-3 lg:px-6 transition-all duration-200"
               style={{
-                backgroundColor: 'rgba(255,255,255,0.7)',
-                color: 'var(--text-primary)',
-                border: '1px solid var(--border-subtle)',
+                backgroundColor: '#ffffff',
+                color: '#10151f',
+                border: '1.5px solid #10151f',
                 borderRadius: '999px',
               }}
             >
-              GET IN TOUCH <span aria-hidden="true">↗</span>
+              CONTACT ALEX <span aria-hidden="true">↗</span>
             </Link>
           </div>
 
-          <div className="mt-6 lg:mt-8 grid gap-3 grid-cols-1 sm:grid-cols-3 min-w-0">
-            <div className="rounded-[20px] border border-[var(--border-subtle)] bg-[rgba(255,255,255,0.72)] p-4">
-              <span className="font-caption block mb-2" style={{ color: 'var(--text-tertiary)' }}>Recent</span>
-              <p className="font-body-small" style={{ color: 'var(--text-primary)' }}>
-                Took Manatt legal-publishing SaaS from beta to millions in ARR; built AI document scanning for 1,000+ clients.
-              </p>
-            </div>
-            <div className="rounded-[20px] border border-[var(--border-subtle)] bg-[rgba(255,255,255,0.72)] p-4">
-              <span className="font-caption block mb-2" style={{ color: 'var(--text-tertiary)' }}>Now</span>
-              <p className="font-body-small" style={{ color: 'var(--text-primary)' }}>
-                lupi.live is the R3F molecule viewer; lupine.science is the company/research site for the mathematical side of the work.
-              </p>
-            </div>
-            <div className="rounded-[20px] border border-[var(--border-subtle)] bg-[rgba(255,255,255,0.72)] p-4">
-              <span className="font-caption block mb-2" style={{ color: 'var(--text-tertiary)' }}>Targeting</span>
-              <p className="font-body-small" style={{ color: 'var(--text-primary)' }}>
-                Principal / staff product and forward-deployed PM roles at AI-native companies.
-              </p>
-            </div>
+          <div className="mt-6 lg:mt-8 grid gap-3 grid-cols-2 lg:grid-cols-4 min-w-0">
+            {STATS.map((stat) => (
+              <div key={stat.label} className="rounded-[18px] border border-[var(--border-hover)] bg-[rgba(255,255,255,0.88)] p-4 shadow-[0_10px_24px_rgba(16,20,28,0.05)] min-w-0">
+                <div className="font-h3" style={{ color: 'var(--text-primary)' }}>{stat.value}</div>
+                <p className="font-body-small mt-1" style={{ color: 'var(--text-secondary)', lineHeight: 1.35 }}>{stat.label}</p>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -227,7 +210,7 @@ function HeroSection() {
           <div className="rounded-[24px] border border-[var(--border-subtle)] bg-[rgba(255,255,255,0.74)] p-5 lg:p-6 shadow-[0_18px_50px_rgba(16,20,28,0.08)] backdrop-blur-md">
             <span className="font-caption block mb-3" style={{ color: 'var(--text-tertiary)' }}>WHAT I AM RIGHT FOR</span>
             <BalancedText as="p" className="font-h3 mb-4 lg:mb-5" style={{ color: 'var(--text-primary)' }}>
-              The narrow decision in a complex AI product, when the roadmap, the surface, and the execution path all need to line up.
+              Best fit: ambiguous AI products where feasibility, roadmap, interface, and execution all need one owner.
             </BalancedText>
             <div className="space-y-3">
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4 border-t border-[var(--border-subtle)] pt-3">
@@ -248,29 +231,6 @@ function HeroSection() {
       </div>
 
       <div ref={ruleRef} className="content-max-width mt-10 h-px bg-[var(--border-subtle)]" />
-    </section>
-  );
-}
-
-function StatsBar() {
-  const { ref, revealed } = useReveal();
-  return (
-    <section ref={ref} className="content-max-width py-4">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
-        {STATS.map((stat, index) => (
-          <motion.div
-            key={stat.label}
-            className="rounded-[20px] border border-[var(--border-subtle)] bg-[rgba(255,255,255,0.72)] px-4 py-5 lg:px-5 lg:py-6 shadow-[0_12px_28px_rgba(16,20,28,0.04)] min-w-0"
-            data-hero-stat
-            initial={{ opacity: 0, y: 18 }}
-            animate={revealed ? { opacity: 1, y: 0 } : { opacity: 0, y: 18 }}
-            transition={{ duration: 0.45, delay: index * 0.07, ease: easeOut }}
-          >
-            <div className="font-h2" style={{ color: 'var(--text-primary)' }}>{stat.value}</div>
-            <div className="font-caption mt-3 leading-tight break-words" style={{ color: 'var(--text-secondary)' }}>{stat.label}</div>
-          </motion.div>
-        ))}
-      </div>
     </section>
   );
 }
@@ -453,7 +413,6 @@ export default function Home() {
   return (
     <div className="w-full" style={{ opacity: 0, animation: 'fade-in 0.6s ease-out forwards' }}>
       <HeroSection />
-      <StatsBar />
       <ProofSection />
       <SelectedWork />
       <OperatingModel />

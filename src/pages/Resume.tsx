@@ -7,17 +7,17 @@ import PageIntro from '@/components/PageIntro';
 /* ─── Inline resume data (mirrors PDF) ─────────────────────────── */
 
 const STATS = [
-  { value: '352', label: 'REPOSITORIES' },
-  { value: '1,708', label: 'CONTRIBUTIONS/YR' },
-  { value: '20+', label: 'LANGUAGES' },
-  { value: '12', label: 'YEARS IN AI' },
+  { value: '12+', label: 'YEARS SHIPPING AI / PRODUCT SYSTEMS' },
+  { value: 'Billions', label: 'MONTHLY REQUESTS MIGRATED AT LBR' },
+  { value: '150+', label: 'ENTERPRISE SSO ROLLOUTS' },
+  { value: '3+', label: 'PUBLIC TECHNICAL PRODUCTS LIVE' },
 ];
 
 const EXPERIENCE = [
   {
     company: 'Law Business Research',
     role: 'Technical Product Manager',
-    dates: 'Jan 2024 – June 2026',
+    dates: 'Jan 2024 – Present',
     bullets: [
       'Launched AI API execution workspace with type safety, oRPC, and self-improving model usage accuracy across 3 separate APIs',
       'Replaced legacy platform handling billions of monthly requests — unified access, unlocked revenue growth',
@@ -89,23 +89,23 @@ export default function Resume() {
 
   return (
     <div className="w-full relative" style={{ backgroundColor: 'var(--bg-primary)' }}>
-      <div className="content-max-width" style={{ padding: '24px clamp(24px, 5vw, 80px) 60px' }}>
+      <div className="content-max-width min-w-0" style={{ paddingTop: 24, paddingBottom: 60 }}>
 
         {/* ─── Nav row ─── */}
         <div className="flex items-center justify-between mb-8">
           <Link
-            to="/contact"
-            className="font-nav inline-flex items-center gap-2 transition-colors duration-200"
+            to="/"
+            className="font-nav inline-flex items-center gap-2 transition-colors duration-200 min-h-11"
             style={{ color: 'var(--text-tertiary)', fontSize: '0.75rem' }}
             onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--accent)'; }}
             onMouseLeave={(e) => { e.currentTarget.style.color = 'var(--text-tertiary)'; }}
           >
-            <ArrowLeft size={12} /> BACK
+            <ArrowLeft size={12} /> BACK TO SITE
           </Link>
           <button
             onClick={handleDownload}
             disabled={downloading}
-            className="font-nav inline-flex items-center gap-2 transition-all duration-200 cursor-pointer disabled:opacity-50"
+            className="font-nav inline-flex items-center justify-center gap-2 transition-all duration-200 cursor-pointer disabled:opacity-50 min-h-11"
             style={{
               padding: '10px 20px',
               backgroundColor: 'var(--accent)',
@@ -122,17 +122,17 @@ export default function Resume() {
         <PageIntro
           kicker="Downloadable resume"
           title="Alex Welcing"
-          description="AI engineer, technical product manager, and open source builder focused on shipping useful systems with strong judgment."
+          description="Technical product leader and AI builder shipping enterprise platforms, agent workflows, scientific interfaces, and document intelligence from strategy through production code."
           meta={
-            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 font-caption" style={{ color: 'var(--text-tertiary)' }}>
+            <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-x-2 gap-y-2 font-caption min-w-0" style={{ color: 'var(--text-tertiary)' }}>
               <span>New York, NY</span>
-              <span>|</span>
-              <span>alexwelcing@gmail.com</span>
-              <span>|</span>
+              <span className="hidden sm:inline">|</span>
+              <a href="mailto:alexwelcing@gmail.com" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>alexwelcing@gmail.com</a>
+              <span className="hidden sm:inline">|</span>
               <a href="https://github.com/alexwelcing" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }} className="hover:text-[var(--accent)] transition-colors">
                 github.com/alexwelcing
               </a>
-              <span>|</span>
+              <span className="hidden sm:inline">|</span>
               <a href="https://linkedin.com/in/alexwelcing" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }} className="hover:text-[var(--accent)] transition-colors">
                 linkedin.com/in/alexwelcing
               </a>
@@ -141,13 +141,13 @@ export default function Resume() {
         />
 
         {/* ═══════════ STATS ═══════════ */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-0 mb-6" style={{ borderBottom: '1px solid var(--border-subtle)', paddingBottom: 16 }}>
-          {STATS.map((s, i) => (
-            <div key={s.label} className="flex flex-col items-center" style={{ borderRight: i < 3 ? '1px solid var(--border-subtle)' : 'none' }}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mb-8" style={{ borderBottom: '1px solid var(--border-subtle)', paddingBottom: 16 }}>
+          {STATS.map((s) => (
+            <div key={s.label} className="flex flex-col items-start rounded-[16px] border border-[var(--border-hover)] bg-[rgba(255,255,255,0.78)] p-4 min-w-0">
               <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 'clamp(1.5rem, 3vw, 2.2rem)', fontWeight: 700, color: 'var(--text-primary)' }}>
                 {s.value}
               </span>
-              <span className="font-caption" style={{ color: 'var(--text-tertiary)', fontSize: '0.6rem', marginTop: 2 }}>
+              <span className="font-caption" style={{ color: 'var(--text-secondary)', fontSize: '0.68rem', marginTop: 6, lineHeight: 1.25 }}>
                 {s.label}
               </span>
             </div>
@@ -160,7 +160,7 @@ export default function Resume() {
             SUMMARY
           </h2>
           <p className="font-body-small" style={{ color: 'var(--text-secondary)', lineHeight: 1.7 }}>
-            AI Engineer with 12 years shipping AI-powered products. Front-end focused, fast framework adopter. Building at the intersection of advanced frontend systems and AI agent development. 352 open source repositories spanning TypeScript frontends, Python AI/ML systems, and materials science visualization. "Architect PM" who prototypes and ships — from NLP partnerships (2016) to modern LLM integrations.
+            AI product builder with 12+ years shipping enterprise platforms, document AI, scientific visualization, and agent workflows. Hands-on in TypeScript/Python when needed; senior enough to align roadmap, UX, technical risk, and delivery across regulated enterprise environments.
           </p>
         </section>
 
@@ -174,14 +174,14 @@ export default function Resume() {
               <div key={job.company}>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
                   <div>
-                    <h3 className="font-h3" style={{ fontSize: '0.9rem', color: 'var(--text-primary)', marginBottom: 1 }}>{job.company}</h3>
+                    <h3 className="font-h3" style={{ fontSize: '1.08rem', color: 'var(--text-primary)', marginBottom: 1 }}>{job.company}</h3>
                     <span style={{ fontSize: '0.78rem', color: 'var(--accent)' }}>{job.role}</span>
                   </div>
                   <span className="font-caption" style={{ color: 'var(--text-tertiary)', fontSize: '0.65rem' }}>{job.dates}</span>
                 </div>
                 <ul className="flex flex-col gap-1">
                   {job.bullets.map((b, i) => (
-                    <li key={i} className="font-body-small flex gap-2" style={{ color: 'var(--text-secondary)', fontSize: '0.78rem', lineHeight: 1.6 }}>
+                    <li key={i} className="font-body-small flex gap-2" style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.55 }}>
                       <span style={{ color: 'var(--accent)', flexShrink: 0 }}>{'>'}</span>
                       <span>{b}</span>
                     </li>
@@ -193,7 +193,7 @@ export default function Resume() {
         </section>
 
         {/* ═══════════ SKILLS + EDUCATION ═══════════ */}
-        <div className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr] gap-8" style={{ marginBottom: 24 }}>
+        <div className="grid grid-cols-1 lg:grid-cols-[1.25fr_0.9fr] gap-8" style={{ marginBottom: 24 }}>
           <section>
             <h2 className="font-nav" style={{ color: 'var(--accent)', letterSpacing: 0.08, fontSize: '0.75rem', marginBottom: 12, paddingBottom: 4, borderBottom: '1px solid var(--border-subtle)' }}>
               SKILLS
@@ -210,7 +210,7 @@ export default function Resume() {
             </div>
           </section>
 
-          <section style={{ borderLeft: '1px solid var(--border-subtle)', paddingLeft: 24 }}>
+          <section className="lg:border-l lg:border-[var(--border-subtle)] lg:pl-6">
             <h2 className="font-nav" style={{ color: 'var(--accent)', letterSpacing: 0.08, fontSize: '0.75rem', marginBottom: 12, paddingBottom: 4, borderBottom: '1px solid var(--border-subtle)' }}>
               HIGHLIGHTS
             </h2>
@@ -243,7 +243,7 @@ export default function Resume() {
 
         {/* ═══════════ FOOTER CTA ═══════════ */}
         <footer
-          className="flex flex-col sm:flex-row items-center justify-between gap-4"
+          className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
           style={{ borderTop: '1px solid var(--border-subtle)', paddingTop: 16, marginTop: 8 }}
         >
           <div className="flex items-center gap-2">

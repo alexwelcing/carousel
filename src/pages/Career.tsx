@@ -27,7 +27,7 @@ const roles: Role[] = [
   {
     company: 'Law Business Research',
     title: 'Technical Product Manager — Identity & Platform',
-    period: 'Jan 2024 – Jun 2026',
+    period: 'Jan 2024 – Present',
     bullets: [
       'Launched AI API execution workspace with type safety, oRPC, and self-improving model usage accuracy across 3 separate APIs',
       'Replaced legacy platform handling billions of monthly requests — unified access, unlocked revenue growth',
@@ -154,19 +154,21 @@ const achievements: Achievement[] = [
 const easeOut = [0, 0, 0.2, 1] as [number, number, number, number];
 
 const timelineCardLeft = {
-  hidden: { opacity: 0, x: -30 },
+  hidden: { opacity: 0, x: 0, y: 18 },
   visible: (i: number) => ({
     opacity: 1,
     x: 0,
+    y: 0,
     transition: { delay: i * 0.12, duration: 0.6, ease: easeOut },
   }),
 };
 
 const timelineCardRight = {
-  hidden: { opacity: 0, x: 30 },
+  hidden: { opacity: 0, x: 0, y: 18 },
   visible: (i: number) => ({
     opacity: 1,
     x: 0,
+    y: 0,
     transition: { delay: i * 0.12, duration: 0.6, ease: easeOut },
   }),
 };
@@ -354,14 +356,30 @@ export default function Career() {
     <div style={{ opacity: 0, position: 'relative' }} className="animate-fade-in">
       <PageIntro
         kicker="Professional history"
-        title="15 years of building"
-        description="From NLP-driven AI partnerships in 2011 to modern multi-agent systems today. Fifteen years of technical product management, frontend architecture, and enterprise SaaS at scale — strategy and shipped code from the same person."
+        title="Career proof, not chronology theater"
+        description="Technical product leadership across enterprise identity, AI execution workspaces, 3D commerce, legal document AI, and scientific interfaces — with strategy and shipped code from the same person."
         meta={
           <p className="font-caption" style={{ color: 'var(--text-tertiary)' }}>
-            2011-2026 | AI -&gt; PUBLISHING -&gt; VR -&gt; ENTERPRISE PLATFORMS
+            2011-PRESENT · AI → PUBLISHING → 3D COMMERCE → ENTERPRISE PLATFORMS
           </p>
         }
       />
+
+      <section className="content-max-width" style={{ paddingBottom: 'clamp(40px, 7vh, 72px)' }}>
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          {[
+            ['Billions / mo', 'Re-platformed LBR identity and subscription systems across 10+ products.'],
+            ['150+ SSO rollouts', 'Led SAML/OIDC onboarding for AmLaw 200 enterprise customers.'],
+            ['0 → $M ARR', 'Took Manatt legal-publishing SaaS from beta to millions in ARR.'],
+            ['Public AI systems', 'Built lupi.live, lupine.science, document AI, and AI API execution workspaces.'],
+          ].map(([metric, proof]) => (
+            <div key={metric} className="rounded-[20px] border border-[var(--border-hover)] bg-[rgba(255,255,255,0.86)] p-5 shadow-[0_12px_28px_rgba(16,20,28,0.05)] min-w-0">
+              <div className="font-h3" style={{ color: 'var(--text-primary)' }}>{metric}</div>
+              <p className="font-body-small mt-2" style={{ color: 'var(--text-secondary)', lineHeight: 1.45 }}>{proof}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* ============================================================ */}
       {/* SECTION 2 — Career Timeline                                  */}
@@ -370,12 +388,12 @@ export default function Career() {
         className="relative overflow-hidden"
         style={{
           backgroundColor: 'var(--bg-elevated)',
-          paddingTop: '120px',
-          paddingBottom: '120px',
+          paddingTop: 'clamp(48px, 7vh, 88px)',
+          paddingBottom: 'clamp(56px, 8vh, 104px)',
         }}
       >
         {/* Section label */}
-        <div className="content-max-width mb-16">
+        <div className="content-max-width mb-8">
           <span className="font-caption" style={{ color: 'var(--text-tertiary)' }}>
             [ CAREER TIMELINE ]
           </span>
@@ -394,7 +412,7 @@ export default function Career() {
 
           {/* Mobile vertical line */}
           <div
-            className="lg:hidden absolute top-0 bottom-0 left-[19px]"
+            className="hidden"
             style={{
               width: '2px',
               backgroundColor: 'var(--accent)',
@@ -402,7 +420,7 @@ export default function Career() {
           />
 
           {/* Roles */}
-          <div className="flex flex-col gap-16">
+          <div className="flex flex-col gap-8 lg:gap-14">
             {roles.map((role, idx) => (
               <TimelineRole key={role.company} role={role} idx={idx} />
             ))}
@@ -674,7 +692,7 @@ function TimelineRole({ role, idx }: { role: Role; idx: number }) {
 
   return (
     <div
-      className={`relative flex items-start gap-8 ${
+      className={`relative flex items-start lg:gap-8 ${
         isLeft ? 'lg:flex-row' : 'lg:flex-row-reverse'
       } flex-row`}
     >
@@ -692,7 +710,7 @@ function TimelineRole({ role, idx }: { role: Role; idx: number }) {
         variants={isLeft ? timelineCardLeft : timelineCardRight}
       >
         <div
-          className="p-8 transition-all duration-200"
+          className="p-5 sm:p-8 transition-all duration-200 min-w-0"
           style={{
             backgroundColor: 'var(--bg-primary)',
             border: '1px solid var(--border-subtle)',
@@ -700,7 +718,7 @@ function TimelineRole({ role, idx }: { role: Role; idx: number }) {
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.borderColor = 'var(--accent)';
-            e.currentTarget.style.transform = 'translateX(4px)';
+            e.currentTarget.style.transform = 'translateY(-2px)';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.borderColor = 'var(--border-subtle)';
@@ -760,7 +778,7 @@ function TimelineRole({ role, idx }: { role: Role; idx: number }) {
 
       {/* Mobile dot */}
       <div
-        className="lg:hidden absolute left-[14px] top-8 z-10 w-3 h-3 rounded-full"
+        className="hidden"
         style={{
           border: '2px solid var(--accent)',
           backgroundColor: 'var(--bg-primary)',
