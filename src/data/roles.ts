@@ -35,6 +35,210 @@ export interface TailoredRole {
 
 export const roles: TailoredRole[] = [
   {
+    slug: 'generic-ai-product-platform',
+    company: 'AI Product / Platform',
+    roleTitle: 'Generic Landing',
+    location: 'NYC / Remote / Hybrid',
+    applyUrl: 'mailto:alexwelcing@gmail.com?subject=AI%20Product%20%2F%20Platform%20PM%20Conversation',
+    accent: '#33CCFF',
+    tagline: '[ GENERIC LANDING · AI PRODUCT / PLATFORM ]',
+    headline: 'AI product builder who can hold the roadmap, the system design, and the shipped surface in one frame.',
+    intro:
+      'Use this when the role is broadly AI product, platform PM, or technical product leadership and the exact company problem is still unclear. The through-line: production AI systems, enterprise deployment judgment, and hands-on TypeScript/Python builder credibility.',
+    whyFit: [
+      {
+        point: 'AI product shipped as working systems',
+        detail:
+          'Built lupi.live as a real R3F/WebGL molecule viewer and lupine.science as the research/company layer behind the materials-science work; shipped an AI API execution workspace at LBR with type safety, live introspection, and self-improving usage accuracy.',
+      },
+      {
+        point: 'Platform judgment from enterprise systems',
+        detail:
+          'Re-platformed identity and subscription infrastructure across 10+ LBR products serving billions of monthly requests, then translated the same operating discipline into AI, document intelligence, and developer-facing workflows.',
+      },
+      {
+        point: 'Product taste plus implementation depth',
+        detail:
+          'Led 3D commerce platform work for Alo, Moncler, and Ralph Lauren at Obsess, built legal document AI and IAM at Manatt, and can prototype in TypeScript/Python rather than handing execution to someone else.',
+      },
+    ],
+    proof: [
+      '12+ years shipping product, code, and judgment end-to-end',
+      'Billions of monthly requests served by systems rebuilt at LBR',
+      'AI, document understanding, 3D interfaces, and enterprise platforms in one operating model',
+    ],
+  },
+  {
+    slug: 'generic-forward-deployed-ai',
+    company: 'Forward-Deployed AI',
+    roleTitle: 'Generic Landing',
+    location: 'NYC / Remote / Customer-facing',
+    applyUrl: 'mailto:alexwelcing@gmail.com?subject=Forward-Deployed%20AI%20Conversation',
+    accent: '#D97757',
+    tagline: '[ GENERIC LANDING · FORWARD-DEPLOYED AI ]',
+    headline: 'I can sit with the customer, build the workflow, and feed the pattern back into product.',
+    intro:
+      'Use this for FDE, forward-deployed PM, AI solutions, customer engineering, and applied-AI roles where credibility depends on both technical execution and direct customer trust. It is patterned from the Anthropic, Harvey, Glean, and OpenAI packets.',
+    whyFit: [
+      {
+        point: 'Customer-facing technical deployment is familiar territory',
+        detail:
+          'Configured SAML/OIDC SSO for 150+ AmLaw 200 firms and handled high-trust onboarding where security, legal, and product teams all had to align before value could ship.',
+      },
+      {
+        point: 'I build the demo into the system',
+        detail:
+          'Built lupi.live and lupine.science across viewer, research narrative, and Python scientific-computing pipelines; at LBR, shipped an AI API workspace that turned internal AI capabilities into usable product infrastructure.',
+      },
+      {
+        point: 'Domain translation without losing engineering precision',
+        detail:
+          'At Manatt, converted expert legal publishing workflows into AI-assisted document scanning and structured extraction; at Obsess, translated global-brand requirements into 3D commerce platform capabilities.',
+      },
+    ],
+    proof: [
+      '150+ enterprise SSO deployments with security-conscious buyers',
+      'Applied AI work across legal documents, scientific ML, agents, and platform APIs',
+      'Comfortable bridging customer calls, product decisions, and working code',
+    ],
+  },
+  {
+    slug: 'generic-agent-devtools-infra',
+    company: 'Agent DevTools / AI Infrastructure',
+    roleTitle: 'Generic Landing',
+    location: 'NYC / Remote / Platform teams',
+    applyUrl: 'mailto:alexwelcing@gmail.com?subject=Agent%20DevTools%20%2F%20AI%20Infrastructure%20Conversation',
+    accent: '#A78BFA',
+    tagline: '[ GENERIC LANDING · AGENT DEVTOOLS / AI INFRA ]',
+    headline: 'Developer-platform PM for agent systems: tool calls, observability, access boundaries, and workflows developers will actually use.',
+    intro:
+      'Use this for agent platforms, AI infrastructure, developer tools, model-observability, orchestration, and internal-platform roles. It borrows from the LangChain, Datadog, Runlayer, BNY, Bloomberg, and Weights & Biases positioning.',
+    whyFit: [
+      {
+        point: 'Developer workflow instincts from shipped platform work',
+        detail:
+          'Designed and shipped a type-safe AI API execution workspace at LBR using oRPC, live introspection, and feedback loops that improved accuracy across three internal APIs.',
+      },
+      {
+        point: 'Agent access and trust map to my identity background',
+        detail:
+          'Rebuilt identity/subscription infrastructure across 10+ products and delivered SAML/OIDC for 150+ firms; agent tools inherit the same questions: who can call what, with which credentials, under which audit surface.',
+      },
+      {
+        point: 'Hands-on enough to reason below the roadmap',
+        detail:
+          'Built TypeScript/WebGL interfaces, Python research pipelines, and AI workflow tooling; I can evaluate SDK/API ergonomics, failure modes, and developer adoption from first principles.',
+      },
+    ],
+    proof: [
+      'Type-safe AI API workspace shipped in production',
+      'Identity/access platform serving billions of monthly requests',
+      'Strong fit for LangSmith-style evals, Datadog-style observability, and MCP/agent governance',
+    ],
+  },
+  {
+    slug: 'generic-document-knowledge-ai',
+    company: 'Document Intelligence / Knowledge AI',
+    roleTitle: 'Generic Landing',
+    location: 'NYC / Remote / Regulated domains',
+    applyUrl: 'mailto:alexwelcing@gmail.com?subject=Document%20Intelligence%20%2F%20Knowledge%20AI%20Conversation',
+    accent: '#41B883',
+    tagline: '[ GENERIC LANDING · DOCUMENT / KNOWLEDGE AI ]',
+    headline: 'Document AI with regulated-domain credibility: extraction, knowledge structure, IAM, and workflows experts trust.',
+    intro:
+      'Use this for legal AI, document intelligence, enterprise search, knowledge management, RAG, and expert-workflow products. It generalizes the Harvey, Hebbia, Glean, Legora, and Manatt positioning.',
+    whyFit: [
+      {
+        point: 'I have shipped document AI in legal publishing',
+        detail:
+          'At Manatt, built AI-based document scanning for legal publication, automated image selection, sharpened knowledge-graph precision, and reduced manual error in a domain where correctness mattered.',
+      },
+      {
+        point: 'Expert workflows need trust infrastructure',
+        detail:
+          'Led IAM for a research platform serving 1,000+ clients and later handled enterprise SSO for 150+ AmLaw 200 firms at LBR, giving me the access-control and deployment context behind document AI adoption.',
+      },
+      {
+        point: 'I can connect retrieval, UX, and product outcomes',
+        detail:
+          'Built semantic-search work with OpenAI embeddings and pgvector on alexwelcing.com, and led platform work where search, structured content, and user trust determined whether the product became useful.',
+      },
+    ],
+    proof: [
+      'AI document scanning shipped at a top legal/professional-services firm',
+      'IAM for 1,000+ client research platform users',
+      'Strong fit for legal AI, knowledge AI, RAG, and expert document workflows',
+    ],
+  },
+  {
+    slug: 'generic-identity-security-ai',
+    company: 'Identity / Security / Trust for AI',
+    roleTitle: 'Generic Landing',
+    location: 'NYC / Remote / Enterprise platform',
+    applyUrl: 'mailto:alexwelcing@gmail.com?subject=Identity%20%2F%20Security%20%2F%20Trust%20PM%20Conversation',
+    accent: '#FF3366',
+    tagline: '[ GENERIC LANDING · IDENTITY / SECURITY / TRUST ]',
+    headline: 'AI systems need identity, permissions, auditability, and trust boundaries. That is already my deepest platform pattern.',
+    intro:
+      'Use this for identity, security, trust, access-control, agent-governance, fintech/enterprise platform, and AI-safety-adjacent PM roles. It generalizes the Runlayer, Keycard, CrowdStrike, Capital One, and JPMorgan positioning.',
+    whyFit: [
+      {
+        point: 'Identity at real enterprise scale',
+        detail:
+          'Re-platformed the identity and subscription system at LBR across 10+ products serving billions of monthly requests, with SAML/OIDC rollout for 150+ AmLaw 200 firms.',
+      },
+      {
+        point: 'Agent security is the same control problem in a new shape',
+        detail:
+          'My AI and agent work forces the same questions enterprise IAM asks: what tools can act, which credentials they inherit, how actions are audited, and how trust survives automation.',
+      },
+      {
+        point: 'Can translate compliance into product behavior',
+        detail:
+          'Led IAM for Manatt research products, built legal document AI under expert review constraints, and shipped platform changes where security requirements had to become usable workflows.',
+      },
+    ],
+    proof: [
+      'Billions of monthly requests behind rebuilt identity/subscription systems',
+      '150+ SAML/OIDC enterprise SSO integrations',
+      'Direct fit for agent access control, MCP governance, trust, and regulated platform work',
+    ],
+  },
+  {
+    slug: 'generic-scientific-ml-materials',
+    company: 'Scientific ML / Materials AI',
+    roleTitle: 'Generic Landing',
+    location: 'NYC / Remote / Research-product teams',
+    applyUrl: 'mailto:alexwelcing@gmail.com?subject=Scientific%20ML%20%2F%20Materials%20AI%20Conversation',
+    accent: '#6C63FF',
+    tagline: '[ GENERIC LANDING · SCIENTIFIC ML / MATERIALS AI ]',
+    headline: 'Scientific ML product builder: mathematical research, Python pipelines, and browser interfaces that make the science legible.',
+    intro:
+      'Use this for scientific AI, materials discovery, research-product, simulation, ML platform, and computational-science-adjacent roles. It separates lupi.live as the viewer from lupine.science as the company/research/math layer.',
+    whyFit: [
+      {
+        point: 'Two surfaces for one scientific system',
+        detail:
+          'lupi.live is the R3F/WebGL molecule viewer for inspecting molecular structures and trajectories; lupine.science is the company and mathematical research layer around MLIP benchmarks and phase-change simulation.',
+      },
+      {
+        point: 'Research-grade work presented as product',
+        detail:
+          'Built Python scientific-computing pipelines and TypeScript/WebGL interfaces so technical claims, model behavior, and molecular visualization become inspectable rather than hidden in notebooks.',
+      },
+      {
+        point: 'Broad enough to connect science, product, and GTM',
+        detail:
+          'Across Manatt, LBR, Obsess, and Arkadium I have repeatedly translated complex expert domains into systems with users, revenue, and deployment constraints — the same muscle scientific AI needs to leave the lab.',
+      },
+    ],
+    proof: [
+      'lupi.live: R3F/WebGL molecule viewer live in browser',
+      'lupine.science: mathematical/company research layer for materials-science AI',
+      'MLIP benchmarks, phase-change simulation, Python pipelines, and product-facing visualization',
+    ],
+  },
+  {
     slug: 'tekshapers-marketing-expert-genai',
     company: 'Tekshapers',
     roleTitle: 'Marketing Expert - GenAI (Contract C2C)',
