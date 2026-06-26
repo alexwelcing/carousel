@@ -10,18 +10,19 @@
   NODE_VERSION = "22"
 
 # Fast static delivery for generated packet assets.
-# Current videos use stable /pitch.mp4 URLs, so avoid year-long immutable browser caching.
-# If/when videos move to content-hashed names, raise MP4/WebM to max-age=31536000, immutable.
+# Current videos use stable /pitch.mp4 URLs, so keep browser TTL short enough
+# that newly rendered videos replace HTML fallbacks quickly. If/when videos move
+# to content-hashed names, raise MP4/WebM to max-age=31536000, immutable.
 [[headers]]
   for = "/packets/**/*.mp4"
   [headers.values]
-    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+    Cache-Control = "public, max-age=300, stale-while-revalidate=604800"
     X-Content-Type-Options = "nosniff"
 
 [[headers]]
   for = "/packets/**/*.webm"
   [headers.values]
-    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+    Cache-Control = "public, max-age=300, stale-while-revalidate=604800"
     X-Content-Type-Options = "nosniff"
 
 [[headers]]
@@ -42,6 +43,18 @@
   [headers.values]
     Cache-Control = "public, max-age=3600, must-revalidate"
     X-Content-Type-Options = "nosniff"
+
+# Missing packet videos should not fall through to the SPA shell. Existing static
+# files still win because these redirects are not forced.
+[[redirects]]
+  from = "/packets/:shareId/pitch.mp4"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/packets/:shareId/pitch.webm"
+  to = "/404.html"
+  status = 404
 
 # SPA fallback so /role/:slug deep links resolve to index.html
 [[redirects]]
