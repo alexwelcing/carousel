@@ -26,14 +26,14 @@ const PAGE_SEO: Record<string, { title: string; description: string }> = {
       'Architect PM and product-minded engineer who ships AI products end to end: production agents, materials-science ML, document AI, 3D commerce, and enterprise platforms. Considering principal / staff product and forward-deployed PM roles in New York.',
   },
   '/career': {
-    title: 'Career — Alex Welcing · 12+ Years: LBR Identity, Obsess 3D, Manatt Document AI, Lupine.Live',
+    title: 'Career — Alex Welcing · 12+ Years: AI Products, 3D Interfaces, Document AI, Scientific ML',
     description:
       'Career timeline: Law Business Research (enterprise identity & platform at billions of requests/mo, SSO/SAML/OIDC for 150+ AmLaw 200 firms), Obsess VR 3D commerce for Alo/Moncler/Ralph Lauren, Manatt document AI, Arkadium NLP partnerships.',
   },
   '/projects': {
-    title: 'Projects — Alex Welcing · Lupine.Live, Lupine, High Era, alexwelcing.com',
+    title: 'Projects — Alex Welcing · lupi.live, lupine.science, High Era, alexwelcing.com',
     description:
-      'Selected work, built end-to-end: Lupine.Live materials-science AI platform (MLIP, phase-change simulation, TypeScript/WebGL), Lupine research pipelines, alexwelcing.com 3D + semantic search, High Era marketing-automation OS on Google Cloud.',
+      'Selected work, built end-to-end: lupi.live R3F molecule viewer, lupine.science company and scientific research site, Lupine MLIP / phase-change pipelines, alexwelcing.com 3D + semantic search, High Era on Google Cloud.',
   },
   '/contact': {
     title: 'Contact Alex Welcing — Open to Principal / Staff Product & Forward-Deployed PM Roles (NYC)',

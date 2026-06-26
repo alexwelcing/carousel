@@ -135,10 +135,10 @@ export function splitStructuredItems(value: string, limit = 5): string[] {
 /* ── PROOF LIBRARY (verified ground truth) ─────────────────────────── */
 const PROOF_LIBRARY: ProofPointMapping[] = [
   {
-    flagshipSlug: 'lupine',
-    title: 'Lupine.Live — Materials-Science AI',
-    description: 'Materials-science AI platform I built solo: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Research pipelines in Python.',
-    stat: 'Materials-science AI built solo: MLIP, phase-change simulation, WebGL browser',
+    flagshipSlug: 'lupine-science',
+    title: 'lupine.science — Scientific Research',
+    description: 'Company and research site for the mathematical layer: MLIP benchmarks, phase-change trajectory simulation, and Python scientific-computing pipelines.',
+    stat: 'Scientific ML research: MLIP benchmarks and phase-change simulation',
     relevanceTags: ['Materials Science', 'MLIP', 'Machine Learning', 'WebGL', 'Research'],
     fitTags: ['AI/ML PM', 'Research PM', 'Developer Tools', 'Platform PM'],
   },
@@ -176,9 +176,9 @@ const PROOF_LIBRARY: ProofPointMapping[] = [
   },
   {
     flagshipSlug: 'lupi',
-    title: 'Lupine.Live',
-    description: 'Materials-science AI and molecular visualization in the browser — MLIP benchmarks rendered in real time.',
-    stat: 'Materials-science ML rendered in real time',
+    title: 'lupi.live — R3F Molecule Viewer',
+    description: 'Interactive TypeScript / React Three Fiber / WebGL molecule viewer for inspecting molecular structures and trajectories in the browser.',
+    stat: 'R3F/WebGL molecule viewer live in the browser',
     relevanceTags: ['ML', 'WebGL', 'Physics', 'Performance'],
     fitTags: ['Applied AI', 'High-Performance', 'Creative Engineering'],
   },
@@ -203,7 +203,7 @@ export function selectProofPoints(role: TargetRole, topTarget?: TopTarget, limit
     .map((p) => ({ p, score: p.relevanceTags.filter((t) => signal.includes(t.toLowerCase())).length }))
     .sort((a, b) => b.score - a.score);
   const picked = scored.filter((s) => s.score > 0).map((s) => s.p);
-  // always keep Lupine.Live present as the AI-builder anchor if nothing else matched
+  // always keep lupine.science present as the AI-builder anchor if nothing else matched
   if (picked.length === 0) picked.push(PROOF_LIBRARY[0]);
   // top up to limit from remaining, preserving order
   for (const { p } of scored) {

@@ -25,24 +25,39 @@ export interface Flagship {
   video?: string;
   /** Optional webm source (preferred when present) */
   videoWebm?: string;
-  /** Render the AW-style molecule glyph next to the name (Lupine.Live) */
+  /** Render the AW-style molecule glyph next to molecule/research work */
   molecule?: boolean;
 }
 
 export const flagships: Flagship[] = [
   {
     slug: 'lupi',
-    name: 'Lupine.Live',
-    tag: 'MATERIALS-SCIENCE AI · COMPANY',
-    status: 'LIVE — LUPINE SCIENCE',
+    name: 'lupi.live',
+    tag: 'R3F MOLECULE VIEWER · PRODUCT SURFACE',
+    status: 'LIVE',
     description:
-      'Lupine Science materials-science platform: machine-learned interatomic potentials (MLIP), phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.',
-    stack: ['TypeScript', 'WebGL', 'ML Interatomic Potentials', 'Python', 'Research Pipelines'],
+      'The interactive molecule viewer: a TypeScript / React Three Fiber / WebGL surface for inspecting molecular structures and trajectories in the browser. This is the product interface — the thing people can touch.',
+    stack: ['TypeScript', 'React Three Fiber', 'WebGL', 'Molecular Visualization', 'Browser Product'],
     links: [
       { label: 'lupi.live', url: 'https://lupi.live' },
       { label: 'GitHub', url: 'https://github.com/alexwelcing/lupine' },
     ],
     accent: '#33CCFF',
+    molecule: true,
+  },
+  {
+    slug: 'lupine-science',
+    name: 'lupine.science',
+    tag: 'MATERIALS-SCIENCE AI · COMPANY / RESEARCH',
+    status: 'RESEARCH SITE',
+    description:
+      'The mathematical and scientific layer behind Lupine Science: MLIP benchmarks, phase-change trajectory simulation, and the research argument for applying machine-learned potentials to materials discovery.',
+    stack: ['MLIP', 'Phase-Change Simulation', 'Python', 'Scientific Computing', 'Research Narrative'],
+    links: [
+      { label: 'lupine.science', url: 'https://lupine.science' },
+      { label: 'GitHub', url: 'https://github.com/alexwelcing/lupine' },
+    ],
+    accent: '#6C63FF',
     molecule: true,
   },
   {

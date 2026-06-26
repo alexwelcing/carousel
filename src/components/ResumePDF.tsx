@@ -197,18 +197,18 @@ export default function ResumePDFDocument(
                 <SectionLabel styles={styles}>Selected Work</SectionLabel>
                 <View style={styles.projHead}>
                   <MoleculeIcon color={C.cyan} />
-                  <Text style={styles.projName}>Lupine.Live</Text>
+                  <Text style={styles.projName}>lupi.live</Text>
                 </View>
-                <Text style={styles.projDesc}>Materials-science computing & million-atom molecular visualization, live in the browser.</Text>
+                <Text style={styles.projDesc}>R3F/WebGL molecule viewer for inspecting molecular structures and trajectories in the browser.</Text>
                 <View style={styles.projLinks}>
                   <Link src="https://lupi.live" style={styles.projLink}>lupi.live</Link>
                   <Link src="https://github.com/alexwelcing/lupine" style={styles.projLink}>GitHub</Link>
                 </View>
 
-                <Text style={styles.projNameNoIcon}>Lupine</Text>
-                <Text style={styles.projDesc}>Materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Research pipelines in Python.</Text>
+                <Text style={styles.projNameNoIcon}>lupine.science</Text>
+                <Text style={styles.projDesc}>Company/research site for the mathematical layer: MLIP benchmarks, phase-change simulation, and Python scientific-computing pipelines.</Text>
                 <View style={styles.projLinks}>
-                  <Link src="https://github.com/alexwelcing/lupine" style={styles.projLink}>GitHub</Link>
+                  <Link src="https://lupine.science" style={styles.projLink}>lupine.science</Link>
                 </View>
 
                 <Text style={styles.projNameNoIcon}>alexwelcing.com</Text>
