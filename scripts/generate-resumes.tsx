@@ -869,8 +869,68 @@ type ApplicationPacket = {
   resumeLightPdf: string;
   coverLetterTxt: string;
   coverLetterPdf?: string;
+  pitchHtml: string;
+  pitchVideoMp4: string;
   source: 'curated-role' | 'top-target';
 };
+
+
+function shortText(value: string | undefined, fallback: string, max = 148): string {
+  const source = (value || fallback).replace(/\s+/g, ' ').trim();
+  if (source.length <= max) return source;
+  const clipped = source.slice(0, max).replace(/\s+\S*$/, '').replace(/[,:;—-]+$/, '').trim();
+  return `${clipped}.`;
+}
+
+function safeJsonForInlineScript(value: unknown): string {
+  return JSON.stringify(value)
+    .replace(/</g, '\\u003c')
+    .replace(/>/g, '\\u003e')
+    .replace(/&/g, '\\u0026')
+    .replace(/\u2028/g, '\\u2028')
+    .replace(/\u2029/g, '\\u2029');
+}
+
+function rolePitchVariables(role: TailoredRole, packetUrl: string) {
+  const [fit1, fit2, fit3] = role.whyFit;
+  const proof = role.proof.length >= 3 ? role.proof : [
+    ...role.proof,
+    '12+ years shipping product, code, and judgment end-to-end',
+    'Billions of monthly requests served by systems rebuilt at LBR',
+    '150+ enterprise SSO rollouts to AmLaw 200 firms',
+  ];
+  return {
+    companyName: role.company,
+    roleTitle: role.roleTitle,
+    location: role.location,
+    tagline: role.tagline.replace(/[\[\]]/g, ''),
+    headline: shortText(role.headline, `${role.company}: ${role.roleTitle}`, 132),
+    fitPoint1: shortText(fit1?.point, 'AI product execution', 58),
+    fitPoint1Evidence: shortText(fit1?.detail, role.intro, 134),
+    fitPoint2: shortText(fit2?.point, 'Enterprise-scale delivery', 58),
+    fitPoint2Evidence: shortText(fit2?.detail, role.intro, 134),
+    fitPoint3: shortText(fit3?.point, 'Hands-on builder mentality', 58),
+    fitPoint3Evidence: shortText(fit3?.detail, role.intro, 134),
+    proof1: shortText(proof[0], '12+ years shipping product, code, and judgment end-to-end.', 118),
+    proof2: shortText(proof[1], 'Billions of monthly requests served by systems rebuilt at LBR.', 118),
+    proof3: shortText(proof[2], '150+ enterprise SSO rollouts to AmLaw 200 firms.', 118),
+    ctaText: `Open the tailored packet for ${role.company}.`,
+    packetUrl,
+    companyAccent: role.accent || '#1d3fd4',
+  };
+}
+
+async function emitRolePitchHtml(role: TailoredRole, anonymousDir: string, anonymousBasePath: string) {
+  const templatePath = resolve(here, '../hyperframes-studio/index.html');
+  const template = readFileSync(templatePath, 'utf-8');
+  const publicUrl = `welc.ing${anonymousBasePath}`;
+  const variables = rolePitchVariables(role, publicUrl);
+  const injection = `<script>window.__ROLE_PITCH__=${safeJsonForInlineScript(variables)};</script>`;
+  const html = template.includes('window.__ROLE_PITCH__=')
+    ? template
+    : template.replace('</head>', `  ${injection}\n</head>`);
+  await writeFile(resolve(anonymousDir, 'pitch.html'), html, 'utf-8');
+}
 
 const packets: ApplicationPacket[] = [];
 
@@ -912,6 +972,7 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
   }
 
   await mkdir(anonymousDir, { recursive: true });
+  await emitRolePitchHtml(role, anonymousDir, anonymousBasePath);
   await copyFile(resolve(publicDir, dark), anonymousResume);
   await copyFile(resolve(publicDir, light), anonymousResumeLight);
   await copyFile(resolve(publicDir, letter), anonymousCoverLetter);
@@ -930,6 +991,8 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
     resumePdf: `${anonymousBasePath}/resume.pdf`,
     resumeLightPdf: `${anonymousBasePath}/resume-light.pdf`,
     coverLetterTxt: `${anonymousBasePath}/cover-letter.txt`,
+    pitchHtml: `${anonymousBasePath}/pitch.html`,
+    pitchVideoMp4: `${anonymousBasePath}/pitch.mp4`,
     ...(custom?.coverLetterPdf ? { coverLetterPdf: `${anonymousBasePath}/cover-letter.pdf` } : {}),
     source,
   });

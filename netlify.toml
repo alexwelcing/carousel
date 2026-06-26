@@ -9,6 +9,40 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# Fast static delivery for generated packet assets.
+# Current videos use stable /pitch.mp4 URLs, so avoid year-long immutable browser caching.
+# If/when videos move to content-hashed names, raise MP4/WebM to max-age=31536000, immutable.
+[[headers]]
+  for = "/packets/**/*.mp4"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/packets/**/*.webm"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/packets/**/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/applications/manifest.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/packets/**/*.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+
 # SPA fallback so /role/:slug deep links resolve to index.html
 [[redirects]]
   from = "/*"

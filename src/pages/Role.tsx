@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight, ExternalLink, Check, Download } from 'lucide-react';
@@ -60,6 +61,7 @@ export default function Role() {
   const accent = role.accent ?? '#FF3366';
   const packetLinks = getApplicationPacketLinks(role.slug);
   const packetOverride = applicationPacketOverrides[role.slug];
+  const [pitchMode, setPitchMode] = useState<'video' | 'frame'>('video');
 
   return (
     <div style={{ opacity: 0, position: 'relative' }} className="animate-fade-in">
@@ -266,6 +268,88 @@ export default function Role() {
                 <p className="font-caption" style={{ color: 'var(--text-tertiary)' }}>
                   {packetOverride.recruiterNote}
                 </p>
+              )}
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ============================================================ */}
+      {/* 30 SECOND ROLE PITCH                                         */}
+      {/* ============================================================ */}
+      <section
+        className="relative overflow-hidden"
+        style={{
+          backgroundColor: 'var(--bg-primary)',
+          paddingTop: 'clamp(56px, 7vh, 96px)',
+          paddingBottom: 'clamp(72px, 9vh, 128px)',
+          paddingLeft: 'clamp(24px, 5vw, 80px)',
+          paddingRight: 'clamp(24px, 5vw, 80px)',
+        }}
+      >
+        <div className="content-max-width grid grid-cols-1 lg:grid-cols-[0.74fr_1.26fr] gap-8 lg:gap-12 items-center">
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.35 }}
+            transition={{ duration: 0.55, ease: easeOut }}
+          >
+            <span className="font-caption block mb-5" style={{ color: accent }}>
+              [ 30 SECOND ROLE PITCH ]
+            </span>
+            <h2 className="font-h2 mb-5" style={{ color: 'var(--text-primary)' }}>
+              A quick video version of the packet.
+            </h2>
+            <p className="font-body-small mb-6" style={{ color: 'var(--text-secondary)', lineHeight: 1.75 }}>
+              Built from the same role-specific data as the résumé and cover letter: company context, target title, mapped fit, proof points, and the anonymous packet URL.
+            </p>
+            <a
+              href={packetLinks.pitchHtml}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-nav inline-flex items-center gap-2 px-5 py-3 transition-all duration-200"
+              style={{
+                color: 'var(--text-primary)',
+                border: '1px solid var(--border-subtle)',
+                borderRadius: '999px',
+                backgroundColor: 'var(--bg-elevated)',
+              }}
+            >
+              OPEN VIDEO <ExternalLink className="w-4 h-4" />
+            </a>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20, scale: 0.985 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 0.65, ease: easeOut }}
+            style={{
+              border: '1px solid var(--border-subtle)',
+              borderRadius: '24px',
+              backgroundColor: '#05070d',
+              padding: '10px',
+              boxShadow: '0 28px 80px rgba(16, 20, 28, 0.22)',
+            }}
+          >
+            <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', overflow: 'hidden', borderRadius: '16px' }}>
+              {pitchMode === 'video' ? (
+                <video
+                  src={packetLinks.pitchVideoMp4}
+                  controls
+                  playsInline
+                  preload="metadata"
+                  onError={() => setPitchMode('frame')}
+                  style={{ width: '100%', height: '100%', display: 'block', backgroundColor: '#05070d' }}
+                />
+              ) : (
+                <iframe
+                  src={packetLinks.pitchHtml}
+                  title={`${role.company} role pitch video`}
+                  loading="lazy"
+                  sandbox="allow-scripts allow-same-origin"
+                  style={{ width: '100%', height: '100%', border: 0, display: 'block', backgroundColor: '#05070d' }}
+                />
               )}
             </div>
           </motion.div>

@@ -44,6 +44,8 @@ export interface ApplicationPacketLinks {
   resumePrintPdf: string;
   coverLetterTxt: string;
   coverLetterPdf?: string;
+  pitchHtml: string;
+  pitchVideoMp4: string;
 }
 
 export function getApplicationPacketLinks(slug: string): ApplicationPacketLinks {
@@ -52,6 +54,8 @@ export function getApplicationPacketLinks(slug: string): ApplicationPacketLinks 
     resumePdf: `${basePath}/resume.pdf`,
     resumePrintPdf: `${basePath}/resume-light.pdf`,
     coverLetterTxt: `${basePath}/cover-letter.txt`,
+    pitchHtml: `${basePath}/pitch.html`,
+    pitchVideoMp4: `${basePath}/pitch.mp4`,
     ...(slug === 'tekshapers-marketing-expert-genai' ? { coverLetterPdf: `${basePath}/cover-letter.pdf` } : {}),
   };
 }

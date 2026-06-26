@@ -42,10 +42,13 @@ function clean(value: string): string {
   return value.replace(/\s+/g, ' ').replace(/[,:;—-]+\.$/, '.').trim();
 }
 
-function fitText(value: string, max = 164): string {
+function fitText(value: string, max = 96): string {
   const text = clean(value);
   if (text.length <= max) return text;
-  const clipped = text.slice(0, max).replace(/\s+\S*$/, '').replace(/[,:;—-]+$/, '').trim();
+  const stopWords = new Set(['a', 'an', 'the', 'and', 'or', 'of', 'to', 'for', 'with', 'in', 'on', 'at', 'by', 'from']);
+  let words = text.slice(0, max).replace(/[,:;—-]+$/, '').trim().split(/\s+/);
+  while (words.length && stopWords.has(words[words.length - 1].toLowerCase())) words = words.slice(0, -1);
+  const clipped = words.join(' ').replace(/[,:;—-]+$/, '').trim();
   return clipped.endsWith('.') ? clipped : `${clipped}.`;
 }
 
@@ -73,24 +76,24 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
     backgroundColor: C.paper,
     color: C.ink,
     fontFamily: 'Helvetica',
-    fontSize: 8.4 * k,
-    lineHeight: 1.24,
-    paddingTop: 23,
-    paddingBottom: 22,
-    paddingHorizontal: 32,
+    fontSize: 8.8 * k,
+    lineHeight: 1.28,
+    paddingTop: 21,
+    paddingBottom: 21,
+    paddingHorizontal: 34,
   },
 
   header: {
     borderBottomWidth: 1.1,
     borderBottomColor: C.ink,
-    paddingBottom: 8,
-    marginBottom: 8,
+    paddingBottom: 7,
+    marginBottom: 7,
   },
   headerTop: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' },
   nameBlock: { flex: 1, paddingRight: 16 },
   name: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 23 * k,
+    fontSize: 21.5 * k,
     lineHeight: 0.98,
     letterSpacing: -0.35,
     color: C.ink,
@@ -98,23 +101,23 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
   positioning: {
     marginTop: 3,
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.8 * k,
+    fontSize: 7.7 * k,
     letterSpacing: 0.55,
     textTransform: 'uppercase',
     color: C.muted,
   },
   contact: {
-    width: 178,
+    width: 182,
     textAlign: 'right',
-    fontSize: 7.6 * k,
-    lineHeight: 1.28,
+    fontSize: 7.7 * k,
+    lineHeight: 1.34,
     color: C.faint,
   },
   contactLink: { color: C.link, textDecoration: 'none' },
   target: {
-    marginTop: 6,
-    fontSize: 8.25 * k,
-    lineHeight: 1.26,
+    marginTop: 5,
+    fontSize: 8.35 * k,
+    lineHeight: 1.3,
     color: C.muted,
   },
   targetStrong: { fontFamily: 'Helvetica-Bold', color: C.ink },
@@ -122,28 +125,28 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
   band: {
     flexDirection: 'row',
     gap: 7,
-    marginBottom: 8,
+    marginBottom: 6,
   },
   card: {
     flex: 1,
     backgroundColor: C.panel,
-    borderWidth: 0.55,
+    borderWidth: 0.35,
     borderColor: C.rule,
-    paddingVertical: 6 * k,
+    paddingVertical: 5 * k,
     paddingHorizontal: 7 * k,
-    minHeight: 49 * k,
+    minHeight: 41 * k,
   },
   cardTitle: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.75 * k,
+    fontSize: 7.7 * k,
     color: C.ink,
-    lineHeight: 1.15,
+    lineHeight: 1.14,
     marginBottom: 2,
   },
   cardText: {
-    fontSize: 7.35 * k,
+    fontSize: 7.2 * k,
     color: C.muted,
-    lineHeight: 1.22,
+    lineHeight: 1.18,
   },
 
   proofStrip: {
@@ -151,8 +154,8 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
     borderTopWidth: 0.65,
     borderBottomWidth: 0.65,
     borderColor: C.rule,
-    paddingVertical: 5,
-    marginBottom: 9,
+    paddingVertical: 4.5,
+    marginBottom: 8,
   },
   proofItem: {
     flex: 1,
@@ -162,28 +165,28 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
   proofMark: {
     width: 8,
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.5 * k,
+    fontSize: 7.8 * k,
     color: C.accent,
   },
   proofText: {
     flex: 1,
-    fontSize: 7.4 * k,
+    fontSize: 7.35 * k,
     color: C.muted,
-    lineHeight: 1.18,
+    lineHeight: 1.16,
   },
 
-  section: { marginBottom: 8 * k },
+  section: { marginBottom: 9.5 * k },
   sectionHeader: {
     flexDirection: 'row',
     alignItems: 'center',
     borderBottomWidth: 0.75,
     borderBottomColor: C.rule,
-    paddingBottom: 3.2,
-    marginBottom: 5.5,
+    paddingBottom: 3.5,
+    marginBottom: 6.5,
   },
   sectionTitle: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.5 * k,
+    fontSize: 7.8 * k,
     letterSpacing: 1.1,
     textTransform: 'uppercase',
     color: C.ink,
@@ -198,68 +201,68 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
   job: {
     width: '100%',
     paddingRight: 0,
-    marginBottom: 7.2 * k,
+    marginBottom: 8.8 * k,
   },
   jobTop: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
   company: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 8.9 * k,
+    fontSize: 9.45 * k,
     color: C.ink,
     maxWidth: 360,
   },
   date: {
-    fontSize: 7.15 * k,
+    fontSize: 7.75 * k,
     color: C.faint,
   },
   role: {
-    marginTop: 1.2,
-    marginBottom: 3,
+    marginTop: 1.4,
+    marginBottom: 3.8,
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.55 * k,
+    fontSize: 7.95 * k,
     color: C.muted,
   },
-  bulletRow: { flexDirection: 'row', marginBottom: 2.25 * k },
+  bulletRow: { flexDirection: 'row', marginBottom: 2.75 * k, paddingRight: 14 },
   bulletMark: {
-    width: 7,
-    fontSize: 7.1 * k,
+    width: 8,
+    fontSize: 7.4 * k,
     color: C.ink,
   },
   bullet: {
     flex: 1,
-    fontSize: 7.35 * k,
+    fontSize: 7.75 * k,
     color: C.muted,
-    lineHeight: 1.21,
+    lineHeight: 1.27,
   },
 
   bottomGrid: {
     flexDirection: 'row',
-    gap: 10,
-    marginTop: 1,
+    gap: 14,
+    marginTop: 3,
   },
   bottomCol: { flex: 1 },
   capabilityGrid: { flexDirection: 'row', flexWrap: 'wrap' },
   capability: {
     width: '50%',
     paddingRight: 9,
-    marginBottom: 5.2 * k,
+    marginBottom: 6.4 * k,
   },
   capabilityLabel: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.45 * k,
+    fontSize: 7.75 * k,
     color: C.ink,
     marginBottom: 1,
   },
   capabilityText: {
-    fontSize: 7.15 * k,
+    fontSize: 7.75 * k,
     color: C.muted,
     lineHeight: 1.18,
   },
   project: {
-    marginBottom: 5.4 * k,
+    marginBottom: 6.4 * k,
   },
   projectName: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.6 * k,
+    fontSize: 7.9 * k,
     color: C.ink,
   },
   projectLink: {
@@ -268,9 +271,33 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
   },
   projectDesc: {
     marginTop: 1,
-    fontSize: 7.15 * k,
+    fontSize: 7.75 * k,
     color: C.muted,
     lineHeight: 1.18,
+  },
+  footerProof: {
+    marginTop: 18 * k,
+    paddingTop: 7 * k,
+    borderTopWidth: 0.65,
+    borderTopColor: C.rule,
+    flexDirection: 'row',
+    gap: 10,
+  },
+  footerItem: {
+    flex: 1,
+  },
+  footerLabel: {
+    fontFamily: 'Helvetica-Bold',
+    fontSize: 7.35 * k,
+    letterSpacing: 0.65,
+    textTransform: 'uppercase',
+    color: C.ink,
+    marginBottom: 2,
+  },
+  footerText: {
+    fontSize: 7.45 * k,
+    color: C.muted,
+    lineHeight: 1.24,
   },
 });
 
@@ -358,7 +385,7 @@ export default function ResumePDFDocument(
           ))}
         </View>
 
-        <Section styles={styles} title="Experience" note="scope, systems, and outcomes">
+        <Section styles={styles} title="Experience">
           <View style={styles.jobGrid}>
             {JOBS.map((j) => (
               <View key={j.company} style={styles.job}>
@@ -398,6 +425,21 @@ export default function ResumePDFDocument(
                 </View>
               ))}
             </Section>
+          </View>
+        </View>
+
+        <View style={styles.footerProof}>
+          <View style={styles.footerItem}>
+            <Text style={styles.footerLabel}>Operator range</Text>
+            <Text style={styles.footerText}>Roadmap, customer discovery, systems design, implementation, and launch ownership.</Text>
+          </View>
+          <View style={styles.footerItem}>
+            <Text style={styles.footerLabel}>Enterprise trust</Text>
+            <Text style={styles.footerText}>Identity, permissions, deployment paths, data boundaries, and regulated workflows.</Text>
+          </View>
+          <View style={styles.footerItem}>
+            <Text style={styles.footerLabel}>AI product taste</Text>
+            <Text style={styles.footerText}>Evals, workflow UX, agents, RAG, developer tools, and production feedback loops.</Text>
           </View>
         </View>
       </Page>

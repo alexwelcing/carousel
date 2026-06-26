@@ -23,18 +23,18 @@ const s = StyleSheet.create({
     fontFamily: 'Helvetica',
     fontSize: 9.5,
     lineHeight: 1.4,
-    paddingTop: 38,
-    paddingBottom: 24,
-    paddingHorizontal: 54,
+    paddingTop: 28,
+    paddingBottom: 28,
+    paddingHorizontal: 58,
   },
 
   /* Header */
-  name: { fontFamily: 'Helvetica-Bold', fontSize: 22, letterSpacing: 0.5, lineHeight: 1.1, marginBottom: 5 },
+  name: { fontFamily: 'Helvetica-Bold', fontSize: 21, letterSpacing: 0.4, lineHeight: 1.08, marginBottom: 4 },
   title: { fontSize: 10.5, color: SUB },
   contact: { fontSize: 9, color: FAINT, marginTop: 4 },
   contactLink: { color: LINK, textDecoration: 'none' },
 
-  headRule: { borderBottomWidth: 1, borderBottomColor: RULE, marginTop: 8, marginBottom: 8 },
+  headRule: { borderBottomWidth: 1, borderBottomColor: RULE, marginTop: 7, marginBottom: 7 },
 
   /* Sections */
   sectionTitle: {
@@ -44,12 +44,12 @@ const s = StyleSheet.create({
     color: INK,
     marginBottom: 5,
   },
-  section: { marginBottom: 9 },
+  section: { marginBottom: 8 },
 
   summary: { fontSize: 9.5, color: SUB, lineHeight: 1.5 },
 
   /* Experience */
-  job: { marginBottom: 6 },
+  job: { marginBottom: 5.5 },
   jobRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
   company: { fontFamily: 'Helvetica-Bold', fontSize: 10.5 },
   date: { fontSize: 9, color: FAINT },
@@ -60,11 +60,11 @@ const s = StyleSheet.create({
 
   /* Two-up rows for skills/projects */
   line: { flexDirection: 'row', marginBottom: 3 },
-  lineLabel: { width: 92, fontFamily: 'Helvetica-Bold', fontSize: 9.5, color: INK },
+  lineLabel: { width: 100, fontFamily: 'Helvetica-Bold', fontSize: 9.5, color: INK },
   lineBody: { flex: 1, fontSize: 9.5, color: SUB },
 
   /* Projects */
-  projRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 1 },
+  projRow: { flexDirection: 'row', alignItems: 'baseline', marginBottom: 1, gap: 8 },
   projName: { fontFamily: 'Helvetica-Bold', fontSize: 9.5 },
   projLink: { fontSize: 9, color: LINK, textDecoration: 'none' },
   projDesc: { fontSize: 9.5, color: SUB, marginBottom: 3 },
@@ -135,7 +135,7 @@ export default function ResumePlainPDFDocument(
         <Section title="SKILLS">
           <View style={s.line}>
             <Text style={s.lineLabel}>AI / Agents</Text>
-            <Text style={s.lineBody}>Multi-agent orchestration, LLM integration, evals, RAG / pgvector, prompt engineering, model ops</Text>
+            <Text style={s.lineBody}>Multi-agent orchestration, LLM integration, evals, RAG / pgvector, prompt engineering</Text>
           </View>
           <View style={s.line}>
             <Text style={s.lineLabel}>Frontend</Text>

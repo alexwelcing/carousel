@@ -1,73 +1,316 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1920, height=1080" />
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      html,
-      body {
-        margin: 0;
-        width: 1920px;
-        height: 1080px;
-        overflow: hidden;
-        background: #000;
-      }
-      body {
-        font-family: "Inter", sans-serif;
-      }
-      code,
-      pre,
-      .monospace {
-        font-family: "JetBrains Mono", monospace;
-      }
-    </style>
-  
-<script>
-window.__tailwindReady=new Promise(function(resolve){
-var loaded=document.readyState==="complete";
-var resolved=false;
-var observer;
-function readTailwindCss(){var styles=document.querySelectorAll("style");for(var i=styles.length-1;i>=0;i--){var text=styles[i].textContent||"";if(text.indexOf("tailwindcss v")!==-1)return text;}return "";}
-function finish(){if(resolved||!loaded||!readTailwindCss())return;resolved=true;if(observer)observer.disconnect();resolve(true);}
-observer=new MutationObserver(finish);
-observer.observe(document.documentElement,{childList:true,subtree:true,characterData:true});
-if(loaded){finish();}else{window.addEventListener("load",function(){loaded=true;finish();},{once:true});}
-});
-</script>
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.2.4/dist/index.global.js" integrity="sha384-v5YF9xS+gLRWdvrQ0u/WRbCkjSIH0NjHIPe8tBL1ZRrmI7PiSH6LLdzs0aAIMCuh" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, height=1080" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #05070d;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: #f8fafc;
+    }
+    .mono { font-family: "Courier New", monospace; }
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 20% 10%, color-mix(in srgb, var(--accent) 28%, transparent), transparent 34%),
+        radial-gradient(circle at 82% 22%, rgba(51, 204, 255, 0.16), transparent 32%),
+        linear-gradient(135deg, #05070d 0%, #0b1020 52%, #111827 100%);
+    }
+    .clip {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+      display: flex;
+      overflow: hidden;
+    }
+    .scene {
+      padding: 92px 108px;
+      align-items: center;
+      justify-content: center;
+    }
+    .kicker {
+      color: var(--accent);
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .small-kicker {
+      color: rgba(248, 250, 252, 0.56);
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .title {
+      max-width: 1440px;
+      font-size: 92px;
+      line-height: 0.96;
+      letter-spacing: -0.055em;
+      font-weight: 850;
+    }
+    .subtitle {
+      max-width: 1180px;
+      font-size: 34px;
+      line-height: 1.32;
+      color: rgba(248, 250, 252, 0.78);
+      font-weight: 460;
+    }
+    .panel {
+      background: rgba(255,255,255,0.075);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 34px;
+      box-shadow: 0 34px 120px rgba(0,0,0,0.32);
+      backdrop-filter: blur(18px);
+    }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; width: 100%; }
+    .card {
+      min-height: 250px;
+      padding: 34px;
+      border-radius: 26px;
+      background: rgba(255,255,255,0.085);
+      border: 1px solid rgba(255,255,255,0.14);
+    }
+    .card-title {
+      color: var(--accent);
+      font-size: 27px;
+      line-height: 1.08;
+      font-weight: 820;
+      letter-spacing: -0.025em;
+      margin-bottom: 18px;
+    }
+    .card-copy {
+      font-size: 23px;
+      line-height: 1.38;
+      color: rgba(248, 250, 252, 0.76);
+    }
+    .proof-line {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      padding: 26px 0;
+      border-top: 1px solid rgba(255,255,255,0.16);
+      font-size: 34px;
+      line-height: 1.18;
+      letter-spacing: -0.025em;
+      color: rgba(248,250,252,0.9);
+    }
+    .proof-line:first-child { border-top: 0; }
+    .proof-mark {
+      flex: 0 0 56px;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.12);
+      border: 2px solid var(--accent);
+      color: #ffffff;
+      font-size: 28px;
+      font-weight: 900;
+    }
+    .footer-brand {
+      position: absolute;
+      left: 108px;
+      bottom: 70px;
+      color: rgba(248,250,252,0.52);
+      font-size: 18px;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+    .timecode {
+      position: absolute;
+      right: 108px;
+      bottom: 70px;
+      color: rgba(248,250,252,0.68);
+      font-size: 18px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    #scene-intro { flex-direction: column; gap: 30px; text-align: center; }
+    #scene-role { align-items: stretch; gap: 44px; }
+    #scene-role .left { flex: 1.08; display: flex; flex-direction: column; justify-content: center; gap: 30px; }
+    #scene-role .right { flex: 0.92; padding: 44px; display: flex; flex-direction: column; justify-content: center; gap: 24px; }
+    .meta-row { display: grid; grid-template-columns: 210px 1fr; gap: 24px; padding: 18px 0; border-top: 1px solid rgba(255,255,255,0.14); }
+    .meta-label { color: rgba(248,250,252,0.68); font-size: 17px; letter-spacing: .14em; text-transform: uppercase; }
+    .meta-value { color: rgba(248,250,252,0.88); font-size: 26px; line-height: 1.22; }
+    #scene-fit { flex-direction: column; gap: 46px; }
+    #scene-proof { align-items: center; }
+    #scene-proof .panel { width: 1320px; padding: 52px 64px; }
+    #scene-cta { flex-direction: column; gap: 28px; text-align: center; }
+    .cta-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 42px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #05070d;
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      box-shadow: 0 24px 80px color-mix(in srgb, var(--accent) 36%, transparent);
+    }
+  </style>
 </head>
-  <body>
-    <div
-      id="root"
-      data-composition-id="main"
-      data-start="0"
-      data-duration="10"
-      data-width="1920"
-      data-height="1080"
-    >
-      
-      
+<body>
+  <div
+    id="root"
+    data-composition-id="role-pitch"
+    data-start="0"
+    data-duration="30"
+    data-width="1920"
+    data-height="1080"
+  >
+    <section id="scene-intro" class="clip scene" data-start="0" data-duration="4" data-track-index="1">
+      <div class="kicker mono" id="intro-kicker">Tailored role pitch</div>
+      <h1 class="title" id="intro-company">AI Product / Platform</h1>
+      <p class="subtitle" id="intro-role">Principal / Staff Product Roles</p>
+    </section>
 
-      <!--
-        Add your clips here. Example:
-        <div id="title" class="clip" data-start="0" data-duration="5" data-track-index="1"
-             style="font-size: 64px; color: #fff; padding: 40px">
-          Hello World
-        </div>
-      -->
-    </div>
+    <section id="scene-role" class="clip scene" data-start="4" data-duration="7" data-track-index="1">
+      <div class="left">
+        <div class="small-kicker mono">The role</div>
+        <h2 class="title" id="role-headline">AI product builder who can hold roadmap, system design, and shipped surface in one frame.</h2>
+      </div>
+      <div class="right panel">
+        <div class="meta-row"><div class="meta-label mono">Company</div><div class="meta-value" id="role-company">AI Product / Platform</div></div>
+        <div class="meta-row"><div class="meta-label mono">Title</div><div class="meta-value" id="role-title">Principal / Staff Product Roles</div></div>
+        <div class="meta-row"><div class="meta-label mono">Location</div><div class="meta-value" id="role-location">NYC / Remote / Hybrid</div></div>
+      </div>
+    </section>
 
-    <script>
-      window.__timelines = window.__timelines || {};
-      const tl = gsap.timeline({ paused: true });
-      // Example: tl.from("#title", { opacity: 0, y: -50, duration: 1 }, 0);
-      window.__timelines["main"] = tl;
-    </script>
-  </body>
+    <section id="scene-fit" class="clip scene" data-start="11" data-duration="8" data-track-index="1">
+      <div class="small-kicker mono">Why this match works</div>
+      <div class="grid-3">
+        <article class="card"><h3 class="card-title" id="fit-1-title">AI product shipped as working systems</h3><p class="card-copy" id="fit-1-detail">Built production AI products from strategy through TypeScript/Python implementation.</p></article>
+        <article class="card"><h3 class="card-title" id="fit-2-title">Enterprise platform judgment</h3><p class="card-copy" id="fit-2-detail">Rebuilt identity, subscription, SSO/SAML/OIDC, and API systems for high-trust customers.</p></article>
+        <article class="card"><h3 class="card-title" id="fit-3-title">Research-to-product range</h3><p class="card-copy" id="fit-3-detail">Connects scientific ML, document AI, 3D interfaces, and developer platforms into usable products.</p></article>
+      </div>
+    </section>
+
+    <section id="scene-proof" class="clip scene" data-start="19" data-duration="7" data-track-index="1">
+      <div class="panel">
+        <div class="small-kicker mono" style="margin-bottom:24px;color:var(--accent)">Proof in 10 seconds</div>
+        <div class="proof-line"><span class="proof-mark">1</span><span id="proof-1">12+ years shipping product, code, and judgment end-to-end.</span></div>
+        <div class="proof-line"><span class="proof-mark">2</span><span id="proof-2">Billions of monthly requests served by systems rebuilt at LBR.</span></div>
+        <div class="proof-line"><span class="proof-mark">3</span><span id="proof-3">150+ enterprise SSO rollouts to AmLaw 200 firms.</span></div>
+      </div>
+    </section>
+
+    <section id="scene-cta" class="clip scene" data-start="26" data-duration="4" data-track-index="1">
+      <div class="kicker mono">Application packet ready</div>
+      <h2 class="title" id="cta-text">Review the tailored résumé, cover letter, and role-specific proof.</h2>
+      <div class="cta-pill mono" id="cta-url">welc.ing</div>
+    </section>
+
+    <div class="footer-brand mono">Alex Welcing · AI product builder</div>
+    <div class="timecode mono">30 second role pitch</div>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+
+    const fallbackVars = {
+      companyName: 'AI Product / Platform',
+      roleTitle: 'Principal / Staff Product Roles',
+      location: 'NYC / Remote / Hybrid',
+      tagline: 'Tailored role pitch',
+      headline: 'AI product builder who can hold the roadmap, the system design, and the shipped surface in one frame.',
+      fitPoint1: 'AI product shipped as working systems',
+      fitPoint1Evidence: 'Built production AI products from strategy through TypeScript/Python implementation.',
+      fitPoint2: 'Enterprise platform judgment',
+      fitPoint2Evidence: 'Rebuilt identity, subscription, SSO/SAML/OIDC, and API systems for high-trust customers.',
+      fitPoint3: 'Research-to-product range',
+      fitPoint3Evidence: 'Connects scientific ML, document AI, 3D interfaces, and developer platforms into usable products.',
+      proof1: '12+ years shipping product, code, and judgment end-to-end.',
+      proof2: 'Billions of monthly requests served by systems rebuilt at LBR.',
+      proof3: '150+ enterprise SSO rollouts to AmLaw 200 firms.',
+      ctaText: 'Review the tailored résumé, cover letter, and role-specific proof.',
+      packetUrl: 'welc.ing',
+      companyAccent: '#33CCFF'
+    };
+
+    const variables = Object.assign(
+      {},
+      fallbackVars,
+      window.__ROLE_PITCH__ || {},
+      window.__hyperframes?.getVariables?.() || {}
+    );
+
+    function setText(id, value) {
+      const el = document.getElementById(id);
+      if (el && value) el.textContent = String(value);
+    }
+
+    document.documentElement.style.setProperty('--accent', variables.companyAccent || '#33CCFF');
+    setText('intro-kicker', variables.tagline);
+    setText('intro-company', variables.companyName);
+    setText('intro-role', variables.roleTitle);
+    setText('role-headline', variables.headline);
+    setText('role-company', variables.companyName);
+    setText('role-title', variables.roleTitle);
+    setText('role-location', variables.location);
+    setText('fit-1-title', variables.fitPoint1);
+    setText('fit-1-detail', variables.fitPoint1Evidence);
+    setText('fit-2-title', variables.fitPoint2);
+    setText('fit-2-detail', variables.fitPoint2Evidence);
+    setText('fit-3-title', variables.fitPoint3);
+    setText('fit-3-detail', variables.fitPoint3Evidence);
+    setText('proof-1', variables.proof1);
+    setText('proof-2', variables.proof2);
+    setText('proof-3', variables.proof3);
+    setText('cta-text', variables.ctaText);
+    setText('cta-url', variables.packetUrl);
+
+    const tl = gsap.timeline({ paused: true });
+    tl.from('#intro-kicker', { opacity: 0, y: 18, duration: 0.45 }, 0)
+      .from('#intro-company', { opacity: 0, y: 34, scale: 0.96, duration: 0.65 }, 0.18)
+      .from('#intro-role', { opacity: 0, y: 24, duration: 0.55 }, 0.48)
+      .to('#scene-intro', { opacity: 0, y: -30, duration: 0.45 }, 3.55)
+      .set('#scene-intro', { opacity: 0 }, 4)
+
+      .from('#scene-role .left > *', { opacity: 0, x: -42, stagger: 0.12, duration: 0.55 }, 4.05)
+      .from('#scene-role .right', { opacity: 0, x: 48, duration: 0.55 }, 4.18)
+      .from('#scene-role .meta-row', { opacity: 0, y: 18, stagger: 0.11, duration: 0.42 }, 4.55)
+      .to('#scene-role', { opacity: 0, y: -24, duration: 0.45 }, 10.55)
+      .set('#scene-role', { opacity: 0 }, 11)
+
+      .from('#scene-fit .small-kicker', { opacity: 0, y: 16, duration: 0.4 }, 11.05)
+      .from('#scene-fit .card', { opacity: 0, y: 42, stagger: 0.16, duration: 0.55 }, 11.25)
+      .to('#scene-fit .card', { boxShadow: '0 0 36px color-mix(in srgb, var(--accent) 18%, transparent)', stagger: 0.1, duration: 0.5 }, 12.4)
+      .to('#scene-fit', { opacity: 0, y: -26, duration: 0.45 }, 18.55)
+      .set('#scene-fit', { opacity: 0 }, 19)
+
+      .from('#scene-proof .panel', { opacity: 0, scale: 0.97, y: 28, duration: 0.55 }, 19.05)
+      .from('#scene-proof .proof-line', { opacity: 0, x: -36, stagger: 0.18, duration: 0.48 }, 19.45)
+      .to('#scene-proof .proof-mark', { scale: 1.08, yoyo: true, repeat: 1, stagger: 0.16, duration: 0.22 }, 20.2)
+      .to('#scene-proof', { opacity: 0, y: -26, duration: 0.45 }, 25.55)
+      .set('#scene-proof', { opacity: 0 }, 26)
+
+      .from('#scene-cta .kicker', { opacity: 0, y: 18, duration: 0.35 }, 26.05)
+      .from('#cta-text', { opacity: 0, y: 30, scale: 0.98, duration: 0.55 }, 26.2)
+      .from('#cta-url', { opacity: 0, y: 22, scale: 0.95, duration: 0.45 }, 26.7)
+      .to('#root', { filter: 'brightness(0.92)', duration: 0.45 }, 29.45);
+
+    window.__timelines['role-pitch'] = tl;
+    if (!window.__hyperframes) {
+      tl.play(0);
+    }
+  </script>
+</body>
 </html>
