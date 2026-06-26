@@ -205,8 +205,8 @@ export default function ResumePDFDocument(
                   <Link src="https://github.com/alexwelcing/lupine" style={styles.projLink}>GitHub</Link>
                 </View>
 
-                <Text style={styles.projNameNoIcon}>CreateSuite</Text>
-                <Text style={styles.projDesc}>Autonomous multi-agent orchestration across six model providers, with persistence and an inter-agent mailbox — built end to end.</Text>
+                <Text style={styles.projNameNoIcon}>Lupine</Text>
+                <Text style={styles.projDesc}>Materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Research pipelines in Python.</Text>
                 <View style={styles.projLinks}>
                   <Link src="https://github.com/alexwelcing/createsuite" style={styles.projLink}>GitHub</Link>
                 </View>
@@ -256,7 +256,7 @@ export default function ResumePDFDocument(
                   {role.whyFit.map((w) => (
                     <Text key={w.point} style={styles.whyItem}>
                       <Text style={styles.dot}>{'† '}</Text>
-                      <Text style={styles.whyPoint}>{w.point}. </Text>
+                      <Text style={styles.whyPoint}>{w.point}{w.point.match(/[:—;]$/) ? ' ' : '. '}</Text>
                       {w.detail}
                     </Text>
                   ))}

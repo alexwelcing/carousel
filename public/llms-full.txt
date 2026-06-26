@@ -37,7 +37,7 @@ Alex is "the rare product leader who sets the strategy and writes the code." He 
 - Drove cross-platform adoption with contextual, data-informed content systems; cut go-to-market time 25%.
 
 ## Flagship projects (personal, built solo)
-- CreateSuite — autonomous multi-agent orchestration platform: agents coordinate on long-running work with git-backed persistence, an inter-agent mailbox, and convoy-style task grouping, across six model providers (Claude, OpenAI, Gemini, MiniMax, Copilot, Z.ai). Stack: TypeScript, Node, LLM APIs, Git.
+- Lupine.Live — materials-science AI platform I built: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Stack: TypeScript, WebGL, ML Interatomic Potentials, Python.
 - Lupi.Live — materials-science computing and molecular visualization in the browser; MLIP benchmarks and phase-change trajectory analysis rendered in real time. Stack: TypeScript, WebGL, ML interatomic potentials.
 - High Era — a full go-to-market automation operating system (content generation, workflow engine, analytics) architected and shipped end-to-end as a single operator. Stack: FastAPI, SvelteKit, Python, GCP / Cloud Run.
 - alexwelcing.com — explorable 3D content site with real-time physics and AI semantic search over the writing; OpenAI embeddings served from pgvector in Supabase. Stack: Next.js, React Three Fiber, Cannon, Supabase pgvector.

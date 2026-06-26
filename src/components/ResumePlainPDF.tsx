@@ -157,7 +157,7 @@ export default function ResumePlainPDFDocument(
           <Text style={s.projDesc}>Materials-science computing and million-atom molecular visualization, live in the browser.</Text>
 
           <View style={s.projRow}>
-            <Text style={s.projName}>CreateSuite</Text>
+            <Text style={s.projName}>Lupine</Text>
             <Link src="https://github.com/alexwelcing/createsuite" style={s.projLink}>github.com/alexwelcing/createsuite</Link>
           </View>
           <Text style={s.projDesc}>Autonomous multi-agent orchestration across six model providers, with persistence and an inter-agent mailbox.</Text>

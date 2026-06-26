@@ -688,8 +688,8 @@ type ProofPoint = {
 
 const BASE_PROOF_LIBRARY: ProofPoint[] = [
   {
-    point: 'Multi-agent systems built end to end',
-    detail: 'CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.',
+    point: 'Materials-science AI platform built end to end',
+    detail: 'Lupine.Live: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Research pipelines in Python.',
   },
   {
     point: 'Enterprise deployment and trust',

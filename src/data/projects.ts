@@ -33,28 +33,17 @@ export const flagships: Flagship[] = [
   {
     slug: 'lupi',
     name: 'Lupi.Live',
-    tag: 'MATERIALS-SCIENCE AI',
-    status: 'LIVE',
+    tag: 'MATERIALS-SCIENCE AI · COMPANY',
+    status: 'LIVE — LUPINE SCIENCE',
     description:
-      'Materials-science computing and molecular visualization in the browser — MLIP benchmarks and phase-change trajectory analysis, rendered in real time.',
-    stack: ['TypeScript', 'WebGL', 'ML Interatomic Potentials'],
+      'Lupine Science materials-science platform: machine-learned interatomic potentials (MLIP), phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.',
+    stack: ['TypeScript', 'WebGL', 'ML Interatomic Potentials', 'Python', 'Research Pipelines'],
     links: [
       { label: 'lupi.live', url: 'https://lupi.live' },
       { label: 'GitHub', url: 'https://github.com/alexwelcing/lupine' },
     ],
     accent: '#33CCFF',
     molecule: true,
-  },
-  {
-    slug: 'createsuite',
-    name: 'CreateSuite',
-    tag: 'MULTI-AGENT ORCHESTRATION',
-    status: 'BUILT SOLO',
-    description:
-      'An autonomous multi-agent platform: agents coordinate on long-running work with git-backed persistence, an inter-agent mailbox, and convoy-style task grouping — across six model providers (Claude, OpenAI, Gemini, MiniMax, Copilot, Z.ai).',
-    stack: ['TypeScript', 'Node', 'LLM APIs', 'Git'],
-    links: [{ label: 'GitHub', url: 'https://github.com/alexwelcing/createsuite' }],
-    accent: '#FF3366',
   },
   {
     slug: 'alexwelcing',

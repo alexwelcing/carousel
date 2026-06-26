@@ -1,8 +1,8 @@
-# Alex Welcing — Technical Product Manager & AI Engineer
+# Alex Welcing — Architect PM (AI Agents, Identity, Enterprise Platforms)
 
-> Alex Welcing is a New York–based Technical Product Manager and AI engineer with 15 years building AI products, multi-agent systems, developer tools, and enterprise identity / SSO platforms at scale — product strategy plus shipped code. He is actively open to Principal / Staff Product, AI Product Lead, and Forward-Deployed Engineering roles.
+> Alex Welcing is a New York–based architect PM who has shipped production AI agents and re-platformed enterprise identity at billions-scale. Twelve-plus years across enterprise platforms, AI agents, and document understanding — strategy plus shipped code. Currently considering principal / staff product and forward-deployed PM roles.
 
-Alex pairs product strategy with hands-on engineering: he ships in TypeScript and Python, has owned enterprise identity and subscription platforms serving billions of requests per month, and builds autonomous multi-agent systems solo. Strongest domains: AI agents, developer tools, enterprise identity (SSO/SAML/OIDC), AI platforms, document AI, and 0-to-1 product. Based in New York, NY; open to hybrid or remote.
+Alex pairs product strategy with hands-on engineering. He ships in TypeScript and Python, has owned enterprise identity and subscription platforms serving billions of requests per month, and builds autonomous multi-agent systems solo. Specific shipped work: LBR identity re-platforming (SSO/SAML/OIDC for 150+ AmLaw 200 firms), Obsess 3D platform for Alo/Moncler/Ralph Lauren, Manatt document AI for 1,000+ clients, Lupine.Live multi-agent orchestration across six model providers. Strongest domains: AI agents, enterprise identity, document understanding, developer tools, platform engineering. Based in New York, NY; open to hybrid or remote.
 
 ## Contact
 - Email: alexwelcing@gmail.com
@@ -13,7 +13,7 @@ Alex pairs product strategy with hands-on engineering: he ships in TypeScript an
 ## Pages
 - [Home](https://welc.ing/): overview, tagline, and selected work
 - [Career](https://welc.ing/career): full timeline — Law Business Research, Obsess VR, Manatt, Arkadium
-- [Projects](https://welc.ing/projects): CreateSuite, Lupi.Live, High Era, alexwelcing.com
+- [Projects](https://welc.ing/projects): Lupi.Live, Lupine, High Era, alexwelcing.com
 - [Resume](https://welc.ing/resume): one-page resume (PDF download available)
 - [Contact](https://welc.ing/contact): how to reach Alex
 
@@ -24,7 +24,7 @@ Alex pairs product strategy with hands-on engineering: he ships in TypeScript an
 - Arkadium — Partner Development (2016–2017): pioneered NLP-driven AI content partnerships with major publishers, cutting go-to-market time 25%.
 
 ## Flagship projects (built solo)
-- CreateSuite: autonomous multi-agent orchestration platform with git-backed persistence, inter-agent mailbox, and convoy task grouping across six model providers (Claude, OpenAI, Gemini, MiniMax, Copilot, Z.ai).
+- Lupine.Live: materials-science AI platform with MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization.
 - Lupi.Live: materials-science AI and molecular visualization in the browser (TypeScript, WebGL, ML interatomic potentials).
 - High Era: a full marketing-automation operating system shipped end-to-end on Google Cloud.
 - alexwelcing.com: explorable 3D content site with real-time physics and AI semantic search (Next.js, React Three Fiber, Supabase pgvector).

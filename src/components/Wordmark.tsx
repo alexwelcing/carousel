@@ -18,7 +18,7 @@ interface Props {
  * Falls back to plain styled text until the Cardo webfont + Pretext are ready.
  */
 export default function Wordmark({
-  maxWidth = 760,
+  maxWidth = 640,
   color = '#FFFFFF',
   accent = '#1d3fd4',
   slant = -3.5,
@@ -55,12 +55,15 @@ export default function Wordmark({
     return () => ro.disconnect();
   }, []);
 
-  const target = Math.min(maxWidth, cw || maxWidth);
+  // Scale the wordmark to fit the container. On mobile, the container is
+  // often < maxWidth, so we scale down. This prevents horizontal overflow.
+  // When cw is 0 (before ResizeObserver fires), use maxWidth as a safe default.
+  const target = Math.min(maxWidth, cw > 0 ? cw : maxWidth);
   const f = base && base.width ? target / base.width : 0;
   const H = base ? base.height * f : 0;
 
   return (
-    <div ref={wrapRef} className={className} style={{ width: '100%', ...style }}>
+    <div ref={wrapRef} className={className} style={{ width: '100%', maxWidth: '100%', overflow: 'hidden', ...style }}>
       {base && f > 0 ? (
         <div
           role="img"
@@ -95,17 +98,20 @@ export default function Wordmark({
         </div>
       ) : (
         // Fallback before measurement: plain tapered-ish styled name.
+        // Scale to fit the container to avoid horizontal overflow on mobile.
         <span
           aria-label="Alex Welcing"
           style={{
             fontFamily: WORDMARK_FONT,
             fontWeight: 700,
-            fontSize: target / 7,
+            fontSize: cw > 0 ? Math.min(target / 7, cw / 7) : target / 7,
             lineHeight: 1,
             display: 'inline-block',
             transform: `rotate(${slant}deg)`,
             transformOrigin: '0% 100%',
             whiteSpace: 'nowrap',
+            maxWidth: '100%',
+            overflow: 'hidden',
           }}
         >
           <span style={{ color }}>Alex</span>

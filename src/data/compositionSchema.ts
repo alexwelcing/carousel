@@ -5,7 +5,7 @@
  *  - parseRequirements no longer splits on "-" (kept "5–8+ years", "type-safe", "go-to-market" intact)
  *  - videoId is now slugified (commas/slashes/parens stripped) -> safe filenames/URLs
  *  - parseFitPoints / selectProofPoints are implemented (signal-matched), not stubs
- *  - proof library matches the verified ground truth (LBR / CreateSuite / Manatt / Obsess / flagships)
+ *  - proof library matches the verified ground truth (LBR / Lupine.Live / Manatt / Obsess / flagships)
  *
  * Interfaces are unchanged, so this is a drop-in replacement for src/data/compositionSchema.ts.
  */
@@ -135,12 +135,12 @@ export function splitStructuredItems(value: string, limit = 5): string[] {
 /* ── PROOF LIBRARY (verified ground truth) ─────────────────────────── */
 const PROOF_LIBRARY: ProofPointMapping[] = [
   {
-    flagshipSlug: 'createsuite',
-    title: 'CreateSuite',
-    description: 'Autonomous multi-agent orchestration built solo — git-backed persistence, inter-agent mailbox, six model providers.',
-    stat: 'Multi-agent platform I built solo across 6 providers',
-    relevanceTags: ['Agents', 'LLM Orchestration', 'Persistence', 'DevTools'],
-    fitTags: ['Agent Platform PM', 'Developer Tools', 'Applied AI'],
+    flagshipSlug: 'lupine',
+    title: 'Lupine.Live — Materials-Science AI',
+    description: 'Materials-science AI platform I built solo: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Research pipelines in Python.',
+    stat: 'Materials-science AI built solo: MLIP, phase-change simulation, WebGL browser',
+    relevanceTags: ['Materials Science', 'MLIP', 'Machine Learning', 'WebGL', 'Research'],
+    fitTags: ['AI/ML PM', 'Research PM', 'Developer Tools', 'Platform PM'],
   },
   {
     flagshipSlug: 'lbr-identity',
@@ -203,7 +203,7 @@ export function selectProofPoints(role: TargetRole, topTarget?: TopTarget, limit
     .map((p) => ({ p, score: p.relevanceTags.filter((t) => signal.includes(t.toLowerCase())).length }))
     .sort((a, b) => b.score - a.score);
   const picked = scored.filter((s) => s.score > 0).map((s) => s.p);
-  // always keep CreateSuite present as the AI-builder anchor if nothing else matched
+  // always keep Lupine.Live present as the AI-builder anchor if nothing else matched
   if (picked.length === 0) picked.push(PROOF_LIBRARY[0]);
   // top up to limit from remaining, preserving order
   for (const { p } of scored) {

@@ -21,29 +21,29 @@ function ResumeSkeleton() {
    No dependencies; helps Google (which renders JS) index each route distinctly. */
 const PAGE_SEO: Record<string, { title: string; description: string }> = {
   '/': {
-    title: 'Alex Welcing — Technical Product Manager & AI Engineer (NYC) · Multi-Agent Systems, Enterprise Identity',
+    title: 'Alex Welcing — Re-platformed identity at billions-scale. Shipped AI agents in production. (NYC · Principal / Staff PM)',
     description:
-      'NYC-based Technical Product Manager and AI engineer. 15 years building AI products, multi-agent systems, developer tools, and enterprise identity/SSO platforms at scale — strategy plus shipped code. Open to Principal/Staff Product and Forward-Deployed AI roles.',
+      'Architect PM who has shipped production AI agents and re-platformed enterprise identity at billions-scale. Twelve-plus years: LBR identity, Obsess 3D for Alo/Moncler/Ralph Lauren, Manatt document AI, Lupine.Live materials-science AI. Considering principal / staff product and forward-deployed PM roles in New York.',
   },
   '/career': {
-    title: 'Career — Alex Welcing · 15 Years: AI Partnerships to Enterprise Identity to Multi-Agent Systems',
+    title: 'Career — Alex Welcing · 12+ Years: LBR Identity, Obsess 3D, Manatt Document AI, Lupine.Live',
     description:
-      'Career timeline: Law Business Research (enterprise identity & platform at billions of requests/mo, SSO/SAML/OIDC for 150+ AmLaw 200 firms), Obsess VR 3D commerce, Manatt document AI, Arkadium NLP partnerships.',
+      'Career timeline: Law Business Research (enterprise identity & platform at billions of requests/mo, SSO/SAML/OIDC for 150+ AmLaw 200 firms), Obsess VR 3D commerce for Alo/Moncler/Ralph Lauren, Manatt document AI, Arkadium NLP partnerships.',
   },
   '/projects': {
-    title: 'Projects — Alex Welcing · CreateSuite Multi-Agent Platform, Lupi.Live, Enterprise AI',
+    title: 'Projects — Alex Welcing · Lupi.Live, Lupine, High Era, alexwelcing.com',
     description:
-      'Selected work: CreateSuite (solo-built multi-agent orchestration across six model providers), Lupi.Live materials-science AI, alexwelcing.com 3D + semantic search, and enterprise AI platforms.',
+      'Selected work, built end-to-end: Lupi.Live materials-science AI platform (MLIP, phase-change simulation, TypeScript/WebGL), Lupine research pipelines, alexwelcing.com 3D + semantic search, High Era marketing-automation OS on Google Cloud.',
   },
   '/contact': {
-    title: 'Contact Alex Welcing — Open to Principal/Staff Product & Forward-Deployed AI Roles (NYC)',
+    title: 'Contact Alex Welcing — Open to Principal / Staff Product & Forward-Deployed PM Roles (NYC)',
     description:
-      'Get in touch with Alex Welcing — Technical Product Manager and AI engineer in New York. Open to Principal/Staff Product, AI Product Lead, and Forward-Deployed Engineering roles.',
+      'Get in touch with Alex Welcing — Architect PM in New York. Open to principal / staff product, AI product lead, and forward-deployed PM roles at AI-native companies.',
   },
   '/resume': {
-    title: 'Resume — Alex Welcing, Technical Product Manager & AI Engineer (NYC)',
+    title: 'Resume — Alex Welcing, Architect PM (AI Agents, Identity, Enterprise Platforms · NYC)',
     description:
-      'Resume of Alex Welcing: 15 years of AI product management, multi-agent systems, enterprise identity/SSO, and developer tools. Download PDF.',
+      'Resume of Alex Welcing: twelve-plus years of AI product management, multi-agent systems, enterprise identity/SSO, document AI, and developer tools. One-page PDF download.',
   },
 };
 
