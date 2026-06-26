@@ -26,7 +26,7 @@ function sanitizeDisplay(value: string | undefined, cap = 200): string {
   // Strip leading dangling quote (open half of an unbalanced pair)
   s = s.replace(/^[\s"'\u2018\u2019]+/, '').trim();
   // Strip trailing brackets / pipes (decorative wrappers like [ AI · AGENTS · & ])
-  s = s.replace(/[\]\)]+\s*$/, '').trim();
+  s = s.replace(/[\])]+\s*$/, '').trim();
   // Strip trailing clusters of separator / quote characters
   s = s.replace(/[\s"'\u2018\u2019:;.―-]+$/g, '').trim();
   // Drop a trailing dangling `&` (engine produced `[ AI · AGENTS · & ]`)
