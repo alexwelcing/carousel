@@ -151,16 +151,16 @@ export default function ResumePlainPDFDocument(
 
         <Section title="SELECTED PROJECTS">
           <View style={s.projRow}>
-            <Text style={s.projName}>Lupi.Live</Text>
+            <Text style={s.projName}>Lupine.Live</Text>
             <Link src="https://lupi.live" style={s.projLink}>lupi.live</Link>
           </View>
           <Text style={s.projDesc}>Materials-science computing and million-atom molecular visualization, live in the browser.</Text>
 
           <View style={s.projRow}>
             <Text style={s.projName}>Lupine</Text>
-            <Link src="https://github.com/alexwelcing/createsuite" style={s.projLink}>github.com/alexwelcing/createsuite</Link>
+            <Link src="https://github.com/alexwelcing/lupine" style={s.projLink}>github.com/alexwelcing/lupine</Link>
           </View>
-          <Text style={s.projDesc}>Autonomous multi-agent orchestration across six model providers, with persistence and an inter-agent mailbox.</Text>
+          <Text style={s.projDesc}>MLIP benchmarks, phase-change simulation, and molecular visualization tooling.</Text>
 
           <View style={s.projRow}>
             <Text style={s.projName}>alexwelcing.com</Text>

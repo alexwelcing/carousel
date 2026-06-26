@@ -176,7 +176,7 @@ const PROOF_LIBRARY: ProofPointMapping[] = [
   },
   {
     flagshipSlug: 'lupi',
-    title: 'Lupi.Live',
+    title: 'Lupine.Live',
     description: 'Materials-science AI and molecular visualization in the browser — MLIP benchmarks rendered in real time.',
     stat: 'Materials-science ML rendered in real time',
     relevanceTags: ['ML', 'WebGL', 'Physics', 'Performance'],

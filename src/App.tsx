@@ -31,9 +31,9 @@ const PAGE_SEO: Record<string, { title: string; description: string }> = {
       'Career timeline: Law Business Research (enterprise identity & platform at billions of requests/mo, SSO/SAML/OIDC for 150+ AmLaw 200 firms), Obsess VR 3D commerce for Alo/Moncler/Ralph Lauren, Manatt document AI, Arkadium NLP partnerships.',
   },
   '/projects': {
-    title: 'Projects — Alex Welcing · Lupi.Live, Lupine, High Era, alexwelcing.com',
+    title: 'Projects — Alex Welcing · Lupine.Live, Lupine, High Era, alexwelcing.com',
     description:
-      'Selected work, built end-to-end: Lupi.Live materials-science AI platform (MLIP, phase-change simulation, TypeScript/WebGL), Lupine research pipelines, alexwelcing.com 3D + semantic search, High Era marketing-automation OS on Google Cloud.',
+      'Selected work, built end-to-end: Lupine.Live materials-science AI platform (MLIP, phase-change simulation, TypeScript/WebGL), Lupine research pipelines, alexwelcing.com 3D + semantic search, High Era marketing-automation OS on Google Cloud.',
   },
   '/contact': {
     title: 'Contact Alex Welcing — Open to Principal / Staff Product & Forward-Deployed PM Roles (NYC)',

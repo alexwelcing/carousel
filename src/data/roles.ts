@@ -4785,7 +4785,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a single-operator builder who has shipped full products end-to-end. Built High Era single-handed: a full go-to-market automation OS on Google Cloud.",
     whyFit: [
       { point: "Solomon Page is building N/A (recruiter); client's AI focus unknown from the listing \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "Engage the recruiter to learn the client/domain, then lead with the matching strength (AI, platform, security, or growth):", detail: "Built Lupi.Live: a materials-science computing and molecular-visualization platform, deployed live at lupi.live." },
+      { point: "Engage the recruiter to learn the client/domain, then lead with the matching strength (AI, platform, security, or growth):", detail: "Built Lupine.Live: a materials-science computing and molecular-visualization platform, deployed live at lupi.live." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built Lupine.Live single-handed: TypeScript/WebGL molecular visualization with MLIP benchmarks and Python research pipelines." },
     ],
     proof: [

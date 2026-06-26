@@ -25,14 +25,14 @@ export interface Flagship {
   video?: string;
   /** Optional webm source (preferred when present) */
   videoWebm?: string;
-  /** Render the AW-style molecule glyph next to the name (Lupi.Live) */
+  /** Render the AW-style molecule glyph next to the name (Lupine.Live) */
   molecule?: boolean;
 }
 
 export const flagships: Flagship[] = [
   {
     slug: 'lupi',
-    name: 'Lupi.Live',
+    name: 'Lupine.Live',
     tag: 'MATERIALS-SCIENCE AI · COMPANY',
     status: 'LIVE — LUPINE SCIENCE',
     description:

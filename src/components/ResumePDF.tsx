@@ -197,7 +197,7 @@ export default function ResumePDFDocument(
                 <SectionLabel styles={styles}>Selected Work</SectionLabel>
                 <View style={styles.projHead}>
                   <MoleculeIcon color={C.cyan} />
-                  <Text style={styles.projName}>Lupi.Live</Text>
+                  <Text style={styles.projName}>Lupine.Live</Text>
                 </View>
                 <Text style={styles.projDesc}>Materials-science computing & million-atom molecular visualization, live in the browser.</Text>
                 <View style={styles.projLinks}>
@@ -208,7 +208,7 @@ export default function ResumePDFDocument(
                 <Text style={styles.projNameNoIcon}>Lupine</Text>
                 <Text style={styles.projDesc}>Materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Research pipelines in Python.</Text>
                 <View style={styles.projLinks}>
-                  <Link src="https://github.com/alexwelcing/createsuite" style={styles.projLink}>GitHub</Link>
+                  <Link src="https://github.com/alexwelcing/lupine" style={styles.projLink}>GitHub</Link>
                 </View>
 
                 <Text style={styles.projNameNoIcon}>alexwelcing.com</Text>

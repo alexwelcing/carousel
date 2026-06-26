@@ -284,7 +284,7 @@ function SelectedWork() {
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] items-end mb-10">
           <div className="max-w-[620px]">
             <BalancedText as="h2" className="font-h1 mb-4" style={{ color: 'var(--text-primary)' }}>
-              Lupi.Live. Lupine. alexwelcing.com. High Era.
+              Lupine.Live. Lupine. alexwelcing.com. High Era.
             </BalancedText>
             <BalancedText as="p" className="font-body" style={{ color: 'var(--text-secondary)' }}>
               Product systems, enterprise platforms, and AI work where the design has to carry both taste and operational credibility.
@@ -293,7 +293,7 @@ function SelectedWork() {
           <div className="rounded-[20px] border border-[var(--border-subtle)] bg-[rgba(255,255,255,0.68)] p-5 lg:justify-self-end lg:max-w-[420px]">
             <span className="font-caption block mb-2" style={{ color: 'var(--text-tertiary)' }}>DEPLOYED LIVE</span>
             <p className="font-body-small" style={{ color: 'var(--text-primary)' }}>
-              Lupi.Live at lupi.live. Lupine on GitHub. alexwelcing.com in production. High Era on Google Cloud.
+              Lupine.Live at lupi.live. Lupine on GitHub. alexwelcing.com in production. High Era on Google Cloud.
             </p>
           </div>
         </div>
