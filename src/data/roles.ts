@@ -573,8 +573,8 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I manatt document-AI (extraction/accuracy on regulated legal docs) as a direct analog to claims/denials accuracy: 'I ship trustworthy AI on me \u2014 Built AI-based document scanning an",
+    tagline: "[ AI · AGENTS ]",
+    headline: "I led document-AI (extraction/accuracy on regulated legal docs) as a direct analog to claims/denials accuracy: 'I ship trustworthy AI on messy regulated documents.'",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Adonis is building 'Intelligence, AI Agents, and Orchestration' platform; AI agents automating RCM workflows \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
@@ -594,7 +594,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am shipping production AI agents for ops-heavy, document-laden workflows and translating that into measurable automation/cost wins \u2014 Integrated MCP servers and agent skills into.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
@@ -615,7 +615,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.",
     whyFit: [
@@ -636,7 +636,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am building AI/agent developer platforms and tooling that let other teams ship agents safely  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -657,7 +657,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I concrete devtools/DX wins (adoption, time-to-first-agent, SDK/API quality) from your developer-tools PM work  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
@@ -678,7 +678,7 @@ export const roles: TailoredRole[] = [
     location: "New York City Metropolitan Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I obsess 'AI agents & developer tools PM' as near-identical to Bubble's AI app-builder problem space \u2014 Unified access models across legacy and new product surfaces, unlocking new r",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.",
     whyFit: [
@@ -699,7 +699,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
@@ -720,7 +720,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I document-AI work turning messy documents into structured data powering AI agents (Manatt + Obsess) \u2014 Shipped document understanding pipelines that turned unstructured legal text.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
@@ -741,7 +741,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I embedded shipping of AI agents into enterprise workflows \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -783,7 +783,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
@@ -804,7 +804,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I hands-on AI-agent devtools PM work and evidence you understand the agent-builder developer's workflow  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -825,7 +825,7 @@ export const roles: TailoredRole[] = [
     location: "New York City Metropolitan Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I agent devtools PM experience and NYC presence \u2014 Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -846,7 +846,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I document-AI for legal/professional-services workflows (Manatt) plus agent product depth (Obsess)  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -867,7 +867,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I platform PM experience  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, MiniMax, Copilot, and Z.ai as integration partners, not just API consumers.",
     whyFit: [
@@ -888,7 +888,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I strongest possible match \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.",
     whyFit: [
@@ -909,7 +909,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I 'shipped AI agents and document-AI that augmented expert knowledge workers' (Obsess + Manatt)  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
@@ -930,7 +930,7 @@ export const roles: TailoredRole[] = [
     location: "United States",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am building AI agents and developer platforms (Obsess) that enterprises adopt; tie to conversational AI \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 sh",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
@@ -972,7 +972,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am shipping enterprise AI agents and the security/governance discipline a bank requires \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -993,7 +993,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I native PM who can define agent observability  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -1056,7 +1056,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable \u2014 Led the 3D experience platform at Obsess \u2014 avatars.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
@@ -1245,7 +1245,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am building the context/grounding layer for AI agents \u2014 connect document-AI retrieval and agent experience directly to Work Graph context  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
@@ -1287,7 +1287,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I lead resume with 'built the AI/agent developer platform at Obsess' \u2014 internal LLM tooling and adoption among engineers  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
@@ -1308,8 +1308,8 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I manatt document-AI work as 'making enterprise data AI-ready for RAG and agent pipelines.' \u2014 Built an inter-agent mailbox for cross-agent communication, modeled on git-style stora",
+    tagline: "[ AI · AGENTS ]",
+    headline: "I led document-AI work as 'making enterprise data AI-ready for RAG and agent pipelines.' \u2014 Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
       { point: "Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
@@ -1413,7 +1413,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am building AI developer tooling at Obsess and the metrics proving developer productivity gains \u2014 Set the multi-year SaaS platform strategy for enterprise brand deployments at Ob",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
@@ -1434,7 +1434,7 @@ export const roles: TailoredRole[] = [
     location: "New York City Metropolitan Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I platform PM with security/identity depth \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.",
     whyFit: [
@@ -1476,7 +1476,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I driven detection and trust thinking, while acknowledging the detection \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
@@ -1497,7 +1497,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I hands-on AI-agent PM experience: agent reliability, tool-use, guardrails and measurable resolution outcomes  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -1518,7 +1518,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I the LBR security/compliance + Obsess agentic  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, MiniMax, Copilot, and Z.ai as integration partners, not just API consumers.",
     whyFit: [
@@ -1540,7 +1540,7 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ CROSS-FUNCTIONAL ]",
-    headline: "I manatt document-AI as 'I productize complex AI/ML models into trusted outputs.' \u2014 Unified access models across legacy and new product surfaces, unlocking new revenue.",
+    headline: "I led document-AI as 'I productize complex AI/ML models into trusted outputs.' \u2014 Unified access models across legacy and new product surfaces, unlocking new revenue.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
       { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
@@ -1560,8 +1560,8 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
-    headline: "I manatt: 'I build products where accuracy and user trust in AI output is the product' - exactly Rockerbox's need \u2014 Shipped a type-safe AI API workspace (oRPC) with self-improving.",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
+    headline: "I led document-AI: 'I build products where accuracy and user trust in AI output is the product' \u2014 exactly the need for an enterprise measurement platform.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
@@ -1665,7 +1665,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I agents product shipping at Obsess and document \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -1813,7 +1813,7 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I manatt document-AI as 'I turn messy data into trusted, governed data products' for a regulated enterprise \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterpr",
+    headline: "I led document-AI as 'I turn messy data into trusted, governed data products' for a regulated enterprise \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "hackajob is building 'Archer' AI sourcing agent; in-house AI agents for talent matching \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
@@ -1854,7 +1854,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I obsess developer-tools PM work as near-identical: 'I ship AI developer tooling that makes builders faster.' \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
@@ -1875,7 +1875,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I lBR: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch \u2014 Re-platformed the identity & subscription system handling billions of monthly reques",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
@@ -1896,7 +1896,7 @@ export const roles: TailoredRole[] = [
     location: "New York, United States",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address heal  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -2043,7 +2043,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I aI (extraction/retrieval) and Obsess agentic AI  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -2148,7 +2148,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cos  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -2169,7 +2169,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I agents/devtools PM at Obsess  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.",
     whyFit: [
@@ -2274,7 +2274,7 @@ export const roles: TailoredRole[] = [
     location: "California, United States",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I tools/AI PM track record  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -2295,7 +2295,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I otherwise note it's a management pivot from PM \u2014 Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -2337,7 +2337,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I platform + growth/analytics experience and connect AI-agents background to Pendo's agent-analytics push  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -2358,7 +2358,7 @@ export const roles: TailoredRole[] = [
     location: "United States",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I aI-application and developer-platform PM experience (agents, RAG-adjacent), positioning as a PM who understands what AI builders need from a  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
@@ -2484,7 +2484,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I agent PM experience  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -2526,7 +2526,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am shipping AI agents over document-heavy, accuracy-critical workflows (document AI + agents)  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
@@ -2589,7 +2589,7 @@ export const roles: TailoredRole[] = [
     location: "New York City Metropolitan Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I aI + security/identity intersection; frame document-AI eval and security rigor as directly relevant to GenAI T&E \u2014 Re-platformed the identity & subscription system handling billi",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
@@ -2610,7 +2610,7 @@ export const roles: TailoredRole[] = [
     location: "New York City Metropolitan Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I the rare PM who has actually shipped AI-agent + devtool products (Obsess), able to translate APT-1's research edge into developer-ready prod \u2014 Integrated MCP servers and agent sk",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
@@ -2631,7 +2631,7 @@ export const roles: TailoredRole[] = [
     location: "Greater Seattle Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "AI + security framing \u2014 for SecurityScorecard.",
     intro: "At SecurityScorecard, same Principal PM, AI req posted for Greater Seattle (remote): owns agentic AI workflow strategy and AI architecture/eval standards My track record \u2014 Obsess: 3D/agent platform for Alo/Moncler/Ralph Lauren; Lupine.Live materials-science AI platform built solo \u2014 maps directly to the ai agents & developer tools work this role demands.",
     whyFit: [
@@ -2652,7 +2652,7 @@ export const roles: TailoredRole[] = [
     location: "New York City Metropolitan Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I hands-on agentic AI shipping at Obsess + security credibility from LBR \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
@@ -2694,7 +2694,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I agents/devtools product leadership at Obsess and document  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
@@ -2736,7 +2736,7 @@ export const roles: TailoredRole[] = [
     location: "United States",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am shipping AI/agents and deploying them with users \u2014 frame as the rare PM who builds AI features and makes them succeed in production with ent \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -2778,7 +2778,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I multi-agent product experience and 0-to-1 building; frame document-AI/platform work as governing complex, high-stakes enterprise automation  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -2799,7 +2799,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am shipping AI agents/document-AI for knowledge-worker workflows; demonstrate technical hands-on comfort  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, MiniMax, Copilot, and Z.ai as integration partners, not just API consumers.",
     whyFit: [
@@ -2883,7 +2883,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I agents/devtools PM (Obsess) and platform work  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
@@ -2904,7 +2904,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I heavy enterprise workflows, exactly Workiva's mandate \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.",
     whyFit: [
@@ -2925,7 +2925,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
@@ -3115,7 +3115,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I developer-tools PM experience at Obsess \u2014 building productive tooling experiences for technical end users \u2014 Unified access models across legacy and new product surfaces, unlockin",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
@@ -3178,7 +3178,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am building tooling to monitor and improve AI-agent quality and reliability at Obsess  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -3241,7 +3241,7 @@ export const roles: TailoredRole[] = [
     location: "Greater Chicago Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I platform and trust/security strengths \u2014 Unified access models across legacy and new product surfaces, unlocking new revenue.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
@@ -3262,7 +3262,7 @@ export const roles: TailoredRole[] = [
     location: "Greater Tampa Bay Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I note willingness for remote/distributed \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
@@ -3283,7 +3283,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I devtools/developer-experience wins (Obsess) \u2014 frame onboarding as a DX/adoption funnel he has optimized before \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SO",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
@@ -3304,7 +3304,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I platform PM building tools that power other professionals' workflows; tie AI assistant trend to Obsess agent work  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
@@ -3452,7 +3452,7 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I manatt document-AI as 'I build extraction pipelines where accuracy on messy source docs is the product' - exactly Daloopa's core challenge \u2014 Operated as the only PM in a build th",
+    headline: "I led document-AI as 'I build extraction pipelines where accuracy on messy source docs is the product' \u2014 exactly the right experience for an AI-driven financial data platform.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.",
     whyFit: [
       { point: "Daloopa is building Data extraction/structuring AI; MCP integration to feed AI systems accurate financial data \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
@@ -3514,7 +3514,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I lBR identity & security PM experience, framing identity/threat context as adjacent to detection & response \u2014 Re-platformed the identity & subscription system handling billions of",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
@@ -3535,7 +3535,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I lBR identity & security PM plus Arkadium platform work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.",
     whyFit: [
@@ -3577,7 +3577,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I agents PM work building agentic product experiences  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -3619,7 +3619,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I devtools/platform PM work and developer-ecosystem enablement at Obsess/Arkadium  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, MiniMax, Copilot, and Z.ai as integration partners, not just API consumers.",
     whyFit: [
@@ -3640,7 +3640,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I otherwise deprioritize vs PM roles \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
@@ -3661,7 +3661,7 @@ export const roles: TailoredRole[] = [
     location: "United States",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I tools PM experience at Obsess and platform PM at Arkadium \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
@@ -3850,7 +3850,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I am translating AI-agent capabilities into deployed customer solutions \u2014 bridge technical product depth and customer outcomes  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -3913,7 +3913,7 @@ export const roles: TailoredRole[] = [
     location: "United States",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I lBR identity & security PM work; frame identity-graph/AdTech as applying identity-resolution expertise to advertising data products \u2014 Re-platformed the identity & subscription sy",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Ran SSO / SAML / OIDC onboarding for 150+ AmLaw 200 firms.",
     whyFit: [
@@ -3955,7 +3955,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I lBR enterprise identity & security PM (SSO/SCIM/admin) as core to enterprise readiness; tie platform experience to scale \u2014 Re-platformed the identity & subscription system handli",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
@@ -3997,7 +3997,7 @@ export const roles: TailoredRole[] = [
     location: "New York City Metropolitan Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I lBR: 'I've shipped security/identity products where trust and regulatory rigor are the product' - directly relevant to qualified custody \u2014 Re-platformed the identity & subscripti",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Ran SSO / SAML / OIDC onboarding for 150+ AmLaw 200 firms.",
     whyFit: [
@@ -4039,7 +4039,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I a platform PM who built shared services that many products consume, with security/identity depth \u2014 Re-platformed the identity & subscription system handling billions of monthly r",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
@@ -4123,7 +4123,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I agent product launches at Obsess and large  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -4249,7 +4249,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I arkadium platform PM + Obsess devtools: 'I build the internal systems and tooling that let product teams move faster.' \u2014 Built contextual, data-informed content systems that drov",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
@@ -4291,7 +4291,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I security PM work and AI/ML fluency \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
@@ -4312,7 +4312,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I security/identity PM credibility from LBR; frame web/client-side security as an extension of his security product expertise \u2014 Re-platformed the identity & subscription system han",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
@@ -4354,7 +4354,7 @@ export const roles: TailoredRole[] = [
     location: "New York City Metropolitan Area",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I identity-product PM experience (LBR) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor \u2014 Re-platformed the identity & subscriptio",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
@@ -4375,7 +4375,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I platform/devtools PM \u2014 building APIs and developer/partner experiences that grew an ecosystem  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
@@ -4396,7 +4396,7 @@ export const roles: TailoredRole[] = [
     location: "Norcross, GA",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I aI/agent product shipping; first confirm the actual hiring company before tailoring  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
@@ -4543,7 +4543,7 @@ export const roles: TailoredRole[] = [
     location: "United States",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I developer-tools/platform PM and DX wins; be honest about ramping on low-level AI-infra, emphasize developer-adoption craft  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
@@ -4606,7 +4606,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I pM rigor but acknowledge the deep distributed \u2014 Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
@@ -4753,7 +4753,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I note interest in returning to product \u2014 Worked hands-on with Claude, OpenAI, Gemini, MiniMax, Copilot, and Z.ai as integration\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
@@ -4816,7 +4816,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I if technical-enough, frame identity-graph + AI experience for CoreAI; otherwise this leans eng-management vs Alex's PM track \u2014 Re-platformed the identity & subscription system ha",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.",
     whyFit: [
@@ -4879,7 +4879,7 @@ export const roles: TailoredRole[] = [
     location: "Manhattan, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
-    tagline: "[ IDENTITY \u00b7 & \u00b7 SECURITY ]",
+    tagline: "[ IDENTITY \u00b7 SECURITY ]",
     headline: "I a platform PM with identity/accounts and security experience for large-scale online services \u2014 Re-platformed the identity & subscription system handling billions of monthly reque",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
@@ -5068,7 +5068,7 @@ export const roles: TailoredRole[] = [
     location: "New York, NY",
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
-    tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
+    tagline: "[ AI · AGENTS ]",
     headline: "I data/AI platform PM and financial-services-adjacent rigor; clarify whether the role builds product or delivers for clients  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [

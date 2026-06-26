@@ -25,12 +25,25 @@ function sanitizeDisplay(value: string | undefined, cap = 200): string {
   let s = value.replace(/\s+/g, ' ').trim();
   // Strip leading dangling quote (open half of an unbalanced pair)
   s = s.replace(/^[\s"'\u2018\u2019]+/, '').trim();
+  // Strip trailing brackets / pipes (decorative wrappers like [ AI · AGENTS · & ])
+  s = s.replace(/[\]\)]+\s*$/, '').trim();
   // Strip trailing clusters of separator / quote characters
   s = s.replace(/[\s"'\u2018\u2019:;.―-]+$/g, '').trim();
   // Drop a trailing dangling `&` (engine produced `[ AI · AGENTS · & ]`)
-  s = s.replace(/\s*&\s*$/g, '').trim();
+  s = s.replace(/\s*&\s*$/, '').trim();
   // Strip mid-word truncation artifacts: a stray fragment followed by `…`
-  s = s.replace(/\s+\S*…\s*$/g, '').trim();
+  s = s.replace(/\s+\S*…\s*$/, '').trim();
+  // If the string ends mid-word without a sentence terminator (no . ! ? …),
+  // chop it at the last sentence terminator so we don't render "...scanning an".
+  if (s && !/[.!?…\]]$/.test(s)) {
+    const lastTerm = Math.max(
+      s.lastIndexOf('. '),
+      s.lastIndexOf('! '),
+      s.lastIndexOf('? '),
+      s.lastIndexOf('.'),
+    );
+    if (lastTerm > 20) s = s.slice(0, lastTerm + 1);
+  }
   // If quotes are still unbalanced after the above, drop them all so the
   // candidate-facing copy never shows a half-quoted sentence.
   s = stripUnbalancedQuotes(s);
