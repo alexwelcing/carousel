@@ -214,7 +214,7 @@ function HeroSection() {
             </BalancedText>
             <div className="space-y-3">
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4 border-t border-[var(--border-subtle)] pt-3">
-                <span className="font-caption" style={{ color: 'var(--text-tertiary)' }}>SHIPPED</span>
+                <span className="font-caption whitespace-nowrap flex-shrink-0" style={{ color: 'var(--text-tertiary)' }}>SHIPPED</span>
                 <span className="font-body-small sm:text-right" style={{ color: 'var(--text-primary)' }}>lupi.live viewer, lupine.science research, Obsess 3D, Manatt document AI, LBR platform work</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4 border-t border-[var(--border-subtle)] pt-3">
