@@ -37,14 +37,14 @@ export const roles: TailoredRole[] = [
   {
     slug: 'generic-ai-product-platform',
     company: 'AI Product / Platform',
-    roleTitle: 'Generic Landing',
+    roleTitle: 'Principal / Staff Product Roles',
     location: 'NYC / Remote / Hybrid',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=AI%20Product%20%2F%20Platform%20PM%20Conversation',
     accent: '#33CCFF',
     tagline: '[ GENERIC LANDING · AI PRODUCT / PLATFORM ]',
     headline: 'AI product builder who can hold the roadmap, the system design, and the shipped surface in one frame.',
     intro:
-      'Use this when the role is broadly AI product, platform PM, or technical product leadership and the exact company problem is still unclear. The through-line: production AI systems, enterprise deployment judgment, and hands-on TypeScript/Python builder credibility.',
+      'Built for broadly technical AI product, platform PM, and product-leadership roles where production judgment matters: AI systems, enterprise deployment, and hands-on TypeScript/Python builder credibility.',
     whyFit: [
       {
         point: 'AI product shipped as working systems',
@@ -71,14 +71,14 @@ export const roles: TailoredRole[] = [
   {
     slug: 'generic-forward-deployed-ai',
     company: 'Forward-Deployed AI',
-    roleTitle: 'Generic Landing',
+    roleTitle: 'Customer-Facing Applied AI Roles',
     location: 'NYC / Remote / Customer-facing',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Forward-Deployed%20AI%20Conversation',
     accent: '#D97757',
     tagline: '[ GENERIC LANDING · FORWARD-DEPLOYED AI ]',
     headline: 'I can sit with the customer, build the workflow, and feed the pattern back into product.',
     intro:
-      'Use this for FDE, forward-deployed PM, AI solutions, customer engineering, and applied-AI roles where credibility depends on both technical execution and direct customer trust. It is patterned from the Anthropic, Harvey, Glean, and OpenAI packets.',
+      'Built for FDE, forward-deployed PM, AI solutions, customer engineering, and applied-AI roles where credibility depends on both technical execution and direct customer trust.',
     whyFit: [
       {
         point: 'Customer-facing technical deployment is familiar territory',
@@ -105,14 +105,14 @@ export const roles: TailoredRole[] = [
   {
     slug: 'generic-agent-devtools-infra',
     company: 'Agent DevTools / AI Infrastructure',
-    roleTitle: 'Generic Landing',
+    roleTitle: 'Agent Platform / DevTools Roles',
     location: 'NYC / Remote / Platform teams',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Agent%20DevTools%20%2F%20AI%20Infrastructure%20Conversation',
     accent: '#A78BFA',
     tagline: '[ GENERIC LANDING · AGENT DEVTOOLS / AI INFRA ]',
     headline: 'Developer-platform PM for agent systems: tool calls, observability, access boundaries, and workflows developers will actually use.',
     intro:
-      'Use this for agent platforms, AI infrastructure, developer tools, model-observability, orchestration, and internal-platform roles. It borrows from the LangChain, Datadog, Runlayer, BNY, Bloomberg, and Weights & Biases positioning.',
+      'Built for agent platforms, AI infrastructure, developer tools, model observability, orchestration, and internal-platform roles where developer workflow and trust boundaries matter.',
     whyFit: [
       {
         point: 'Developer workflow instincts from shipped platform work',
@@ -139,14 +139,14 @@ export const roles: TailoredRole[] = [
   {
     slug: 'generic-document-knowledge-ai',
     company: 'Document Intelligence / Knowledge AI',
-    roleTitle: 'Generic Landing',
+    roleTitle: 'Document AI / Knowledge Product Roles',
     location: 'NYC / Remote / Regulated domains',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Document%20Intelligence%20%2F%20Knowledge%20AI%20Conversation',
     accent: '#41B883',
     tagline: '[ GENERIC LANDING · DOCUMENT / KNOWLEDGE AI ]',
     headline: 'Document AI with regulated-domain credibility: extraction, knowledge structure, IAM, and workflows experts trust.',
     intro:
-      'Use this for legal AI, document intelligence, enterprise search, knowledge management, RAG, and expert-workflow products. It generalizes the Harvey, Hebbia, Glean, Legora, and Manatt positioning.',
+      'Built for legal AI, document intelligence, enterprise search, knowledge management, RAG, and expert-workflow products where extraction quality and trust drive adoption.',
     whyFit: [
       {
         point: 'I have shipped document AI in legal publishing',
@@ -173,14 +173,14 @@ export const roles: TailoredRole[] = [
   {
     slug: 'generic-identity-security-ai',
     company: 'Identity / Security / Trust for AI',
-    roleTitle: 'Generic Landing',
+    roleTitle: 'AI Trust / Identity Platform Roles',
     location: 'NYC / Remote / Enterprise platform',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Identity%20%2F%20Security%20%2F%20Trust%20PM%20Conversation',
     accent: '#FF3366',
     tagline: '[ GENERIC LANDING · IDENTITY / SECURITY / TRUST ]',
     headline: 'AI systems need identity, permissions, auditability, and trust boundaries. That is already my deepest platform pattern.',
     intro:
-      'Use this for identity, security, trust, access-control, agent-governance, fintech/enterprise platform, and AI-safety-adjacent PM roles. It generalizes the Runlayer, Keycard, CrowdStrike, Capital One, and JPMorgan positioning.',
+      'Built for identity, security, trust, access-control, agent-governance, fintech/enterprise platform, and AI-safety-adjacent PM roles where automation must remain auditable.',
     whyFit: [
       {
         point: 'Identity at real enterprise scale',
@@ -207,14 +207,14 @@ export const roles: TailoredRole[] = [
   {
     slug: 'generic-scientific-ml-materials',
     company: 'Scientific ML / Materials AI',
-    roleTitle: 'Generic Landing',
+    roleTitle: 'Scientific ML Product Roles',
     location: 'NYC / Remote / Research-product teams',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Scientific%20ML%20%2F%20Materials%20AI%20Conversation',
     accent: '#6C63FF',
     tagline: '[ GENERIC LANDING · SCIENTIFIC ML / MATERIALS AI ]',
     headline: 'Scientific ML product builder: mathematical research, Python pipelines, and browser interfaces that make the science legible.',
     intro:
-      'Use this for scientific AI, materials discovery, research-product, simulation, ML platform, and computational-science-adjacent roles. It separates lupi.live as the viewer from lupine.science as the company/research/math layer.',
+      'Built for scientific AI, materials discovery, research-product, simulation, ML platform, and computational-science roles connecting mathematical work to usable product surfaces.',
     whyFit: [
       {
         point: 'Two surfaces for one scientific system',
@@ -287,7 +287,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'I build production agents, not prototypes',
         detail:
-          'Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.',
+          'lupi.live and lupine.science are my materials-science AI stack: MLIP benchmarks, phase-change simulation, and a TypeScript/WebGL browser for real-time molecular visualization.',
       },
       {
         point: 'Enterprise deployment is my day job',
@@ -303,7 +303,7 @@ export const roles: TailoredRole[] = [
     proof: [
       'Billions of monthly requests served by systems I rebuilt',
       '150+ enterprise SSO integrations delivered',
-      'MCP servers, sub-agents & skills shipped in side projects',
+      'MCP servers, sub-agents & skills shipped as independent systems',
     ],
   },
   {
@@ -326,7 +326,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'I already think in agents + tool calls',
         detail:
-          'Lupine.Live coordinates MLIP benchmarks and Python research pipelines with a TypeScript/WebGL product surface — I understand the access and audit surface agents create.',
+          'lupine.science coordinates MLIP benchmarks and Python research pipelines while lupi.live provides the TypeScript/WebGL product surface — I understand the access and audit surface agents create.',
       },
       {
         point: 'Forward-deployed credibility',
@@ -423,12 +423,12 @@ export const roles: TailoredRole[] = [
       {
         point: 'Agent platform product experience',
         detail:
-          'Led 3D platform features (avatars, explorable spaces, auth) for Alo, Moncler, Ralph Lauren at Obsess, and set long-term SaaS + SOC2 strategy.',
+          'Led 3D platform features (avatars, explorable spaces, auth) for Alo, Moncler, Ralph Lauren at Obsess, and set long-term SaaS + SOC 2 strategy.',
       },
       {
         point: 'I build what I spec',
         detail:
-          'Lupine.Live is a working materials-science AI platform I designed and built — MLIP benchmarks, phase-change trajectory simulation, TypeScript/WebGL browser, Python research pipelines.',
+          'lupi.live and lupine.science form a working materials-science AI system I designed and built — MLIP benchmarks, phase-change trajectory simulation, TypeScript/WebGL browser, Python research pipelines.',
       },
       {
         point: 'Enterprise scale + reliability instinct',
@@ -439,7 +439,7 @@ export const roles: TailoredRole[] = [
     proof: [
       'Agent/3D platform shipped for global enterprise brands',
       'Multi-agent orchestration built end-to-end',
-      'SOC2 + usage-analytics pipeline owned',
+      'SOC 2 + usage-analytics pipeline owned',
     ],
   },
   {
@@ -530,7 +530,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'I understand agents at a build level',
         detail:
-          'Lupine.Live — my own materials-science AI platform — means I understand the access, credential, and audit surface agents introduce.',
+          'lupi.live / lupine.science — my materials-science AI stack — means I understand the access, credential, and audit surface agents introduce.',
       },
       {
         point: 'First-PM range: strategy + hands-on',
@@ -642,7 +642,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "BNY is building 'Eliza' internal agent-building platform (125+ live use cases, 134 'digital employees'); OpenAI and\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I build AI/agent developer platforms and tooling that let other teams ship agents safely:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$190\u2013$250K base (estimate)",
@@ -662,7 +662,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
       { point: "BNY is building 'Eliza' internal agent-building platform (125+ live use cases, 134 'digital employees'); OpenAI and\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "concrete devtools/DX wins (adoption, time-to-first-agent, SDK/API quality) from your developer-tools PM work:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "concrete devtools/DX wins (adoption, time-to-first-agent, SDK/API quality) from your developer-tools PM work:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -742,8 +742,8 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I embedded shipping of AI agents into enterprise workflows \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    headline: "I embedded shipping of AI agents into enterprise workflows \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Gradial is building AI agents plugging into existing marketing/CMS systems to automate content workflows; deployed at\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "embedded shipping of AI agents into enterprise workflows:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
@@ -806,7 +806,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I hands-on AI-agent devtools PM work and evidence you understand the agent-builder developer's workflow  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "LangChain is building LangChain (framework), LangGraph (agent orchestration/memory), LangSmith (observability/eval) \u2014\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "hands-on AI-agent devtools PM work and evidence you understand the agent-builder developer's workflow:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
@@ -831,7 +831,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LangChain is building LangChain (framework), LangGraph (agent orchestration/memory), LangSmith (observability/eval) \u2014\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "agent devtools PM experience and NYC presence:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$170\u2013$210K base (estimate)",
@@ -848,7 +848,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I document-AI for legal/professional-services workflows (Manatt) plus agent product depth (Obsess)  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Legora is building LLM/agent-driven legal research, document review, and drafting; document AI at the core \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "document-AI for legal/professional-services workflows (Manatt) plus agent product depth (Obsess):", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
@@ -931,12 +931,12 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I am building AI agents and developer platforms (Obsess) that enterprises adopt; tie to conversational AI \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 sh",
+    headline: "I am building AI agents and developer platforms (Obsess) that enterprises adopt; tie to conversational AI \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 sh",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Twilio is building ConversationRelay and AI Assistants, agentic/conversational AI for customer engagement, and Segment\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I build AI agents and developer platforms (Obsess) that enterprises adopt; tie to conversational AI:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$200\u2013$245K base (estimate)",
@@ -973,8 +973,8 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I am shipping enterprise AI agents and the security/governance discipline a bank requires \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    headline: "I am shipping enterprise AI agents and the security/governance discipline a bank requires \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "BNY is building 'Eliza' internal agent-building platform (125+ live use cases, 134 'digital employees'); OpenAI and\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I ship enterprise AI agents and the security/governance discipline a bank requires:", detail: "Integrated MCP servers and agent skills into production research tooling." },
@@ -1293,7 +1293,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "Lead resume with 'built the AI/agent developer platform at Obsess' \u2014 internal LLM tooling and adoption among engineers:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$140\u2013$295K base (estimate)",
@@ -1503,7 +1503,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Decagon is building Personalized, autonomous customer-support AI agents for enterprises and consumers \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "hands-on AI-agent PM experience: agent reliability, tool-use, guardrails and measurable resolution outcomes:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$200\u2013$285K base (real)",
@@ -1523,7 +1523,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, MiniMax, Copilot, and Z.ai as integration partners, not just API consumers.",
     whyFit: [
       { point: "Diligent is building Full-suite AI-native GRC (Diligent One); launched AI Board Member and Agentic GRC Workforce;\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "the LBR security/compliance + Obsess agentic:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the LBR security/compliance + Obsess agentic:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -1666,8 +1666,8 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I agents product shipping at Obsess and document \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    headline: "I agents product shipping at Obsess and document \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Fora Travel is building AI agents and data to assist advisors - recommendations, automation and data products that boost\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "agents product shipping at Obsess and document:", detail: "Integrated MCP servers and agent skills into production research tooling." },
@@ -1855,12 +1855,12 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I obsess developer-tools PM work as near-identical: 'I ship AI developer tooling that makes builders faster.' \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2.",
+    headline: "I obsess developer-tools PM work as near-identical: 'I ship AI developer tooling that makes builders faster.' \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
       { point: "hackajob is building 'Archer' AI sourcing agent; in-house AI agents for talent matching \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "Obsess developer-tools PM work as near-identical: 'I ship AI developer tooling that makes builders faster.':", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$127\u2013$250K base (real)",
@@ -1898,7 +1898,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address heal  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address healthcare with Manatt regulated-domain credibility:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
@@ -2048,7 +2048,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Kensho Technologies is building Agentic workflows, data retrieval APIs, Kensho Link/Classify/Extract/Scribe, S&P AI Benchmarks;\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "AI (extraction/retrieval) and Obsess agentic AI:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "AI (extraction/retrieval) and Obsess agentic AI:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Worked hands-on with Claude, OpenAI, Gemini, MiniMax, Copilot, and Z.ai as integration partners, not just API consumers." },
     ],
     proof: [
@@ -2150,7 +2150,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cos  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cost savings:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
@@ -2238,7 +2238,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$160\u2013$220K base (estimate)",
@@ -2276,7 +2276,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I tools/AI PM track record  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "NVIDIA is building Full AI stack: GPUs, CUDA, NIM microservices, Nemotron open models, AI infrastructure software, and\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "tools/AI PM track record:", detail: "Integrated MCP servers and agent skills into production research tooling." },
@@ -2301,7 +2301,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "OpenAI is building Frontier LLMs, agents, ChatGPT Enterprise, API platform; deploying AI across consumer and\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "otherwise note it's a management pivot from PM:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$234\u2013$335K base (estimate)",
@@ -2343,7 +2343,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Pendo.io is building 'Pendo Simon' ML insights plus new agent analytics (analytics for AI agents) and AI-driven insights \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "platform + growth/analytics experience and connect AI-agents background to Pendo's agent-analytics push:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$160\u2013$200K base (estimate)",
@@ -2363,7 +2363,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
       { point: "Pinecone is building Core AI infrastructure: vector search/database powering RAG, semantic search, and AI-agent memory;\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "AI-application and developer-platform PM experience (agents, RAG-adjacent), positioning as a PM who understands what AI builders need from a vector DB; acknowledge DB-engine depth as the focus area:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "AI-application and developer-platform PM experience (agents, RAG-adjacent), positioning as a PM who understands what AI builders need from a vector DB; acknowledge DB-engine depth as the focus area:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
     ],
     proof: [
@@ -2406,7 +2406,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Profound is building AI-search visibility analytics for LLM answer engines; 700+ enterprise customers including 10% of\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "native PM who deeply understands how LLMs surface information:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$160\u2013$220K base (estimate)",
@@ -2490,7 +2490,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Reflection is building Frontier open-source LLMs, autonomous coding systems/agents; part of NVIDIA's Nemotron open-model\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "agent PM experience:", detail: "Integrated MCP servers and agent skills into production research tooling." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$180\u2013$230K base (estimate)",
@@ -2653,7 +2653,7 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I hands-on agentic AI shipping at Obsess + security credibility from LBR \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I hands-on agentic AI shipping at Obsess + security credibility from LBR \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
       { point: "SecurityScorecard is building Agentic AI workflows for risk detection/response; LLM pipelines, retrieval, eval frameworks \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
@@ -2738,7 +2738,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I am shipping AI/agents and deploying them with users \u2014 frame as the rare PM who builds AI features and makes them succeed in production with ent \u2014 Led the 3D experience platform a",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Talkdesk is building AI for customer experience: AI agents/copilots, automation, and analytics across the contact\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I ship AI/agents and deploying them with users \u2014 frame as the rare PM who builds AI features and makes them succeed in production with enterprise customers:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
@@ -2780,7 +2780,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I multi-agent product experience and 0-to-1 building; frame document-AI/platform work as governing complex, high-stakes enterprise automation  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Tessera Labs is building Multi-agent AI for governed, automated enterprise software migration/modernization (SAP\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "multi-agent product experience and 0-to-1 building; frame document-AI/platform work as governing complex, high-stakes enterprise automation:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
@@ -2888,7 +2888,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
       { point: "Weights & Biases is building Core MLOps/LLMOps tooling: experiment tracking, training infra, model eval (Weave), now paired with\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "agents/devtools PM (Obsess) and platform work:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "agents/devtools PM (Obsess) and platform work:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Integrated MCP servers and agent skills into production research tooling." },
     ],
     proof: [
@@ -2990,7 +2990,7 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ CROSS-FUNCTIONAL ]",
-    headline: "I product and platform PM experience and AI/analytics fluency \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I product and platform PM experience and AI/analytics fluency \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
       { point: "Applecart is building Proprietary social-graph data science and measurement; relationship mapping and decision-maker\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
@@ -3180,7 +3180,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I am building tooling to monitor and improve AI-agent quality and reliability at Obsess  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Capital One is building Enterprise AI/ML platforms, agentic AI for customer assistance, developer productivity, and data\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I build tooling to monitor and improve AI-agent quality and reliability at Obsess:", detail: "Integrated MCP servers and agent skills into production research tooling." },
@@ -3289,7 +3289,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Cockroach Labs is building Database infrastructure underpinning AI/agent apps; reliability, scale, and Postgres compatibility\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "devtools/developer-experience wins (Obsess) \u2014 frame onboarding as a DX/adoption funnel he has optimized before:", detail: "Integrated MCP servers and agent skills into production research tooling." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$200\u2013$240K base (estimate)",
@@ -3306,7 +3306,7 @@ export const roles: TailoredRole[] = [
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
     headline: "I platform PM building tools that power other professionals' workflows; tie AI assistant trend to Obsess agent work  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
-    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
+    intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
       { point: "Compass is building Compass AI: voice-activated AI assistant for agents; Buyer Demand tool surfacing buyer interest\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "platform PM building tools that power other professionals' workflows; tie AI assistant trend to Obsess agent work:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
@@ -3583,7 +3583,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "agents PM work building agentic product experiences:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$200\u2013$240K base (estimate)",
@@ -3624,7 +3624,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, MiniMax, Copilot, and Z.ai as integration partners, not just API consumers.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "devtools/platform PM work and developer-ecosystem enablement at Obsess/Arkadium:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "devtools/platform PM work and developer-ecosystem enablement at Obsess/Arkadium:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -3662,11 +3662,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 & ]",
-    headline: "I tools PM experience at Obsess and platform PM at Arkadium \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I tools PM experience at Obsess and platform PM at Arkadium \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.",
     whyFit: [
       { point: "dbt Labs is building AI-ready data, dbt Fusion engine (Rust rewrite), developer tooling and the dbt MCP/AI integrations\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "tools PM experience at Obsess and platform PM at Arkadium:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "tools PM experience at Obsess and platform PM at Arkadium:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -3809,7 +3809,7 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ CROSS-FUNCTIONAL ]",
-    headline: "I tie AI experience to ERP modernization \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I tie AI experience to ERP modernization \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
       { point: "ECI is building Embedding AI/automation into vertical ERP workflows (e.g., quoting, e-commerce, business\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
@@ -3856,7 +3856,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "EliseAI is building Domain-specific conversational AI agents automating operations across multifamily housing and\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I translat AI-agent capabilities into deployed customer solutions \u2014 bridge technical product depth and customer outcomes:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$150\u2013$190K base (estimate)",
@@ -4380,7 +4380,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Intuit is building GenOS platform, AI agents ('Intuit Assist'), and ML across tax/accounting; major bet on agentic AI\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "platform/devtools PM \u2014 building APIs and developer/partner experiences that grew an ecosystem:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "platform/devtools PM \u2014 building APIs and developer/partner experiences that grew an ecosystem:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -4549,7 +4549,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Modular is building Mojo programming language (Python-superset for AI/HPC) and MAX platform (inference/serving stack) \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "developer-tools/platform PM and DX wins; be honest about ramping on low-level AI-infra, emphasize developer-adoption craft:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$170\u2013$210K base (estimate)",
@@ -4717,7 +4717,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Open Systems Technologies is building N/A directly \u2014 places AI/product talent at client companies (the actual roles are at unnamed client\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "end-to-end AI/agent product shipping; ask the recruiter to identify the client and tailor accordingly:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
       "$150\u2013$220K base (estimate)",
@@ -4758,7 +4758,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Parloa is building Agentic AI for customer service \u2014 AI voice/chat agents that resolve customer interactions\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "note interest in returning to product:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "note interest in returning to product:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -4989,8 +4989,8 @@ export const roles: TailoredRole[] = [
     intro: "I'm a single-operator builder who has shipped full products end-to-end. Built High Era single-handed: a full go-to-market automation OS on Google Cloud.",
     whyFit: [
       { point: "Solomon Page is building N/A (recruiter); client's AI focus unknown from the listing \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "Engage the recruiter to learn the client/domain, then lead with the matching strength (AI, platform, security, or growth):", detail: "Built Lupine.Live: a materials-science computing and molecular-visualization platform, deployed live at lupi.live." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built Lupine.Live single-handed: TypeScript/WebGL molecular visualization with MLIP benchmarks and Python research pipelines." },
+      { point: "Engage the recruiter to learn the client/domain, then lead with the matching strength (AI, platform, security, or growth):", detail: "Built the Lupine stack: lupine.science for research/company framing and lupi.live for molecular visualization." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built lupi.live and lupine.science single-handed: TypeScript/WebGL molecular visualization, MLIP benchmarks, and Python research pipelines." },
     ],
     proof: [
       "$130\u2013$180K base (estimate)",
@@ -5073,7 +5073,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Synechron is building FinLabs 'Ready-to-Implement' GenAI solutions; launched an AI Agents suite for financial-services\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "data/AI platform PM and financial-services-adjacent rigor; clarify whether the role builds product or delivers for clients:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "data/AI platform PM and financial-services-adjacent rigor; clarify whether the role builds product or delivers for clients:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [

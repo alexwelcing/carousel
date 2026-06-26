@@ -1,6 +1,8 @@
-import { Document, Page, Text, View, StyleSheet, Link } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet, Link, Font } from '@react-pdf/renderer';
 import type { TailoredRole } from '../data/roles';
 import { JOBS } from '../data/experience';
+
+Font.registerHyphenationCallback((word) => [word]);
 
 /**
  * A deliberately plain, conventional one-page résumé (US Letter).

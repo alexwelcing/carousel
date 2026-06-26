@@ -5,7 +5,7 @@
  *  - parseRequirements no longer splits on "-" (kept "5–8+ years", "type-safe", "go-to-market" intact)
  *  - videoId is now slugified (commas/slashes/parens stripped) -> safe filenames/URLs
  *  - parseFitPoints / selectProofPoints are implemented (signal-matched), not stubs
- *  - proof library matches the verified ground truth (LBR / Lupine.Live / Manatt / Obsess / flagships)
+ *  - proof library matches the verified ground truth (LBR / lupi.live / lupine.science / Manatt / Obsess / flagships)
  *
  * Interfaces are unchanged, so this is a drop-in replacement for src/data/compositionSchema.ts.
  */
@@ -126,7 +126,7 @@ export function splitStructuredItems(value: string, limit = 5): string[] {
   if (lineItems.length > 1) return lineItems.slice(0, limit);
   // single line: split on semicolons or commas that precede a new capitalised clause
   return normalized
-    .split(/;|,(?=\s+[A-Z0-9])|,(?=\s+(?:AI|LLM|APIs?|RAG|SAML|OIDC|SOC2)\b)/)
+    .split(/;|,(?=\s+[A-Z0-9])|,(?=\s+(?:AI|LLM|APIs?|RAG|SAML|OIDC|SOC 2)\b)/)
     .map((s) => s.trim())
     .filter(Boolean)
     .slice(0, limit);
@@ -169,7 +169,7 @@ const PROOF_LIBRARY: ProofPointMapping[] = [
   {
     flagshipSlug: 'obsess',
     title: 'Obsess — 3D Commerce',
-    description: '3D/immersive virtual-store platform (avatars, analytics, SOC2) shipped for Alo, Moncler, and Ralph Lauren.',
+    description: '3D/immersive virtual-store platform (avatars, analytics, SOC 2) shipped for Alo, Moncler, and Ralph Lauren.',
     stat: '3D commerce for Alo, Moncler, Ralph Lauren',
     relevanceTags: ['3D', 'Commerce', 'Consumer', 'Brand', 'Analytics'],
     fitTags: ['Consumer PM', 'Commerce', '3D/Immersive'],

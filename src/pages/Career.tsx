@@ -41,7 +41,7 @@ const roles: Role[] = [
     title: 'Product Manager',
     period: 'Apr 2022 – May 2023',
     bullets: [
-      'Led 3D platform features: user auth, analytics, SOC2 compliance for enterprise brands',
+      'Led 3D platform features: user auth, analytics, SOC 2 compliance for enterprise brands',
       'Shipped for Alo, Moncler, Ralph Lauren — set long-term SaaS platform strategy',
     ],
     side: 'right',

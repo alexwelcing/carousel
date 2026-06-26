@@ -20,14 +20,14 @@ export const JOBS: Job[] = [
     date: 'Apr 2022 – May 2023',
     role: 'Product Manager',
     bullets: [
-      'Led the 3D experience platform — avatars, analytics, SOC2 — shipping for Alo, Moncler, and Ralph Lauren.',
+      'Led the 3D experience platform — avatars, analytics, SOC 2 — shipping for Alo, Moncler, and Ralph Lauren.',
       'Set the multi-year SaaS platform strategy for enterprise brand deployments.',
     ],
   },
   {
     company: 'Manatt, Phelps & Phillips',
     date: 'Aug 2017 – Apr 2022',
-    role: 'Developer → Consultant',
+    role: 'Developer / Consultant',
     bullets: [
       'Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance.',
       'Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients.',
