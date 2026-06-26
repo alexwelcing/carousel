@@ -15,7 +15,7 @@ export default function PageIntro({ kicker, title, description, meta, align = 'l
   const isCenter = align === 'center';
 
   return (
-    <header className={`relative overflow-hidden ${isCenter ? 'text-center' : ''}`} style={{ paddingTop: 'clamp(112px, 14vh, 184px)', paddingBottom: 'clamp(56px, 8vh, 112px)' }}>
+    <header className={`relative overflow-hidden ${isCenter ? 'text-center' : ''}`} style={{ paddingTop: 'clamp(48px, 8vh, 120px)', paddingBottom: 'clamp(40px, 7vh, 88px)' }}>
       <div className={`content-max-width ${isCenter ? 'flex flex-col items-center' : ''}`}>
         <motion.span
           className="font-caption block mb-5"
@@ -28,7 +28,7 @@ export default function PageIntro({ kicker, title, description, meta, align = 'l
         </motion.span>
 
         <motion.h1
-          className="font-h1 mb-5 max-w-[12ch]"
+          className="font-h1 mb-5 max-w-[13ch] sm:max-w-[14ch] break-words"
           style={{ color: 'var(--text-primary)' }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export default function PageIntro({ kicker, title, description, meta, align = 'l
         </motion.h1>
 
         <motion.p
-          className="font-body max-w-[42rem]"
+          className="font-body max-w-[46rem] min-w-0"
           style={{ color: 'var(--text-secondary)' }}
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
