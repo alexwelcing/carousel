@@ -44,18 +44,6 @@
     Cache-Control = "public, max-age=3600, must-revalidate"
     X-Content-Type-Options = "nosniff"
 
-# Missing packet videos should not fall through to the SPA shell. Existing static
-# files still win because these redirects are not forced.
-[[redirects]]
-  from = "/packets/:shareId/pitch.mp4"
-  to = "/404.html"
-  status = 404
-
-[[redirects]]
-  from = "/packets/:shareId/pitch.webm"
-  to = "/404.html"
-  status = 404
-
 # SPA fallback so /role/:slug deep links resolve to index.html
 [[redirects]]
   from = "/*"

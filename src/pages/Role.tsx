@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight, ExternalLink, Check, Download } from 'lucide-react';
@@ -15,6 +15,14 @@ const fadeUp = {
     y: 0,
     transition: { delay: i * 0.08, duration: 0.6, ease: easeOut },
   }),
+};
+
+type PacketManifest = {
+  packets?: Array<{
+    slug: string;
+    shareId: string;
+    pitchVideoMp4?: string;
+  }>;
 };
 
 export default function Role() {
@@ -61,7 +69,36 @@ export default function Role() {
   const accent = role.accent ?? '#FF3366';
   const packetLinks = getApplicationPacketLinks(role.slug);
   const packetOverride = applicationPacketOverrides[role.slug];
-  const [pitchMode, setPitchMode] = useState<'video' | 'frame'>('video');
+  const [pitchVideoSrc, setPitchVideoSrc] = useState<string | undefined>(packetLinks.pitchVideoMp4);
+  const [pitchMode, setPitchMode] = useState<'video' | 'frame'>(packetLinks.pitchVideoMp4 ? 'video' : 'frame');
+
+  useEffect(() => {
+    let cancelled = false;
+
+    fetch('/applications/manifest.json', { cache: 'no-cache' })
+      .then((response) => (response.ok ? response.json() : Promise.reject(new Error(`manifest ${response.status}`))))
+      .then((manifest: PacketManifest) => {
+        const packet = manifest.packets?.find((item) => item.slug === role.slug || item.shareId === slug);
+        if (cancelled) return;
+        if (packet?.pitchVideoMp4) {
+          setPitchVideoSrc(packet.pitchVideoMp4);
+          setPitchMode('video');
+        } else {
+          setPitchVideoSrc(undefined);
+          setPitchMode('frame');
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setPitchVideoSrc(undefined);
+          setPitchMode('frame');
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [role.slug, slug]);
 
   return (
     <div style={{ opacity: 0, position: 'relative' }} className="animate-fade-in">
@@ -333,13 +370,16 @@ export default function Role() {
             }}
           >
             <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', overflow: 'hidden', borderRadius: '16px' }}>
-              {pitchMode === 'video' ? (
+              {pitchMode === 'video' && pitchVideoSrc ? (
                 <video
-                  src={packetLinks.pitchVideoMp4}
+                  src={pitchVideoSrc}
                   controls
                   playsInline
                   preload="metadata"
-                  onError={() => setPitchMode('frame')}
+                  onError={() => {
+                    setPitchVideoSrc(undefined);
+                    setPitchMode('frame');
+                  }}
                   style={{ width: '100%', height: '100%', display: 'block', backgroundColor: '#05070d' }}
                 />
               ) : (

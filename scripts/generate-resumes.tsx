@@ -946,6 +946,7 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
   const anonymousResumeLight = resolve(anonymousDir, 'resume-light.pdf');
   const anonymousCoverLetter = resolve(anonymousDir, 'cover-letter.txt');
   const anonymousCoverLetterPdf = resolve(anonymousDir, 'cover-letter.pdf');
+  const anonymousPitchMp4 = resolve(anonymousDir, 'pitch.mp4');
 
   const custom = CUSTOM_PACKET_SOURCES[role.slug];
 
@@ -992,7 +993,7 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
     resumeLightPdf: `${anonymousBasePath}/resume-light.pdf`,
     coverLetterTxt: `${anonymousBasePath}/cover-letter.txt`,
     pitchHtml: `${anonymousBasePath}/pitch.html`,
-    pitchVideoMp4: `${anonymousBasePath}/pitch.mp4`,
+    ...(existsSync(anonymousPitchMp4) ? { pitchVideoMp4: `${anonymousBasePath}/pitch.mp4` } : {}),
     ...(custom?.coverLetterPdf ? { coverLetterPdf: `${anonymousBasePath}/cover-letter.pdf` } : {}),
     source,
   });
