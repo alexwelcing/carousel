@@ -54,6 +54,16 @@ const root = resolve(here, '..');
 const publicDir = resolve(root, 'public');
 const manifestPath = resolve(publicDir, 'applications/manifest.json');
 
+function assertNode22ForHyperFrames(): void {
+  const major = Number(process.versions.node.split('.')[0]);
+  if (!Number.isFinite(major) || major < 22) {
+    throw new Error(
+      `HyperFrames rendering requires Node 22+; current Node is ${process.version}. ` +
+        'Run `export PATH=/opt/homebrew/opt/node@22/bin:$PATH` or use the package scripts.',
+    );
+  }
+}
+
 function parseArgs(): Options {
   const args = process.argv.slice(2);
   const opts: Options = {
@@ -171,6 +181,7 @@ async function renderPacket(packet: Packet, opts: Options): Promise<'rendered' |
 }
 
 async function main() {
+  assertNode22ForHyperFrames();
   const opts = parseArgs();
   const manifest = loadManifest();
   const packets = selectPackets(manifest, opts);
