@@ -23,30 +23,50 @@ type Palette = {
   faint: string;
   rule: string;
   panel: string;
-  panelRule: string;
   accent: string;
   link: string;
 };
 
 const PALETTE: Palette = {
   paper: '#FFFFFF',
-  ink: '#171717',
-  muted: '#3F3F46',
+  ink: '#111111',
+  muted: '#35363A',
   faint: '#5F6368',
-  rule: '#D8D8D8',
-  panel: '#F7F7F7',
-  panelRule: '#E5E5E5',
-  accent: '#111827',
+  rule: '#C9CDD2',
+  panel: '#F5F6F7',
+  accent: '#0F172A',
   link: '#0B5CAD',
 };
 
-function brief(value: string, max = 220): string {
-  const firstSentence = value.match(/^.*?[.!?](?=\s|$)/)?.[0]?.trim();
-  const candidate = firstSentence && firstSentence.length >= 70 ? firstSentence : value.trim();
-  if (candidate.length <= max) return candidate;
-  const clipped = candidate.slice(0, max).replace(/\s+\S*$/, '').replace(/[,:;—-]+$/, '').trim();
+function clean(value: string): string {
+  return value.replace(/\s+/g, ' ').replace(/[,:;—-]+\.$/, '.').trim();
+}
+
+function fitText(value: string, max = 164): string {
+  const text = clean(value);
+  if (text.length <= max) return text;
+  const clipped = text.slice(0, max).replace(/\s+\S*$/, '').replace(/[,:;—-]+$/, '').trim();
   return clipped.endsWith('.') ? clipped : `${clipped}.`;
 }
+
+const defaultProof = [
+  '12+ years shipping product, code, and judgment end-to-end',
+  'Billions of monthly requests served by systems rebuilt at LBR',
+  '150+ enterprise SSO rollouts to Am Law 200 firms',
+];
+
+const capabilities = [
+  ['AI / Agents', 'LLM products, agent workflows, evals, RAG / pgvector, AI API workspaces'],
+  ['Platform / Infra', 'TypeScript, Python, Go, Node, FastAPI, Postgres, Supabase, GCP'],
+  ['Enterprise Trust', 'SSO, SAML, OIDC, IAM, SOC 2, regulated workflows, enterprise deployment'],
+  ['Interfaces', 'React, Next.js, React Three Fiber, WebGL, document/search UX'],
+];
+
+const projects = [
+  ['lupi.live', 'https://lupi.live', 'R3F/WebGL molecule viewer for molecular structures and trajectories.'],
+  ['lupine.science', 'https://lupine.science', 'Company/research layer for MLIP benchmarks and phase-change simulation.'],
+  ['alexwelcing.com', 'https://alexwelcing.com', '3D content site with real-time physics and AI semantic search over writing.'],
+] as const;
 
 const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
   page: {
@@ -54,178 +74,212 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
     color: C.ink,
     fontFamily: 'Helvetica',
     fontSize: 8.4 * k,
-    lineHeight: 1.28,
-    paddingTop: 26,
-    paddingBottom: 24,
-    paddingHorizontal: 34,
+    lineHeight: 1.24,
+    paddingTop: 23,
+    paddingBottom: 22,
+    paddingHorizontal: 32,
   },
 
   header: {
-    borderBottomWidth: 1.2,
+    borderBottomWidth: 1.1,
     borderBottomColor: C.ink,
-    paddingBottom: 11,
-    marginBottom: 12,
+    paddingBottom: 8,
+    marginBottom: 8,
   },
   headerTop: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' },
-  nameBlock: { flex: 1, paddingRight: 18 },
+  nameBlock: { flex: 1, paddingRight: 16 },
   name: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 25 * k,
-    lineHeight: 1,
-    letterSpacing: -0.4,
+    fontSize: 23 * k,
+    lineHeight: 0.98,
+    letterSpacing: -0.35,
     color: C.ink,
   },
   positioning: {
-    marginTop: 4,
+    marginTop: 3,
     fontFamily: 'Helvetica-Bold',
-    fontSize: 8.4 * k,
-    letterSpacing: 0.8,
+    fontSize: 7.8 * k,
+    letterSpacing: 0.55,
     textTransform: 'uppercase',
     color: C.muted,
   },
   contact: {
     width: 178,
     textAlign: 'right',
-    fontSize: 7.9 * k,
-    lineHeight: 1.35,
+    fontSize: 7.6 * k,
+    lineHeight: 1.28,
     color: C.faint,
   },
   contactLink: { color: C.link, textDecoration: 'none' },
   target: {
-    marginTop: 8,
-    paddingTop: 7,
-    borderTopWidth: 0.6,
-    borderTopColor: C.rule,
-    fontSize: 8.6 * k,
-    lineHeight: 1.35,
+    marginTop: 6,
+    fontSize: 8.25 * k,
+    lineHeight: 1.26,
     color: C.muted,
   },
   targetStrong: { fontFamily: 'Helvetica-Bold', color: C.ink },
 
-  grid: { flexDirection: 'row', alignItems: 'flex-start' },
-  rail: { width: 172, paddingRight: 17 },
-  main: { flex: 1, paddingLeft: 17, borderLeftWidth: 0.7, borderLeftColor: C.rule },
+  band: {
+    flexDirection: 'row',
+    gap: 7,
+    marginBottom: 8,
+  },
+  card: {
+    flex: 1,
+    backgroundColor: C.panel,
+    borderWidth: 0.55,
+    borderColor: C.rule,
+    paddingVertical: 6 * k,
+    paddingHorizontal: 7 * k,
+    minHeight: 49 * k,
+  },
+  cardTitle: {
+    fontFamily: 'Helvetica-Bold',
+    fontSize: 7.75 * k,
+    color: C.ink,
+    lineHeight: 1.15,
+    marginBottom: 2,
+  },
+  cardText: {
+    fontSize: 7.35 * k,
+    color: C.muted,
+    lineHeight: 1.22,
+  },
 
-  section: { marginBottom: 10 * k },
-  sectionTitle: {
+  proofStrip: {
+    flexDirection: 'row',
+    borderTopWidth: 0.65,
+    borderBottomWidth: 0.65,
+    borderColor: C.rule,
+    paddingVertical: 5,
+    marginBottom: 9,
+  },
+  proofItem: {
+    flex: 1,
+    paddingRight: 9,
+    flexDirection: 'row',
+  },
+  proofMark: {
+    width: 8,
     fontFamily: 'Helvetica-Bold',
     fontSize: 7.5 * k,
-    letterSpacing: 1.25,
-    textTransform: 'uppercase',
-    color: C.ink,
-    marginBottom: 5 * k,
-  },
-  ruleTitle: {
-    borderBottomWidth: 0.7,
-    borderBottomColor: C.rule,
-    paddingBottom: 3 * k,
-    marginBottom: 6 * k,
-  },
-
-  fitBox: {
-    backgroundColor: C.panel,
-    borderWidth: 0.7,
-    borderColor: C.panelRule,
-    padding: 8 * k,
-    marginBottom: 11 * k,
-  },
-  fitItem: { marginBottom: 5 * k },
-  fitPoint: {
-    fontFamily: 'Helvetica-Bold',
-    fontSize: 8.1 * k,
-    color: C.ink,
-    lineHeight: 1.25,
-  },
-  fitDetail: {
-    marginTop: 1.5,
-    fontSize: 7.8 * k,
-    color: C.muted,
-    lineHeight: 1.28,
-  },
-
-  proofItem: {
-    flexDirection: 'row',
-    marginBottom: 4.2 * k,
-  },
-  bulletMark: {
-    width: 8,
-    fontSize: 8 * k,
-    color: C.ink,
+    color: C.accent,
   },
   proofText: {
     flex: 1,
-    fontSize: 7.75 * k,
+    fontSize: 7.4 * k,
     color: C.muted,
-    lineHeight: 1.3,
+    lineHeight: 1.18,
   },
 
-  capability: { marginBottom: 7 * k },
+  section: { marginBottom: 8 * k },
+  sectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderBottomWidth: 0.75,
+    borderBottomColor: C.rule,
+    paddingBottom: 3.2,
+    marginBottom: 5.5,
+  },
+  sectionTitle: {
+    fontFamily: 'Helvetica-Bold',
+    fontSize: 7.5 * k,
+    letterSpacing: 1.1,
+    textTransform: 'uppercase',
+    color: C.ink,
+  },
+  sectionNote: {
+    marginLeft: 7,
+    fontSize: 7.1 * k,
+    color: C.faint,
+  },
+
+  jobGrid: { flexDirection: 'column' },
+  job: {
+    width: '100%',
+    paddingRight: 0,
+    marginBottom: 7.2 * k,
+  },
+  jobTop: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
+  company: {
+    fontFamily: 'Helvetica-Bold',
+    fontSize: 8.9 * k,
+    color: C.ink,
+    maxWidth: 360,
+  },
+  date: {
+    fontSize: 7.15 * k,
+    color: C.faint,
+  },
+  role: {
+    marginTop: 1.2,
+    marginBottom: 3,
+    fontFamily: 'Helvetica-Bold',
+    fontSize: 7.55 * k,
+    color: C.muted,
+  },
+  bulletRow: { flexDirection: 'row', marginBottom: 2.25 * k },
+  bulletMark: {
+    width: 7,
+    fontSize: 7.1 * k,
+    color: C.ink,
+  },
+  bullet: {
+    flex: 1,
+    fontSize: 7.35 * k,
+    color: C.muted,
+    lineHeight: 1.21,
+  },
+
+  bottomGrid: {
+    flexDirection: 'row',
+    gap: 10,
+    marginTop: 1,
+  },
+  bottomCol: { flex: 1 },
+  capabilityGrid: { flexDirection: 'row', flexWrap: 'wrap' },
+  capability: {
+    width: '50%',
+    paddingRight: 9,
+    marginBottom: 5.2 * k,
+  },
   capabilityLabel: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.8 * k,
+    fontSize: 7.45 * k,
     color: C.ink,
-    marginBottom: 1.5,
+    marginBottom: 1,
   },
   capabilityText: {
-    fontSize: 7.65 * k,
+    fontSize: 7.15 * k,
     color: C.muted,
-    lineHeight: 1.28,
+    lineHeight: 1.18,
   },
-
-  project: { marginBottom: 7 * k },
-  projectTop: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
+  project: {
+    marginBottom: 5.4 * k,
+  },
   projectName: {
     fontFamily: 'Helvetica-Bold',
-    fontSize: 8 * k,
+    fontSize: 7.6 * k,
     color: C.ink,
   },
   projectLink: {
-    fontSize: 7.2 * k,
     color: C.link,
     textDecoration: 'none',
   },
   projectDesc: {
-    marginTop: 1.5,
-    fontSize: 7.55 * k,
+    marginTop: 1,
+    fontSize: 7.15 * k,
     color: C.muted,
-    lineHeight: 1.26,
-  },
-
-  edu: { fontSize: 7.5 * k, color: C.muted, lineHeight: 1.3 },
-  eduStrong: { fontFamily: 'Helvetica-Bold', color: C.ink },
-
-  job: { marginBottom: 9.2 * k },
-  jobTop: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
-  company: {
-    fontFamily: 'Helvetica-Bold',
-    fontSize: 9.2 * k,
-    color: C.ink,
-  },
-  date: {
-    fontSize: 7.1 * k,
-    color: C.faint,
-  },
-  role: {
-    marginTop: 1.5,
-    marginBottom: 3.6 * k,
-    fontFamily: 'Helvetica-Bold',
-    fontSize: 7.7 * k,
-    color: C.muted,
-  },
-  bulletRow: { flexDirection: 'row', marginBottom: 2.5 * k },
-  bullet: {
-    flex: 1,
-    fontSize: 7.65 * k,
-    color: C.muted,
-    lineHeight: 1.28,
+    lineHeight: 1.18,
   },
 });
 
-function Section({ styles, title, children, ruled = false }: { styles: ReturnType<typeof makeStyles>; title: string; children: React.ReactNode; ruled?: boolean }) {
+function Section({ styles, title, note, children }: { styles: ReturnType<typeof makeStyles>; title: string; note?: string; children: React.ReactNode }) {
   return (
     <View style={styles.section}>
-      <View style={ruled ? styles.ruleTitle : undefined}>
+      <View style={styles.sectionHeader}>
         <Text style={styles.sectionTitle}>{title}</Text>
+        {note ? <Text style={styles.sectionNote}>{note}</Text> : null}
       </View>
       {children}
     </View>
@@ -241,13 +295,13 @@ function Bullet({ styles, children }: { styles: ReturnType<typeof makeStyles>; c
   );
 }
 
-function ProofItem({ styles, children }: { styles: ReturnType<typeof makeStyles>; children: React.ReactNode }) {
-  return (
-    <View style={styles.proofItem}>
-      <Text style={styles.bulletMark}>—</Text>
-      <Text style={styles.proofText}>{children}</Text>
-    </View>
-  );
+function fitCards(role?: TailoredRole) {
+  if (role) return role.whyFit.slice(0, 3).map((w) => [w.point, fitText(w.detail)] as const);
+  return [
+    ['AI product shipped as working systems', 'Builds production AI products from strategy through TypeScript/Python implementation, with deployed outcomes over demos.'],
+    ['Enterprise platform judgment', 'Rebuilt identity, subscription, SSO/SAML/OIDC, and API systems serving high-trust enterprise customers.'],
+    ['Research-to-product range', 'Connects materials-science ML, document AI, 3D interfaces, and developer platforms into usable products.'],
+  ] as const;
 }
 
 export default function ResumePDFDocument(
@@ -256,8 +310,9 @@ export default function ResumePDFDocument(
   const C = PALETTE;
   const styles = makeStyles(C, scale);
   const summary = role
-    ? role.intro
+    ? clean(role.intro)
     : 'Architect PM and product-minded engineer who ships AI products from strategy through production code: production agents, materials-science ML, document AI, 3D interfaces, enterprise identity, and developer platforms.';
+  const proof = (role?.proof ?? defaultProof).slice(0, 3);
 
   return (
     <Document
@@ -280,90 +335,66 @@ export default function ResumePDFDocument(
             </Text>
           </View>
           <Text style={styles.target}>
-            <Text style={styles.targetStrong}>{role ? `${role.company} · ${role.roleTitle}` : 'Target · Principal / Staff Product, Forward-Deployed AI, Platform Leadership'}</Text>
+            <Text style={styles.targetStrong}>{role ? `${role.company} · ${role.roleTitle}` : 'Target · Principal / Staff Product Manager, Forward-Deployed AI, Platform Leadership'}</Text>
             {' — '}{summary}
           </Text>
         </View>
 
-        <View style={styles.grid}>
-          <View style={styles.rail}>
-            {role && (
-              <Section styles={styles} title="Target Fit">
-                <View style={styles.fitBox}>
-                  {role.whyFit.slice(0, 3).map((w) => (
-                    <View key={w.point} style={styles.fitItem}>
-                      <Text style={styles.fitPoint}>{w.point}</Text>
-                      <Text style={styles.fitDetail}>{brief(w.detail)}</Text>
-                    </View>
-                  ))}
+        <View style={styles.band}>
+          {fitCards(role).map(([point, detail]) => (
+            <View key={point} style={styles.card}>
+              <Text style={styles.cardTitle}>{point}</Text>
+              <Text style={styles.cardText}>{detail}</Text>
+            </View>
+          ))}
+        </View>
+
+        <View style={styles.proofStrip}>
+          {proof.map((p) => (
+            <View key={p} style={styles.proofItem}>
+              <Text style={styles.proofMark}>—</Text>
+              <Text style={styles.proofText}>{p}</Text>
+            </View>
+          ))}
+        </View>
+
+        <Section styles={styles} title="Experience" note="scope, systems, and outcomes">
+          <View style={styles.jobGrid}>
+            {JOBS.map((j) => (
+              <View key={j.company} style={styles.job}>
+                <View style={styles.jobTop}>
+                  <Text style={styles.company}>{j.company}</Text>
+                  <Text style={styles.date}>{j.date}</Text>
                 </View>
-              </Section>
-            )}
+                <Text style={styles.role}>{j.role}</Text>
+                {j.bullets.map((b) => (
+                  <Bullet key={b.slice(0, 48)} styles={styles}>{b}</Bullet>
+                ))}
+              </View>
+            ))}
+          </View>
+        </Section>
 
-            <Section styles={styles} title="Proof">
-              {(role?.proof ?? [
-                '12+ years shipping product, code, and judgment end-to-end',
-                'Billions of monthly requests served by systems rebuilt at LBR',
-                '150+ enterprise SSO rollouts to AmLaw 200 firms',
-              ]).slice(0, 4).map((p) => <ProofItem key={p} styles={styles}>{p}</ProofItem>)}
-            </Section>
-
+        <View style={styles.bottomGrid}>
+          <View style={styles.bottomCol}>
             <Section styles={styles} title="Capabilities">
-              <View style={styles.capability}>
-                <Text style={styles.capabilityLabel}>AI / Agents</Text>
-                <Text style={styles.capabilityText}>LLM products, agent workflows, evals, RAG / pgvector, AI API workspaces</Text>
-              </View>
-              <View style={styles.capability}>
-                <Text style={styles.capabilityLabel}>Platform / Infra</Text>
-                <Text style={styles.capabilityText}>TypeScript, Python, Go, Node, FastAPI, Postgres, Supabase, GCP</Text>
-              </View>
-              <View style={styles.capability}>
-                <Text style={styles.capabilityLabel}>Enterprise Trust</Text>
-                <Text style={styles.capabilityText}>SSO, SAML, OIDC, IAM, SOC 2, regulated workflows, enterprise deployment</Text>
-              </View>
-              <View style={styles.capability}>
-                <Text style={styles.capabilityLabel}>Interfaces</Text>
-                <Text style={styles.capabilityText}>React, Next.js, React Three Fiber, WebGL, document/search UX</Text>
-              </View>
-            </Section>
-
-            <Section styles={styles} title="Selected Work">
-              <View style={styles.project}>
-                <View style={styles.projectTop}>
-                  <Text style={styles.projectName}>lupi.live</Text>
-                  <Link src="https://lupi.live" style={styles.projectLink}>lupi.live</Link>
-                </View>
-                <Text style={styles.projectDesc}>R3F/WebGL molecule viewer for molecular structures and trajectories.</Text>
-              </View>
-              <View style={styles.project}>
-                <View style={styles.projectTop}>
-                  <Text style={styles.projectName}>lupine.science</Text>
-                  <Link src="https://lupine.science" style={styles.projectLink}>lupine.science</Link>
-                </View>
-                <Text style={styles.projectDesc}>Company/research layer for MLIP benchmarks and phase-change simulation.</Text>
-              </View>
-              <View style={styles.project}>
-                <View style={styles.projectTop}>
-                  <Text style={styles.projectName}>alexwelcing.com</Text>
-                  <Link src="https://alexwelcing.com" style={styles.projectLink}>alexwelcing.com</Link>
-                </View>
-                <Text style={styles.projectDesc}>3D content site with realtime physics and AI semantic search over writing.</Text>
+              <View style={styles.capabilityGrid}>
+                {capabilities.map(([label, text]) => (
+                  <View key={label} style={styles.capability}>
+                    <Text style={styles.capabilityLabel}>{label}</Text>
+                    <Text style={styles.capabilityText}>{text}</Text>
+                  </View>
+                ))}
               </View>
             </Section>
           </View>
 
-          <View style={styles.main}>
-            <Section styles={styles} title="Experience" ruled>
-              {JOBS.map((j) => (
-                <View key={j.company} style={styles.job}>
-                  <View style={styles.jobTop}>
-                    <Text style={styles.company}>{j.company}</Text>
-                    <Text style={styles.date}>{j.date}</Text>
-                  </View>
-                  <Text style={styles.role}>{j.role}</Text>
-                  {j.bullets.map((b) => (
-                    <Bullet key={b.slice(0, 32)} styles={styles}>{b}</Bullet>
-                  ))}
+          <View style={styles.bottomCol}>
+            <Section styles={styles} title="Selected Work">
+              {projects.map(([name, url, desc]) => (
+                <View key={name} style={styles.project}>
+                  <Text style={styles.projectName}><Link src={url} style={styles.projectLink}>{name}</Link></Text>
+                  <Text style={styles.projectDesc}>{desc}</Text>
                 </View>
               ))}
             </Section>
