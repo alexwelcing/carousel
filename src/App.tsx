@@ -21,9 +21,9 @@ function ResumeSkeleton() {
    No dependencies; helps Google (which renders JS) index each route distinctly. */
 const PAGE_SEO: Record<string, { title: string; description: string }> = {
   '/': {
-    title: 'Alex Welcing — Re-platformed identity at billions-scale. Shipped AI agents in production. (NYC · Principal / Staff PM)',
+    title: 'Alex Welcing — AI product builder. Solo founder-speed, enterprise-scale judgment. (NYC · Principal / Staff PM)',
     description:
-      'Architect PM who has shipped production AI agents and re-platformed enterprise identity at billions-scale. Twelve-plus years: LBR identity, Obsess 3D for Alo/Moncler/Ralph Lauren, Manatt document AI, Lupine.Live materials-science AI. Considering principal / staff product and forward-deployed PM roles in New York.',
+      'Architect PM and product-minded engineer who ships AI products end to end: production agents, materials-science ML, document AI, 3D commerce, and enterprise platforms. Considering principal / staff product and forward-deployed PM roles in New York.',
   },
   '/career': {
     title: 'Career — Alex Welcing · 12+ Years: LBR Identity, Obsess 3D, Manatt Document AI, Lupine.Live',

@@ -121,7 +121,7 @@ function HeroSection() {
 
           <div data-hero-heading>
             <BalancedText as="h1" className="font-h1 mb-4 lg:mb-5" style={{ color: 'var(--text-primary)' }}>
-              Re-platformed identity at billions-scale. Shipped AI agents in production. Looking for the next narrow decision.
+              I build AI products from zero to shipped — solo when needed, at enterprise scale when it matters.
             </BalancedText>
           </div>
 
