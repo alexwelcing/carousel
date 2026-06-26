@@ -54,7 +54,9 @@ export function getApplicationPacketLinks(slug: string): ApplicationPacketLinks 
     resumePdf: `${basePath}/resume.pdf`,
     resumePrintPdf: `${basePath}/resume-light.pdf`,
     coverLetterTxt: `${basePath}/cover-letter.txt`,
+    // Every generated packet now ships a cover-letter PDF; always advertise it
+    // so the Role page can render a "COVER LETTER PDF" download button.
+    coverLetterPdf: `${basePath}/cover-letter.pdf`,
     pitchHtml: `${basePath}/pitch.html`,
-    ...(slug === 'tekshapers-marketing-expert-genai' ? { coverLetterPdf: `${basePath}/cover-letter.pdf` } : {}),
   };
 }

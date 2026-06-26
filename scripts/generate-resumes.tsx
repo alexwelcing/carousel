@@ -430,8 +430,7 @@ function drawExperienceCard(
   ctx.font = '10px Mono';
   ctx.fillStyle = palette.accent;
   const roleBlock = drawTextBlock(ctx, job.role, x + 16, y + 48, innerWidth, '10px Mono', palette.accent, 12);
-  let cursorY = roleBlock.y + 6;
-  cursorY = drawWrappedBulletList(ctx, job.bullets, x + 16, cursorY, innerWidth, palette, { fontSize: 9.2, lineHeight: 12, bulletGap: 4 });
+  drawWrappedBulletList(ctx, job.bullets, x + 16, roleBlock.y + 6, innerWidth, palette, { fontSize: 9.2, lineHeight: 12, bulletGap: 4 });
   return y + height;
 }
 
@@ -494,6 +493,224 @@ async function renderTekshapersCoverLetterPage(theme: 'light' | 'dark') {
 
   doc.endPage();
   return doc.close();
+}
+
+// ---------------------------------------------------------------------------
+// Generalized cover letter PDF — one per role. Renders the same text as the
+// .txt cover-letter but in a recruiter-friendly white-paper layout (US Letter,
+// Cardo body, JetBrainsMono accents). Used for every TailoredRole.
+// ---------------------------------------------------------------------------
+
+type CoverLetterPalette = {
+  bg: string;
+  panel: string;
+  accent: string;
+  accentSoft: string;
+  text: string;
+  muted: string;
+  faint: string;
+  border: string;
+};
+
+const COVER_LETTER_PALETTE: CoverLetterPalette = {
+  bg: '#FFFFFF',
+  panel: '#FFFFFF',
+  accent: '#1D3FD4',
+  accentSoft: '#E8EEFB',
+  text: '#0B1020',
+  muted: '#374151',
+  faint: '#6B7280',
+  border: '#E5E7EB',
+};
+
+// Word-wrap a paragraph to fit a width, return array of lines.
+function wrapParagraph(ctx: CanvasCtx, text: string, x: number, y: number, width: number, font: string, lineHeight: number): { lines: string[]; y: number } {
+  ctx.font = font;
+  const words = text.split(/\s+/).filter(Boolean);
+  const lines: string[] = [];
+  let current = '';
+  for (const word of words) {
+    const tentative = current ? `${current} ${word}` : word;
+    const w = ctx.measureText(tentative).width;
+    if (w > width && current) {
+      lines.push(current);
+      current = word;
+    } else {
+      current = tentative;
+    }
+  }
+  if (current) lines.push(current);
+  for (const line of lines) {
+    ctx.fillText(line, x, y);
+    y += lineHeight;
+  }
+  return { lines, y };
+}
+
+function renderCoverLetterPage(role: TailoredRole, letterText: string): Promise<Buffer> {
+  // US Letter portrait
+  const PAGE_W = 612;
+  const PAGE_H = 792;
+  const MARGIN_X = 64;
+  const CONTENT_W = PAGE_W - MARGIN_X * 2;
+  const TOP_Y = 72;
+  const BOTTOM_Y = PAGE_H - 64;
+
+  return ensureCanvasFonts().then(() => {
+    const palette = COVER_LETTER_PALETTE;
+    const safeCompany = (role.company || '').trim() || 'Hiring Team';
+    const safeTitle = (role.roleTitle || '').trim();
+    const safeLocation = (role.location || '').trim();
+    const accent = (role.accent && /^#[0-9A-Fa-f]{6}$/.test(role.accent)) ? role.accent : palette.accent;
+    const localPalette: CoverLetterPalette = { ...palette, accent, accentSoft: hexToSoftAccent(accent) };
+
+    const doc = new PDFDocument({
+      title: `Alex Welcing — Cover Letter — ${safeCompany} · ${safeTitle}`.slice(0, 200),
+      author: 'Alex Welcing',
+      subject: `Cover letter for ${safeCompany} ${safeTitle} role`.slice(0, 200),
+      keywords: 'Alex Welcing, cover letter, application packet, ' + safeCompany,
+    });
+
+    let pageNumber = 0;
+    const startNewPage = () => {
+      if (pageNumber > 0) doc.endPage();
+      const ctx = doc.beginPage(PAGE_W, PAGE_H);
+      ctx.fillStyle = localPalette.bg;
+      ctx.fillRect(0, 0, PAGE_W, PAGE_H);
+      // Top accent rule
+      ctx.fillStyle = localPalette.accent;
+      ctx.fillRect(MARGIN_X, 36, 56, 4);
+      // Header
+      ctx.font = '700 18px Cardo';
+      ctx.fillStyle = localPalette.text;
+      ctx.textBaseline = 'top';
+      ctx.fillText('Alex Welcing', MARGIN_X, 52);
+      ctx.font = '9px Mono';
+      ctx.fillStyle = localPalette.faint;
+      ctx.fillText('alexwelcing@gmail.com  ·  welc.ing  ·  github.com/alexwelcing  ·  linkedin.com/in/alexwelcing', MARGIN_X, 78);
+      // Target role strip
+      ctx.font = '700 9px Mono';
+      ctx.fillStyle = localPalette.accent;
+      const roleStrip = `COVER LETTER  ·  ${safeCompany.toUpperCase()}  ·  ${safeTitle.toUpperCase()}${safeLocation ? '  ·  ' + safeLocation.toUpperCase() : ''}`;
+      ctx.fillText(roleStrip.slice(0, 130), MARGIN_X, 100);
+      // Divider
+      ctx.fillStyle = localPalette.border;
+      ctx.fillRect(MARGIN_X, 116, CONTENT_W, 1);
+      return ctx;
+    };
+
+    let ctx = startNewPage();
+    pageNumber += 1;
+    let y = TOP_Y + 60; // 132 — below the header divider
+
+    const paragraphs = letterText.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+    for (const paragraph of paragraphs) {
+      const isBullet = paragraph.split('\n').every((line) => /^[-•]/.test(line.trim()));
+      const lines = paragraph.split('\n').map((l) => l.trim()).filter(Boolean);
+      if (isBullet) {
+        // Render each line as a wrapped bullet — bullet marker in accent,
+        // body in dark text for readability.
+        for (const line of lines) {
+          const bulletText = line.replace(/^[-•]\s*/, '');
+          if (y > BOTTOM_Y - 60) { ctx = startNewPage(); pageNumber += 1; y = TOP_Y + 60; }
+          ctx.font = '700 10px Cardo';
+          ctx.fillStyle = localPalette.accent;
+          ctx.fillText('•', MARGIN_X, y);
+          ctx.font = '10.5px Cardo';
+          ctx.fillStyle = localPalette.text;
+          const body = wrapParagraph(ctx, bulletText, MARGIN_X + 14, y, CONTENT_W - 14, '10.5px Cardo', 14);
+          y = body.y + 6;
+        }
+        y += 4;
+      } else if (/^(Why I am a strong fit|A few shipped reference points):/i.test(paragraph.split('\n')[0])) {
+        // Section header in mono
+        const header = paragraph.split('\n')[0];
+        const rest = paragraph.split('\n').slice(1).join('\n').trim();
+        if (y > BOTTOM_Y - 80) { ctx = startNewPage(); pageNumber += 1; y = TOP_Y + 60; }
+        ctx.font = '700 10px Mono';
+        ctx.fillStyle = localPalette.accent;
+        ctx.fillText(header.toUpperCase(), MARGIN_X, y);
+        y += 18;
+        if (rest) {
+          const bullets = rest.split('\n').map((l) => l.trim()).filter(Boolean);
+          for (const line of bullets) {
+            const bulletText = line.replace(/^[-•]\s*/, '');
+            if (y > BOTTOM_Y - 40) { ctx = startNewPage(); pageNumber += 1; y = TOP_Y + 60; }
+            ctx.font = '700 10px Cardo';
+            ctx.fillStyle = localPalette.accent;
+            ctx.fillText('•', MARGIN_X, y);
+            ctx.font = '10.5px Cardo';
+            ctx.fillStyle = localPalette.text;
+            const body = wrapParagraph(ctx, bulletText, MARGIN_X + 14, y, CONTENT_W - 14, '10.5px Cardo', 14);
+            y = body.y + 4;
+          }
+          y += 4;
+        }
+      } else if (/^Best regards,/i.test(paragraph.split('\n')[0])) {
+        // Signature block — render in mono
+        if (y > BOTTOM_Y - 80) { ctx = startNewPage(); pageNumber += 1; y = TOP_Y + 60; }
+        const lines2 = paragraph.split('\n').map((l) => l.trim());
+        for (const line of lines2) {
+          ctx.font = '10px Mono';
+          ctx.fillStyle = line === 'Best regards,' ? localPalette.faint : localPalette.text;
+          ctx.fillText(line, MARGIN_X, y);
+          y += 14;
+        }
+      } else {
+        // Body paragraph — Cardo body type, justified-feel left-aligned
+        const measure = measureWrappedHeightLocal(ctx, paragraph, CONTENT_W, '10.5px Cardo', 14);
+        if (y + measure > BOTTOM_Y - 30) { ctx = startNewPage(); pageNumber += 1; y = TOP_Y + 60; }
+        ctx.font = '10.5px Cardo';
+        ctx.fillStyle = localPalette.text;
+        const body = wrapParagraph(ctx, paragraph, MARGIN_X, y, CONTENT_W, '10.5px Cardo', 14);
+        y = body.y + 10;
+      }
+    }
+
+    // Footer with page number on every page (we only have the last ctx; the
+    // simplest correct approach is to close the doc and re-emit. For now,
+    // add the footer to the last page only — that's sufficient for a 1-page
+    // cover letter, which is the typical case.)
+    if (pageNumber === 1) {
+      ctx.font = '8px Mono';
+      ctx.fillStyle = localPalette.faint;
+      ctx.fillText(`Generated packet PDF  ·  welc.ing/r/${getAnonymousShareId(role.slug)}`, MARGIN_X, PAGE_H - 36);
+    }
+
+    doc.endPage();
+    return doc.close();
+  });
+}
+
+function measureWrappedHeightLocal(ctx: CanvasCtx, text: string, width: number, font: string, lineHeight: number): number {
+  ctx.font = font;
+  const words = text.split(/\s+/).filter(Boolean);
+  let lines = 1;
+  let current = '';
+  for (const word of words) {
+    const tentative = current ? `${current} ${word}` : word;
+    const w = ctx.measureText(tentative).width;
+    if (w > width && current) {
+      lines += 1;
+      current = word;
+    } else {
+      current = tentative;
+    }
+  }
+  return lines * lineHeight;
+}
+
+// Convert an accent like #FF3366 to a soft tinted background #FFE5EC.
+function hexToSoftAccent(hex: string): string {
+  const m = hex.replace('#', '').match(/^([0-9A-Fa-f]{6})$/);
+  if (!m) return '#E8EEFB';
+  const r = parseInt(m[1].slice(0, 2), 16);
+  const g = parseInt(m[1].slice(2, 4), 16);
+  const b = parseInt(m[1].slice(4, 6), 16);
+  // Mix with white at 88% opacity (rough blend)
+  const mix = (c: number) => Math.round(c + (255 - c) * 0.88);
+  const toHex = (c: number) => c.toString(16).padStart(2, '0').toUpperCase();
+  return `#${toHex(mix(r))}${toHex(mix(g))}${toHex(mix(b))}`;
 }
 
 async function renderTekshapersPacketPage(theme: 'light' | 'dark') {
@@ -819,42 +1036,116 @@ function buildTailoredRole(
   };
 }
 
+// Build a recruiter-facing cover letter from a TailoredRole.
+// IMPORTANT: candidate-facing copy only. No comp benchmarks, no funding
+// strings, no recruiterNote internals, no double-colon artifacts from the
+// engine's "claim: evidence" template.
 function buildCoverLetter(role: TailoredRole): string {
   const [w1, w2, w3] = role.whyFit;
   const override = applicationPacketOverrides[role.slug];
-  const proofIntro = role.proof.length > 0
-    ? `The strongest proof for this application is that I have already done adjacent work across ${role.proof.join(', ')}.`
-    : 'The strongest proof for this application is that I already operate at the intersection of product, engineering, and AI delivery.';
-  return [
+
+  // Strip trailing separator cluster (": — :' — : — :; — :, — — —") and
+  // any dangling quote characters. The triage engine sometimes produces
+  // claim strings that end in `':` or `:'` — strip both so we can re-attach
+  // our own `:` separator cleanly without producing `::`.
+  // Also strip a leading single/double quote that's clearly the open half
+  // of an unbalanced pair (e.g. "'I ship trustworthy AI...:' after the
+  // engine's quote-stripping leaves the open quote behind).
+  // Finally, if the result still has unbalanced quotes (count of `'`/`"` is
+  // odd), strip ALL quote characters so the candidate-facing copy never
+  // shows a half-quoted sentence.
+  const stripUnbalancedQuotes = (s: string): string => {
+    const singles = (s.match(/'/g) || []).length;
+    const doubles = (s.match(/"/g) || []).length;
+    let out = s;
+    if (singles % 2 === 1) out = out.replace(/['\u2018\u2019]/g, '');
+    if (doubles % 2 === 1) out = out.replace(/["\u201c\u201d]/g, '');
+    return out;
+  };
+
+  const cleanHeader = (s: string | undefined): string =>
+    stripUnbalancedQuotes(
+      (s || '')
+        .replace(/^[\s"'\u2018\u2019]+/, '')
+        .replace(/[\s"'\u2018\u2019:;—–-]+$/g, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+    );
+
+  const detailClean = (s: string | undefined): string =>
+    stripUnbalancedQuotes(
+      (s || '')
+        .replace(/^[\s"'—–-]+/, '')
+        .replace(/[\s"'\u2018\u2019]+$/g, '')
+        .trim()
+    );
+
+  const openerOverride = override?.coverLetterLead?.trim();
+  const openerSentence = openerOverride && openerOverride.length >= 24
+    ? openerOverride.replace(/[.!?]+$/, '') + '.'
+    : `${role.intro.trim().replace(/[.!?]+$/, '')}.`;
+
+  // Real proof bullets — only the strings that are actual product/evidence
+    // claims, never the comp benchmark strings. The buildTailoredRole pipeline
+    // already populates role.proof with the BASE_PROOF_LIBRARY entries, but we
+    // defensively filter out anything that mentions $/compensation/funding,
+    // looks like a "AI focus:" / "Stage:" / "Funding:" metadata label from the
+    // leads CSV, or is otherwise not a real candidate-facing sentence.
+    const proofBullets = role.proof
+      .map((p) => detailClean(p))
+      .filter((p) => p.length >= 12)
+      .filter((p) => !/[€$£]\s?\d/.test(p))
+      .filter((p) => !/raised|series\s+[a-z]\b|venture-?backed/i.test(p))
+      .filter((p) => !/^(AI\s+focus|Stage|Funding|Comp|Location|Type|Status)\s*:/i.test(p))
+      .filter((p) => !/^[\d.]+[KMk]\s+raised/i.test(p))
+      .slice(0, 3);
+
+  const fitBlock = [w1, w2, w3]
+    .filter(Boolean)
+    .map((wf) => {
+      const header = cleanHeader(wf.point);
+      const detail = detailClean(wf.detail);
+      if (!detail) return null;
+      if (!header || header.toLowerCase() === detail.toLowerCase().slice(0, header.length).toLowerCase()) {
+        return `- ${detail}`;
+      }
+      return `- ${header}: ${detail}`;
+    })
+    .filter(Boolean)
+    .join('\n');
+
+  const packetUrl = `welc.ing/r/${getAnonymousShareId(role.slug)}`;
+
+  const lines: string[] = [
     `Hiring Team at ${role.company}`,
     '',
     `I am applying for the ${role.roleTitle} role (${role.location}).`,
     '',
-    `My pitch for this role is simple: ${override?.coverLetterLead || w3.detail}`,
-    '',
-    `${role.intro}`,
-    '',
-    proofIntro,
+    `My pitch for this role is simple: ${openerSentence}`,
     '',
     'Why I am a strong fit:',
-    `- ${w1.point}: ${w1.detail}`,
-    `- ${w2.point}: ${w2.detail}`,
-    `- ${w3.point}: ${w3.detail}`,
+    fitBlock,
     '',
-    'Selected proof points:',
-    `- ${role.proof[0] || 'Built and shipped at enterprise scale'}`,
-    `- ${role.proof[1] || 'Hands-on product and engineering delivery'}`,
-    `- ${role.proof[2] || 'AI systems in production with measurable outcomes'}`,
-    ...(override?.recruiterNote ? ['', `Note: ${override.recruiterNote}`] : []),
+  ];
+
+  if (proofBullets.length > 0) {
+    lines.push('A few shipped reference points:');
+    for (const proof of proofBullets) lines.push(`- ${proof}`);
+    lines.push('');
+  }
+
+  lines.push(
+    `Packet (résumé, cover letter, and a 30-second role pitch): ${packetUrl}`,
     '',
     'I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.',
     '',
     'Best regards,',
     'Alex Welcing',
     'alexwelcing@gmail.com',
-    'https://github.com/alexwelcing',
-    'https://linkedin.com/in/alexwelcing',
-  ].join('\n');
+    packetUrl,
+  );
+
+  return lines.join('\n').replace(/\n{3,}/g, '\n\n');
 }
 
 type ApplicationPacket = {
@@ -870,7 +1161,7 @@ type ApplicationPacket = {
   coverLetterTxt: string;
   coverLetterPdf?: string;
   pitchHtml: string;
-  pitchVideoMp4: string;
+  pitchVideoMp4?: string;
   source: 'curated-role' | 'top-target';
 };
 
@@ -880,6 +1171,29 @@ function shortText(value: string | undefined, fallback: string, max = 148): stri
   if (source.length <= max) return source;
   const clipped = source.slice(0, max).replace(/\s+\S*$/, '').replace(/[,:;—-]+$/, '').trim();
   return `${clipped}.`;
+}
+
+// Sanitize the tagline for the iframe: never expose internal labels like
+// "GENERIC LANDING" or "[ AI PROSPECT · ... ]" to the candidate-facing pitch.
+// For generic-* slugs, use the category name only. For tailored roles, use
+// a clean, role-specific two- or three-word label.
+function pitchTagline(slug: string, role: { company: string; roleTitle: string }): string {
+  const slug_l = slug.toLowerCase();
+  if (slug_l.startsWith('generic-')) {
+    // e.g. generic-ai-product-platform → "AI Product / Platform"
+    const tail = slug_l.replace(/^generic-/, '').replace(/-/g, ' ');
+    return tail
+      .split(' ')
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(' ')
+      .replace(/\s+\/\s+/g, ' / ')
+      .replace(/Ai /g, 'AI ')
+      .replace(/Ml /g, 'ML ');
+  }
+  // For tailored roles, derive a short kicker from role title. Never echo
+  // back "GENERIC LANDING" or "AI PROSPECT" — those are internal labels.
+  const cleanCompany = role.company.replace(/[^A-Za-z0-9& ]+/g, '').trim();
+  return `${cleanCompany} · 30s pitch`;
 }
 
 function safeJsonForInlineScript(value: unknown): string {
@@ -903,7 +1217,7 @@ function rolePitchVariables(role: TailoredRole, packetUrl: string) {
     companyName: role.company,
     roleTitle: role.roleTitle,
     location: role.location,
-    tagline: role.tagline.replace(/[\[\]]/g, ''),
+    tagline: pitchTagline(role.slug, role),
     headline: shortText(role.headline, `${role.company}: ${role.roleTitle}`, 132),
     fitPoint1: shortText(fit1?.point, 'AI product execution', 58),
     fitPoint1Evidence: shortText(fit1?.detail, role.intro, 134),
@@ -969,7 +1283,17 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
     console.log(`[resumes] ${role.slug} → custom packet assets`);
   } else {
     await emit(role, resolve(publicDir, dark), resolve(publicDir, light));
-    await writeFile(resolve(publicDir, letter), buildCoverLetter(role), 'utf-8');
+    const letterTxt = buildCoverLetter(role);
+    await writeFile(resolve(publicDir, letter), letterTxt, 'utf-8');
+    // Render a recruiter-facing PDF cover letter from the same text. Skip
+    // PDF generation only for custom packets (which already have their own
+    // assets) — for the standard pipeline, every role gets a PDF.
+    try {
+      const pdfBuf = await renderCoverLetterPage(role, letterTxt);
+      await writeFile(resolve(publicDir, letterPdf), pdfBuf);
+    } catch (err) {
+      console.warn(`[resumes] ${role.slug} → cover letter PDF failed:`, (err as Error).message);
+    }
   }
 
   await mkdir(anonymousDir, { recursive: true });
@@ -977,7 +1301,8 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
   await copyFile(resolve(publicDir, dark), anonymousResume);
   await copyFile(resolve(publicDir, light), anonymousResumeLight);
   await copyFile(resolve(publicDir, letter), anonymousCoverLetter);
-  if (custom?.coverLetterPdf && existsSync(resolve(publicDir, letterPdf))) {
+  // Mirror the per-role cover letter PDF into the anonymous packet directory.
+  if (existsSync(resolve(publicDir, letterPdf))) {
     await copyFile(resolve(publicDir, letterPdf), anonymousCoverLetterPdf);
   }
 
@@ -994,7 +1319,7 @@ async function emitPacket(role: TailoredRole, source: ApplicationPacket['source'
     coverLetterTxt: `${anonymousBasePath}/cover-letter.txt`,
     pitchHtml: `${anonymousBasePath}/pitch.html`,
     ...(existsSync(anonymousPitchMp4) ? { pitchVideoMp4: `${anonymousBasePath}/pitch.mp4` } : {}),
-    ...(custom?.coverLetterPdf ? { coverLetterPdf: `${anonymousBasePath}/cover-letter.pdf` } : {}),
+    ...(existsSync(anonymousCoverLetterPdf) ? { coverLetterPdf: `${anonymousBasePath}/cover-letter.pdf` } : {}),
     source,
   });
 }

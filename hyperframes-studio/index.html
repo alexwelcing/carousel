@@ -140,7 +140,13 @@
       letter-spacing: 0.16em;
       text-transform: uppercase;
     }
-    #scene-intro { flex-direction: column; gap: 30px; text-align: center; }
+    #scene-intro { flex-direction: column; gap: 36px; text-align: left; align-items: flex-start; justify-content: center; padding: 120px 140px; }
+    .intro-wrap { display: flex; flex-direction: column; gap: 30px; max-width: 1500px; }
+    .intro-title { max-width: 1500px; }
+    .intro-meta { display: flex; flex-wrap: wrap; gap: 24px 56px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.12); }
+    .intro-meta-item { display: inline-flex; gap: 16px; align-items: baseline; }
+    .intro-meta-key { color: rgba(248,250,252,0.56); font-size: 18px; letter-spacing: 0.18em; text-transform: uppercase; font-family: "Courier New", monospace; font-weight: 800; }
+    .intro-meta-val { color: rgba(248,250,252,0.92); font-size: 24px; line-height: 1.22; font-weight: 600; }
     #scene-role { align-items: stretch; gap: 44px; }
     #scene-role .left { flex: 1.08; display: flex; flex-direction: column; justify-content: center; gap: 30px; }
     #scene-role .right { flex: 0.92; padding: 44px; display: flex; flex-direction: column; justify-content: center; gap: 24px; }
@@ -176,10 +182,19 @@
     data-width="1920"
     data-height="1080"
   >
+    <!-- INTRO: a real, meaningful first frame with the company name + role
+         title rendered as the visible content. No dangling "&". -->
     <section id="scene-intro" class="clip scene" data-start="0" data-duration="4" data-track-index="1">
-      <div class="kicker mono" id="intro-kicker">Tailored role pitch</div>
-      <h1 class="title" id="intro-company">AI Product / Platform</h1>
-      <p class="subtitle" id="intro-role">Principal / Staff Product Roles</p>
+      <div class="intro-wrap">
+        <div class="kicker mono" id="intro-kicker">30-second role pitch</div>
+        <h1 class="title intro-title" id="intro-company">AI Product / Platform</h1>
+        <p class="subtitle" id="intro-role">Principal / Staff Product Roles</p>
+        <div class="intro-meta">
+          <span class="intro-meta-item"><span class="intro-meta-key">For</span><span class="intro-meta-val" id="intro-for">AI Product / Platform</span></span>
+          <span class="intro-meta-item"><span class="intro-meta-key">Title</span><span class="intro-meta-val" id="intro-role-short">Principal / Staff Product Roles</span></span>
+          <span class="intro-meta-item"><span class="intro-meta-key">Location</span><span class="intro-meta-val" id="intro-location">NYC / Remote / Hybrid</span></span>
+        </div>
+      </div>
     </section>
 
     <section id="scene-role" class="clip scene" data-start="4" data-duration="7" data-track-index="1">
@@ -261,6 +276,9 @@
     setText('intro-kicker', variables.tagline);
     setText('intro-company', variables.companyName);
     setText('intro-role', variables.roleTitle);
+    setText('intro-for', variables.companyName);
+    setText('intro-role-short', variables.roleTitle);
+    setText('intro-location', variables.location);
     setText('role-headline', variables.headline);
     setText('role-company', variables.companyName);
     setText('role-title', variables.roleTitle);

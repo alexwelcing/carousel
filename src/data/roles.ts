@@ -41,7 +41,7 @@ export const roles: TailoredRole[] = [
     location: 'NYC / Remote / Hybrid',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=AI%20Product%20%2F%20Platform%20PM%20Conversation',
     accent: '#33CCFF',
-    tagline: '[ GENERIC LANDING · AI PRODUCT / PLATFORM ]',
+    tagline: '[ AI PRODUCT / PLATFORM ]',
     headline: 'AI product builder who can hold the roadmap, the system design, and the shipped surface in one frame.',
     intro:
       'Built for broadly technical AI product, platform PM, and product-leadership roles where production judgment matters: AI systems, enterprise deployment, and hands-on TypeScript/Python builder credibility.',
@@ -75,7 +75,7 @@ export const roles: TailoredRole[] = [
     location: 'NYC / Remote / Customer-facing',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Forward-Deployed%20AI%20Conversation',
     accent: '#D97757',
-    tagline: '[ GENERIC LANDING · FORWARD-DEPLOYED AI ]',
+    tagline: '[ FORWARD-DEPLOYED AI ]',
     headline: 'I can sit with the customer, build the workflow, and feed the pattern back into product.',
     intro:
       'Built for FDE, forward-deployed PM, AI solutions, customer engineering, and applied-AI roles where credibility depends on both technical execution and direct customer trust.',
@@ -109,7 +109,7 @@ export const roles: TailoredRole[] = [
     location: 'NYC / Remote / Platform teams',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Agent%20DevTools%20%2F%20AI%20Infrastructure%20Conversation',
     accent: '#A78BFA',
-    tagline: '[ GENERIC LANDING · AGENT DEVTOOLS / AI INFRA ]',
+    tagline: '[ AGENT DEVTOOLS / AI INFRA ]',
     headline: 'Developer-platform PM for agent systems: tool calls, observability, access boundaries, and workflows developers will actually use.',
     intro:
       'Built for agent platforms, AI infrastructure, developer tools, model observability, orchestration, and internal-platform roles where developer workflow and trust boundaries matter.',
@@ -143,7 +143,7 @@ export const roles: TailoredRole[] = [
     location: 'NYC / Remote / Regulated domains',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Document%20Intelligence%20%2F%20Knowledge%20AI%20Conversation',
     accent: '#41B883',
-    tagline: '[ GENERIC LANDING · DOCUMENT / KNOWLEDGE AI ]',
+    tagline: '[ DOCUMENT / KNOWLEDGE AI ]',
     headline: 'Document AI with regulated-domain credibility: extraction, knowledge structure, IAM, and workflows experts trust.',
     intro:
       'Built for legal AI, document intelligence, enterprise search, knowledge management, RAG, and expert-workflow products where extraction quality and trust drive adoption.',
@@ -177,7 +177,7 @@ export const roles: TailoredRole[] = [
     location: 'NYC / Remote / Enterprise platform',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Identity%20%2F%20Security%20%2F%20Trust%20PM%20Conversation',
     accent: '#FF3366',
-    tagline: '[ GENERIC LANDING · IDENTITY / SECURITY / TRUST ]',
+    tagline: '[ IDENTITY / SECURITY / TRUST ]',
     headline: 'AI systems need identity, permissions, auditability, and trust boundaries. That is already my deepest platform pattern.',
     intro:
       'Built for identity, security, trust, access-control, agent-governance, fintech/enterprise platform, and AI-safety-adjacent PM roles where automation must remain auditable.',
@@ -211,7 +211,7 @@ export const roles: TailoredRole[] = [
     location: 'NYC / Remote / Research-product teams',
     applyUrl: 'mailto:alexwelcing@gmail.com?subject=Scientific%20ML%20%2F%20Materials%20AI%20Conversation',
     accent: '#6C63FF',
-    tagline: '[ GENERIC LANDING · SCIENTIFIC ML / MATERIALS AI ]',
+    tagline: '[ SCIENTIFIC ML / MATERIALS AI ]',
     headline: 'Scientific ML product builder: mathematical research, Python pipelines, and browser interfaces that make the science legible.',
     intro:
       'Built for scientific AI, materials discovery, research-product, simulation, ML platform, and computational-science roles connecting mathematical work to usable product surfaces.',
