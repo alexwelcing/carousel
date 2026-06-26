@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect } from 'react';
+import { lazy, Suspense, useEffect, useLayoutEffect } from 'react';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -59,6 +59,18 @@ function setMeta(selector: string, attr: string, key: string, content: string) {
   el.setAttribute('content', content);
 }
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [pathname]);
+
+  return null;
+}
+
 function Seo() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -89,6 +101,7 @@ function Seo() {
 export default function App() {
   return (
     <Layout>
+      <ScrollToTop />
       <Seo />
       <Routes>
         <Route path="/" element={<Home />} />
