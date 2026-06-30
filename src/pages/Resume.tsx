@@ -7,7 +7,7 @@ import PageIntro from '@/components/PageIntro';
 /* ─── Inline resume data (mirrors PDF) ─────────────────────────── */
 
 const STATS = [
-  { value: '12+', label: 'YEARS SHIPPING AI / PRODUCT SYSTEMS' },
+  { value: '15+', label: 'YEARS LEADING PRODUCT / BUSINESS SYSTEMS' },
   { value: 'Billions', label: 'MONTHLY REQUESTS MIGRATED AT LBR' },
   { value: '150+', label: 'ENTERPRISE SSO ROLLOUTS' },
   { value: '3+', label: 'PUBLIC TECHNICAL PRODUCTS LIVE' },
@@ -51,6 +51,15 @@ const EXPERIENCE = [
     bullets: [
       'Pioneered NLP-driven AI partnerships leveraging contextual understanding for interactive content',
       'Spearheaded AI integration into partner initiatives — 25% faster GTM',
+    ],
+  },
+  {
+    company: 'Dallas Marketing & Advertising',
+    role: 'Marketing & Business Lead',
+    dates: '2011 – 2016',
+    bullets: [
+      'Led marketing, advertising, and business-development efforts for Dallas-area brands and agency clients',
+      'Owned customer acquisition, campaign strategy, partner management, and revenue-facing execution across multi-channel programs',
     ],
   },
 ];
@@ -122,7 +131,7 @@ export default function Resume() {
         <PageIntro
           kicker="Downloadable resume"
           title="Alex Welcing"
-          description="Technical product leader and AI builder shipping enterprise platforms, agent workflows, scientific interfaces, and document intelligence from strategy through production code."
+          description="Technical product leader and AI builder with 15+ years leading product, marketing, business, and platform work from strategy through shipped systems."
           meta={
             <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-x-2 gap-y-2 font-caption min-w-0" style={{ color: 'var(--text-tertiary)' }}>
               <span>New York, NY</span>
@@ -160,7 +169,7 @@ export default function Resume() {
             SUMMARY
           </h2>
           <p className="font-body-small" style={{ color: 'var(--text-secondary)', lineHeight: 1.7 }}>
-            AI product builder with 12+ years shipping enterprise platforms, document AI, scientific visualization, and agent workflows. Hands-on in TypeScript/Python when needed; senior enough to align roadmap, UX, technical risk, and delivery across regulated enterprise environments.
+            AI product builder with 15+ years leading product, marketing, business, and platform work, including enterprise platforms, document AI, scientific visualization, and agent workflows. Hands-on in TypeScript/Python when needed; senior enough to align roadmap, UX, technical risk, and delivery across regulated enterprise environments.
           </p>
         </section>
 

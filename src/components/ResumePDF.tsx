@@ -46,17 +46,13 @@ function fitText(value: string, max = 96): string {
   const text = clean(value);
   if (text.length <= max) return text;
   const stopWords = new Set(['a', 'an', 'the', 'and', 'or', 'of', 'to', 'for', 'with', 'in', 'on', 'at', 'by', 'from']);
-  let words = text.slice(0, max).replace(/[,:;—-]+$/, '').trim().split(/\s+/);
+  const cutAt = text.lastIndexOf(' ', max);
+  const clippedSource = cutAt > Math.floor(max * 0.6) ? text.slice(0, cutAt) : text.slice(0, max);
+  let words = clippedSource.replace(/[,:;—-]+$/, '').trim().split(/\s+/);
   while (words.length && stopWords.has(words[words.length - 1].toLowerCase())) words = words.slice(0, -1);
   const clipped = words.join(' ').replace(/[,:;—-]+$/, '').trim();
   return clipped.endsWith('.') ? clipped : `${clipped}.`;
 }
-
-const defaultProof = [
-  '12+ years shipping product, code, and judgment end-to-end',
-  'Billions of monthly requests served by systems rebuilt at LBR',
-  '150+ enterprise SSO rollouts to Am Law 200 firms',
-];
 
 const capabilities = [
   ['AI / Agents', 'LLM products, agent workflows, evals, RAG / pgvector, AI API workspaces'],
@@ -86,8 +82,8 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
   header: {
     borderBottomWidth: 1.1,
     borderBottomColor: C.ink,
-    paddingBottom: 7,
-    marginBottom: 7,
+    paddingBottom: 8,
+    marginBottom: 10,
   },
   headerTop: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' },
   nameBlock: { flex: 1, paddingRight: 16 },
@@ -99,9 +95,9 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
     color: C.ink,
   },
   positioning: {
-    marginTop: 3,
+    marginTop: 4,
     fontFamily: 'Helvetica-Bold',
-    fontSize: 7.7 * k,
+    fontSize: 7.55 * k,
     letterSpacing: 0.55,
     textTransform: 'uppercase',
     color: C.muted,
@@ -114,65 +110,40 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
     color: C.faint,
   },
   contactLink: { color: C.link, textDecoration: 'none' },
-  target: {
-    marginTop: 5,
-    fontSize: 8.35 * k,
-    lineHeight: 1.3,
+  targetBlock: {
+    marginTop: 9,
+  },
+  targetSummary: {
+    fontSize: 7.85 * k,
+    lineHeight: 1.32,
     color: C.muted,
   },
-  targetStrong: { fontFamily: 'Helvetica-Bold', color: C.ink },
 
   band: {
     flexDirection: 'row',
-    gap: 7,
-    marginBottom: 6,
+    gap: 8,
+    marginBottom: 10,
   },
   card: {
     flex: 1,
     backgroundColor: C.panel,
     borderWidth: 0.35,
     borderColor: C.rule,
-    paddingVertical: 5 * k,
-    paddingHorizontal: 7 * k,
-    minHeight: 41 * k,
+    paddingVertical: 5.5 * k,
+    paddingHorizontal: 7.5 * k,
+    minHeight: 38 * k,
   },
   cardTitle: {
     fontFamily: 'Helvetica-Bold',
     fontSize: 7.7 * k,
     color: C.ink,
-    lineHeight: 1.14,
-    marginBottom: 2,
+    lineHeight: 1.18,
+    marginBottom: 2.5,
   },
   cardText: {
     fontSize: 7.2 * k,
     color: C.muted,
-    lineHeight: 1.18,
-  },
-
-  proofStrip: {
-    flexDirection: 'row',
-    borderTopWidth: 0.65,
-    borderBottomWidth: 0.65,
-    borderColor: C.rule,
-    paddingVertical: 4.5,
-    marginBottom: 8,
-  },
-  proofItem: {
-    flex: 1,
-    paddingRight: 9,
-    flexDirection: 'row',
-  },
-  proofMark: {
-    width: 8,
-    fontFamily: 'Helvetica-Bold',
-    fontSize: 7.8 * k,
-    color: C.accent,
-  },
-  proofText: {
-    flex: 1,
-    fontSize: 7.35 * k,
-    color: C.muted,
-    lineHeight: 1.16,
+    lineHeight: 1.2,
   },
 
   section: { marginBottom: 9.5 * k },
@@ -183,6 +154,10 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
     borderBottomColor: C.rule,
     paddingBottom: 3.5,
     marginBottom: 6.5,
+  },
+  sectionHeaderNoRule: {
+    borderBottomWidth: 0,
+    paddingBottom: 0,
   },
   sectionTitle: {
     fontFamily: 'Helvetica-Bold',
@@ -301,10 +276,10 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
   },
 });
 
-function Section({ styles, title, note, children }: { styles: ReturnType<typeof makeStyles>; title: string; note?: string; children: React.ReactNode }) {
+function Section({ styles, title, note, noRule, children }: { styles: ReturnType<typeof makeStyles>; title: string; note?: string; noRule?: boolean; children: React.ReactNode }) {
   return (
     <View style={styles.section}>
-      <View style={styles.sectionHeader}>
+      <View style={noRule ? [styles.sectionHeader, styles.sectionHeaderNoRule] : styles.sectionHeader}>
         <Text style={styles.sectionTitle}>{title}</Text>
         {note ? <Text style={styles.sectionNote}>{note}</Text> : null}
       </View>
@@ -339,7 +314,6 @@ export default function ResumePDFDocument(
   const summary = role
     ? clean(role.intro)
     : 'Architect PM and product-minded engineer who ships AI products from strategy through production code: production agents, materials-science ML, document AI, 3D interfaces, enterprise identity, and developer platforms.';
-  const proof = (role?.proof ?? defaultProof).slice(0, 3);
 
   return (
     <Document
@@ -361,10 +335,9 @@ export default function ResumePDFDocument(
               <Link src="https://linkedin.com/in/alexwelcing" style={styles.contactLink}>linkedin.com/in/alexwelcing</Link>
             </Text>
           </View>
-          <Text style={styles.target}>
-            <Text style={styles.targetStrong}>{role ? `${role.company} · ${role.roleTitle}` : 'Target · Principal / Staff Product Manager, Forward-Deployed AI, Platform Leadership'}</Text>
-            {' — '}{summary}
-          </Text>
+          <View style={styles.targetBlock}>
+            <Text style={styles.targetSummary}>{summary}</Text>
+          </View>
         </View>
 
         <View style={styles.band}>
@@ -376,16 +349,7 @@ export default function ResumePDFDocument(
           ))}
         </View>
 
-        <View style={styles.proofStrip}>
-          {proof.map((p) => (
-            <View key={p} style={styles.proofItem}>
-              <Text style={styles.proofMark}>—</Text>
-              <Text style={styles.proofText}>{p}</Text>
-            </View>
-          ))}
-        </View>
-
-        <Section styles={styles} title="Experience">
+        <Section styles={styles} title="Experience" noRule>
           <View style={styles.jobGrid}>
             {JOBS.map((j) => (
               <View key={j.company} style={styles.job}>

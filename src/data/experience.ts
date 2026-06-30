@@ -42,4 +42,13 @@ export const JOBS: Job[] = [
       'Drove cross-platform adoption with contextual, data-informed content systems.',
     ],
   },
+  {
+    company: 'Dallas Marketing & Advertising',
+    date: '2011 – 2016',
+    role: 'Marketing & Business Lead',
+    bullets: [
+      'Led marketing, advertising, and business-development efforts for Dallas-area brands and agency clients.',
+      'Owned customer acquisition, campaign strategy, partner management, and revenue-facing execution across multi-channel programs.',
+    ],
+  },
 ];
