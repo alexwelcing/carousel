@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, height=1080" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    @font-face {
+      font-family: 'IBM Plex Mono';
+      src: url('assets/fonts/ibmplexmono-regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'IBM Plex Mono';
+      src: url('assets/fonts/ibmplexmono-medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'IBM Plex Mono';
+      src: url('assets/fonts/ibmplexmono-semibold.ttf') format('truetype');
+      font-weight: 600;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Newsreader';
+      src: url('assets/fonts/newsreader-regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Newsreader';
+      src: url('assets/fonts/newsreader-italic.ttf') format('truetype');
+      font-weight: 400;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: 'Newsreader';
+      src: url('assets/fonts/newsreader-medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Newsreader';
+      src: url('assets/fonts/newsreader-mediumitalic.ttf') format('truetype');
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #F6F3EB;
+    }
+    body {
+      font-family: 'Newsreader', serif;
+      color: #1C1D21;
+      -webkit-font-smoothing: antialiased;
+    }
+    .mono { font-family: "IBM Plex Mono", monospace; }
+
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(201, 74, 41, 0.05) 0%, transparent 45%),
+        radial-gradient(circle at 90% 90%, rgba(43, 76, 126, 0.05) 0%, transparent 45%),
+        #F6F3EB;
+    }
+
+    /* Artist Sketchbook Grid Background */
+    #ambient-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(28, 29, 33, 0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(28, 29, 33, 0.015) 1px, transparent 1px);
+      background-size: 50px 50px;
+      opacity: 0.95;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .clip {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+      display: flex;
+      overflow: hidden;
+      z-index: 3;
+    }
+    .scene {
+      padding: 92px 108px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .kicker {
+      color: #C94A29; /* Terracotta Ink */
+      font-size: 19px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .small-kicker {
+      color: rgba(28, 29, 33, 0.45);
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .title {
+      font-family: 'Newsreader', serif;
+      font-weight: 400;
+      max-width: 1440px;
+      font-size: 88px;
+      line-height: 1.02;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      max-width: 1180px;
+      font-family: 'Newsreader', serif;
+      font-style: italic;
+      font-size: 38px;
+      line-height: 1.3;
+      color: rgba(28, 29, 33, 0.8);
+      font-weight: 300;
+    }
+
+    /* Paper cutout panel style */
+    .panel {
+      position: relative;
+      background: #FFFDF9;
+      border: 2px solid #1C1D21;
+      box-shadow: 8px 8px 0px #1C1D21;
+      border-radius: 6px;
+    }
+
+    /* Zine style cards */
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; width: 100%; }
+    .card {
+      position: relative;
+      min-height: 280px;
+      padding: 38px;
+      background: #FFFDF9;
+      border: 2px solid #1C1D21;
+      box-shadow: 6px 6px 0px #1C1D21;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 12px;
+    }
+    .card-title {
+      font-family: 'Newsreader', serif;
+      font-style: italic;
+      color: #2B4C7E; /* Cobalt Ink */
+      font-size: 28px;
+      line-height: 1.15;
+      font-weight: 500;
+    }
+    .card-copy {
+      font-family: sans-serif;
+      font-size: 18px;
+      line-height: 1.45;
+      color: rgba(28, 29, 33, 0.75);
+      font-weight: 300;
+    }
+    .card-meter {
+      position: relative;
+      margin-top: auto;
+      width: 100%;
+      height: 8px;
+      background: rgba(28, 29, 33, 0.08);
+      border-radius: 99px;
+      overflow: hidden;
+    }
+    .card-meter-fill {
+      width: 0%;
+      height: 100%;
+      background: #FFD15C; /* Yellow highlighter */
+    }
+
+    /* Hand-drawn marker sweeps */
+    .marker-highlight {
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 100%;
+      height: 20px;
+      z-index: -1;
+      pointer-events: none;
+    }
+    .marker-path {
+      stroke-dasharray: 600;
+      stroke-dashoffset: 600;
+    }
+
+    /* Sketchbook proof layout */
+    .proof-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      width: 100%;
+    }
+    .proof-item {
+      position: relative;
+      background: #FFFDF9;
+      border: 2px solid #1C1D21;
+      box-shadow: 6px 6px 0px #1C1D21;
+      border-radius: 6px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+    }
+    .proof-stat-container {
+      position: relative;
+      width: 130px;
+      height: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sketch-circle {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    .circle-path {
+      stroke-dasharray: 550;
+      stroke-dashoffset: 550;
+    }
+    .proof-stat {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 42px;
+      font-weight: 600;
+      color: #1C1D21;
+    }
+    .proof-desc {
+      font-family: sans-serif;
+      font-size: 18px;
+      line-height: 1.45;
+      color: rgba(28, 29, 33, 0.8);
+      font-weight: 300;
+    }
+
+    .footer-brand {
+      position: absolute;
+      left: 108px;
+      bottom: 60px;
+      color: rgba(28, 29, 33, 0.4);
+      font-size: 16px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .timecode {
+      position: absolute;
+      right: 108px;
+      bottom: 60px;
+      color: rgba(28, 29, 33, 0.4);
+      font-size: 16px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    /* Scene specific layouts */
+    #scene-intro { flex-direction: column; gap: 36px; text-align: left; align-items: flex-start; justify-content: center; padding: 120px 140px; }
+    .intro-wrap { display: flex; flex-direction: column; gap: 30px; max-width: 1500px; }
+    .intro-title { max-width: 1500px; }
+    .intro-meta { display: flex; flex-wrap: wrap; gap: 24px 56px; padding-top: 30px; border-top: 2px solid rgba(28, 29, 33, 0.1); }
+    .intro-meta-item { display: inline-flex; gap: 16px; align-items: baseline; }
+    .intro-meta-key { color: rgba(28, 29, 33, 0.45); font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; font-family: "IBM Plex Mono", monospace; font-weight: 600; }
+    .intro-meta-val { color: rgba(28, 29, 33, 0.85); font-size: 22px; line-height: 1.22; font-weight: 500; }
+
+    #scene-role { align-items: stretch; gap: 48px; }
+    #scene-role .left { flex: 1.1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+    #scene-role .right { flex: 0.9; padding: 48px; display: flex; flex-direction: column; justify-content: center; gap: 0; }
+    .meta-row { display: grid; grid-template-columns: 180px 1fr; gap: 24px; padding: 22px 0; }
+    .meta-label { color: rgba(28, 29, 33, 0.45); font-size: 16px; letter-spacing: .16em; text-transform: uppercase; }
+    .meta-value { color: rgba(28, 29, 33, 0.85); font-size: 24px; line-height: 1.25; font-weight: 500; }
+
+    #scene-fit { flex-direction: column; gap: 48px; align-items: flex-start; justify-content: center; }
+    #scene-proof { flex-direction: column; gap: 48px; align-items: flex-start; justify-content: center; }
+
+    #scene-cta { flex-direction: column; gap: 32px; text-align: center; align-items: center; }
+    .cta-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 48px;
+      background: #C94A29; /* Terracotta CTA button */
+      color: #FFFDF9;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      box-shadow: 6px 6px 0px #1C1D21;
+      border: 2px solid #1C1D21;
+      border-radius: 6px;
+    }
+  </style>
+  <script>window.__ROLE_PITCH__={"openingKicker":"Thank you, Matthew Beaver","openingTitle":"For Monday, July 6","companyName":"Publicis Groupe","roleTitle":"Technical Program Manager \u2014 Media Technology \u0026 Data Platforms","location":"Global / Media Tech \u0026 Data Platforms","tagline":"Publicis Groupe \u00b7 TPM role pitch","headline":"Excited to meet Chris, Klay, and Cube to understand the media, data, and technology problems they are solving.","fitPoint1":"Cross-functional technical delivery","fitPoint1Evidence":"Publicis needs a TPM who aligns product, engineering, data science, business, and geographies; I have owned roadmap, systems design, implementation, launch, and customer-facing execution.","fitPoint2":"Data platform + enterprise trust","fitPoint2Evidence":"The JD calls for data infrastructure, governance, analytics tooling, vendors, and risk management; my background spans identity, permissions, data boundaries, IAM, SOC 2, and regulated workflows.","fitPoint3":"Media, AI, and product-launch range","fitPoint3Evidence":"The team sits at media, data, and technology; I bring NLP content partnerships, AI API workspaces, document AI, 3D brand platforms, and production feedback loops.","proof1":"JD: complex cross-functional programs \u2192 Resume: rebuilt identity/subscription across 10+ products serving billions of requests/mo.","proof2":"JD: data platform, governance, analytics \u2192 Resume: built AI document scanning, IAM for 1,000+ clients, and type-safe AI API workflows.","proof3":"JD: media tech, vendors, launches \u2192 Resume: shipped 3D brand platforms for Alo/Moncler/Ralph Lauren and NLP partnerships cutting GTM 25%.","ctaText":"Thank you for the conversation \u2014 I am excited to learn where this team needs precision, speed, and strategic alignment next.","packetUrl":"welc.ing/packets/pkt-148slsa","companyAccent":"#D71920"};</script>
+</head>
+<body>
+  <div
+    id="root"
+    data-composition-id="role-pitch"
+    data-start="0"
+    data-duration="30"
+    data-width="1920"
+    data-height="1080"
+  >
+    <!-- Background elements -->
+    <div id="ambient-grid"></div>
+
+    <!-- INTRO -->
+    <section id="scene-intro" class="clip scene" data-start="0" data-duration="4" data-track-index="1">
+      <div class="intro-wrap">
+        <div class="kicker mono" id="intro-kicker">Introduction to</div>
+        <div style="position: relative; display: inline-block; width: fit-content;">
+          <h1 class="title intro-title" id="intro-company" style="font-size: 110px; font-weight: 800; color: #1C1D21;">Alex Welcing</h1>
+          <svg class="marker-highlight" viewBox="0 0 600 20" style="position: absolute; left: 0; bottom: -6px; width: 100%; height: 28px; z-index: -1;">
+            <path class="marker-path" id="intro-highlight" d="M 5 12 Q 300 8 595 14" stroke="#FFD15C" stroke-width="14" fill="none" stroke-linecap="round" />
+          </svg>
+        </div>
+        <p class="subtitle" id="intro-role">Principal / Staff AI Product Builder</p>
+        <div class="intro-meta">
+          <span class="intro-meta-item"><span class="intro-meta-key">Targeting</span><span class="intro-meta-val" id="intro-role-short">Principal / Staff Product Roles</span></span>
+          <span class="intro-meta-item"><span class="intro-meta-key">At</span><span class="intro-meta-val" id="intro-for">AI Product / Platform</span></span>
+          <span class="intro-meta-item"><span class="intro-meta-key">Location</span><span class="intro-meta-val" id="intro-location">NYC / Remote / Hybrid</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROLE DETAILS -->
+    <section id="scene-role" class="clip scene" data-start="4" data-duration="7" data-track-index="1">
+      <div class="left">
+        <div class="small-kicker mono">The role</div>
+        <h2 class="title" id="role-headline">AI product builder who can hold roadmap, system design, and shipped surface in one frame.</h2>
+      </div>
+      <div class="right panel">
+        <div class="meta-row" style="border-top: none;"><div class="meta-label mono">Company</div><div class="meta-value" id="role-company">AI Product / Platform</div></div>
+        <div class="meta-row" style="border-top: 2px solid #1C1D21;"><div class="meta-label mono">Title</div><div class="meta-value" id="role-title">Principal / Staff Product Roles</div></div>
+        <div class="meta-row" style="border-top: 2px solid #1C1D21; border-bottom: none;"><div class="meta-label mono">Location</div><div class="meta-value" id="role-location">NYC / Remote / Hybrid</div></div>
+      </div>
+    </section>
+
+    <!-- FIT MATRIX -->
+    <section id="scene-fit" class="clip scene" data-start="11" data-duration="8" data-track-index="1">
+      <div class="small-kicker mono">Why this match works</div>
+      <div class="grid-3">
+        <article class="card">
+          <h3 class="card-title" id="fit-1-title">AI product shipped as working systems</h3>
+          <p class="card-copy" id="fit-1-detail">Built production AI products from strategy through TypeScript/Python implementation.</p>
+          <div class="card-meter"><div class="card-meter-fill" id="fit-1-meter"></div></div>
+        </article>
+        <article class="card">
+          <h3 class="card-title" id="fit-2-title">Enterprise platform judgment</h3>
+          <p class="card-copy" id="fit-2-detail">Rebuilt identity, subscription, SSO/SAML/OIDC, and API systems for high-trust customers.</p>
+          <div class="card-meter"><div class="card-meter-fill" id="fit-2-meter"></div></div>
+        </article>
+        <article class="card">
+          <h3 class="card-title" id="fit-3-title">Research-to-product range</h3>
+          <p class="card-copy" id="fit-3-detail">Connects scientific ML, document AI, 3D interfaces, and developer platforms into usable products.</p>
+          <div class="card-meter"><div class="card-meter-fill" id="fit-3-meter"></div></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUANTITATIVE PROOF -->
+    <section id="scene-proof" class="clip scene" data-start="19" data-duration="7" data-track-index="1">
+      <div class="small-kicker mono">Proof in 10 seconds</div>
+      <div class="proof-grid">
+        <div class="proof-item">
+          <div class="proof-stat-container">
+            <svg class="sketch-circle" viewBox="0 0 100 100">
+              <path class="circle-path" id="proof-circle-1" d="M 50 10 C 72 10, 90 28, 90 50 C 90 72, 72 90, 50 90 C 28 90, 10 72, 10 50 C 10 28, 28 10, 48 10 C 65 10, 85 20, 88 45" stroke="#C94A29" stroke-width="4.5" fill="none" stroke-linecap="round" />
+            </svg>
+            <div class="proof-stat" id="proof-stat-1">12+</div>
+          </div>
+          <div class="proof-desc" id="proof-1">12+ years shipping product, code, and judgment end-to-end.</div>
+        </div>
+        <div class="proof-item">
+          <div class="proof-stat-container">
+            <svg class="sketch-circle" viewBox="0 0 100 100">
+              <path class="circle-path" id="proof-circle-2" d="M 50 10 C 72 10, 90 28, 90 50 C 90 72, 72 90, 50 90 C 28 90, 10 72, 10 50 C 10 28, 28 10, 48 10 C 65 10, 85 20, 88 45" stroke="#C94A29" stroke-width="4.5" fill="none" stroke-linecap="round" />
+            </svg>
+            <div class="proof-stat" id="proof-stat-2">1B+</div>
+          </div>
+          <div class="proof-desc" id="proof-2">Billions of monthly requests served by systems rebuilt at LBR.</div>
+        </div>
+        <div class="proof-item">
+          <div class="proof-stat-container">
+            <svg class="sketch-circle" viewBox="0 0 100 100">
+              <path class="circle-path" id="proof-circle-3" d="M 50 10 C 72 10, 90 28, 90 50 C 90 72, 72 90, 50 90 C 28 90, 10 72, 10 50 C 10 28, 28 10, 48 10 C 65 10, 85 20, 88 45" stroke="#C94A29" stroke-width="4.5" fill="none" stroke-linecap="round" />
+            </svg>
+            <div class="proof-stat" id="proof-stat-3">150+</div>
+          </div>
+          <div class="proof-desc" id="proof-3">150+ enterprise SSO rollouts to AmLaw 200 firms.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section id="scene-cta" class="clip scene" data-start="26" data-duration="4" data-track-index="1">
+      <div class="kicker mono">Meet Alex Welcing</div>
+      <h2 class="title" style="margin-bottom: 12px;" id="cta-text">Review the tailored résumé, cover letter, and role-specific proof.</h2>
+      <div class="cta-pill mono" id="cta-url">welc.ing</div>
+    </section>
+
+    <!-- Frame readouts -->
+    <div class="footer-brand mono">Alex Welcing · AI product builder</div>
+    <div class="timecode mono">30 second role pitch</div>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+
+    const fallbackVars = {
+      openingKicker: 'Introduction to',
+      openingTitle: 'Alex Welcing',
+      companyName: 'AI Product / Platform',
+      roleTitle: 'Principal / Staff Product Roles',
+      location: 'NYC / Remote / Hybrid',
+      tagline: 'Tailored role pitch',
+      headline: 'AI product builder who can hold the roadmap, the system design, and the shipped surface in one frame.',
+      fitPoint1: 'AI product shipped as working systems',
+      fitPoint1Evidence: 'Built production AI products from strategy through TypeScript/Python implementation.',
+      fitPoint2: 'Enterprise platform judgment',
+      fitPoint2Evidence: 'Rebuilt identity, subscription, SSO/SAML/OIDC, and API systems for high-trust customers.',
+      fitPoint3: 'Research-to-product range',
+      fitPoint3Evidence: 'Connects scientific ML, document AI, 3D interfaces, and developer platforms into usable products.',
+      proof1: '12+ years shipping product, code, and judgment end-to-end.',
+      proof2: 'Billions of monthly requests served by systems rebuilt at LBR.',
+      proof3: '150+ enterprise SSO rollouts to AmLaw 200 firms.',
+      ctaText: 'Review the tailored résumé, cover letter, and role-specific proof.',
+      packetUrl: 'welc.ing',
+      companyAccent: '#33CCFF'
+    };
+
+    const variables = Object.assign(
+      {},
+      fallbackVars,
+      window.__ROLE_PITCH__ || {},
+      window.__hyperframes?.getVariables?.() || {}
+    );
+
+    function setText(id, value) {
+      const el = document.getElementById(id);
+      if (el && value) el.textContent = String(value);
+    }
+
+    document.documentElement.style.setProperty('--accent', variables.companyAccent || '#33CCFF');
+    setText('intro-kicker', variables.openingKicker);
+    setText('intro-company', variables.openingTitle);
+    setText('intro-role', variables.roleTitle);
+    setText('intro-for', variables.companyName);
+    setText('intro-role-short', variables.roleTitle);
+    setText('intro-location', variables.location);
+    setText('role-headline', variables.headline);
+    setText('role-company', variables.companyName);
+    setText('role-title', variables.roleTitle);
+    setText('role-location', variables.location);
+    setText('fit-1-title', variables.fitPoint1);
+    setText('fit-1-detail', variables.fitPoint1Evidence);
+    setText('fit-2-title', variables.fitPoint2);
+    setText('fit-2-detail', variables.fitPoint2Evidence);
+    setText('fit-3-title', variables.fitPoint3);
+    setText('fit-3-detail', variables.fitPoint3Evidence);
+    setText('proof-1', variables.proof1);
+    setText('proof-2', variables.proof2);
+    setText('proof-3', variables.proof3);
+    setText('cta-text', variables.ctaText);
+    setText('cta-url', variables.packetUrl);
+
+    // Helpers to parse numbers for counters
+    function extractNumberAndSuffix(str) {
+      const numMatch = str.match(/(\d+(?:\.\d+)?)/);
+      if (!numMatch) return { num: null, prefix: '', suffix: '' };
+
+      const num = parseFloat(numMatch[1]);
+      const index = numMatch.index;
+      const prefix = str.substring(0, index).trim();
+
+      let suffix = '';
+      const postStr = str.substring(index + numMatch[1].length);
+      const suffixMatch = postStr.match(/^([+\-%]|x|\s?[a-zA-Z]+)/);
+      if (suffixMatch) {
+        suffix = suffixMatch[1].trim();
+        if (suffix === 'years' || suffix === 'firm' || suffix === 'firms') suffix = '+';
+      } else {
+        suffix = '+';
+      }
+
+      return { num, prefix, suffix };
+    }
+
+    const tl = gsap.timeline({ paused: true });
+
+    // Ambient loops registered on the timeline (deterministic repeats)
+    tl.fromTo('#ambient-grid', { backgroundPosition: '0px 0px' }, { backgroundPosition: '100px 100px', ease: 'none', duration: 30 }, 0);
+
+    // SCENE 1 (Intro)
+    tl.from('#intro-kicker', { opacity: 0, y: 18, duration: 0.55, ease: 'power2.out' }, 0)
+      .from('#intro-company', { opacity: 0, y: 34, scale: 0.96, duration: 0.65, ease: 'power2.out' }, 0.15)
+      .fromTo('#intro-highlight', { strokeDashoffset: 600 }, { strokeDashoffset: 0, duration: 0.8, ease: 'power1.out' }, 0.45)
+      .from('#intro-role', { opacity: 0, y: 22, duration: 0.55, ease: 'power2.out' }, 0.55)
+      .from('.intro-meta', { opacity: 0, scaleX: 0, transformOrigin: 'left center', duration: 0.6, ease: 'power2.out' }, 0.75)
+      .from('.intro-meta-item', { opacity: 0, y: 12, stagger: 0.12, duration: 0.5, ease: 'power2.out' }, 0.95)
+      .to('#scene-intro', { opacity: 0, y: -24, scale: 0.98, duration: 0.45, ease: 'power2.in' }, 3.55)
+      .set('#scene-intro', { opacity: 0 }, 4)
+
+    // SCENE 2 (Role)
+      .from('#scene-role .left > .small-kicker', { opacity: 0, x: -15, duration: 0.4, ease: 'power2.out' }, 4)
+      .from('#role-headline', { opacity: 0, x: -40, duration: 0.65, ease: 'power2.out' }, 4.15)
+      .from('#scene-role .right', { opacity: 0, x: 40, duration: 0.65, ease: 'power2.out' }, 4.3)
+      .from('#scene-role .meta-row', { scaleX: 0, transformOrigin: 'left center', stagger: 0.15, duration: 0.6, ease: 'power2.out' }, 4.5)
+      .from('#scene-role .meta-label, #scene-role .meta-value', { opacity: 0, y: 10, stagger: 0.08, duration: 0.4, ease: 'power2.out' }, 4.8)
+      .to('#scene-role', { opacity: 0, y: -24, scale: 0.98, duration: 0.45, ease: 'power2.in' }, 10.55)
+      .set('#scene-role', { opacity: 0 }, 11)
+
+    // SCENE 3 (Fit)
+      .from('#scene-fit .small-kicker', { opacity: 0, y: 15, duration: 0.4, ease: 'power2.out' }, 11)
+      .from('#scene-fit .card', { opacity: 0, y: 50, scale: 0.96, stagger: 0.18, duration: 0.6, ease: 'back.out(1.1)' }, 11.2)
+      .fromTo('#fit-1-meter', { width: '0%' }, { width: '100%', duration: 1.1, ease: 'power2.inOut' }, 11.8)
+      .fromTo('#fit-2-meter', { width: '0%' }, { width: '100%', duration: 1.1, ease: 'power2.inOut' }, 12.0)
+      .fromTo('#fit-3-meter', { width: '0%' }, { width: '100%', duration: 1.1, ease: 'power2.inOut' }, 12.2)
+      .to('#scene-fit', { opacity: 0, y: -24, scale: 0.98, duration: 0.45, ease: 'power2.in' }, 18.55)
+      .set('#scene-fit', { opacity: 0 }, 19)
+
+    // SCENE 4 (Proof stats counters)
+      .from('#scene-proof .small-kicker', { opacity: 0, y: 15, duration: 0.4, ease: 'power2.out' }, 19)
+      .from('#scene-proof .proof-item', { opacity: 0, y: 40, scale: 0.97, stagger: 0.15, duration: 0.6, ease: 'power2.out' }, 19.15)
+      .fromTo('#proof-circle-1', { strokeDashoffset: 550 }, { strokeDashoffset: 0, duration: 0.9, ease: 'power1.out' }, 19.3)
+      .fromTo('#proof-circle-2', { strokeDashoffset: 550 }, { strokeDashoffset: 0, duration: 0.9, ease: 'power1.out' }, 19.5)
+      .fromTo('#proof-circle-3', { strokeDashoffset: 550 }, { strokeDashoffset: 0, duration: 0.9, ease: 'power1.out' }, 19.7)
+      .to('#scene-proof', { opacity: 0, y: -24, scale: 0.98, duration: 0.45, ease: 'power2.in' }, 25.55)
+      .set('#scene-proof', { opacity: 0 }, 26)
+
+    // SCENE 5 (CTA)
+      .from('#scene-cta .kicker', { opacity: 0, y: 18, duration: 0.4, ease: 'power2.out' }, 26)
+      .from('#cta-text', { opacity: 0, y: 28, scale: 0.98, duration: 0.55, ease: 'power2.out' }, 26.15)
+      .from('#cta-url', { opacity: 0, y: 22, scale: 0.94, duration: 0.45, ease: 'back.out(1.4)' }, 26.5)
+      .to('#cta-url', { boxShadow: '0px 0px 30px var(--accent)', repeat: 2, yoyo: true, duration: 0.6 }, 27.2)
+      .to('#root', { filter: 'brightness(0.95)', duration: 0.55 }, 29.45);
+
+    // Dynamic stats counter animations (seek-safe setup)
+    const stats = [
+      { id: 'proof-stat-1', rawText: variables.proof1, fallbackNum: 12, fallbackSuffix: '+' },
+      { id: 'proof-stat-2', rawText: variables.proof2, fallbackNum: 1, fallbackSuffix: 'B+' },
+      { id: 'proof-stat-3', rawText: variables.proof3, fallbackNum: 150, fallbackSuffix: '+' }
+    ];
+
+    stats.forEach((stat, idx) => {
+      let num = stat.fallbackNum;
+      let suffix = stat.fallbackSuffix;
+
+      const parsed = extractNumberAndSuffix(stat.rawText);
+      if (parsed.num !== null) {
+        num = parsed.num;
+        suffix = parsed.suffix;
+      } else {
+        const lower = stat.rawText.toLowerCase();
+        if (lower.includes('billion')) { num = 1; suffix = 'B+'; }
+        else if (lower.includes('million')) { num = 10; suffix = 'M+'; }
+      }
+
+      const el = document.getElementById(stat.id);
+      if (el) {
+        const countObj = { val: 0 };
+        tl.to(countObj, {
+          val: num,
+          duration: 1.4,
+          ease: 'power2.out',
+          onUpdate: () => {
+            const formatted = num % 1 === 0 ? Math.floor(countObj.val) : countObj.val.toFixed(1);
+            el.textContent = formatted + suffix;
+          }
+        }, 19.4 + idx * 0.18);
+      }
+    });
+
+    window.__timelines['role-pitch'] = tl;
+    if (!window.__hyperframes) {
+      tl.play(0);
+    }
+  </script>
+</body>
+</html>
