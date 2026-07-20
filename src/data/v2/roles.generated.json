@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "jpmorganchase-ai-llm-product-manager-senior-associate",
+    "company": "JPMorganChase",
+    "roleTitle": "AI/LLM Product Manager - Senior Associate",
+    "location": "New York, NY",
+    "applyUrl": "https://www.indeed.com/viewjob?jk=6bdc7e7b377da662",
+    "accent": "#005EB8",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "cisco-technical-product-manager-cisco-iq-platform-iam",
+    "company": "Cisco",
+    "roleTitle": "Technical Product Manager, Cisco IQ Platform (IAM)",
+    "location": "San Jose, CA (Hybrid)",
+    "applyUrl": "https://www.indeed.com/viewjob?jk=2992f2b2c43258ae",
+    "accent": "#049FD9",
+    "tagline": "[ IDENTITY · ENTERPRISE TRUST ]",
+    "headline": "I built enterprise identity for 150+ firms at billions-scale — access, trust, and deployment are my home turf.",
+    "intro": "Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.",
+    "whyFit": [
+      {
+        "point": "Identity at billions-scale is my track record",
+        "detail": "Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries."
+      },
+      {
+        "point": "Enterprise deployment with security-conscious buyers",
+        "detail": "Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped."
+      },
+      {
+        "point": "I prototype and ship, not just spec",
+        "detail": "Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern."
+      }
+    ],
+    "proof": [
+      "Billions of monthly requests served by identity systems I re-platformed at ALM",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Unified access model across 10+ products"
+    ]
+  },
+  {
+    "slug": "qualtrics-principal-product-manager-core-ai-platform",
+    "company": "Qualtrics",
+    "roleTitle": "Principal Product Manager, Core AI Platform",
+    "location": "Seattle, WA (Hybrid)",
+    "applyUrl": "https://www.indeed.com/viewjob?jk=fbee39704c893c23",
+    "accent": "#00B4EF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  }
+]

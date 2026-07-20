@@ -20,7 +20,9 @@
     "talent:pitch-top30": "PATH=/opt/homebrew/opt/node@22/bin:$PATH TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-pitch-videos.ts --top-targets",
     "talent:pitch-strong": "PATH=/opt/homebrew/opt/node@22/bin:$PATH TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-pitch-videos.ts --strong-fit",
     "talent:pitch-all": "PATH=/opt/homebrew/opt/node@22/bin:$PATH TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-pitch-videos.ts --all",
-    "talent:pitch-docker": "PATH=/opt/homebrew/opt/node@22/bin:$PATH TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-pitch-videos.ts --top-targets --docker"
+    "talent:pitch-docker": "PATH=/opt/homebrew/opt/node@22/bin:$PATH TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-pitch-videos.ts --top-targets --docker",
+    "compose:roles": "TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/compose-roles.ts",
+    "packet:one": "TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-resumes.tsx"
   },
   "dependencies": {
     "@chenglou/pretext": "^0.0.8",

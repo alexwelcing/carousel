@@ -1,4 +1,5 @@
 import { getAnonymousShareId } from '@/lib/shareLinks';
+import generatedRolesJson from './v2/roles.generated.json';
 
 /* ------------------------------------------------------------------ */
 /*  Per-role tailored landing-page data                                */
@@ -61953,3 +61954,13 @@ export function getRole(slug: string | undefined): TailoredRole | undefined {
   if (!slug) return undefined;
   return roles.find((r) => r.slug === slug || getAnonymousShareId(r.slug) === slug);
 }
+
+
+/* ------------------------------------------------------------------ */
+/*  Pipeline v2: leads.json -> compose-roles.ts -> roles.generated.json  */
+/*  Generated entries merge in at build time; curated slugs win.        */
+/* ------------------------------------------------------------------ */
+const generatedRoles = (generatedRolesJson as TailoredRole[]).filter(
+  (g) => !roles.some((r) => r.slug === g.slug),
+);
+roles.push(...generatedRoles);

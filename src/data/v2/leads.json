@@ -1,0 +1,36 @@
+{
+  "$schema": "./leads.schema.json",
+  "comment": "Input of record for generated application packets. One row per live lead. track selects the narrative template: identity | agents | enterprise | builder.",
+  "leads": [
+    {
+      "company": "JPMorganChase",
+      "roleTitle": "AI/LLM Product Manager - Senior Associate",
+      "location": "New York, NY",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=6bdc7e7b377da662",
+      "comp": "$128,250 - $195,000",
+      "track": "agents",
+      "accent": "#005EB8",
+      "status": "to-apply"
+    },
+    {
+      "company": "Cisco",
+      "roleTitle": "Technical Product Manager, Cisco IQ Platform (IAM)",
+      "location": "San Jose, CA (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=2992f2b2c43258ae",
+      "comp": "$134,300 - $255,100",
+      "track": "identity",
+      "accent": "#049FD9",
+      "status": "to-apply"
+    },
+    {
+      "company": "Qualtrics",
+      "roleTitle": "Principal Product Manager, Core AI Platform",
+      "location": "Seattle, WA (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=fbee39704c893c23",
+      "comp": "$199,500 - $262,000",
+      "track": "agents",
+      "accent": "#00B4EF",
+      "status": "to-apply"
+    }
+  ]
+}
