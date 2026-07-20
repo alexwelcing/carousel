@@ -49,6 +49,40 @@ export interface TailoredRole {
 
 export const roles: TailoredRole[] = [
   {
+    slug: "mastercard-manager-forward-deployed-ai-engineer",
+    company: "Mastercard",
+    roleTitle: "Manager, Forward-Deployed AI Engineer — AI Mobilization & Transformation",
+    location: "Harrison / Purchase, NY",
+    applyUrl: "https://careers.mastercard.com/us/en/job/R-282488/Manager-Forward-Deployed-AI-Engineer-%E2%80%94-AI-Mobilization-Transformation",
+    accent: "#EB001B",
+    tagline: "[ FORWARD-DEPLOYED AI · ENTERPRISE DELIVERY ]",
+    headline: "I embed with teams, ship production AI agents, and leave the people around me able to build without me.",
+    intro:
+      "I'm a forward-deployed builder-PM: I sit with the business, turn messy workflows into production-grade agents and multi-agent orchestration, and coach the engineers, analysts, and PMs around me so the capability sticks — at billions-scale, in regulated, high-trust environments.",
+    whyFit: [
+      {
+        point: "Forward-deployed with enterprises is already how I work",
+        detail:
+          "Ran white-glove SSO / SAML / OIDC onboarding for 150+ AmLaw 200 firms and led enterprise 3D-commerce deployments for Alo, Moncler, and Ralph Lauren at Obsess — embedding with business and security stakeholders, redesigning workflows, and shipping the result.",
+      },
+      {
+        point: "I ship production agents and multi-agent orchestration",
+        detail:
+          "Built a multi-agent orchestration platform end-to-end across multiple LLM providers and shipped a type-safe AI API execution workspace at ALM with live introspection and evals that lifted accuracy across three internal APIs.",
+      },
+      {
+        point: "I build while teaching, with governance built in",
+        detail:
+          "Re-platformed identity and subscription infrastructure at billions of requests per month with SOC 2 and access boundaries, and turned expert legal-publishing workflows into AI document systems teams could operate themselves.",
+      },
+    ],
+    proof: [
+      "Billions of monthly requests served by identity systems I re-platformed",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Multi-agent orchestration and an AI API workspace shipped end-to-end",
+    ],
+  },
+  {
     slug: 'generic-ai-product-platform',
     company: 'AI Product / Platform',
     roleTitle: 'Principal / Staff Product Roles',
@@ -63,12 +97,12 @@ export const roles: TailoredRole[] = [
       {
         point: 'AI product shipped as working systems',
         detail:
-          'Built lupi.live as a real R3F/WebGL molecule viewer and lupine.science as the research/company layer behind the materials-science work; shipped an AI API execution workspace at LBR with type safety, live introspection, and self-improving usage accuracy.',
+          'Built lupi.live as a real R3F/WebGL molecule viewer and lupine.science as the research/company layer behind the materials-science work; shipped an AI API execution workspace at ALM with type safety, live introspection, and self-improving usage accuracy.',
       },
       {
         point: 'Platform judgment from enterprise systems',
         detail:
-          'Re-platformed identity and subscription infrastructure across 10+ LBR products serving billions of monthly requests, then translated the same operating discipline into AI, document intelligence, and developer-facing workflows.',
+          'Re-platformed identity and subscription infrastructure across 10+ ALM products serving billions of monthly requests, then translated the same operating discipline into AI, document intelligence, and developer-facing workflows.',
       },
       {
         point: 'Product taste plus implementation depth',
@@ -78,7 +112,7 @@ export const roles: TailoredRole[] = [
     ],
     proof: [
       '12+ years shipping product, code, and judgment end-to-end',
-      'Billions of monthly requests served by systems rebuilt at LBR',
+      'Billions of monthly requests served by systems rebuilt at ALM',
       'AI, document understanding, 3D interfaces, and enterprise platforms in one operating model',
     ],
   },
@@ -102,7 +136,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'I build the demo into the system',
         detail:
-          'Built lupi.live and lupine.science across viewer, research narrative, and Python scientific-computing pipelines; at LBR, shipped an AI API workspace that turned internal AI capabilities into usable product infrastructure.',
+          'Built lupi.live and lupine.science across viewer, research narrative, and Python scientific-computing pipelines; at ALM, shipped an AI API workspace that turned internal AI capabilities into usable product infrastructure.',
       },
       {
         point: 'Domain translation without losing engineering precision',
@@ -131,7 +165,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'Developer workflow instincts from shipped platform work',
         detail:
-          'Designed and shipped a type-safe AI API execution workspace at LBR using oRPC, live introspection, and feedback loops that improved accuracy across three internal APIs.',
+          'Designed and shipped a type-safe AI API execution workspace at ALM using oRPC, live introspection, and feedback loops that improved accuracy across three internal APIs.',
       },
       {
         point: 'Agent access and trust map to my identity background',
@@ -170,7 +204,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'Expert workflows need trust infrastructure',
         detail:
-          'Led IAM for a research platform serving 1,000+ clients and later handled enterprise SSO for 150+ AmLaw 200 firms at LBR, giving me the access-control and deployment context behind document AI adoption.',
+          'Led IAM for a research platform serving 1,000+ clients and later handled enterprise SSO for 150+ AmLaw 200 firms at ALM, giving me the access-control and deployment context behind document AI adoption.',
       },
       {
         point: 'I can connect retrieval, UX, and product outcomes',
@@ -199,7 +233,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'Identity at real enterprise scale',
         detail:
-          'Re-platformed the identity and subscription system at LBR across 10+ products serving billions of monthly requests, with SAML/OIDC rollout for 150+ AmLaw 200 firms.',
+          'Re-platformed the identity and subscription system at ALM across 10+ products serving billions of monthly requests, with SAML/OIDC rollout for 150+ AmLaw 200 firms.',
       },
       {
         point: 'Agent security is the same control problem in a new shape',
@@ -243,7 +277,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'Broad enough to connect science, product, and GTM',
         detail:
-          'Across Manatt, LBR, Obsess, and Arkadium I have repeatedly translated complex expert domains into systems with users, revenue, and deployment constraints — the same muscle scientific AI needs to leave the lab.',
+          'Across Manatt, ALM, Obsess, and Arkadium I have repeatedly translated complex expert domains into systems with users, revenue, and deployment constraints — the same muscle scientific AI needs to leave the lab.',
       },
     ],
     proof: [
@@ -306,7 +340,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'Enterprise deployment is my day job',
         detail:
-          'At Law Business Research I ran white-glove SSO (SAML/OIDC) onboarding for 150+ AmLaw 200 firms — the exact customer-facing, high-trust deployment motion an FDE lives in.',
+          'At ALM I ran white-glove SSO (SAML/OIDC) onboarding for 150+ AmLaw 200 firms — the exact customer-facing, high-trust deployment motion an FDE lives in.',
       },
       {
         point: 'I prototype in TypeScript and Python and ship',
@@ -384,7 +418,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'I know the AmLaw customer intimately',
         detail:
-          'Onboarded 150+ AmLaw 200 firms onto enterprise SSO at LBR — I know how legal enterprises buy, deploy, and trust software.',
+          'Onboarded 150+ AmLaw 200 firms onto enterprise SSO at ALM — I know how legal enterprises buy, deploy, and trust software.',
       },
       {
         point: 'Prototype-to-production is my pattern',
@@ -418,7 +452,7 @@ export const roles: TailoredRole[] = [
       {
         point: '0→1 builder with enterprise reps',
         detail:
-          'Rebuilt client settings & analytics apps from scratch at LBR, and built High Era — a full marketing-automation OS (FastAPI + SvelteKit + GCP) end-to-end.',
+          'Rebuilt client settings & analytics apps from scratch at ALM, and built High Era — a full marketing-automation OS (FastAPI + SvelteKit + GCP) end-to-end.',
       },
       {
         point: 'Enterprise integration is muscle memory',
@@ -545,7 +579,7 @@ export const roles: TailoredRole[] = [
       {
         point: 'I rebuild client apps that scale',
         detail:
-          'Rebuilt client settings & analytics applications from scratch at LBR, cutting configuration time 60%.',
+          'Rebuilt client settings & analytics applications from scratch at ALM, cutting configuration time 60%.',
       },
     ],
     proof: [
@@ -607,11 +641,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I am building agent/conversational-AI platforms (Obsess) plus identity/security depth (LBR) for regulated financial use \u2014 Set the multi-year SaaS platform strategy for enterprise b",
+    headline: "I am building agent/conversational-AI platforms (Obsess) plus identity/security depth (ALM) for regulated financial use \u2014 Set the multi-year SaaS platform strategy for enterprise b",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Posh is building Purpose-built conversational/agentic AI for financial institutions across voice, digital, training,\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "I build agent/conversational-AI platforms (Obsess) plus identity/security depth (LBR) for regulated financial use:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "I build agent/conversational-AI platforms (Obsess) plus identity/security depth (ALM) for regulated financial use:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
@@ -685,11 +719,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.",
     whyFit: [
       { point: "Amazon is building Bedrock/Nova foundation models, advertising AI (measurement, MMM), agentic AI, and\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -789,11 +823,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -863,14 +897,14 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "Document and platform PM who connects compliant storage, workflow UX, and AI-assisted document generation.",
-    intro: "I'm a technical PM with platform, identity, and document-AI experience: LBR identity/subscription re-platforming, an AI API workspace, and regulated document workflows from Manatt.",
+    intro: "I'm a technical PM with platform, identity, and document-AI experience: ALM identity/subscription re-platforming, an AI API workspace, and regulated document workflows from Manatt.",
     whyFit: [
-      { point: "Compliant document and access systems", detail: "Built AI document scanning at Manatt; re-platformed identity/subscription across 10+ LBR products." },
+      { point: "Compliant document and access systems", detail: "Built AI document scanning at Manatt; re-platformed identity/subscription across 10+ ALM products." },
       { point: "AI platform shipped as product infrastructure", detail: "Shipped an oRPC AI API workspace with live introspection and self-improving usage accuracy." },
       { point: "Workflow adoption across teams", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
     proof: [
-      "Identity/subscription platform across 10+ products at LBR",
+      "Identity/subscription platform across 10+ products at ALM",
       "Type-safe AI API workspace with live introspection",
       "1000+ Lupine repo commits in 2026",
     ],
@@ -888,11 +922,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
+    headline: "I lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "Lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "Lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -995,7 +1029,7 @@ export const roles: TailoredRole[] = [
     headline: "API and agentic-workflow PM with hands-on AI tooling, identity, and developer-platform depth.",
     intro: "I build at the boundary of product and code: enterprise identity/subscription systems, AI API tooling, and agent/document/search prototypes with real implementation detail.",
     whyFit: [
-      { point: "API and access-control product depth", detail: "Rebuilt identity/subscription across 10+ LBR products serving billions of monthly requests." },
+      { point: "API and access-control product depth", detail: "Rebuilt identity/subscription across 10+ ALM products serving billions of monthly requests." },
       { point: "Developer-facing AI systems", detail: "Shipped an oRPC AI API workspace with live introspection and accuracy feedback loops." },
       { point: "Hands-on AI builder credibility", detail: "Built Lupine and lupi.live: MLIP benchmarks, phase-change simulation, and WebGL visualization." },
     ],
@@ -1094,9 +1128,9 @@ export const roles: TailoredRole[] = [
     headline: "I breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Bain & Company is building Bain's AI/innovation practice; building internal & client-facing AI products and tools (Bain AI\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Bain & Company is building Bain's AI/innovation practice; building internal & client-facing AI products and tools (Bain AI\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "$200\u2013$260K base (estimate)",
@@ -1193,7 +1227,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI background as secondary edge \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
-      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI background as secondary edge:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
     ],
@@ -1219,7 +1253,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable \u2014 Led the 3D experience platform at Obsess \u2014 avatars.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
-      { point: "Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
     ],
@@ -1294,11 +1328,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Set the multi-year SaaS platform",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Set the multi-year SaaS platform",
     intro: "I'm a platform PM who has shipped developer tools at scale. Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -1349,7 +1383,7 @@ export const roles: TailoredRole[] = [
     headline: "I agent and devtools product work (Obsess) and document \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agent and devtools product work (Obsess) and document:", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -1377,7 +1411,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Adobe is building Firefly generative AI, Acrobat AI Assistant, AI in Creative Cloud and Experience Cloud; heavy push\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I ship AI/agent and document:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$160\u2013$210K base (estimate)",
@@ -1399,7 +1433,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I platform PM experience (Manatt + Obsess) \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Aledade, Inc. is building AI/data platform for risk stratification, care-gap closure and population-health analytics across\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "platform PM experience (Manatt + Obsess):", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -1422,7 +1456,7 @@ export const roles: TailoredRole[] = [
     headline: "I breadth across AI/agents, platforms and security as the ability to rapidly assess a portfolio company's product and tech maturity \u2014 Unified access models across legacy and new pr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Alvarez & Marsal is building ~20% of revenue AI-driven, targeting 50% by 2028; global AI board; hiring up to 200 AI-skilled staff \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Alvarez & Marsal is building ~20% of revenue AI-driven, targeting 50% by 2028; global AI board; hiring up to 200 AI-skilled staff \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "breadth across AI/agents, platforms and security as the ability to rapidly assess a portfolio company's product and tech maturity:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
@@ -1602,9 +1636,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I aI-agents/devtools (Obsess) and document-AI (Manatt) shipping record; ask the recruiter to clarify the client to tailor further \u2014 Took a legal-publishing SaaS from beta to millio",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "Burtch Works is building Recruiting for AI/ML, data science and analytics roles; the actual product role belongs to an\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Burtch Works is building Recruiting for AI/ML, data science and analytics roles; the actual product role belongs to an\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI-agents/devtools (Obsess) and document-AI (Manatt) shipping record; ask the recruiter to clarify the client to tailor further:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -1626,7 +1660,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Capital One is building Enterprise AI/ML platforms, agentic AI for customer assistance, developer productivity, and data\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "I ship data/document-AI products that turned raw data into trusted, consumable assets:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I ship data/document-AI products that turned raw data into trusted, consumable assets:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
@@ -1690,11 +1724,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ CROSS-FUNCTIONAL ]",
-    headline: "I developer-platform PM rigor and enterprise-trust framing (security/identity at LBR) to show he can own reliability-critical product  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
+    headline: "I developer-platform PM rigor and enterprise-trust framing (security/identity at ALM) to show he can own reliability-critical product  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
       { point: "Cockroach Labs is building Database infrastructure underpinning AI/agent apps; reliability, scale, and Postgres compatibility\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "developer-platform PM rigor and enterprise-trust framing (security/identity at LBR) to show he can own reliability-critical product:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "developer-platform PM rigor and enterprise-trust framing (security/identity at ALM) to show he can own reliability-critical product:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -1768,11 +1802,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI · AGENTS ]",
-    headline: "I the LBR security/compliance + Obsess agentic  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
+    headline: "I the ALM security/compliance + Obsess agentic  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.",
     whyFit: [
       { point: "Diligent is building Full-suite AI-native GRC (Diligent One); launched AI Board Member and Agentic GRC Workforce;\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "the LBR security/compliance + Obsess agentic:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
+      { point: "the ALM security/compliance + Obsess agentic:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -1797,7 +1831,7 @@ export const roles: TailoredRole[] = [
     headline: "I led document-AI as 'I productize complex AI/ML models into trusted outputs.' \u2014 Unified access models across legacy and new product surfaces, unlocking new revenue.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Manatt document-AI as 'I productize complex AI/ML models into trusted outputs.':", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
     ],
@@ -1823,7 +1857,7 @@ export const roles: TailoredRole[] = [
     headline: "I led document-AI: 'I build products where accuracy and user trust in AI output is the product' \u2014 exactly the need for an enterprise measurement platform.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
-      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Manatt: 'I build products where accuracy and user trust in AI output is the product' - exactly Rockerbox's need:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -1872,11 +1906,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I aI, agents) into reusable products/platforms. Lower priority vs. product companies \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I aI, agents) into reusable products/platforms. Lower priority vs. product companies \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "eClerx is building AI consulting + execution; among first globally with ISO 42001 responsible-AI certification \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "AI, agents) into reusable products/platforms. Lower priority vs. product companies:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "eClerx is building AI consulting + execution; among first globally with ISO 42001 responsible-AI certification \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "AI, agents) into reusable products/platforms. Lower priority vs. product companies:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
@@ -1903,7 +1937,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Elite Technology is building Embedded/native AI across financial operations; cloud-native platform with AI capabilities and\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "AI PM who already shipped document AI in law:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$190\u2013$240K base (estimate)",
@@ -1927,7 +1961,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agent and discovery work plus a user-growth/engagement track record \u2014 ideal for a consumer Search & AI mandate \u2014 Took a legal-publishing SaaS from beta to millions in ARR with",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "FanDuel is building ML for pricing/odds, personalization, search & discovery, responsible-gaming models, and data\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "FanDuel is building ML for pricing/odds, personalization, search & discovery, responsible-gaming models, and data\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agent and discovery work plus a user-growth/engagement track record \u2014 ideal for a consumer Search & AI mandate:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -1981,7 +2015,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "identity/security PM credibility plus subscription-growth metrics \u2014 the rare blend Gen needs:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$180\u2013$220K base (estimate)",
@@ -2023,7 +2057,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "identity/security protection with financial-wellness \u2014 frame Alex as the trust-and-growth PM for money products:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "$185\u2013$200K base (real)",
@@ -2091,12 +2125,12 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI) \u2014 Re-platformed the identity & subscription system at LBR, unifying acce",
+    headline: "I a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI) \u2014 Re-platformed the identity & subscription system at ALM, unifying acce",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Gusto is building AI generates ~50% of new code and handles ~50% of support; payroll runnable inside\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI):", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$170\u2013$210K base (estimate)",
@@ -2199,7 +2233,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
       { point: "hackajob is building 'Archer' AI sourcing agent; in-house AI agents for talent matching \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "LBR: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "ALM: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -2224,7 +2258,7 @@ export const roles: TailoredRole[] = [
     headline: "I obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address heal  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
-      { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address healthcare with Manatt regulated-domain credibility:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -2250,9 +2284,9 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agents + growth: 'I've shipped AI-driven product surfaces and driven subscription/engagement growth.' \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agents + growth: 'I've shipped AI-driven product surfaces and driven subscription/engagement growth.':", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "$241\u2013$295K base (real)",
@@ -2295,7 +2329,7 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I arkadium subscription/user-growth with Manatt legal/document-AI: 'a growth PM who also deeply understands the legal-AI product Ironclad sell \u2014 Took a legal-publishing SaaS from b",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
       { point: "Ironclad is building Agentic architecture - Intake Agent, Redlining Agent, Conversational Search, Ironclad Assistant\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "Arkadium subscription/user-growth with Manatt legal/document-AI: 'a growth PM who also deeply understands the legal-AI product Ironclad sells.' Note: SF-based (remote/relocation question):", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
@@ -2319,8 +2353,8 @@ export const roles: TailoredRole[] = [
     intro: "I'm a product PM who has driven subscription growth at scale. Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "LBR security/identity controls and Manatt document-AI compliance work as 'shipping trustworthy AI under regulatory constraints' \u2014 exactly what AI-risk transformation needs:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "ALM security/identity controls and Manatt document-AI compliance work as 'shipping trustworthy AI under regulatory constraints' \u2014 exactly what AI-risk transformation needs:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "$170\u2013$280K base (estimate)",
@@ -2368,7 +2402,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I aI-augmented productivity tooling experience (agents/devtools) as a lever to modernize the advisor platform with copilots and automation \u2014 Drove cross-platform adoption of contex",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "AI-augmented productivity tooling experience (agents/devtools) as a lever to modernize the advisor platform with copilots and automation:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -2445,7 +2479,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LinkedIn is building LinkedIn AI agents, AI hiring tools, AI labor marketplace, new paid 'Advice Sessions' consultations \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "1 launch (Arkadium platform, subscription growth):", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "$170\u2013$210K base (estimate)",
@@ -2471,7 +2505,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LSEG is building AI across financial data and analytics; partnership with Microsoft to embed GenAI/Copilot in\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "AI PM who can embed GenAI into data products:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "$150\u2013$200K base (estimate)",
@@ -2521,7 +2555,7 @@ export const roles: TailoredRole[] = [
     headline: "I obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cos  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands.",
     whyFit: [
-      { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cost savings:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -2615,7 +2649,7 @@ export const roles: TailoredRole[] = [
     headline: "I technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
@@ -2706,11 +2740,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
-    headline: "I document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
+    headline: "I document-AI and identity/security (ALM) as directly relevant to HIPAA-grade patient-record and engagement products \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
     intro: "I'm a product PM who has driven subscription growth at scale. Shipped High Era as a single-operator production platform on GCP \u2014 content generation, workflow engine, analytics.",
     whyFit: [
       { point: "PatientNow is building Patient acquisition/engagement automation, CRM; expanding via integrations \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "document-AI and identity/security (ALM) as directly relevant to HIPAA-grade patient-record and engagement products:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
     proof: [
@@ -2782,7 +2816,7 @@ export const roles: TailoredRole[] = [
     headline: "I technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical roadmaps:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
@@ -2829,9 +2863,9 @@ export const roles: TailoredRole[] = [
     headline: "I agents/devtools product building (Obsess) \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "R/GA is building AI product/innovation practice: building GenAI-powered creative tools and client products \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "R/GA is building AI product/innovation practice: building GenAI-powered creative tools and client products \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agents/devtools product building (Obsess):", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "$180\u2013$230K base (estimate)",
@@ -2925,11 +2959,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I aI and identity/compliance PM work (Manatt, LBR) \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I aI and identity/compliance PM work (Manatt, ALM) \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
-      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "AI and identity/compliance PM work (Manatt, LBR):", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
+      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "AI and identity/compliance PM work (Manatt, ALM):", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
     ],
     proof: [
@@ -2977,11 +3011,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I data-driven growth and platform PM; tie identity/data-privacy experience (LBR) to first-party audience activation \u2014 Drove cross-platform adoption of contextual, data-informed con",
+    headline: "I data-driven growth and platform PM; tie identity/data-privacy experience (ALM) to first-party audience activation \u2014 Drove cross-platform adoption of contextual, data-informed con",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Roku is building AI-driven content recommendations/personalization; OneView DSP using first-party audience data for\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "data-driven growth and platform PM; tie identity/data-privacy experience (LBR) to first-party audience activation:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
+      { point: "data-driven growth and platform PM; tie identity/data-privacy experience (ALM) to first-party audience activation:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator." },
     ],
     proof: [
@@ -3107,11 +3141,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI · AGENTS ]",
-    headline: "I hands-on agentic AI shipping at Obsess + security credibility from LBR \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
+    headline: "I hands-on agentic AI shipping at Obsess + security credibility from ALM \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
       { point: "SecurityScorecard is building Agentic AI workflows for risk detection/response; LLM pipelines, retrieval, eval frameworks \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "hands-on agentic AI shipping at Obsess + security credibility from LBR:", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
+      { point: "hands-on agentic AI shipping at Obsess + security credibility from ALM:", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers." },
     ],
     proof: [
@@ -3134,9 +3168,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I subscription growth, activation, and retention wins \u2014 this role is a near-perfect fit for his growth track record \u2014 Took a legal-publishing SaaS from beta to millions in ARR with",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "subscription growth, activation, and retention wins \u2014 this role is a near-perfect fit for his growth track record:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
     ],
@@ -3183,7 +3217,7 @@ export const roles: TailoredRole[] = [
     headline: "I ask the recruiter to identify the client/domain, then lead with the strongest matching theme (AI, platform, or security)  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Talener is building N/A (recruiter); client AI focus unknown \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Talener is building N/A (recruiter); client AI focus unknown \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Ask the recruiter to identify the client/domain, then lead with the strongest matching theme (AI, platform, or security):", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -3233,9 +3267,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I aI-agents/devtools and document-AI shipping record; ask the recruiter to disclose the client to tailor the pitch \u2014 Took a legal-publishing SaaS from beta to millions in ARR with.",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "TEEMA is building Recruits AI/ML and product roles for client companies; the actual role belongs to a client \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "TEEMA is building Recruits AI/ML and product roles for client companies; the actual role belongs to a client \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI-agents/devtools and document-AI shipping record; ask the recruiter to disclose the client to tailor the pitch:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -3308,7 +3342,7 @@ export const roles: TailoredRole[] = [
     headline: "I agents/devtools (Obsess) plus subscription/user \u2014 Designed and shipped a type-safe workspace for executing AI APIs with live\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator.",
     whyFit: [
-      { point: "Three Pillars Recruiting is building Client is AI-native AdTech/MarTech (per the posting); applies AI to advertising/marketing \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Three Pillars Recruiting is building Client is AI-native AdTech/MarTech (per the posting); applies AI to advertising/marketing \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agents/devtools (Obsess) plus subscription/user:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
@@ -3420,11 +3454,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
+    headline: "I for identity \u2014 lead with identity & security PM (ALM), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Zeta Global is building AI Marketing Cloud using trillions of consumer signals for acquisition, growth, and retention;\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "for identity \u2014 lead with identity & security PM (ALM), reframed as identity resolution/addressability in a privacy-first world:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -3497,7 +3531,7 @@ export const roles: TailoredRole[] = [
     headline: "I product and platform PM experience and AI/analytics fluency \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Applecart is building Proprietary social-graph data science and measurement; relationship mapping and decision-maker\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Applecart is building Proprietary social-graph data science and measurement; relationship mapping and decision-maker\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "product and platform PM experience and AI/analytics fluency:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
     ],
@@ -3602,7 +3636,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "document-AI and platform work as 'turning messy enterprise data into activated, AI-consumable products.':", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "document-AI and platform work as 'turning messy enterprise data into activated, AI-consumable products.':", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
@@ -3625,7 +3659,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I emphasize building the platform/data plumbing other teams build on (Arkadium platform PM) and data quality for AI \u2014 Drove cross-platform adoption of contextual, data-informed con",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "Emphasize building the platform/data plumbing other teams build on (Arkadium platform PM) and data quality for AI:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
@@ -3955,9 +3989,9 @@ export const roles: TailoredRole[] = [
     headline: "I if pursuing, lead with platform PM rigor and AI-workload understanding; otherwise deprioritize vs. better-fit CoreWeave roles \u2014 Drove cross-platform adoption of contextual, data.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "If pursuing, lead with platform PM rigor and AI-workload understanding; otherwise deprioritize vs. better-fit CoreWeave roles:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$170\u2013$220K base (estimate)",
@@ -3981,7 +4015,7 @@ export const roles: TailoredRole[] = [
     headline: "I am subscription/packaging and user-growth wins plus AI fluency to position as a GTM PM who understands both product and adoption \u2014 Re-platformed the identity & subscription syste",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "I subscription/packag and user-growth wins plus AI fluency to position as a GTM PM who understands both product and adoption:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built High Era single-handed: a full go-to-market automation OS on Google Cloud." },
     ],
@@ -4005,9 +4039,9 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I data familiarity, acknowledging the infra \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "data familiarity, acknowledging the infra:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
@@ -4033,7 +4067,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI in a legal/professional \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Cornerstone Research is building Applying data science/AI to litigation analytics and internal tooling; building software products\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Cornerstone Research is building Applying data science/AI to litigation analytics and internal tooling; building software products\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI in a legal/professional:", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -4138,7 +4172,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "LBR identity & security PM experience, framing identity/threat context as adjacent to detection & response:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "ALM identity & security PM experience, framing identity/threat context as adjacent to detection & response:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -4164,7 +4198,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
-      { point: "LBR identity & security PM plus Arkadium platform work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "ALM identity & security PM plus Arkadium platform work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -4239,7 +4273,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I applied-AI PM credibility (Obsess/Manatt) and platform mindset; acknowledge and bridge the database-specific learning curve \u2014 Set the multi-year SaaS platform strategy for enterp",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "applied-AI PM credibility (Obsess/Manatt) and platform mindset; acknowledge and bridge the database-specific learning curve:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
@@ -4338,7 +4372,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I platform-ecosystem PM experience \u2014 growing developer adoption and partner integrations on a platform \u2014 Drove cross-platform adoption of contextual, data-informed content systems.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Digital Asset is building Limited direct AI; focus is institutional on-chain infrastructure (tokenization, settlement) \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "platform-ecosystem PM experience \u2014 growing developer adoption and partner integrations on a platform:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -4359,7 +4393,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I economics analogies from subscription/growth work \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Digital Asset is building Limited direct AI; focus is institutional on-chain infrastructure (tokenization, settlement) \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "economics analogies from subscription/growth work:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
@@ -4382,9 +4416,9 @@ export const roles: TailoredRole[] = [
     headline: "I skip unless used as a foot-in-the-door; otherwise a down-level move \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.",
     whyFit: [
-      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Skip unless used as a foot-in-the-door; otherwise a down-level move:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$100\u2013$160K base (estimate)",
@@ -4408,7 +4442,7 @@ export const roles: TailoredRole[] = [
     headline: "I arkadium subscription & user-growth wins framed as marketplace growth \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Arkadium subscription & user-growth wins framed as marketplace growth:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -4436,7 +4470,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Dow Jones is building AI content-licensing marketplace (Factiva, ~5,000 publishers), $250M OpenAI deal, AI as\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
       { point: "Lead directly with subscription growth, activation, and retention results \u2014 quantify churn/engagement wins; this is one of the cleanest fits in the batch:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$160\u2013$200K base (estimate)",
@@ -4458,7 +4492,7 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I retention and engagement growth wins \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data\u2026.",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
       { point: "Duolingo is building GPT-powered features (Duolingo Max, Video Call/Lily AI tutor), AI-generated content, 'AI-first'\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "retention and engagement growth wins:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
@@ -4585,7 +4619,7 @@ export const roles: TailoredRole[] = [
     headline: "I treat the recruiter as an intelligence source \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Executive Talent Solutions is building N/A (underlying client role is fintech product) \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Executive Talent Solutions is building N/A (underlying client role is fintech product) \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Treat the recruiter as an intelligence source:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
     ],
@@ -4607,7 +4641,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Ran SSO / SAML / OIDC onboarding for 150+ AmLaw 200 firms.",
     whyFit: [
       { point: "Experian is building Identity graphs and AdTech identity resolution, fraud/identity ML, Ascend analytics and\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "LBR identity & security PM work; frame identity-graph/AdTech as applying identity-resolution expertise to advertising data products:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "ALM identity & security PM work; frame identity-graph/AdTech as applying identity-resolution expertise to advertising data products:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
     proof: [
@@ -4659,7 +4693,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
       { point: "Figma is building AI across the platform (Figma AI, Make/code generation, design-to-code); evolving from design tool\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
-      { point: "LBR enterprise identity & security PM (SSO/SCIM/admin) as core to enterprise readiness; tie platform experience to scale:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "ALM enterprise identity & security PM (SSO/SCIM/admin) as core to enterprise readiness; tie platform experience to scale:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
     proof: [
@@ -4710,8 +4744,8 @@ export const roles: TailoredRole[] = [
     headline: "I lBR: 'I've shipped security/identity products where trust and regulatory rigor are the product' - directly relevant to qualified custody \u2014 Re-platformed the identity & subscripti",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Ran SSO / SAML / OIDC onboarding for 150+ AmLaw 200 firms.",
     whyFit: [
-      { point: "Fireblocks is building Primarily security/infra (MPC, key management); not an 'AI company' \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "LBR: 'I've shipped security/identity products where trust and regulatory rigor are the product' - directly relevant to qualified custody:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "Fireblocks is building Primarily security/infra (MPC, key management); not an 'AI company' \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "ALM: 'I've shipped security/identity products where trust and regulatory rigor are the product' - directly relevant to qualified custody:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
     proof: [
@@ -4736,7 +4770,7 @@ export const roles: TailoredRole[] = [
     headline: "I arkadium media-platform + subscription growth experience \u2014 near-identical context (digital media platform monetization) \u2014 Built contextual, data-informed content systems that dro",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Fortune is building Limited/early \u2014 AI-powered audio articles (Trinity Audio); AI-driven content tooling \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Fortune is building Limited/early \u2014 AI-powered audio articles (Trinity Audio); AI-driven content tooling \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Arkadium media-platform + subscription growth experience \u2014 near-identical context (digital media platform monetization):", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Shipped High Era as a single-operator production platform on GCP \u2014 content generation, workflow engine, analytics." },
     ],
@@ -4783,7 +4817,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform PM and AI-tooling experience \u2014 frame as modernizing advisor/client workflows with AI, while noting transferable security/identity r \u2014 Drove cross-platform adoption of co",
     intro: "I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.",
     whyFit: [
-      { point: "Goldman Sachs is building Firmwide GS AI assistant, generative AI in engineering and AWM workflows, ML across trading/risk\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Goldman Sachs is building Firmwide GS AI assistant, generative AI in engineering and AWM workflows, ML across trading/risk\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform PM and AI-tooling experience \u2014 frame as modernizing advisor/client workflows with AI, while noting transferable security/identity rigor for a regulated environment:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
@@ -4884,7 +4918,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gusto is building AI generates ~50% of new code and handles ~50% of support; payroll runnable inside\u2026 \u2014 my relevant shipped work:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
       { point: "a platform PM who turns messy structured/unstructured data into self-serve, AI-assisted insight products:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$200\u2013$260K base (estimate)",
@@ -5012,7 +5046,7 @@ export const roles: TailoredRole[] = [
     headline: "I arkadium platform PM + Obsess devtools: 'I build the internal systems and tooling that let product teams move faster.' \u2014 Built contextual, data-informed content systems that drov",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
-      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Arkadium platform PM + Obsess devtools: 'I build the internal systems and tooling that let product teams move faster.':", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
@@ -5038,7 +5072,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform/API and partner \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.",
     whyFit: [
-      { point: "Hopper is building Predictive price-forecasting ML (core IP) and fintech-as-a-service add-ons (price freeze,\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Hopper is building Predictive price-forecasting ML (core IP) and fintech-as-a-service add-ons (price freeze,\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform/API and partner:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
@@ -5064,7 +5098,7 @@ export const roles: TailoredRole[] = [
     headline: "I security PM work and AI/ML fluency \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
-      { point: "HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "security PM work and AI/ML fluency:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
@@ -5087,11 +5121,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I security/identity PM credibility from LBR; frame web/client-side security as an extension of his security product expertise \u2014 Re-platformed the identity & subscription system han",
+    headline: "I security/identity PM credibility from ALM; frame web/client-side security as an extension of his security product expertise \u2014 Re-platformed the identity & subscription system han",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
-      { point: "HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "security/identity PM credibility from LBR; frame web/client-side security as an extension of his security product expertise:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "security/identity PM credibility from ALM; frame web/client-side security as an extension of his security product expertise:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -5134,11 +5168,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I identity-product PM experience (LBR) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor \u2014 Re-platformed the identity & subscriptio",
+    headline: "I identity-product PM experience (ALM) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor \u2014 Re-platformed the identity & subscriptio",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Innovid is building AI/ML for ad creative optimization, measurement, and identity resolution across screens; 'always-on\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "identity-product PM experience (LBR) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "identity-product PM experience (ALM) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -5189,7 +5223,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agent product shipping; first confirm the actual hiring company before tailoring  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
-      { point: "Jobot is building 'Jax' AI job-matching engine; 'Jeni' AI recruiting assistant \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Jobot is building 'Jax' AI job-matching engine; 'Jeni' AI recruiting assistant \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agent product shipping; first confirm the actual hiring company before tailoring:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
     ],
@@ -5211,7 +5245,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "platform PM work at Arkadium building reusable capabilities adopted across teams:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "platform PM work at Arkadium building reusable capabilities adopted across teams:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -5233,12 +5267,12 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I via security/identity and API-platform experience (auth, fraud-adjacent trust) as foundational to safe payments products \u2014 Re-platformed the identity & subscription system at LBR",
+    headline: "I via security/identity and API-platform experience (auth, fraud-adjacent trust) as foundational to safe payments products \u2014 Re-platformed the identity & subscription system at ALM",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "via security/identity and API-platform experience (auth, fraud-adjacent trust) as foundational to safe payments products:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$165\u2013$270K base (estimate)",
@@ -5262,7 +5296,7 @@ export const roles: TailoredRole[] = [
     headline: "I subscription/user-growth wins and platform PM experience; frame partner channel as a growth surface he can scale \u2014 Took a legal-publishing SaaS from beta to millions in ARR with.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "subscription/user-growth wins and platform PM experience; frame partner channel as a growth surface he can scale:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -5288,7 +5322,7 @@ export const roles: TailoredRole[] = [
     headline: "I developer/API and platform \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
-      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "developer/API and platform:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
@@ -5312,7 +5346,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I platform/infrastructure PM \u2014 building reliable, developer-friendly platform services and integrations at scale \u2014 Drove cross-platform adoption of contextual, data-informed conten",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Mesh is building Limited direct AI; core is payments/crypto infrastructure \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "platform/infrastructure PM \u2014 building reliable, developer-friendly platform services and integrations at scale:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -5387,9 +5421,9 @@ export const roles: TailoredRole[] = [
     headline: "I aPI/platform/devtools PM and 0 \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
-      { point: "Monark Markets is building Primarily fintech infra/API (not AI-first); focus on standardized rails for private markets \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Monark Markets is building Primarily fintech infra/API (not AI-first); focus on standardized rails for private markets \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "API/platform/devtools PM and 0:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$140\u2013$175K base (real)",
@@ -5409,7 +5443,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "MongoDB is building Atlas Vector Search, semantic search, RAG; acquired Voyage AI for embedding/retrieval models to\u2026 \u2014 my relevant shipped work:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "data-driven growth PM work (Arkadium subscription analytics) reframed as owning telemetry/usage data products:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "data-driven growth PM work (Arkadium subscription analytics) reframed as owning telemetry/usage data products:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
@@ -5458,7 +5492,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I platform PM building governed, reusable services; tie security/identity rigor to data governance \u2014 Drove cross-platform adoption of contextual, data-informed content systems at A",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Morgan Stanley is building Enterprise GenAI (AI @ Morgan Stanley Assistant/Debrief built with OpenAI) for advisors; AI/data\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "platform PM building governed, reusable services; tie security/identity rigor to data governance:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
@@ -5481,9 +5515,9 @@ export const roles: TailoredRole[] = [
     headline: "I arkadium platform-PM + AI-automation as ready-made to ship 'AI-native ad automation' without ramp time. Verify the role's scope and company \u2014 Pioneered NLP-driven AI content part",
     intro: "I'm a platform PM who has shipped developer tools at scale. Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator.",
     whyFit: [
-      { point: "Moxxi Digital is building 'AI-native automations,' ad-serving and audience-management optimization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Moxxi Digital is building 'AI-native automations,' ad-serving and audience-management optimization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Arkadium platform-PM + AI-automation as ready-made to ship 'AI-native ad automation' without ramp time. Verify the role's scope and company stability first:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$150\u2013$190K base (real)",
@@ -5505,7 +5539,7 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I consumer growth/subscription and platform PM experience; frame digital-experience as conversion-and-self-service product work he can own \u2014 Built the type-safe AI API workspace wi",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
       { point: "Newrez is building Modernizing mortgage servicing with AI; deploying Valon's AI-native servicing platform; digital\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "consumer growth/subscription and platform PM experience; frame digital-experience as conversion-and-self-service product work he can own:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
@@ -5535,7 +5569,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "NVIDIA is building Full AI stack: GPUs, CUDA, NIM microservices, Nemotron open models, AI infrastructure software, and\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "depth as a growth area:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$180\u2013$230K base (estimate)",
@@ -5559,7 +5593,7 @@ export const roles: TailoredRole[] = [
     headline: "I end-to-end AI/agent product shipping; ask the recruiter to identify the client and tailor accordingly  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Open Systems Technologies is building N/A directly \u2014 places AI/product talent at client companies (the actual roles are at unnamed client\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Open Systems Technologies is building N/A directly \u2014 places AI/product talent at client companies (the actual roles are at unnamed client\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "end-to-end AI/agent product shipping; ask the recruiter to identify the client and tailor accordingly:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC 2 \u2014 shipping for global enterprise brands." },
     ],
@@ -5580,7 +5614,7 @@ export const roles: TailoredRole[] = [
     headline: "I clarify the client before pursuing \u2014 Unified access models across legacy and new product surfaces, unlocking new revenue.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Open Systems Technologies is building N/A directly \u2014 places AI/product talent at client companies (the actual roles are at unnamed client\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Open Systems Technologies is building N/A directly \u2014 places AI/product talent at client companies (the actual roles are at unnamed client\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "clarify the client before pursuing:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -5650,11 +5684,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I platform/data PM and identity/privacy experience (LBR), framing first-party data & privacy as core to curation \u2014 Drove cross-platform adoption of contextual, data-informed conten",
+    headline: "I platform/data PM and identity/privacy experience (ALM), framing first-party data & privacy as core to curation \u2014 Drove cross-platform adoption of contextual, data-informed conten",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "Permutive is building AI-driven audience modeling and proprietary taxonomy to build curated, privacy-safe targeting\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "platform/data PM and identity/privacy experience (LBR), framing first-party data & privacy as core to curation:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "Permutive is building AI-driven audience modeling and proprietary taxonomy to build curated, privacy-safe targeting\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "platform/data PM and identity/privacy experience (ALM), framing first-party data & privacy as core to curation:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
@@ -5700,7 +5734,7 @@ export const roles: TailoredRole[] = [
     headline: "I consumer growth/subscription and platform PM credibility; would need to demonstrate crypto domain interest/learning \u2014 Set the multi-year SaaS platform strategy for enterprise bra",
     intro: "I'm a product PM who has driven subscription growth at scale. Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.",
     whyFit: [
-      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "consumer growth/subscription and platform PM credibility; would need to demonstrate crypto domain interest/learning:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -5726,7 +5760,7 @@ export const roles: TailoredRole[] = [
     headline: "I monetization/subscription growth and platform commerce experience from consumer products \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.",
     whyFit: [
-      { point: "Rockstar Games is building No prominent public AI product; AI a contentious internal/labor topic \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Rockstar Games is building No prominent public AI product; AI a contentious internal/labor topic \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "monetization/subscription growth and platform commerce experience from consumer products:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
     ],
@@ -5752,7 +5786,7 @@ export const roles: TailoredRole[] = [
     headline: "I a platform PM with identity/accounts and security experience for large-scale online services \u2014 Re-platformed the identity & subscription system handling billions of monthly reque",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
-      { point: "Rockstar Games is building No prominent public AI product; AI a contentious internal/labor topic \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Rockstar Games is building No prominent public AI product; AI a contentious internal/labor topic \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "a platform PM with identity/accounts and security experience for large-scale online services:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
@@ -5778,7 +5812,7 @@ export const roles: TailoredRole[] = [
     headline: "I developer/creator-tools PM experience \u2014 building tools and ecosystems that empower builders \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadi",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "Rockstar Games is building No prominent public AI product; AI a contentious internal/labor topic \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Rockstar Games is building No prominent public AI product; AI a contentious internal/labor topic \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "developer/creator-tools PM experience \u2014 building tools and ecosystems that empower builders:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud." },
     ],
@@ -5827,11 +5861,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I platform/API PM and identity/privacy depth (LBR) reframed for privacy-first ad-tech infrastructure \u2014 Drove cross-platform adoption of contextual, data-informed content systems at",
+    headline: "I platform/API PM and identity/privacy depth (ALM) reframed for privacy-first ad-tech infrastructure \u2014 Drove cross-platform adoption of contextual, data-informed content systems at",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
-      { point: "RZR is building AI for audience discovery, contextual bidding, and behavioral modeling; scaling a self-serve DSP\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "platform/API PM and identity/privacy depth (LBR) reframed for privacy-first ad-tech infrastructure:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "RZR is building AI for audience discovery, contextual bidding, and behavioral modeling; scaling a self-serve DSP\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "platform/API PM and identity/privacy depth (ALM) reframed for privacy-first ad-tech infrastructure:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
@@ -5882,7 +5916,7 @@ export const roles: TailoredRole[] = [
     headline: "I engage the recruiter to learn the client/domain, then lead with the matching strength (AI, platform, security, or growth) \u2014 Built NextDocsSearch single-handed: semantic-search pl",
     intro: "I'm a single-operator builder who has shipped full products end-to-end. Built High Era single-handed: a full go-to-market automation OS on Google Cloud.",
     whyFit: [
-      { point: "Solomon Page is building N/A (recruiter); client's AI focus unknown from the listing \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Solomon Page is building N/A (recruiter); client's AI focus unknown from the listing \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Engage the recruiter to learn the client/domain, then lead with the matching strength (AI, platform, security, or growth):", detail: "Built the Lupine stack: lupine.science for research/company framing and lupi.live for molecular visualization." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built lupi.live and lupine.science single-handed: TypeScript/WebGL molecular visualization, MLIP benchmarks, and Python research pipelines." },
     ],
@@ -5903,7 +5937,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform/dashboard and growth \u2014 Shipped High Era as a single-operator production platform on GCP \u2014 content generation,\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "SpotOn is building AI/automation in restaurant operations, analytics, and dashboard insights; data-driven merchant\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "SpotOn is building AI/automation in restaurant operations, analytics, and dashboard insights; data-driven merchant\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform/dashboard and growth:", detail: "Shipped High Era as a single-operator production platform on GCP \u2014 content generation, workflow engine, analytics." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -5929,7 +5963,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform PM and AI-assisted product wins plus subscription growth to fit Squarespace's PLG-and-AI direction \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enter",
     intro: "I'm a product PM who has driven subscription growth at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
-      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform PM and AI-assisted product wins plus subscription growth to fit Squarespace's PLG-and-AI direction:", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
     ],
@@ -5955,7 +5989,7 @@ export const roles: TailoredRole[] = [
     headline: "I only pursue to learn the end client; if engaging, lead with breadth of AI-PM delivery to justify top-of-band rate and push to identify the a \u2014 Operated as the only PM in a build.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
-      { point: "Steneral Consulting is building None proprietary; places AI/PM contractors at client companies \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Steneral Consulting is building None proprietary; places AI/PM contractors at client companies \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Only pursue to learn the end client; if engaging, lead with breadth of AI-PM delivery to justify top-of-band rate and push to identify the actual employer:", detail: "Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
     ],
@@ -6002,7 +6036,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform + AI product depth; ask the recruiter to identify the client to tailor positioning  \u2014 Lupine.Live is my own materials-science AI platform: MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Talution Group is building N/A directly \u2014 places product/data talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Talution Group is building N/A directly \u2014 places product/data talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform + AI product depth; ask the recruiter to identify the client to tailor positioning:", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -6021,9 +6055,9 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I arkadium platform-PM + analytics/data product work as transferable to measurement, plus AI strengths matching their 2025 AI-expansion push \u2014 Drove cross-platform adoption of cont",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
-      { point: "Tatari is building AI expansion for measurement/optimization of TV ad spend (2025 push) \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Tatari is building AI expansion for measurement/optimization of TV ad spend (2025 push) \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Arkadium platform-PM + analytics/data product work as transferable to measurement, plus AI strengths matching their 2025 AI-expansion push:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
@@ -6099,7 +6133,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I systems PM experience \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Uber is building ML for pricing/matching/ETA, AV (autonomous vehicle) integrations and partnerships, merchant/API\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "systems PM experience:", detail: "Lupine Science — Alex's materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface." },
@@ -6155,7 +6189,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Uber is building ML for pricing/matching/ETA, AV (autonomous vehicle) integrations and partnerships, merchant/API\u2026 \u2014 my relevant shipped work:", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "tools and API/platform PM experience from Obsess and Arkadium:", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
-      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including:", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "$200\u2013$290K base (estimate)",
@@ -6226,7 +6260,7 @@ export const roles: TailoredRole[] = [
     headline: "I driven discovery PM who can modernize streaming search \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a product-builder who has shipped document AI end-to-end. Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.",
     whyFit: [
-      { point: "Warner Bros. Discovery is building Streaming personalization and search, ad experience/ad-tech, recommendation ML, content discovery \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Warner Bros. Discovery is building Streaming personalization and search, ad experience/ad-tech, recommendation ML, content discovery \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "driven discovery PM who can modernize streaming search:", detail: "Built NextDocsSearch: semantic-search platform with OpenAI embeddings + pgvector, deployed at alexwelcing.com." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
     ],
@@ -6247,8 +6281,8 @@ export const roles: TailoredRole[] = [
     headline: "platform and AI product breadth \u2014 for Warner Bros. Discovery.",
     intro: "At Warner Bros. Discovery, senior IC staff PM owning a product area within WBD's digital/streaming organization, driving strategy and delivery I bring 12+ years shipping AI, identity, and platform products end-to-end, with hands-on builder energy throughout.",
     whyFit: [
-      { point: "platform and AI product breadth", detail: "Arkadium: NLP partnerships, $1M+ revenue contribution; LBR workspace rebuilds" },
-      { point: "General fit: broad senior PM role; Alex's platform/AI/growth background applies depending on the actual team.", detail: "Arkadium: NLP partnerships, $1M+ revenue contribution; LBR workspace rebuilds" },
+      { point: "platform and AI product breadth", detail: "Arkadium: NLP partnerships, $1M+ revenue contribution; ALM workspace rebuilds" },
+      { point: "General fit: broad senior PM role; Alex's platform/AI/growth background applies depending on the actual team.", detail: "Arkadium: NLP partnerships, $1M+ revenue contribution; ALM workspace rebuilds" },
       { point: "I meet the bar on '8+ years product management' \u2014 the work itself is in my shipped portfolio.", detail: "Obsess: 3D/agent platform for Alo/Moncler/Ralph Lauren; Lupine.Live materials-science AI platform built solo" },
     ],
     proof: [
@@ -6265,10 +6299,10 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I monetization/subscription growth experience \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I monetization/subscription growth experience \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.",
     whyFit: [
-      { point: "Warner Bros. Discovery is building Streaming personalization and search, ad experience/ad-tech, recommendation ML, content discovery \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Warner Bros. Discovery is building Streaming personalization and search, ad experience/ad-tech, recommendation ML, content discovery \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "monetization/subscription growth experience:", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including:", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
@@ -6287,17 +6321,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I am building agent/conversational-AI platforms (Obsess) plus identity/security depth (LBR) for regulated financial use \u2014 Set the multi-year SaaS platform strategy for enterprise b",
+    headline: "I am building agent/conversational-AI platforms (Obsess) plus identity/security depth (ALM) for regulated financial use \u2014 Set the multi-year SaaS platform strategy for enterprise b",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Posh is building Purpose-built conversational/agentic AI for financial institutions across voice, digital, training,\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build agent/conversational-AI platforms (Obsess) plus identity/security depth (LBR) for regulated financial use", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "I build agent/conversational-AI platforms (Obsess) plus identity/security depth (ALM) for regulated financial use", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.posh.com/careers',
     submissionStatus: 'live',
@@ -6365,11 +6399,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.",
     whyFit: [
       { point: "Amazon is building Bedrock/Nova foundation models, advertising AI (measurement, MMM), agentic AI, and\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -6469,11 +6503,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -6543,14 +6577,14 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "Document and platform PM who connects compliant storage, workflow UX, and AI-assisted document generation.",
-    intro: "I'm a technical PM with platform, identity, and document-AI experience: LBR identity/subscription re-platforming, an AI API workspace, and regulated document workflows from Manatt.",
+    intro: "I'm a technical PM with platform, identity, and document-AI experience: ALM identity/subscription re-platforming, an AI API workspace, and regulated document workflows from Manatt.",
     whyFit: [
-      { point: "Compliant document and access systems", detail: "Built AI document scanning at Manatt; re-platformed identity/subscription across 10+ LBR products." },
+      { point: "Compliant document and access systems", detail: "Built AI document scanning at Manatt; re-platformed identity/subscription across 10+ ALM products." },
       { point: "AI platform shipped as product infrastructure", detail: "Shipped an oRPC AI API workspace with live introspection and self-improving usage accuracy." },
       { point: "Workflow adoption across teams", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
     proof: [
-      "Identity/subscription platform across 10+ products at LBR",
+      "Identity/subscription platform across 10+ products at ALM",
       "Type-safe AI API workspace with live introspection",
       "1000+ Lupine repo commits in 2026",
     ],
@@ -6568,11 +6602,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
+    headline: "I lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "Lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "Lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -6675,7 +6709,7 @@ export const roles: TailoredRole[] = [
     headline: "API and agentic-workflow PM with hands-on AI tooling, identity, and developer-platform depth.",
     intro: "I build at the boundary of product and code: enterprise identity/subscription systems, AI API tooling, and agent/document/search prototypes with real implementation detail.",
     whyFit: [
-      { point: "API and access-control product depth", detail: "Rebuilt identity/subscription across 10+ LBR products serving billions of monthly requests." },
+      { point: "API and access-control product depth", detail: "Rebuilt identity/subscription across 10+ ALM products serving billions of monthly requests." },
       { point: "Developer-facing AI systems", detail: "Shipped an oRPC AI API workspace with live introspection and accuracy feedback loops." },
       { point: "Hands-on AI builder credibility", detail: "Built Lupine and lupi.live: MLIP benchmarks, phase-change simulation, and WebGL visualization." },
     ],
@@ -6774,9 +6808,9 @@ export const roles: TailoredRole[] = [
     headline: "I breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Bain & Company is building Bain's AI/innovation practice; building internal & client-facing AI products and tools (Bain AI\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Bain & Company is building Bain's AI/innovation practice; building internal & client-facing AI products and tools (Bain AI\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -6873,7 +6907,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI background as secondary edge \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
-      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI background as secondary edge", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
     ],
@@ -6899,7 +6933,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable \u2014 Led the 3D experience platform at Obsess \u2014 avatars.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
-      { point: "Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
     ],
@@ -6932,7 +6966,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.gartner.com/careers',
     submissionStatus: 'live',
@@ -6958,7 +6992,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.google.com',
     submissionStatus: 'live',
@@ -6974,17 +7008,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Set the multi-year SaaS platform",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Set the multi-year SaaS platform",
     intro: "I'm a platform PM who has shipped developer tools at scale. Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -7010,7 +7044,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -7029,7 +7063,7 @@ export const roles: TailoredRole[] = [
     headline: "I agent and devtools product work (Obsess) and document \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agent and devtools product work (Obsess) and document", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -7057,12 +7091,12 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Adobe is building Firefly generative AI, Acrobat AI Assistant, AI in Creative Cloud and Experience Cloud; heavy push\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I ship AI/agent and document", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.adobe.com',
     submissionStatus: 'live',
@@ -7079,7 +7113,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I platform PM experience (Manatt + Obsess) \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Aledade, Inc. is building AI/data platform for risk stratification, care-gap closure and population-health analytics across\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "platform PM experience (Manatt + Obsess)", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -7088,7 +7122,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -7102,7 +7136,7 @@ export const roles: TailoredRole[] = [
     headline: "I breadth across AI/agents, platforms and security as the ability to rapidly assess a portfolio company's product and tech maturity \u2014 Unified access models across legacy and new pr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Alvarez & Marsal is building ~20% of revenue AI-driven, targeting 50% by 2028; global AI board; hiring up to 200 AI-skilled staff \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Alvarez & Marsal is building ~20% of revenue AI-driven, targeting 50% by 2028; global AI board; hiring up to 200 AI-skilled staff \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "breadth across AI/agents, platforms and security as the ability to rapidly assess a portfolio company's product and tech maturity", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
@@ -7239,7 +7273,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/bluehost',
     submissionStatus: 'live',
@@ -7265,7 +7299,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.bny.com/careers',
     submissionStatus: 'live',
@@ -7282,9 +7316,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I aI-agents/devtools (Obsess) and document-AI (Manatt) shipping record; ask the recruiter to clarify the client to tailor further \u2014 Took a legal-publishing SaaS from beta to millio",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "Burtch Works is building Recruiting for AI/ML, data science and analytics roles; the actual product role belongs to an\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Burtch Works is building Recruiting for AI/ML, data science and analytics roles; the actual product role belongs to an\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI-agents/devtools (Obsess) and document-AI (Manatt) shipping record; ask the recruiter to clarify the client to tailor further", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -7306,13 +7340,13 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Capital One is building Enterprise AI/ML platforms, agentic AI for customer assistance, developer productivity, and data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I ship data/document-AI products that turned raw data into trusted, consumable assets", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I ship data/document-AI products that turned raw data into trusted, consumable assets", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -7370,11 +7404,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ CROSS-FUNCTIONAL ]",
-    headline: "I developer-platform PM rigor and enterprise-trust framing (security/identity at LBR) to show he can own reliability-critical product \u2014 Created CreateSuite: an autonomous multi-age",
+    headline: "I developer-platform PM rigor and enterprise-trust framing (security/identity at ALM) to show he can own reliability-critical product \u2014 Created CreateSuite: an autonomous multi-age",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
       { point: "Cockroach Labs is building Database infrastructure underpinning AI/agent apps; reliability, scale, and Postgres compatibility\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "developer-platform PM rigor and enterprise-trust framing (security/identity at LBR) to show he can own reliability-critical product", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "developer-platform PM rigor and enterprise-trust framing (security/identity at ALM) to show he can own reliability-critical product", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -7448,11 +7482,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the LBR security/compliance + Obsess agentic \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the ALM security/compliance + Obsess agentic \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.",
     whyFit: [
       { point: "Diligent is building Full-suite AI-native GRC (Diligent One); launched AI Board Member and Agentic GRC Workforce;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the LBR security/compliance + Obsess agentic", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the ALM security/compliance + Obsess agentic", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -7477,7 +7511,7 @@ export const roles: TailoredRole[] = [
     headline: "I led document-AI (extraction/accuracy on regulated legal docs) as a direct analog to claims/denials accuracy: I ship trustworthy AI on messy regulated documents.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Manatt document-AI as 'I productize complex AI/ML models into trusted outputs.", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
     ],
@@ -7503,7 +7537,7 @@ export const roles: TailoredRole[] = [
     headline: "I manatt: 'I build products where accuracy and user trust in AI output is the product' - exactly Rockerbox's need \u2014 Shipped a type-safe AI API workspace (oRPC) with self-improving.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
-      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Manatt: 'I build products where accuracy and user trust in AI output is the product' - exactly Rockerbox's need", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -7552,17 +7586,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I aI, agents) into reusable products/platforms. Lower priority vs. product companies \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I aI, agents) into reusable products/platforms. Lower priority vs. product companies \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "eClerx is building AI consulting + execution; among first globally with ISO 42001 responsible-AI certification \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "AI, agents) into reusable products/platforms. Lower priority vs. product companies", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "eClerx is building AI consulting + execution; among first globally with ISO 42001 responsible-AI certification \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "AI, agents) into reusable products/platforms. Lower priority vs. product companies", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.eclerx.com',
     submissionStatus: 'live',
@@ -7583,12 +7617,12 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Elite Technology is building Embedded/native AI across financial operations; cloud-native platform with AI capabilities and\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "AI PM who already shipped document AI in law", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/elitetechnology',
     submissionStatus: 'live',
@@ -7607,7 +7641,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agent and discovery work plus a user-growth/engagement track record \u2014 ideal for a consumer Search & AI mandate \u2014 Took a legal-publishing SaaS from beta to millions in ARR with",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "FanDuel is building ML for pricing/odds, personalization, search & discovery, responsible-gaming models, and data\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "FanDuel is building ML for pricing/odds, personalization, search & discovery, responsible-gaming models, and data\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agent and discovery work plus a user-growth/engagement track record \u2014 ideal for a consumer Search & AI mandate", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -7661,7 +7695,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "identity/security PM credibility plus subscription-growth metrics \u2014 the rare blend Gen needs", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -7703,7 +7737,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "identity/security protection with financial-wellness \u2014 frame Alex as the trust-and-growth PM for money products", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -7771,17 +7805,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI) \u2014 Re-platformed the identity & subscription system at LBR, unifying acce",
+    headline: "I a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI) \u2014 Re-platformed the identity & subscription system at ALM, unifying acce",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Gusto is building AI generates ~50% of new code and handles ~50% of support; payroll runnable inside\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI)", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/gusto',
     submissionStatus: 'live',
@@ -7807,7 +7841,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.hackajob.com/jobs',
     submissionStatus: 'live',
@@ -7833,7 +7867,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.hackajob.com/jobs',
     submissionStatus: 'live',
@@ -7879,7 +7913,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
       { point: "hackajob is building 'Archer' AI sourcing agent; in-house AI agents for talent matching \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "LBR: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "ALM: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -7904,7 +7938,7 @@ export const roles: TailoredRole[] = [
     headline: "I obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address heal \u2014 Created CreateSuite: an autonomous.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
     whyFit: [
-      { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address healthcare with Manatt regulated-domain credibility", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -7930,9 +7964,9 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agents + growth: 'I've shipped AI-driven product surfaces and driven subscription/engagement growth.' \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agents + growth: 'I've shipped AI-driven product surfaces and driven subscription/engagement growth.", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -7963,7 +7997,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -7975,7 +8009,7 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I arkadium subscription/user-growth with Manatt legal/document-AI: 'a growth PM who also deeply understands the legal-AI product Ironclad sell \u2014 Took a legal-publishing SaaS from b",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
       { point: "Ironclad is building Agentic architecture - Intake Agent, Redlining Agent, Conversational Search, Ironclad Assistant\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "Arkadium subscription/user-growth with Manatt legal/document-AI: 'a growth PM who also deeply understands the legal-AI product Ironclad sells.' Note: SF-based (remote/relocation question)", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
@@ -7999,8 +8033,8 @@ export const roles: TailoredRole[] = [
     intro: "I'm a product PM who has driven subscription growth at scale. Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "LBR security/identity controls and Manatt document-AI compliance work as 'shipping trustworthy AI under regulatory constraints' \u2014 exactly what AI-risk transformation needs", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "ALM security/identity controls and Manatt document-AI compliance work as 'shipping trustworthy AI under regulatory constraints' \u2014 exactly what AI-risk transformation needs", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -8048,7 +8082,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I aI-augmented productivity tooling experience (agents/devtools) as a lever to modernize the advisor platform with copilots and automation \u2014 Drove cross-platform adoption of contex",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "AI-augmented productivity tooling experience (agents/devtools) as a lever to modernize the advisor platform with copilots and automation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -8057,7 +8091,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -8125,7 +8159,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LinkedIn is building LinkedIn AI agents, AI hiring tools, AI labor marketplace, new paid 'Advice Sessions' consultations \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "1 launch (Arkadium platform, subscription growth)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -8151,7 +8185,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LSEG is building AI across financial data and analytics; partnership with Microsoft to embed GenAI/Copilot in\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "AI PM who can embed GenAI into data products", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -8201,7 +8235,7 @@ export const roles: TailoredRole[] = [
     headline: "I obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cos \u2014 Created CreateSuite: an autonomous.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
     whyFit: [
-      { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cost savings", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -8260,7 +8294,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -8295,7 +8329,7 @@ export const roles: TailoredRole[] = [
     headline: "I technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with g",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
@@ -8323,7 +8357,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -8386,11 +8420,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
-    headline: "I document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
+    headline: "I document-AI and identity/security (ALM) as directly relevant to HIPAA-grade patient-record and engagement products \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
     intro: "I'm a product PM who has driven subscription growth at scale. Shipped High Era as a single-operator production platform on GCP \u2014 content generation, workflow engine, analytics.",
     whyFit: [
       { point: "PatientNow is building Patient acquisition/engagement automation, CRM; expanding via integrations \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "document-AI and identity/security (ALM) as directly relevant to HIPAA-grade patient-record and engagement products", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
     proof: [
@@ -8462,7 +8496,7 @@ export const roles: TailoredRole[] = [
     headline: "I technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical roadmaps", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
@@ -8490,7 +8524,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/profound',
     submissionStatus: 'live',
@@ -8509,9 +8543,9 @@ export const roles: TailoredRole[] = [
     headline: "I agents/devtools product building (Obsess) \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "R/GA is building AI product/innovation practice: building GenAI-powered creative tools and client products \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "R/GA is building AI product/innovation practice: building GenAI-powered creative tools and client products \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agents/devtools product building (Obsess)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -8605,17 +8639,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I aI and identity/compliance PM work (Manatt, LBR) \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I aI and identity/compliance PM work (Manatt, ALM) \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
-      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "AI and identity/compliance PM work (Manatt, LBR)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
+      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "AI and identity/compliance PM work (Manatt, ALM)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/robinhood',
     submissionStatus: 'live',
@@ -8657,17 +8691,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I data-driven growth and platform PM; tie identity/data-privacy experience (LBR) to first-party audience activation \u2014 Drove cross-platform adoption of contextual, data-informed con",
+    headline: "I data-driven growth and platform PM; tie identity/data-privacy experience (ALM) to first-party audience activation \u2014 Drove cross-platform adoption of contextual, data-informed con",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Roku is building AI-driven content recommendations/personalization; OneView DSP using first-party audience data for\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "data-driven growth and platform PM; tie identity/data-privacy experience (LBR) to first-party audience activation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
+      { point: "data-driven growth and platform PM; tie identity/data-privacy experience (ALM) to first-party audience activation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/roku',
     submissionStatus: 'live',
@@ -8693,7 +8727,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/scaleai',
     submissionStatus: 'live',
@@ -8786,11 +8820,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I hands-on agentic AI shipping at Obsess + security credibility from LBR \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I hands-on agentic AI shipping at Obsess + security credibility from ALM \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
       { point: "SecurityScorecard is building Agentic AI workflows for risk detection/response; LLM pipelines, retrieval, eval frameworks \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "hands-on agentic AI shipping at Obsess + security credibility from LBR", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
+      { point: "hands-on agentic AI shipping at Obsess + security credibility from ALM", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers." },
     ],
     proof: [
@@ -8813,9 +8847,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I subscription growth, activation, and retention wins \u2014 this role is a near-perfect fit for his growth track record \u2014 Took a legal-publishing SaaS from beta to millions in ARR with",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "subscription growth, activation, and retention wins \u2014 this role is a near-perfect fit for his growth track record", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
     ],
@@ -8862,7 +8896,7 @@ export const roles: TailoredRole[] = [
     headline: "I ask the recruiter to identify the client/domain, then lead with the strongest matching theme (AI, platform, or security) \u2014 Created CreateSuite: an autonomous multi-agent orchestr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Talener is building N/A (recruiter); client AI focus unknown \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Talener is building N/A (recruiter); client AI focus unknown \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Ask the recruiter to identify the client/domain, then lead with the strongest matching theme (AI, platform, or security)", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -8912,9 +8946,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I aI-agents/devtools and document-AI shipping record; ask the recruiter to disclose the client to tailor the pitch \u2014 Took a legal-publishing SaaS from beta to millions in ARR with.",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "TEEMA is building Recruits AI/ML and product roles for client companies; the actual role belongs to a client \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "TEEMA is building Recruits AI/ML and product roles for client companies; the actual role belongs to a client \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI-agents/devtools and document-AI shipping record; ask the recruiter to disclose the client to tailor the pitch", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -8987,14 +9021,14 @@ export const roles: TailoredRole[] = [
     headline: "I agents/devtools (Obsess) plus subscription/user \u2014 Designed and shipped a type-safe workspace for executing AI APIs with live\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator.",
     whyFit: [
-      { point: "Three Pillars Recruiting is building Client is AI-native AdTech/MarTech (per the posting); applies AI to advertising/marketing \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Three Pillars Recruiting is building Client is AI-native AdTech/MarTech (per the posting); applies AI to advertising/marketing \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agents/devtools (Obsess) plus subscription/user", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -9099,11 +9133,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
+    headline: "I for identity \u2014 lead with identity & security PM (ALM), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Zeta Global is building AI Marketing Cloud using trillions of consumer signals for acquisition, growth, and retention;\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "for identity \u2014 lead with identity & security PM (ALM), reframed as identity resolution/addressability in a privacy-first world", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -9126,17 +9160,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I am building agent/conversational-AI platforms (Obsess) plus identity/security depth (LBR) for regulated financial use \u2014 Set the multi-year SaaS platform strategy for enterprise b",
+    headline: "I am building agent/conversational-AI platforms (Obsess) plus identity/security depth (ALM) for regulated financial use \u2014 Set the multi-year SaaS platform strategy for enterprise b",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Posh is building Purpose-built conversational/agentic AI for financial institutions across voice, digital, training,\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build agent/conversational-AI platforms (Obsess) plus identity/security depth (LBR) for regulated financial use", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "I build agent/conversational-AI platforms (Obsess) plus identity/security depth (ALM) for regulated financial use", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.posh.com/careers',
     submissionStatus: 'live',
@@ -9204,11 +9238,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.",
     whyFit: [
       { point: "Amazon is building Bedrock/Nova foundation models, advertising AI (measurement, MMM), agentic AI, and\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -9308,11 +9342,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -9382,14 +9416,14 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "Document and platform PM who connects compliant storage, workflow UX, and AI-assisted document generation.",
-    intro: "I'm a technical PM with platform, identity, and document-AI experience: LBR identity/subscription re-platforming, an AI API workspace, and regulated document workflows from Manatt.",
+    intro: "I'm a technical PM with platform, identity, and document-AI experience: ALM identity/subscription re-platforming, an AI API workspace, and regulated document workflows from Manatt.",
     whyFit: [
-      { point: "Compliant document and access systems", detail: "Built AI document scanning at Manatt; re-platformed identity/subscription across 10+ LBR products." },
+      { point: "Compliant document and access systems", detail: "Built AI document scanning at Manatt; re-platformed identity/subscription across 10+ ALM products." },
       { point: "AI platform shipped as product infrastructure", detail: "Shipped an oRPC AI API workspace with live introspection and self-improving usage accuracy." },
       { point: "Workflow adoption across teams", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
     proof: [
-      "Identity/subscription platform across 10+ products at LBR",
+      "Identity/subscription platform across 10+ products at ALM",
       "Type-safe AI API workspace with live introspection",
       "1000+ Lupine repo commits in 2026",
     ],
@@ -9407,11 +9441,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
+    headline: "I lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "Lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "Lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -9514,7 +9548,7 @@ export const roles: TailoredRole[] = [
     headline: "API and agentic-workflow PM with hands-on AI tooling, identity, and developer-platform depth.",
     intro: "I build at the boundary of product and code: enterprise identity/subscription systems, AI API tooling, and agent/document/search prototypes with real implementation detail.",
     whyFit: [
-      { point: "API and access-control product depth", detail: "Rebuilt identity/subscription across 10+ LBR products serving billions of monthly requests." },
+      { point: "API and access-control product depth", detail: "Rebuilt identity/subscription across 10+ ALM products serving billions of monthly requests." },
       { point: "Developer-facing AI systems", detail: "Shipped an oRPC AI API workspace with live introspection and accuracy feedback loops." },
       { point: "Hands-on AI builder credibility", detail: "Built Lupine and lupi.live: MLIP benchmarks, phase-change simulation, and WebGL visualization." },
     ],
@@ -9613,9 +9647,9 @@ export const roles: TailoredRole[] = [
     headline: "I breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Bain & Company is building Bain's AI/innovation practice; building internal & client-facing AI products and tools (Bain AI\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Bain & Company is building Bain's AI/innovation practice; building internal & client-facing AI products and tools (Bain AI\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -9712,7 +9746,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI background as secondary edge \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
-      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI background as secondary edge", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
     ],
@@ -9738,7 +9772,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable \u2014 Led the 3D experience platform at Obsess \u2014 avatars.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
-      { point: "Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
     ],
@@ -9771,7 +9805,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.gartner.com/careers',
     submissionStatus: 'live',
@@ -9797,7 +9831,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.google.com',
     submissionStatus: 'live',
@@ -9813,17 +9847,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Set the multi-year SaaS platform",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Set the multi-year SaaS platform",
     intro: "I'm a platform PM who has shipped developer tools at scale. Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -9849,7 +9883,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -9868,7 +9902,7 @@ export const roles: TailoredRole[] = [
     headline: "I agent and devtools product work (Obsess) and document \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agent and devtools product work (Obsess) and document", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -9896,12 +9930,12 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Adobe is building Firefly generative AI, Acrobat AI Assistant, AI in Creative Cloud and Experience Cloud; heavy push\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I ship AI/agent and document", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.adobe.com',
     submissionStatus: 'live',
@@ -9918,7 +9952,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I platform PM experience (Manatt + Obsess) \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Aledade, Inc. is building AI/data platform for risk stratification, care-gap closure and population-health analytics across\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "platform PM experience (Manatt + Obsess)", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -9927,7 +9961,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -9941,7 +9975,7 @@ export const roles: TailoredRole[] = [
     headline: "I breadth across AI/agents, platforms and security as the ability to rapidly assess a portfolio company's product and tech maturity \u2014 Unified access models across legacy and new pr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Alvarez & Marsal is building ~20% of revenue AI-driven, targeting 50% by 2028; global AI board; hiring up to 200 AI-skilled staff \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Alvarez & Marsal is building ~20% of revenue AI-driven, targeting 50% by 2028; global AI board; hiring up to 200 AI-skilled staff \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "breadth across AI/agents, platforms and security as the ability to rapidly assess a portfolio company's product and tech maturity", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
@@ -10078,7 +10112,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/bluehost',
     submissionStatus: 'live',
@@ -10104,7 +10138,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.bny.com/careers',
     submissionStatus: 'live',
@@ -10121,9 +10155,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I aI-agents/devtools (Obsess) and document-AI (Manatt) shipping record; ask the recruiter to clarify the client to tailor further \u2014 Took a legal-publishing SaaS from beta to millio",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "Burtch Works is building Recruiting for AI/ML, data science and analytics roles; the actual product role belongs to an\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Burtch Works is building Recruiting for AI/ML, data science and analytics roles; the actual product role belongs to an\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI-agents/devtools (Obsess) and document-AI (Manatt) shipping record; ask the recruiter to clarify the client to tailor further", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -10145,13 +10179,13 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Capital One is building Enterprise AI/ML platforms, agentic AI for customer assistance, developer productivity, and data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I ship data/document-AI products that turned raw data into trusted, consumable assets", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I ship data/document-AI products that turned raw data into trusted, consumable assets", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -10209,11 +10243,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ CROSS-FUNCTIONAL ]",
-    headline: "I developer-platform PM rigor and enterprise-trust framing (security/identity at LBR) to show he can own reliability-critical product \u2014 Created CreateSuite: an autonomous multi-age",
+    headline: "I developer-platform PM rigor and enterprise-trust framing (security/identity at ALM) to show he can own reliability-critical product \u2014 Created CreateSuite: an autonomous multi-age",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
       { point: "Cockroach Labs is building Database infrastructure underpinning AI/agent apps; reliability, scale, and Postgres compatibility\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "developer-platform PM rigor and enterprise-trust framing (security/identity at LBR) to show he can own reliability-critical product", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "developer-platform PM rigor and enterprise-trust framing (security/identity at ALM) to show he can own reliability-critical product", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -10287,11 +10321,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the LBR security/compliance + Obsess agentic \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the ALM security/compliance + Obsess agentic \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.",
     whyFit: [
       { point: "Diligent is building Full-suite AI-native GRC (Diligent One); launched AI Board Member and Agentic GRC Workforce;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the LBR security/compliance + Obsess agentic", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the ALM security/compliance + Obsess agentic", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -10316,7 +10350,7 @@ export const roles: TailoredRole[] = [
     headline: "I led document-AI (extraction/accuracy on regulated legal docs) as a direct analog to claims/denials accuracy: I ship trustworthy AI on messy regulated documents.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Manatt document-AI as 'I productize complex AI/ML models into trusted outputs.", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
     ],
@@ -10342,7 +10376,7 @@ export const roles: TailoredRole[] = [
     headline: "I manatt: 'I build products where accuracy and user trust in AI output is the product' - exactly Rockerbox's need \u2014 Shipped a type-safe AI API workspace (oRPC) with self-improving.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
-      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Manatt: 'I build products where accuracy and user trust in AI output is the product' - exactly Rockerbox's need", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -10391,17 +10425,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I aI, agents) into reusable products/platforms. Lower priority vs. product companies \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I aI, agents) into reusable products/platforms. Lower priority vs. product companies \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "eClerx is building AI consulting + execution; among first globally with ISO 42001 responsible-AI certification \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "AI, agents) into reusable products/platforms. Lower priority vs. product companies", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "eClerx is building AI consulting + execution; among first globally with ISO 42001 responsible-AI certification \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "AI, agents) into reusable products/platforms. Lower priority vs. product companies", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.eclerx.com',
     submissionStatus: 'live',
@@ -10422,12 +10456,12 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Elite Technology is building Embedded/native AI across financial operations; cloud-native platform with AI capabilities and\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "AI PM who already shipped document AI in law", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/elitetechnology',
     submissionStatus: 'live',
@@ -10446,7 +10480,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agent and discovery work plus a user-growth/engagement track record \u2014 ideal for a consumer Search & AI mandate \u2014 Took a legal-publishing SaaS from beta to millions in ARR with",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "FanDuel is building ML for pricing/odds, personalization, search & discovery, responsible-gaming models, and data\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "FanDuel is building ML for pricing/odds, personalization, search & discovery, responsible-gaming models, and data\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agent and discovery work plus a user-growth/engagement track record \u2014 ideal for a consumer Search & AI mandate", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -10500,7 +10534,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "identity/security PM credibility plus subscription-growth metrics \u2014 the rare blend Gen needs", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -10542,7 +10576,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "identity/security protection with financial-wellness \u2014 frame Alex as the trust-and-growth PM for money products", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -10610,17 +10644,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI) \u2014 Re-platformed the identity & subscription system at LBR, unifying acce",
+    headline: "I a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI) \u2014 Re-platformed the identity & subscription system at ALM, unifying acce",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Gusto is building AI generates ~50% of new code and handles ~50% of support; payroll runnable inside\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI)", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/gusto',
     submissionStatus: 'live',
@@ -10646,7 +10680,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.hackajob.com/jobs',
     submissionStatus: 'live',
@@ -10672,7 +10706,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.hackajob.com/jobs',
     submissionStatus: 'live',
@@ -10718,7 +10752,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
       { point: "hackajob is building 'Archer' AI sourcing agent; in-house AI agents for talent matching \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "LBR: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "ALM: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -10743,7 +10777,7 @@ export const roles: TailoredRole[] = [
     headline: "I obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address heal \u2014 Created CreateSuite: an autonomous.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
     whyFit: [
-      { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address healthcare with Manatt regulated-domain credibility", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -10769,9 +10803,9 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agents + growth: 'I've shipped AI-driven product surfaces and driven subscription/engagement growth.' \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agents + growth: 'I've shipped AI-driven product surfaces and driven subscription/engagement growth.", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -10802,7 +10836,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -10814,7 +10848,7 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I arkadium subscription/user-growth with Manatt legal/document-AI: 'a growth PM who also deeply understands the legal-AI product Ironclad sell \u2014 Took a legal-publishing SaaS from b",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
       { point: "Ironclad is building Agentic architecture - Intake Agent, Redlining Agent, Conversational Search, Ironclad Assistant\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "Arkadium subscription/user-growth with Manatt legal/document-AI: 'a growth PM who also deeply understands the legal-AI product Ironclad sells.' Note: SF-based (remote/relocation question)", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
@@ -10838,8 +10872,8 @@ export const roles: TailoredRole[] = [
     intro: "I'm a product PM who has driven subscription growth at scale. Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "LBR security/identity controls and Manatt document-AI compliance work as 'shipping trustworthy AI under regulatory constraints' \u2014 exactly what AI-risk transformation needs", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "ALM security/identity controls and Manatt document-AI compliance work as 'shipping trustworthy AI under regulatory constraints' \u2014 exactly what AI-risk transformation needs", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -10887,7 +10921,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I aI-augmented productivity tooling experience (agents/devtools) as a lever to modernize the advisor platform with copilots and automation \u2014 Drove cross-platform adoption of contex",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "AI-augmented productivity tooling experience (agents/devtools) as a lever to modernize the advisor platform with copilots and automation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -10896,7 +10930,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -10964,7 +10998,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LinkedIn is building LinkedIn AI agents, AI hiring tools, AI labor marketplace, new paid 'Advice Sessions' consultations \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "1 launch (Arkadium platform, subscription growth)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -10990,7 +11024,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LSEG is building AI across financial data and analytics; partnership with Microsoft to embed GenAI/Copilot in\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "AI PM who can embed GenAI into data products", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -11040,7 +11074,7 @@ export const roles: TailoredRole[] = [
     headline: "I obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cos \u2014 Created CreateSuite: an autonomous.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
     whyFit: [
-      { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cost savings", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -11099,7 +11133,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -11134,7 +11168,7 @@ export const roles: TailoredRole[] = [
     headline: "I technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with g",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
@@ -11162,7 +11196,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -11225,11 +11259,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
-    headline: "I document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
+    headline: "I document-AI and identity/security (ALM) as directly relevant to HIPAA-grade patient-record and engagement products \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
     intro: "I'm a product PM who has driven subscription growth at scale. Shipped High Era as a single-operator production platform on GCP \u2014 content generation, workflow engine, analytics.",
     whyFit: [
       { point: "PatientNow is building Patient acquisition/engagement automation, CRM; expanding via integrations \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "document-AI and identity/security (ALM) as directly relevant to HIPAA-grade patient-record and engagement products", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
     proof: [
@@ -11301,7 +11335,7 @@ export const roles: TailoredRole[] = [
     headline: "I technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical roadmaps", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
@@ -11329,7 +11363,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/profound',
     submissionStatus: 'live',
@@ -11348,9 +11382,9 @@ export const roles: TailoredRole[] = [
     headline: "I agents/devtools product building (Obsess) \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "R/GA is building AI product/innovation practice: building GenAI-powered creative tools and client products \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "R/GA is building AI product/innovation practice: building GenAI-powered creative tools and client products \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agents/devtools product building (Obsess)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -11444,17 +11478,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I aI and identity/compliance PM work (Manatt, LBR) \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I aI and identity/compliance PM work (Manatt, ALM) \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
-      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "AI and identity/compliance PM work (Manatt, LBR)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
+      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "AI and identity/compliance PM work (Manatt, ALM)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/robinhood',
     submissionStatus: 'live',
@@ -11496,17 +11530,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I data-driven growth and platform PM; tie identity/data-privacy experience (LBR) to first-party audience activation \u2014 Drove cross-platform adoption of contextual, data-informed con",
+    headline: "I data-driven growth and platform PM; tie identity/data-privacy experience (ALM) to first-party audience activation \u2014 Drove cross-platform adoption of contextual, data-informed con",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Roku is building AI-driven content recommendations/personalization; OneView DSP using first-party audience data for\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "data-driven growth and platform PM; tie identity/data-privacy experience (LBR) to first-party audience activation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
+      { point: "data-driven growth and platform PM; tie identity/data-privacy experience (ALM) to first-party audience activation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/roku',
     submissionStatus: 'live',
@@ -11532,7 +11566,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/scaleai',
     submissionStatus: 'live',
@@ -11625,11 +11659,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I hands-on agentic AI shipping at Obsess + security credibility from LBR \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I hands-on agentic AI shipping at Obsess + security credibility from ALM \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
       { point: "SecurityScorecard is building Agentic AI workflows for risk detection/response; LLM pipelines, retrieval, eval frameworks \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "hands-on agentic AI shipping at Obsess + security credibility from LBR", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
+      { point: "hands-on agentic AI shipping at Obsess + security credibility from ALM", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers." },
     ],
     proof: [
@@ -11652,9 +11686,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I subscription growth, activation, and retention wins \u2014 this role is a near-perfect fit for his growth track record \u2014 Took a legal-publishing SaaS from beta to millions in ARR with",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "subscription growth, activation, and retention wins \u2014 this role is a near-perfect fit for his growth track record", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
     ],
@@ -11701,7 +11735,7 @@ export const roles: TailoredRole[] = [
     headline: "I ask the recruiter to identify the client/domain, then lead with the strongest matching theme (AI, platform, or security) \u2014 Created CreateSuite: an autonomous multi-agent orchestr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Talener is building N/A (recruiter); client AI focus unknown \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Talener is building N/A (recruiter); client AI focus unknown \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Ask the recruiter to identify the client/domain, then lead with the strongest matching theme (AI, platform, or security)", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -11751,9 +11785,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I aI-agents/devtools and document-AI shipping record; ask the recruiter to disclose the client to tailor the pitch \u2014 Took a legal-publishing SaaS from beta to millions in ARR with.",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "TEEMA is building Recruits AI/ML and product roles for client companies; the actual role belongs to a client \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "TEEMA is building Recruits AI/ML and product roles for client companies; the actual role belongs to a client \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI-agents/devtools and document-AI shipping record; ask the recruiter to disclose the client to tailor the pitch", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -11826,14 +11860,14 @@ export const roles: TailoredRole[] = [
     headline: "I agents/devtools (Obsess) plus subscription/user \u2014 Designed and shipped a type-safe workspace for executing AI APIs with live\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator.",
     whyFit: [
-      { point: "Three Pillars Recruiting is building Client is AI-native AdTech/MarTech (per the posting); applies AI to advertising/marketing \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Three Pillars Recruiting is building Client is AI-native AdTech/MarTech (per the posting); applies AI to advertising/marketing \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agents/devtools (Obsess) plus subscription/user", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -11938,11 +11972,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
+    headline: "I for identity \u2014 lead with identity & security PM (ALM), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Zeta Global is building AI Marketing Cloud using trillions of consumer signals for acquisition, growth, and retention;\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "for identity \u2014 lead with identity & security PM (ALM), reframed as identity resolution/addressability in a privacy-first world", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -14694,11 +14728,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Amazon is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -14720,11 +14754,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Amazon is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -14746,11 +14780,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Amazon is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -14978,7 +15012,7 @@ export const roles: TailoredRole[] = [
     headline: "I product and platform PM experience and AI/analytics fluency \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Applecart is building Proprietary social-graph data science and measurement; relationship mapping and decision-maker\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Applecart is building Proprietary social-graph data science and measurement; relationship mapping and decision-maker\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "product and platform PM experience and AI/analytics fluency", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
     ],
@@ -17111,7 +17145,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.blackrock.com',
     submissionStatus: 'live',
@@ -17137,7 +17171,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.blackrock.com',
     submissionStatus: 'live',
@@ -17183,13 +17217,13 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "document-AI and platform work as 'turning messy enterprise data into activated, AI-consumable products.", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "document-AI and platform work as 'turning messy enterprise data into activated, AI-consumable products.", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/bloomberg',
     submissionStatus: 'live',
@@ -17206,7 +17240,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I emphasize building the platform/data plumbing other teams build on (Arkadium platform PM) and data quality for AI \u2014 Drove cross-platform adoption of contextual, data-informed con",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "Emphasize building the platform/data plumbing other teams build on (Arkadium platform PM) and data quality for AI", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
@@ -17215,7 +17249,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/bloomberg',
     submissionStatus: 'live',
@@ -22618,7 +22652,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -22639,7 +22673,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.cedar.com/careers',
     submissionStatus: 'live',
@@ -22814,14 +22848,14 @@ export const roles: TailoredRole[] = [
     headline: "I if pursuing, lead with platform PM rigor and AI-workload understanding; otherwise deprioritize vs. better-fit CoreWeave roles \u2014 Drove cross-platform adoption of contextual, data.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "If pursuing, lead with platform PM rigor and AI-workload understanding; otherwise deprioritize vs. better-fit CoreWeave roles", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/coreweave',
     submissionStatus: 'live',
@@ -22840,7 +22874,7 @@ export const roles: TailoredRole[] = [
     headline: "I am subscription/packaging and user-growth wins plus AI fluency to position as a GTM PM who understands both product and adoption \u2014 Re-platformed the identity & subscription syste",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "I subscription/packag and user-growth wins plus AI fluency to position as a GTM PM who understands both product and adoption", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built High Era single-handed: a full go-to-market automation OS on Google Cloud." },
     ],
@@ -22864,16 +22898,16 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I data familiarity, acknowledging the infra \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "data familiarity, acknowledging the infra", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/coreweave',
     submissionStatus: 'live',
@@ -22892,7 +22926,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI in a legal/professional \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Cornerstone Research is building Applying data science/AI to litigation analytics and internal tooling; building software products\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Cornerstone Research is building Applying data science/AI to litigation analytics and internal tooling; building software products\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI in a legal/professional", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -22925,7 +22959,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.daloopa.com/careers',
     submissionStatus: 'live',
@@ -22951,7 +22985,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/databricks',
     submissionStatus: 'live',
@@ -23003,7 +23037,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/datadog',
     submissionStatus: 'live',
@@ -23023,7 +23057,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "LBR identity & security PM experience, framing identity/threat context as adjacent to detection & response", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "ALM identity & security PM experience, framing identity/threat context as adjacent to detection & response", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -23045,11 +23079,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -23071,11 +23105,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -23097,11 +23131,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23123,11 +23157,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23149,11 +23183,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23175,11 +23209,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23201,11 +23235,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23227,11 +23261,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23253,11 +23287,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23279,11 +23313,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23305,11 +23339,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -23331,11 +23365,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -23357,11 +23391,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23383,11 +23417,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23409,11 +23443,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23435,11 +23469,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23461,11 +23495,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23487,11 +23521,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23513,11 +23547,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23539,11 +23573,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23591,11 +23625,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -23617,11 +23651,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -23643,11 +23677,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23669,11 +23703,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23695,11 +23729,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23721,11 +23755,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23747,11 +23781,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23773,11 +23807,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23799,11 +23833,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23825,11 +23859,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23851,11 +23885,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -23877,11 +23911,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -23903,11 +23937,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23929,11 +23963,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23955,11 +23989,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -23981,11 +24015,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -24007,11 +24041,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -24033,11 +24067,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -24059,11 +24093,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -24086,17 +24120,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I am building agent/conversational-AI platforms (Obsess) plus identity/security depth (LBR) for regulated financial use \u2014 Set the multi-year SaaS platform strategy for enterprise b",
+    headline: "I am building agent/conversational-AI platforms (Obsess) plus identity/security depth (ALM) for regulated financial use \u2014 Set the multi-year SaaS platform strategy for enterprise b",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Posh is building Purpose-built conversational/agentic AI for financial institutions across voice, digital, training,\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build agent/conversational-AI platforms (Obsess) plus identity/security depth (LBR) for regulated financial use", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "I build agent/conversational-AI platforms (Obsess) plus identity/security depth (ALM) for regulated financial use", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.posh.com/careers',
     submissionStatus: 'live',
@@ -24164,11 +24198,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.",
     whyFit: [
       { point: "Amazon is building Bedrock/Nova foundation models, advertising AI (measurement, MMM), agentic AI, and\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -24268,11 +24302,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -24342,14 +24376,14 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "Document and platform PM who connects compliant storage, workflow UX, and AI-assisted document generation.",
-    intro: "I'm a technical PM with platform, identity, and document-AI experience: LBR identity/subscription re-platforming, an AI API workspace, and regulated document workflows from Manatt.",
+    intro: "I'm a technical PM with platform, identity, and document-AI experience: ALM identity/subscription re-platforming, an AI API workspace, and regulated document workflows from Manatt.",
     whyFit: [
-      { point: "Compliant document and access systems", detail: "Built AI document scanning at Manatt; re-platformed identity/subscription across 10+ LBR products." },
+      { point: "Compliant document and access systems", detail: "Built AI document scanning at Manatt; re-platformed identity/subscription across 10+ ALM products." },
       { point: "AI platform shipped as product infrastructure", detail: "Shipped an oRPC AI API workspace with live introspection and self-improving usage accuracy." },
       { point: "Workflow adoption across teams", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
     proof: [
-      "Identity/subscription platform across 10+ products at LBR",
+      "Identity/subscription platform across 10+ products at ALM",
       "Type-safe AI API workspace with live introspection",
       "1000+ Lupine repo commits in 2026",
     ],
@@ -24367,11 +24401,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
+    headline: "I lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "Lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "Lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -24474,7 +24508,7 @@ export const roles: TailoredRole[] = [
     headline: "API and agentic-workflow PM with hands-on AI tooling, identity, and developer-platform depth.",
     intro: "I build at the boundary of product and code: enterprise identity/subscription systems, AI API tooling, and agent/document/search prototypes with real implementation detail.",
     whyFit: [
-      { point: "API and access-control product depth", detail: "Rebuilt identity/subscription across 10+ LBR products serving billions of monthly requests." },
+      { point: "API and access-control product depth", detail: "Rebuilt identity/subscription across 10+ ALM products serving billions of monthly requests." },
       { point: "Developer-facing AI systems", detail: "Shipped an oRPC AI API workspace with live introspection and accuracy feedback loops." },
       { point: "Hands-on AI builder credibility", detail: "Built Lupine and lupi.live: MLIP benchmarks, phase-change simulation, and WebGL visualization." },
     ],
@@ -24573,9 +24607,9 @@ export const roles: TailoredRole[] = [
     headline: "I breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Bain & Company is building Bain's AI/innovation practice; building internal & client-facing AI products and tools (Bain AI\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Bain & Company is building Bain's AI/innovation practice; building internal & client-facing AI products and tools (Bain AI\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "breadth across AI/agents, platforms, security and document-AI as proof Alex can advise on diverse product problems", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -24672,7 +24706,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI background as secondary edge \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
-      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI background as secondary edge", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
     ],
@@ -24698,7 +24732,7 @@ export const roles: TailoredRole[] = [
     headline: "I platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable \u2014 Led the 3D experience platform at Obsess \u2014 avatars.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
-      { point: "Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
     ],
@@ -24731,7 +24765,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.gartner.com/careers',
     submissionStatus: 'live',
@@ -24757,7 +24791,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.google.com',
     submissionStatus: 'live',
@@ -24773,17 +24807,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Set the multi-year SaaS platform",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Set the multi-year SaaS platform",
     intro: "I'm a platform PM who has shipped developer tools at scale. Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -24809,7 +24843,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -24828,7 +24862,7 @@ export const roles: TailoredRole[] = [
     headline: "I agent and devtools product work (Obsess) and document \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agent and devtools product work (Obsess) and document", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -24856,12 +24890,12 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Adobe is building Firefly generative AI, Acrobat AI Assistant, AI in Creative Cloud and Experience Cloud; heavy push\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I ship AI/agent and document", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.adobe.com',
     submissionStatus: 'live',
@@ -24878,7 +24912,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I platform PM experience (Manatt + Obsess) \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Aledade, Inc. is building AI/data platform for risk stratification, care-gap closure and population-health analytics across\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "platform PM experience (Manatt + Obsess)", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -24887,7 +24921,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -24901,7 +24935,7 @@ export const roles: TailoredRole[] = [
     headline: "I breadth across AI/agents, platforms and security as the ability to rapidly assess a portfolio company's product and tech maturity \u2014 Unified access models across legacy and new pr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Alvarez & Marsal is building ~20% of revenue AI-driven, targeting 50% by 2028; global AI board; hiring up to 200 AI-skilled staff \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Alvarez & Marsal is building ~20% of revenue AI-driven, targeting 50% by 2028; global AI board; hiring up to 200 AI-skilled staff \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "breadth across AI/agents, platforms and security as the ability to rapidly assess a portfolio company's product and tech maturity", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
@@ -25038,7 +25072,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/bluehost',
     submissionStatus: 'live',
@@ -25064,7 +25098,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.bny.com/careers',
     submissionStatus: 'live',
@@ -25081,9 +25115,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I aI-agents/devtools (Obsess) and document-AI (Manatt) shipping record; ask the recruiter to clarify the client to tailor further \u2014 Took a legal-publishing SaaS from beta to millio",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "Burtch Works is building Recruiting for AI/ML, data science and analytics roles; the actual product role belongs to an\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Burtch Works is building Recruiting for AI/ML, data science and analytics roles; the actual product role belongs to an\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI-agents/devtools (Obsess) and document-AI (Manatt) shipping record; ask the recruiter to clarify the client to tailor further", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -25105,13 +25139,13 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Capital One is building Enterprise AI/ML platforms, agentic AI for customer assistance, developer productivity, and data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I ship data/document-AI products that turned raw data into trusted, consumable assets", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I ship data/document-AI products that turned raw data into trusted, consumable assets", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -25169,11 +25203,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ CROSS-FUNCTIONAL ]",
-    headline: "I developer-platform PM rigor and enterprise-trust framing (security/identity at LBR) to show he can own reliability-critical product \u2014 Created CreateSuite: an autonomous multi-age",
+    headline: "I developer-platform PM rigor and enterprise-trust framing (security/identity at ALM) to show he can own reliability-critical product \u2014 Created CreateSuite: an autonomous multi-age",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
       { point: "Cockroach Labs is building Database infrastructure underpinning AI/agent apps; reliability, scale, and Postgres compatibility\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "developer-platform PM rigor and enterprise-trust framing (security/identity at LBR) to show he can own reliability-critical product", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "developer-platform PM rigor and enterprise-trust framing (security/identity at ALM) to show he can own reliability-critical product", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -25247,11 +25281,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the LBR security/compliance + Obsess agentic \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the ALM security/compliance + Obsess agentic \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.",
     whyFit: [
       { point: "Diligent is building Full-suite AI-native GRC (Diligent One); launched AI Board Member and Agentic GRC Workforce;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the LBR security/compliance + Obsess agentic", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the ALM security/compliance + Obsess agentic", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -25276,7 +25310,7 @@ export const roles: TailoredRole[] = [
     headline: "I led document-AI (extraction/accuracy on regulated legal docs) as a direct analog to claims/denials accuracy: I ship trustworthy AI on messy regulated documents.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Manatt document-AI as 'I productize complex AI/ML models into trusted outputs.", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
     ],
@@ -25302,7 +25336,7 @@ export const roles: TailoredRole[] = [
     headline: "I manatt: 'I build products where accuracy and user trust in AI output is the product' - exactly Rockerbox's need \u2014 Shipped a type-safe AI API workspace (oRPC) with self-improving.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
-      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoubleVerify is building Scibids AI (ad optimization, acquired 2023); combining with Rockerbox attribution data \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Manatt: 'I build products where accuracy and user trust in AI output is the product' - exactly Rockerbox's need", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -25351,17 +25385,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I aI, agents) into reusable products/platforms. Lower priority vs. product companies \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I aI, agents) into reusable products/platforms. Lower priority vs. product companies \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "eClerx is building AI consulting + execution; among first globally with ISO 42001 responsible-AI certification \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "AI, agents) into reusable products/platforms. Lower priority vs. product companies", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "eClerx is building AI consulting + execution; among first globally with ISO 42001 responsible-AI certification \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "AI, agents) into reusable products/platforms. Lower priority vs. product companies", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.eclerx.com',
     submissionStatus: 'live',
@@ -25382,12 +25416,12 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Elite Technology is building Embedded/native AI across financial operations; cloud-native platform with AI capabilities and\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "AI PM who already shipped document AI in law", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/elitetechnology',
     submissionStatus: 'live',
@@ -25406,7 +25440,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agent and discovery work plus a user-growth/engagement track record \u2014 ideal for a consumer Search & AI mandate \u2014 Took a legal-publishing SaaS from beta to millions in ARR with",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "FanDuel is building ML for pricing/odds, personalization, search & discovery, responsible-gaming models, and data\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "FanDuel is building ML for pricing/odds, personalization, search & discovery, responsible-gaming models, and data\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agent and discovery work plus a user-growth/engagement track record \u2014 ideal for a consumer Search & AI mandate", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -25460,7 +25494,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "identity/security PM credibility plus subscription-growth metrics \u2014 the rare blend Gen needs", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -25502,7 +25536,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "identity/security protection with financial-wellness \u2014 frame Alex as the trust-and-growth PM for money products", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -25570,17 +25604,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI) \u2014 Re-platformed the identity & subscription system at LBR, unifying acce",
+    headline: "I a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI) \u2014 Re-platformed the identity & subscription system at ALM, unifying acce",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Gusto is building AI generates ~50% of new code and handles ~50% of support; payroll runnable inside\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "a platform/API PM who masters regulated, accuracy-critical domains (security/identity, legal document AI)", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/gusto',
     submissionStatus: 'live',
@@ -25606,7 +25640,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.hackajob.com/jobs',
     submissionStatus: 'live',
@@ -25632,7 +25666,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.hackajob.com/jobs',
     submissionStatus: 'live',
@@ -25678,7 +25712,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
       { point: "hackajob is building 'Archer' AI sourcing agent; in-house AI agents for talent matching \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "LBR: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "ALM: 'I've owned identity/security products end-to-end' - the cleanest 1:1 fit in the batch", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -25703,7 +25737,7 @@ export const roles: TailoredRole[] = [
     headline: "I obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address heal \u2014 Created CreateSuite: an autonomous.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
     whyFit: [
-      { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address healthcare with Manatt regulated-domain credibility", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -25729,9 +25763,9 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agents + growth: 'I've shipped AI-driven product surfaces and driven subscription/engagement growth.' \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agents + growth: 'I've shipped AI-driven product surfaces and driven subscription/engagement growth.", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -25762,7 +25796,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -25774,7 +25808,7 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I arkadium subscription/user-growth with Manatt legal/document-AI: 'a growth PM who also deeply understands the legal-AI product Ironclad sell \u2014 Took a legal-publishing SaaS from b",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
       { point: "Ironclad is building Agentic architecture - Intake Agent, Redlining Agent, Conversational Search, Ironclad Assistant\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "Arkadium subscription/user-growth with Manatt legal/document-AI: 'a growth PM who also deeply understands the legal-AI product Ironclad sells.' Note: SF-based (remote/relocation question)", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
@@ -25798,8 +25832,8 @@ export const roles: TailoredRole[] = [
     intro: "I'm a product PM who has driven subscription growth at scale. Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "LBR security/identity controls and Manatt document-AI compliance work as 'shipping trustworthy AI under regulatory constraints' \u2014 exactly what AI-risk transformation needs", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "ALM security/identity controls and Manatt document-AI compliance work as 'shipping trustworthy AI under regulatory constraints' \u2014 exactly what AI-risk transformation needs", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -25847,7 +25881,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I aI-augmented productivity tooling experience (agents/devtools) as a lever to modernize the advisor platform with copilots and automation \u2014 Drove cross-platform adoption of contex",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "AI-augmented productivity tooling experience (agents/devtools) as a lever to modernize the advisor platform with copilots and automation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -25856,7 +25890,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -25924,7 +25958,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LinkedIn is building LinkedIn AI agents, AI hiring tools, AI labor marketplace, new paid 'Advice Sessions' consultations \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "1 launch (Arkadium platform, subscription growth)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -25950,7 +25984,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "LSEG is building AI across financial data and analytics; partnership with Microsoft to embed GenAI/Copilot in\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "AI PM who can embed GenAI into data products", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -26000,7 +26034,7 @@ export const roles: TailoredRole[] = [
     headline: "I obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cos \u2014 Created CreateSuite: an autonomous.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands.",
     whyFit: [
-      { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Metropolis Technologies is building Vehicle recognition / computer vision; 'remembered commerce' / recognition-commerce ambitions\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Obsess AI-agents/devtools delivery and Manatt document-AI automation as proof he can stand up an applied-AI function driving operational cost savings", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
     ],
@@ -26059,7 +26093,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -26094,7 +26128,7 @@ export const roles: TailoredRole[] = [
     headline: "I technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with g",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Motion Recruitment is building N/A directly \u2014 places AI/product talent at client firms \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical AI/agent product shipping and devtools depth; ask recruiter to name the client and tailor", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
@@ -26122,7 +26156,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -26185,11 +26219,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
-    headline: "I document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
+    headline: "I document-AI and identity/security (ALM) as directly relevant to HIPAA-grade patient-record and engagement products \u2014 Took a legal-publishing SaaS from beta to millions in ARR wit",
     intro: "I'm a product PM who has driven subscription growth at scale. Shipped High Era as a single-operator production platform on GCP \u2014 content generation, workflow engine, analytics.",
     whyFit: [
       { point: "PatientNow is building Patient acquisition/engagement automation, CRM; expanding via integrations \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
+      { point: "document-AI and identity/security (ALM) as directly relevant to HIPAA-grade patient-record and engagement products", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
     proof: [
@@ -26261,7 +26295,7 @@ export const roles: TailoredRole[] = [
     headline: "I technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical \u2014 Re-platformed the identity & subscr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical roadmaps", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
@@ -26289,7 +26323,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/profound',
     submissionStatus: 'live',
@@ -26308,9 +26342,9 @@ export const roles: TailoredRole[] = [
     headline: "I agents/devtools product building (Obsess) \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data\u2026.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "R/GA is building AI product/innovation practice: building GenAI-powered creative tools and client products \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "R/GA is building AI product/innovation practice: building GenAI-powered creative tools and client products \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agents/devtools product building (Obsess)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at LBR." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Built the type-safe AI API workspace with self-improving usage accuracy at ALM." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -26404,17 +26438,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I aI and identity/compliance PM work (Manatt, LBR) \u2014 Re-platformed the identity & subscription system at LBR, unifying access across 10+\u2026.",
+    headline: "I aI and identity/compliance PM work (Manatt, ALM) \u2014 Re-platformed the identity & subscription system at ALM, unifying access across 10+\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
-      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "AI and identity/compliance PM work (Manatt, LBR)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
+      { point: "Robinhood is building Crypto trading/custody (>$51B AUC), tokenized stocks/own blockchain (Arbitrum L2), AI-assisted\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "AI and identity/compliance PM work (Manatt, ALM)", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/robinhood',
     submissionStatus: 'live',
@@ -26456,17 +26490,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I data-driven growth and platform PM; tie identity/data-privacy experience (LBR) to first-party audience activation \u2014 Drove cross-platform adoption of contextual, data-informed con",
+    headline: "I data-driven growth and platform PM; tie identity/data-privacy experience (ALM) to first-party audience activation \u2014 Drove cross-platform adoption of contextual, data-informed con",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Roku is building AI-driven content recommendations/personalization; OneView DSP using first-party audience data for\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "data-driven growth and platform PM; tie identity/data-privacy experience (LBR) to first-party audience activation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
+      { point: "data-driven growth and platform PM; tie identity/data-privacy experience (ALM) to first-party audience activation", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/roku',
     submissionStatus: 'live',
@@ -26492,7 +26526,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/scaleai',
     submissionStatus: 'live',
@@ -26585,11 +26619,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I hands-on agentic AI shipping at Obsess + security credibility from LBR \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I hands-on agentic AI shipping at Obsess + security credibility from ALM \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.",
     whyFit: [
       { point: "SecurityScorecard is building Agentic AI workflows for risk detection/response; LLM pipelines, retrieval, eval frameworks \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "hands-on agentic AI shipping at Obsess + security credibility from LBR", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
+      { point: "hands-on agentic AI shipping at Obsess + security credibility from ALM", detail: "Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers." },
     ],
     proof: [
@@ -26612,9 +26646,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I subscription growth, activation, and retention wins \u2014 this role is a near-perfect fit for his growth track record \u2014 Took a legal-publishing SaaS from beta to millions in ARR with",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Squarespace is building Generative-AI website/content creation woven through the builder; AI design, copy, and onboarding\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "subscription growth, activation, and retention wins \u2014 this role is a near-perfect fit for his growth track record", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
     ],
@@ -26661,7 +26695,7 @@ export const roles: TailoredRole[] = [
     headline: "I ask the recruiter to identify the client/domain, then lead with the strongest matching theme (AI, platform, or security) \u2014 Created CreateSuite: an autonomous multi-agent orchestr",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Talener is building N/A (recruiter); client AI focus unknown \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Talener is building N/A (recruiter); client AI focus unknown \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Ask the recruiter to identify the client/domain, then lead with the strongest matching theme (AI, platform, or security)", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -26711,9 +26745,9 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I aI-agents/devtools and document-AI shipping record; ask the recruiter to disclose the client to tailor the pitch \u2014 Took a legal-publishing SaaS from beta to millions in ARR with.",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
-      { point: "TEEMA is building Recruits AI/ML and product roles for client companies; the actual role belongs to a client \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "TEEMA is building Recruits AI/ML and product roles for client companies; the actual role belongs to a client \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI-agents/devtools and document-AI shipping record; ask the recruiter to disclose the client to tailor the pitch", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],
@@ -26786,14 +26820,14 @@ export const roles: TailoredRole[] = [
     headline: "I agents/devtools (Obsess) plus subscription/user \u2014 Designed and shipped a type-safe workspace for executing AI APIs with live\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Built High Era \u2014 a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator.",
     whyFit: [
-      { point: "Three Pillars Recruiting is building Client is AI-native AdTech/MarTech (per the posting); applies AI to advertising/marketing \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Three Pillars Recruiting is building Client is AI-native AdTech/MarTech (per the posting); applies AI to advertising/marketing \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "agents/devtools (Obsess) plus subscription/user", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -26898,11 +26932,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
+    headline: "I for identity \u2014 lead with identity & security PM (ALM), reframed as identity resolution/addressability in a privacy-first world \u2014 Re-platformed the identity & subscription system.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Zeta Global is building AI Marketing Cloud using trillions of consumer signals for acquisition, growth, and retention;\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
-      { point: "for identity \u2014 lead with identity & security PM (LBR), reframed as identity resolution/addressability in a privacy-first world", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "for identity \u2014 lead with identity & security PM (ALM), reframed as identity resolution/addressability in a privacy-first world", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -29654,11 +29688,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Amazon is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -29680,11 +29714,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Amazon is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -29706,11 +29740,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
+    headline: "I 'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization \u2014 Re-platformed the identity & subscription system handling billions of monthly requests",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Amazon is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "'identity & security PM (ALM) + AI-agents PM (Obsess)' = built secure agent authorization", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -29938,7 +29972,7 @@ export const roles: TailoredRole[] = [
     headline: "I product and platform PM experience and AI/analytics fluency \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Applecart is building Proprietary social-graph data science and measurement; relationship mapping and decision-maker\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Applecart is building Proprietary social-graph data science and measurement; relationship mapping and decision-maker\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "product and platform PM experience and AI/analytics fluency", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
     ],
@@ -32071,7 +32105,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.blackrock.com',
     submissionStatus: 'live',
@@ -32097,7 +32131,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.blackrock.com',
     submissionStatus: 'live',
@@ -32143,13 +32177,13 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "document-AI and platform work as 'turning messy enterprise data into activated, AI-consumable products.", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "document-AI and platform work as 'turning messy enterprise data into activated, AI-consumable products.", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/bloomberg',
     submissionStatus: 'live',
@@ -32166,7 +32200,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I emphasize building the platform/data plumbing other teams build on (Arkadium platform PM) and data quality for AI \u2014 Drove cross-platform adoption of contextual, data-informed con",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "Emphasize building the platform/data plumbing other teams build on (Arkadium platform PM) and data quality for AI", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
@@ -32175,7 +32209,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/bloomberg',
     submissionStatus: 'live',
@@ -37578,7 +37612,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -37599,7 +37633,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.cedar.com/careers',
     submissionStatus: 'live',
@@ -37774,14 +37808,14 @@ export const roles: TailoredRole[] = [
     headline: "I if pursuing, lead with platform PM rigor and AI-workload understanding; otherwise deprioritize vs. better-fit CoreWeave roles \u2014 Drove cross-platform adoption of contextual, data.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "If pursuing, lead with platform PM rigor and AI-workload understanding; otherwise deprioritize vs. better-fit CoreWeave roles", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/coreweave',
     submissionStatus: 'live',
@@ -37800,7 +37834,7 @@ export const roles: TailoredRole[] = [
     headline: "I am subscription/packaging and user-growth wins plus AI fluency to position as a GTM PM who understands both product and adoption \u2014 Re-platformed the identity & subscription syste",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "I subscription/packag and user-growth wins plus AI fluency to position as a GTM PM who understands both product and adoption", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built High Era single-handed: a full go-to-market automation OS on Google Cloud." },
     ],
@@ -37824,16 +37858,16 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I data familiarity, acknowledging the infra \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
-      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "data familiarity, acknowledging the infra", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/coreweave',
     submissionStatus: 'live',
@@ -37852,7 +37886,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI in a legal/professional \u2014 Built AI-based document scanning and led IAM for a research platform serving 1,000+\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Cornerstone Research is building Applying data science/AI to litigation analytics and internal tooling; building software products\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Cornerstone Research is building Applying data science/AI to litigation analytics and internal tooling; building software products\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI in a legal/professional", detail: "Shipped document understanding pipelines that turned unstructured legal text into structured graph data." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
@@ -37885,7 +37919,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.daloopa.com/careers',
     submissionStatus: 'live',
@@ -37911,7 +37945,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/databricks',
     submissionStatus: 'live',
@@ -37963,7 +37997,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/datadog',
     submissionStatus: 'live',
@@ -37983,7 +38017,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "LBR identity & security PM experience, framing identity/threat context as adjacent to detection & response", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "ALM identity & security PM experience, framing identity/threat context as adjacent to detection & response", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -38005,11 +38039,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -38031,11 +38065,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -38057,11 +38091,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38083,11 +38117,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38109,11 +38143,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38135,11 +38169,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38161,11 +38195,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38187,11 +38221,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38213,11 +38247,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38239,11 +38273,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38265,11 +38299,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -38291,11 +38325,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -38317,11 +38351,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38343,11 +38377,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38369,11 +38403,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38395,11 +38429,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38421,11 +38455,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38447,11 +38481,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38473,11 +38507,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38499,11 +38533,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38551,11 +38585,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -38577,11 +38611,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -38603,11 +38637,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38629,11 +38663,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38655,11 +38689,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38681,11 +38715,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38707,11 +38741,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38733,11 +38767,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38759,11 +38793,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38785,11 +38819,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38811,11 +38845,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -38837,11 +38871,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -38863,11 +38897,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38889,11 +38923,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38915,11 +38949,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38941,11 +38975,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38967,11 +39001,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -38993,11 +39027,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39019,11 +39053,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39045,11 +39079,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39071,11 +39105,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -39097,11 +39131,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -39123,11 +39157,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39149,11 +39183,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39175,11 +39209,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39201,11 +39235,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39227,11 +39261,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39253,11 +39287,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39279,11 +39313,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39305,11 +39339,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39331,11 +39365,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -39357,11 +39391,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -39383,11 +39417,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39409,11 +39443,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39435,11 +39469,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39461,11 +39495,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39487,11 +39521,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39513,11 +39547,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39539,11 +39573,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39565,11 +39599,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39595,7 +39629,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "LBR identity & security PM plus Arkadium platform work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
+      { point: "ALM identity & security PM plus Arkadium platform work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -39617,11 +39651,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -39643,11 +39677,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -39669,11 +39703,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39695,11 +39729,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39721,11 +39755,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39747,11 +39781,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39773,11 +39807,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39799,11 +39833,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39825,11 +39859,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39851,11 +39885,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39877,11 +39911,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -39903,11 +39937,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -39929,11 +39963,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39955,11 +39989,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -39981,11 +40015,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40007,11 +40041,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40033,11 +40067,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40059,11 +40093,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40085,11 +40119,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40111,11 +40145,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40190,7 +40224,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I applied-AI PM credibility (Obsess/Manatt) and platform mindset; acknowledge and bridge the database-specific learning curve \u2014 Set the multi-year SaaS platform strategy for enterp",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "applied-AI PM credibility (Obsess/Manatt) and platform mindset; acknowledge and bridge the database-specific learning curve", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
@@ -40199,7 +40233,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/datadog',
     submissionStatus: 'live',
@@ -40267,11 +40301,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -40293,11 +40327,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -40319,11 +40353,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40345,11 +40379,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40371,11 +40405,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40397,11 +40431,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40423,11 +40457,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40449,11 +40483,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40475,11 +40509,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40501,11 +40535,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40527,11 +40561,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -40553,11 +40587,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
     ],
     proof: [
@@ -40579,11 +40613,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40605,11 +40639,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40631,11 +40665,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40657,11 +40691,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40683,11 +40717,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40709,11 +40743,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40735,11 +40769,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40761,11 +40795,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I the intersection of LBR security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
+    headline: "I the intersection of ALM security/identity and Obsess/Manatt AI work \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "the intersection of LBR security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "the intersection of ALM security/identity and Obsess/Manatt AI work", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -40835,7 +40869,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I platform-ecosystem PM experience \u2014 growing developer adoption and partner integrations on a platform \u2014 Drove cross-platform adoption of contextual, data-informed content systems.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Digital Asset is building Limited direct AI; focus is institutional on-chain infrastructure (tokenization, settlement) \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "platform-ecosystem PM experience \u2014 growing developer adoption and partner integrations on a platform", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
@@ -40844,7 +40878,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -40856,7 +40890,7 @@ export const roles: TailoredRole[] = [
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
     headline: "I economics analogies from subscription/growth work \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+    intro: "I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     whyFit: [
       { point: "Digital Asset is building Limited direct AI; focus is institutional on-chain infrastructure (tokenization, settlement) \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
       { point: "economics analogies from subscription/growth work", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
@@ -40865,7 +40899,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -40879,14 +40913,14 @@ export const roles: TailoredRole[] = [
     headline: "I skip unless used as a foot-in-the-door; otherwise a down-level move \u2014 Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by\u2026.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.",
     whyFit: [
-      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Skip unless used as a foot-in-the-door; otherwise a down-level move", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/doordash',
     submissionStatus: 'live',
@@ -42465,7 +42499,7 @@ export const roles: TailoredRole[] = [
     headline: "I arkadium subscription & user-growth wins framed as marketplace growth \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "DoorDash is building AI merchant onboarding, AI menu 'smart tags', AI-built merchant websites, AI ads/personalization \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Arkadium subscription & user-growth wins framed as marketplace growth", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
@@ -43533,7 +43567,7 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Dow Jones is building AI content-licensing marketplace (Factiva, ~5,000 publishers), $250M OpenAI deal, AI as\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
       { point: "Lead directly with subscription growth, activation, and retention results \u2014 quantify churn/engagement wins; this is one of the cleanest fits in the batch", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
@@ -43555,7 +43589,7 @@ export const roles: TailoredRole[] = [
     accent: "#A78BFA",
     tagline: "[ SUBSCRIPTION \u00b7 / \u00b7 USER ]",
     headline: "I retention and engagement growth wins \u2014 Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data\u2026.",
-    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.",
+    intro: "I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at ALM.",
     whyFit: [
       { point: "Duolingo is building GPT-powered features (Duolingo Max, Video Call/Lily AI tutor), AI-generated content, 'AI-first'\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "retention and engagement growth wins", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution." },
@@ -45782,7 +45816,7 @@ export const roles: TailoredRole[] = [
     headline: "I treat the recruiter as an intelligence source \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.",
     whyFit: [
-      { point: "Executive Talent Solutions is building N/A (underlying client role is fintech product) \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Executive Talent Solutions is building N/A (underlying client role is fintech product) \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Treat the recruiter as an intelligence source", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
     ],
@@ -45804,7 +45838,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Ran SSO / SAML / OIDC onboarding for 150+ AmLaw 200 firms.",
     whyFit: [
       { point: "Experian is building Identity graphs and AdTech identity resolution, fraud/identity ML, Ascend analytics and\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "LBR identity & security PM work; frame identity-graph/AdTech as applying identity-resolution expertise to advertising data products", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "ALM identity & security PM work; frame identity-graph/AdTech as applying identity-resolution expertise to advertising data products", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
     proof: [
@@ -48533,7 +48567,7 @@ export const roles: TailoredRole[] = [
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
       { point: "Figma is building AI across the platform (Figma AI, Make/code generation, design-to-code); evolving from design tool\u2026 \u2014 my relevant shipped work", detail: "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%." },
-      { point: "LBR enterprise identity & security PM (SSO/SCIM/admin) as core to enterprise readiness; tie platform experience to scale", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "ALM enterprise identity & security PM (SSO/SCIM/admin) as core to enterprise readiness; tie platform experience to scale", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
     proof: [
@@ -48565,7 +48599,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.lever.co/finch',
     submissionStatus: 'live',
@@ -48584,8 +48618,8 @@ export const roles: TailoredRole[] = [
     headline: "I lBR: 'I've shipped security/identity products where trust and regulatory rigor are the product' - directly relevant to qualified custody \u2014 Re-platformed the identity & subscripti",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Ran SSO / SAML / OIDC onboarding for 150+ AmLaw 200 firms.",
     whyFit: [
-      { point: "Fireblocks is building Primarily security/infra (MPC, key management); not an 'AI company' \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "LBR: 'I've shipped security/identity products where trust and regulatory rigor are the product' - directly relevant to qualified custody", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "Fireblocks is building Primarily security/infra (MPC, key management); not an 'AI company' \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "ALM: 'I've shipped security/identity products where trust and regulatory rigor are the product' - directly relevant to qualified custody", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy." },
     ],
     proof: [
@@ -48610,7 +48644,7 @@ export const roles: TailoredRole[] = [
     headline: "I arkadium media-platform + subscription growth experience \u2014 near-identical context (digital media platform monetization) \u2014 Built contextual, data-informed content systems that dro",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Fortune is building Limited/early \u2014 AI-powered audio articles (Trinity Audio); AI-driven content tooling \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Fortune is building Limited/early \u2014 AI-powered audio articles (Trinity Audio); AI-driven content tooling \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Arkadium media-platform + subscription growth experience \u2014 near-identical context (digital media platform monetization)", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Shipped High Era as a single-operator production platform on GCP \u2014 content generation, workflow engine, analytics." },
     ],
@@ -48657,14 +48691,14 @@ export const roles: TailoredRole[] = [
     headline: "I platform PM and AI-tooling experience \u2014 frame as modernizing advisor/client workflows with AI, while noting transferable security/identity r \u2014 Drove cross-platform adoption of co",
     intro: "I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.",
     whyFit: [
-      { point: "Goldman Sachs is building Firmwide GS AI assistant, generative AI in engineering and AWM workflows, ML across trading/risk\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Goldman Sachs is building Firmwide GS AI assistant, generative AI in engineering and AWM workflows, ML across trading/risk\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform PM and AI-tooling experience \u2014 frame as modernizing advisor/client workflows with AI, while noting transferable security/identity rigor for a regulated environment", detail: "Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
   },
   {
@@ -55674,12 +55708,12 @@ export const roles: TailoredRole[] = [
     whyFit: [
       { point: "Gusto is building AI generates ~50% of new code and handles ~50% of support; payroll runnable inside\u2026 \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
       { point: "a platform PM who turns messy structured/unstructured data into self-serve, AI-assisted insight products", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://boards.greenhouse.io/gusto',
     submissionStatus: 'live',
@@ -56797,7 +56831,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.hackajob.com/jobs',
     submissionStatus: 'live',
@@ -56823,7 +56857,7 @@ export const roles: TailoredRole[] = [
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://www.hackajob.com/jobs',
     submissionStatus: 'live',
@@ -56894,7 +56928,7 @@ export const roles: TailoredRole[] = [
     headline: "I arkadium platform PM + Obsess devtools: 'I build the internal systems and tooling that let product teams move faster.' \u2014 Built contextual, data-informed content systems that drov",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
-      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "Arkadium platform PM + Obsess devtools: 'I build the internal systems and tooling that let product teams move faster.", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
@@ -56920,14 +56954,14 @@ export const roles: TailoredRole[] = [
     headline: "I platform/API and partner \u2014 Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     intro: "I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.",
     whyFit: [
-      { point: "Hopper is building Predictive price-forecasting ML (core IP) and fintech-as-a-service add-ons (price freeze,\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Hopper is building Predictive price-forecasting ML (core IP) and fintech-as-a-service add-ons (price freeze,\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "platform/API and partner", detail: "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://jobs.smartrecruiters.com/hopper',
     submissionStatus: 'live',
@@ -56946,7 +56980,7 @@ export const roles: TailoredRole[] = [
     headline: "I security PM work and AI/ML fluency \u2014 Re-platformed the identity & subscription system handling billions of monthly requests\u2026.",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
-      { point: "HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "security PM work and AI/ML fluency", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
@@ -56969,11 +57003,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I security/identity PM credibility from LBR; frame web/client-side security as an extension of his security product expertise \u2014 Re-platformed the identity & subscription system han",
+    headline: "I security/identity PM credibility from ALM; frame web/client-side security as an extension of his security product expertise \u2014 Re-platformed the identity & subscription system han",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.",
     whyFit: [
-      { point: "HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
-      { point: "security/identity PM credibility from LBR; frame web/client-side security as an extension of his security product expertise", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
+      { point: "HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "security/identity PM credibility from ALM; frame web/client-side security as an extension of his security product expertise", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
     ],
     proof: [
@@ -57016,11 +57050,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#33CCFF",
     tagline: "[ IDENTITY \u00b7 SECURITY ]",
-    headline: "I identity-product PM experience (LBR) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor \u2014 Re-platformed the identity & subscriptio",
+    headline: "I identity-product PM experience (ALM) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor \u2014 Re-platformed the identity & subscriptio",
     intro: "I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.",
     whyFit: [
       { point: "Innovid is building AI/ML for ad creative optimization, measurement, and identity resolution across screens; 'always-on\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "identity-product PM experience (LBR) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
+      { point: "identity-product PM experience (ALM) \u2014 frame identity-resolution as a data+privacy problem he already thinks in, plus platform-PM rigor", detail: "Unified access models across legacy and new product surfaces, unlocking new revenue." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
@@ -57071,7 +57105,7 @@ export const roles: TailoredRole[] = [
     headline: "I aI/agent product shipping; first confirm the actual hiring company before tailoring \u2014 Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed\u2026.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.",
     whyFit: [
-      { point: "Jobot is building 'Jax' AI job-matching engine; 'Jeni' AI recruiting assistant \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Jobot is building 'Jax' AI job-matching engine; 'Jeni' AI recruiting assistant \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "AI/agent product shipping; first confirm the actual hiring company before tailoring", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
     ],
@@ -57089,11 +57123,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -57115,11 +57149,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -57141,11 +57175,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57167,11 +57201,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57193,11 +57227,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57219,11 +57253,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57245,11 +57279,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57271,11 +57305,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57297,11 +57331,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57323,11 +57357,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57349,11 +57383,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57375,11 +57409,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57401,11 +57435,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57427,11 +57461,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57453,11 +57487,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57479,11 +57513,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57505,11 +57539,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57531,11 +57565,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57557,11 +57591,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57583,11 +57617,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57609,11 +57643,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -57635,11 +57669,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -57661,11 +57695,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57687,11 +57721,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57713,11 +57747,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57739,11 +57773,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57765,11 +57799,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57791,11 +57825,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57817,11 +57851,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57843,11 +57877,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57869,11 +57903,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57895,11 +57929,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57921,11 +57955,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57947,11 +57981,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57973,11 +58007,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -57999,11 +58033,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58025,11 +58059,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58051,11 +58085,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58077,11 +58111,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58103,11 +58137,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58155,11 +58189,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -58181,11 +58215,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -58207,11 +58241,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58233,11 +58267,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58259,11 +58293,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58285,11 +58319,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58311,11 +58345,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58337,11 +58371,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58363,11 +58397,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58389,11 +58423,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58415,11 +58449,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58441,11 +58475,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58467,11 +58501,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58493,11 +58527,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58519,11 +58553,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58545,11 +58579,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58571,11 +58605,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58597,11 +58631,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58623,11 +58657,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58649,11 +58683,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58701,11 +58735,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -58727,11 +58761,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -58753,11 +58787,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58779,11 +58813,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58805,11 +58839,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58831,11 +58865,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58857,11 +58891,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58883,11 +58917,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58909,11 +58943,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58935,11 +58969,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58961,11 +58995,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -58987,11 +59021,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59013,11 +59047,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59039,11 +59073,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59065,11 +59099,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59091,11 +59125,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59117,11 +59151,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59143,11 +59177,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59169,11 +59203,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59195,11 +59229,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59221,11 +59255,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Created CreateSuite: an autonomous.",
+    headline: "I lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Created CreateSuite: an autonomous.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "Lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "Lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59247,11 +59281,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -59273,11 +59307,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
     ],
     proof: [
@@ -59299,11 +59333,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59325,11 +59359,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59351,11 +59385,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59377,11 +59411,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Led the 3D experience platform a",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59403,11 +59437,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59429,11 +59463,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59455,11 +59489,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59481,11 +59515,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59507,11 +59541,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59533,11 +59567,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59559,11 +59593,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59585,11 +59619,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59611,11 +59645,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59637,11 +59671,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59663,11 +59697,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59689,11 +59723,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59715,11 +59749,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59741,11 +59775,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
+    headline: "I am building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML \u2014 Created CreateSuite: an autonomo",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (ALM) as proof he can ship an internal ML platform that risk/fraud teams trust", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59793,11 +59827,11 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#FF3366",
     tagline: "[ AI \u00b7 AGENTS \u00b7 DEVELOPER ]",
-    headline: "I lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Created CreateSuite: an autonomous.",
+    headline: "I lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-f \u2014 Created CreateSuite: an autonomous.",
     intro: "I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.",
     whyFit: [
       { point: "JPMorganChase is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools \u2014 my relevant shipped work", detail: "Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers." },
-      { point: "Lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
+      { point: "Lead unapologetically with ALM identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece \u2014 this is the closest-fit role in the batch", detail: "Led the 3D experience platform at Obsess \u2014 avatars, analytics, SOC2 \u2014 shipping for global enterprise brands." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
     ],
     proof: [
@@ -59823,13 +59857,13 @@ export const roles: TailoredRole[] = [
     intro: "I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
-      { point: "platform PM work at Arkadium building reusable capabilities adopted across teams", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "platform PM work at Arkadium building reusable capabilities adopted across teams", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -59845,17 +59879,17 @@ export const roles: TailoredRole[] = [
     applyUrl: "mailto:alexwelcing@gmail.com",
     accent: "#3178C6",
     tagline: "[ PLATFORM \u00b7 PM ]",
-    headline: "I via security/identity and API-platform experience (auth, fraud-adjacent trust) as foundational to safe payments products \u2014 Re-platformed the identity & subscription system at LBR",
+    headline: "I via security/identity and API-platform experience (auth, fraud-adjacent trust) as foundational to safe payments products \u2014 Re-platformed the identity & subscription system at ALM",
     intro: "I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.",
     whyFit: [
       { point: "JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,\u2026 \u2014 my relevant shipped work", detail: "Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products." },
       { point: "via security/identity and API-platform experience (auth, fraud-adjacent trust) as foundational to safe payments products", detail: "Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs." },
-      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products." },
+      { point: "I've shipped the work this role calls for \u2014 including", detail: "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products." },
     ],
     proof: [
       "Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.",
       "Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.",
-      "Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.",
+      "Re-platformed the identity & subscription system at ALM, unifying access across 10+ products.",
     ],
     submissionUrl: 'https://careers.jpmorganchase.com',
     submissionStatus: 'live',
@@ -59874,7 +59908,7 @@ export const roles: TailoredRole[] = [
     headline: "I subscription/user-growth wins and platform PM experience; frame partner channel as a growth surface he can scale \u2014 Took a legal-publishing SaaS from beta to millions in ARR with.",
     intro: "I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.",
     whyFit: [
-      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work." },
+      { point: "Justworks is building AI/automation in internal operations and product (Product Ops AI & Systems role); partner and\u2026 \u2014 and my shipped work maps to it.", detail: "See experience.ts (ALM/Obsess/Manatt/Arkadium) for adjacent work." },
       { point: "subscription/user-growth wins and platform PM experience; frame partner channel as a growth surface he can scale", detail: "Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess." },
       { point: "I've shipped the work this role calls for \u2014 including", detail: "Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium." },
     ],

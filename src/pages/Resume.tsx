@@ -8,14 +8,14 @@ import PageIntro from '@/components/PageIntro';
 
 const STATS = [
   { value: '15+', label: 'YEARS LEADING PRODUCT / BUSINESS SYSTEMS' },
-  { value: 'Billions', label: 'MONTHLY REQUESTS MIGRATED AT LBR' },
+  { value: 'Billions', label: 'MONTHLY REQUESTS MIGRATED AT ALM' },
   { value: '150+', label: 'ENTERPRISE SSO ROLLOUTS' },
   { value: '3+', label: 'PUBLIC TECHNICAL PRODUCTS LIVE' },
 ];
 
 const EXPERIENCE = [
   {
-    company: 'Law Business Research',
+    company: 'ALM',
     role: 'Technical Product Manager',
     dates: 'Jan 2024 – Present',
     bullets: [

@@ -7,6 +7,11 @@ export interface ApplicationPacketOverride {
 }
 
 export const applicationPacketOverrides: Record<string, ApplicationPacketOverride> = {
+  'mastercard-manager-forward-deployed-ai-engineer': {
+    summary: 'A forward-deployed AI packet: enterprise embedding, production agents and multi-agent orchestration, and a build-while-teaching approach that leaves teams able to build on their own.',
+    coverLetterLead: 'I build the way strong forward-deployed teams need: I sit with the business, ship the production agents, and leave the surrounding engineers, analysts, and PMs able to keep going without me.',
+    recruiterNote: 'Best when the reader wants a forward-deployed builder-PM who pairs production AI and agent delivery with hands-on enablement in regulated, enterprise settings.',
+  },
   'tekshapers-marketing-expert-genai': {
     summary: 'A two-page, marketing-first packet tailored for C2C GenAI model-training work: lifecycle strategy, structured workflow mapping, evaluation rigor, and hands-on campaign execution history.',
     coverLetterLead: 'I bring a rare combination for this role: deep hands-on marketing execution across the full funnel and practical experience translating messy real-world workflows into systems and data structures AI teams can use.',

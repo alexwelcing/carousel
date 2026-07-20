@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=1920, height=1080" />
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body {
@@ -12,11 +15,14 @@
       overflow: hidden;
       background: #05070d;
     }
+    /* Browser mode (no HyperFrames): scale the fixed 1920x1080 stage to the viewport. */
+    body.browser-mode { width: 100vw; height: 100vh; }
+    body.browser-mode #root { transform-origin: top left; position: absolute; }
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
       color: #f8fafc;
     }
-    .mono { font-family: "Courier New", monospace; }
+    .mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
     #root {
       position: relative;
       width: 1920px;
@@ -56,10 +62,11 @@
     }
     .title {
       max-width: 1440px;
+      font-family: 'Cardo', Georgia, serif;
       font-size: 92px;
-      line-height: 0.96;
-      letter-spacing: -0.055em;
-      font-weight: 850;
+      line-height: 1.0;
+      letter-spacing: -0.03em;
+      font-weight: 700;
     }
     .subtitle {
       max-width: 1180px;
@@ -145,7 +152,7 @@
     .intro-title { max-width: 1500px; }
     .intro-meta { display: flex; flex-wrap: wrap; gap: 24px 56px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.12); }
     .intro-meta-item { display: inline-flex; gap: 16px; align-items: baseline; }
-    .intro-meta-key { color: rgba(248,250,252,0.56); font-size: 18px; letter-spacing: 0.18em; text-transform: uppercase; font-family: "Courier New", monospace; font-weight: 800; }
+    .intro-meta-key { color: rgba(248,250,252,0.56); font-size: 18px; letter-spacing: 0.18em; text-transform: uppercase; font-family: 'JetBrains Mono', monospace; font-weight: 800; }
     .intro-meta-val { color: rgba(248,250,252,0.92); font-size: 24px; line-height: 1.22; font-weight: 600; }
     #scene-role { align-items: stretch; gap: 44px; }
     #scene-role .left { flex: 1.08; display: flex; flex-direction: column; justify-content: center; gap: 30px; }
@@ -222,7 +229,7 @@
       <div class="panel">
         <div class="small-kicker mono" style="margin-bottom:24px;color:var(--accent)">Proof in 10 seconds</div>
         <div class="proof-line"><span class="proof-mark">1</span><span id="proof-1">12+ years shipping product, code, and judgment end-to-end.</span></div>
-        <div class="proof-line"><span class="proof-mark">2</span><span id="proof-2">Billions of monthly requests served by systems rebuilt at LBR.</span></div>
+        <div class="proof-line"><span class="proof-mark">2</span><span id="proof-2">Billions of monthly requests served by systems rebuilt at ALM.</span></div>
         <div class="proof-line"><span class="proof-mark">3</span><span id="proof-3">150+ enterprise SSO rollouts to AmLaw 200 firms.</span></div>
       </div>
     </section>
@@ -230,7 +237,7 @@
     <section id="scene-cta" class="clip scene" data-start="26" data-duration="4" data-track-index="1">
       <div class="kicker mono">Application packet ready</div>
       <h2 class="title" id="cta-text">Review the tailored résumé, cover letter, and role-specific proof.</h2>
-      <div class="cta-pill mono" id="cta-url">welc.ing</div>
+      <a class="cta-pill mono" id="cta-url" href="#" style="text-decoration:none">welc.ing</a>
     </section>
 
     <div class="footer-brand mono">Alex Welcing · AI product builder</div>
@@ -253,7 +260,7 @@
       fitPoint3: 'Research-to-product range',
       fitPoint3Evidence: 'Connects scientific ML, document AI, 3D interfaces, and developer platforms into usable products.',
       proof1: '12+ years shipping product, code, and judgment end-to-end.',
-      proof2: 'Billions of monthly requests served by systems rebuilt at LBR.',
+      proof2: 'Billions of monthly requests served by systems rebuilt at ALM.',
       proof3: '150+ enterprise SSO rollouts to AmLaw 200 firms.',
       ctaText: 'Review the tailored résumé, cover letter, and role-specific proof.',
       packetUrl: 'welc.ing',
@@ -295,7 +302,45 @@
     setText('cta-text', variables.ctaText);
     setText('cta-url', variables.packetUrl);
 
-    const tl = gsap.timeline({ paused: true });
+    // --- Smart text fit: shrink display type until it fits its box ---
+    function fitText(id, minPx) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      let size = parseFloat(getComputedStyle(el).fontSize);
+      el.style.fontSize = size + 'px';
+      for (let i = 0; i < 40 && size > minPx; i++) {
+        const over = el.scrollWidth > el.clientWidth + 1 || el.scrollHeight > el.clientHeight + 120;
+        if (!over && el.getBoundingClientRect().height < 620) break;
+        size -= 2;
+        el.style.fontSize = size + 'px';
+      }
+    }
+    ['intro-company', 'role-headline', 'cta-text'].forEach((id) => fitText(id, 44));
+
+    // --- CTA becomes a real link in browser mode ---
+    const ctaEl = document.getElementById('cta-url');
+    if (ctaEl && variables.packetUrl) {
+      const href = String(variables.packetUrl).startsWith('http')
+        ? String(variables.packetUrl)
+        : 'https://' + String(variables.packetUrl);
+      ctaEl.setAttribute('href', href);
+    }
+
+    // --- Browser mode: scale stage to viewport and keep it centered ---
+    if (!window.__hyperframes) {
+      document.body.classList.add('browser-mode');
+      const stage = document.getElementById('root');
+      const rescale = () => {
+        const sc = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+        stage.style.transform = `scale(${sc})`;
+        stage.style.left = Math.max(0, (window.innerWidth - 1920 * sc) / 2) + 'px';
+        stage.style.top = Math.max(0, (window.innerHeight - 1080 * sc) / 2) + 'px';
+      };
+      rescale();
+      window.addEventListener('resize', rescale);
+    }
+
+    const tl = gsap.timeline({ paused: true, repeat: window.__hyperframes ? 0 : -1, repeatDelay: 1.2 });
     tl.from('#intro-kicker', { opacity: 0, y: 18, duration: 0.45 }, 0)
       .from('#intro-company', { opacity: 0, y: 34, scale: 0.96, duration: 0.65 }, 0.18)
       .from('#intro-role', { opacity: 0, y: 24, duration: 0.55 }, 0.48)

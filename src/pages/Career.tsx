@@ -25,7 +25,7 @@ interface Role {
 
 const roles: Role[] = [
   {
-    company: 'Law Business Research',
+    company: 'ALM',
     title: 'Technical Product Manager — Identity & Platform',
     period: 'Jan 2024 – Present',
     bullets: [
@@ -368,7 +368,7 @@ export default function Career() {
       <section className="content-max-width" style={{ paddingBottom: 'clamp(40px, 7vh, 72px)' }}>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {[
-            ['Billions / mo', 'Re-platformed LBR identity and subscription systems across 10+ products.'],
+            ['Billions / mo', 'Re-platformed ALM identity and subscription systems across 10+ products.'],
             ['150+ SSO rollouts', 'Led SAML/OIDC onboarding for AmLaw 200 enterprise customers.'],
             ['0 → $M ARR', 'Took Manatt legal-publishing SaaS from beta to millions in ARR.'],
             ['Public AI systems', 'Built lupi.live, lupine.science, document AI, and AI API execution workspaces.'],

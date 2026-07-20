@@ -28,7 +28,7 @@ const PAGE_SEO: Record<string, { title: string; description: string }> = {
   '/career': {
     title: 'Career — Alex Welcing · 12+ Years: AI Products, 3D Interfaces, Document AI, Scientific ML',
     description:
-      'Career timeline: Law Business Research (enterprise identity & platform at billions of requests/mo, SSO/SAML/OIDC for 150+ AmLaw 200 firms), Obsess VR 3D commerce for Alo/Moncler/Ralph Lauren, Manatt document AI, Arkadium NLP partnerships.',
+      'Career timeline: ALM (enterprise identity & platform at billions of requests/mo, SSO/SAML/OIDC for 150+ AmLaw 200 firms), Obsess VR 3D commerce for Alo/Moncler/Ralph Lauren, Manatt document AI, Arkadium NLP partnerships.',
   },
   '/projects': {
     title: 'Projects — Alex Welcing · lupi.live, lupine.science, High Era, alexwelcing.com',

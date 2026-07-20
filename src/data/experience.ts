@@ -7,48 +7,61 @@ export interface Job {
 
 export const JOBS: Job[] = [
   {
-    company: 'Law Business Research',
+    company: 'ALM',
     date: 'Jan 2024 – Jun 2026',
-    role: 'Technical Product Manager — Identity & Platform',
+    role: 'Technical Product Manager — New York, NY',
     bullets: [
-      'Re-platformed the identity & subscription system handling billions of requests/mo, unifying access across 10+ products and unlocking new revenue.',
-      'Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy, and ran SSO / SAML / OIDC onboarding for 150+ AmLaw 200 firms.',
+      'Led the 0-to-1 replacement of a legacy SQL-based entitlement system, improving reliability and unlocking new subscription revenue.',
+      'Built and launched a monorepo AI API execution hub in TypeScript with secure, type-safe environments and live introspection.',
+      'Ran the client identity & subscription platform for 50%+ of AmLaw 200 firms, streamlining SSO / SAML / OIDC configuration.',
     ],
   },
   {
-    company: 'Obsess VR',
-    date: 'Apr 2022 – May 2023',
-    role: 'Product Manager',
+    company: 'Obsess',
+    date: 'May 2022 – May 2023',
+    role: 'Product Manager — New York, NY',
     bullets: [
-      'Led the 3D experience platform — avatars, analytics, SOC 2 — shipping for Alo, Moncler, and Ralph Lauren.',
-      'Set the multi-year SaaS platform strategy for enterprise brand deployments.',
+      'Shipped the 3D experience SaaS platform for enterprise brands using cloud-based orchestration and automation.',
+      'Instrumented the product with the Google Analytics 4 API (e-commerce + heatmap) to drive data-informed roadmap decisions.',
+      'Delivered real-time 3D rendering support across mobile, headset, and desktop devices.',
     ],
   },
   {
     company: 'Manatt, Phelps & Phillips',
     date: 'Aug 2017 – Apr 2022',
-    role: 'Developer / Consultant',
+    role: 'Developer / Consultant — New York, NY',
     bullets: [
-      'Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance.',
-      'Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients.',
+      'Took a client publishing SaaS from beta to millions in ARR, owning data reporting, security, and service monitoring.',
+      'Built AI document scanning and image selection that cut consultant time and improved knowledge-graph accuracy.',
+      'Developed and maintained a firm-wide knowledge and training portal delivering high ROI at low operating cost.',
     ],
   },
   {
     company: 'Arkadium',
-    date: 'Jul 2016 – Aug 2017',
-    role: 'Partner Development',
+    date: 'Jul 2016 – Jul 2017',
+    role: 'Partner Development — New York, NY',
     bullets: [
-      'Pioneered NLP-driven AI content partnerships, cutting go-to-market time 25%.',
-      'Drove cross-platform adoption with contextual, data-informed content systems.',
+      'Secured AI content partnerships with top digital publishers, owning the end-to-end business development process.',
+      'Introduced an NLP-driven interactive advertising solution built on contextual understanding.',
     ],
   },
+];
+
+export interface Education {
+  school: string;
+  credential: string;
+  date: string;
+}
+
+export const EDUCATION: Education[] = [
   {
-    company: 'Dallas Marketing & Advertising',
-    date: '2011 – 2016',
-    role: 'Marketing & Business Lead',
-    bullets: [
-      'Led marketing, advertising, and business-development efforts for Dallas-area brands and agency clients.',
-      'Owned customer acquisition, campaign strategy, partner management, and revenue-facing execution across multi-channel programs.',
-    ],
+    school: 'The University of Texas at Dallas — Naveen Jindal School of Management',
+    credential: 'Bachelor of Science (B.S.), Marketing',
+    date: '2010 – 2013',
   },
+];
+
+export const CERTIFICATIONS: string[] = [
+  'Managing Platform Products',
+  'Creating a Culture of Privacy',
 ];

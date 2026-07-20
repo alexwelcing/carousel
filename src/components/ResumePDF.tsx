@@ -8,7 +8,7 @@ import {
   Font,
 } from '@react-pdf/renderer';
 import type { TailoredRole } from '../data/roles';
-import { JOBS } from '../data/experience';
+import { JOBS, EDUCATION, CERTIFICATIONS } from '../data/experience';
 
 Font.registerHyphenationCallback((word) => [word]);
 
@@ -42,17 +42,6 @@ function clean(value: string): string {
   return value.replace(/\s+/g, ' ').replace(/[,:;—-]+\.$/, '.').trim();
 }
 
-function fitText(value: string, max = 96): string {
-  const text = clean(value);
-  if (text.length <= max) return text;
-  const stopWords = new Set(['a', 'an', 'the', 'and', 'or', 'of', 'to', 'for', 'with', 'in', 'on', 'at', 'by', 'from']);
-  const cutAt = text.lastIndexOf(' ', max);
-  const clippedSource = cutAt > Math.floor(max * 0.6) ? text.slice(0, cutAt) : text.slice(0, max);
-  let words = clippedSource.replace(/[,:;—-]+$/, '').trim().split(/\s+/);
-  while (words.length && stopWords.has(words[words.length - 1].toLowerCase())) words = words.slice(0, -1);
-  const clipped = words.join(' ').replace(/[,:;—-]+$/, '').trim();
-  return clipped.endsWith('.') ? clipped : `${clipped}.`;
-}
 
 const capabilities = [
   ['AI / Agents', 'LLM products, agent workflows, evals, RAG / pgvector, AI API workspaces'],
@@ -274,6 +263,10 @@ const makeStyles = (C: Palette, k = 1) => StyleSheet.create({
     color: C.muted,
     lineHeight: 1.24,
   },
+  eduRow: { marginBottom: 6 * k },
+  eduSchool: { fontFamily: 'Helvetica-Bold', fontSize: 8.9 * k, color: C.ink },
+  eduDetail: { marginTop: 1, fontSize: 7.9 * k, color: C.muted },
+  certLine: { marginTop: 4, fontSize: 7.9 * k, color: C.muted },
 });
 
 function Section({ styles, title, note, noRule, children }: { styles: ReturnType<typeof makeStyles>; title: string; note?: string; noRule?: boolean; children: React.ReactNode }) {
@@ -297,14 +290,6 @@ function Bullet({ styles, children }: { styles: ReturnType<typeof makeStyles>; c
   );
 }
 
-function fitCards(role?: TailoredRole) {
-  if (role) return role.whyFit.slice(0, 3).map((w) => [w.point, fitText(w.detail)] as const);
-  return [
-    ['AI product shipped as working systems', 'Builds production AI products from strategy through TypeScript/Python implementation, with deployed outcomes over demos.'],
-    ['Enterprise platform judgment', 'Rebuilt identity, subscription, SSO/SAML/OIDC, and API systems serving high-trust enterprise customers.'],
-    ['Research-to-product range', 'Connects materials-science ML, document AI, 3D interfaces, and developer platforms into usable products.'],
-  ] as const;
-}
 
 export default function ResumePDFDocument(
   { role, scale = 1 }: { role?: TailoredRole; theme?: 'dark' | 'light'; scale?: number; wordmark?: Wordmark } = {},
@@ -330,6 +315,7 @@ export default function ResumePDFDocument(
             </View>
             <Text style={styles.contact}>
               New York, NY{`\n`}
+              817-734-5375{`\n`}
               alexwelcing@gmail.com{`\n`}
               <Link src="https://github.com/alexwelcing" style={styles.contactLink}>github.com/alexwelcing</Link>{`\n`}
               <Link src="https://linkedin.com/in/alexwelcing" style={styles.contactLink}>linkedin.com/in/alexwelcing</Link>
@@ -338,15 +324,6 @@ export default function ResumePDFDocument(
           <View style={styles.targetBlock}>
             <Text style={styles.targetSummary}>{summary}</Text>
           </View>
-        </View>
-
-        <View style={styles.band}>
-          {fitCards(role).map(([point, detail]) => (
-            <View key={point} style={styles.card}>
-              <Text style={styles.cardTitle}>{point}</Text>
-              <Text style={styles.cardText}>{detail}</Text>
-            </View>
-          ))}
         </View>
 
         <Section styles={styles} title="Experience" noRule>
@@ -366,9 +343,21 @@ export default function ResumePDFDocument(
           </View>
         </Section>
 
+        <Section styles={styles} title="Education">
+          {EDUCATION.map((e) => (
+            <View key={e.school} style={styles.eduRow}>
+              <Text style={styles.eduSchool}>{e.school}</Text>
+              <Text style={styles.eduDetail}>{e.credential} · {e.date}</Text>
+            </View>
+          ))}
+          {CERTIFICATIONS.length ? (
+            <Text style={styles.certLine}>Certifications: {CERTIFICATIONS.join(' · ')}</Text>
+          ) : null}
+        </Section>
+
         <View style={styles.bottomGrid}>
           <View style={styles.bottomCol}>
-            <Section styles={styles} title="Capabilities">
+            <Section styles={styles} title="Skills">
               <View style={styles.capabilityGrid}>
                 {capabilities.map(([label, text]) => (
                   <View key={label} style={styles.capability}>
@@ -389,21 +378,6 @@ export default function ResumePDFDocument(
                 </View>
               ))}
             </Section>
-          </View>
-        </View>
-
-        <View style={styles.footerProof}>
-          <View style={styles.footerItem}>
-            <Text style={styles.footerLabel}>Operator range</Text>
-            <Text style={styles.footerText}>Roadmap, customer discovery, systems design, implementation, and launch ownership.</Text>
-          </View>
-          <View style={styles.footerItem}>
-            <Text style={styles.footerLabel}>Enterprise trust</Text>
-            <Text style={styles.footerText}>Identity, permissions, deployment paths, data boundaries, and regulated workflows.</Text>
-          </View>
-          <View style={styles.footerItem}>
-            <Text style={styles.footerLabel}>AI product taste</Text>
-            <Text style={styles.footerText}>Evals, workflow UX, agents, RAG, developer tools, and production feedback loops.</Text>
           </View>
         </View>
       </Page>

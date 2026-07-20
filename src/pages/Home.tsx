@@ -10,7 +10,7 @@ const easeOut = [0, 0, 0.2, 1] as const;
 
 const STATS = [
   { value: '12+ yrs', label: 'shipping product, code, and judgment end-to-end' },
-  { value: 'Billions', label: 'monthly requests served by systems I re-platformed at LBR' },
+  { value: 'Billions', label: 'monthly requests served by systems I re-platformed at ALM' },
   { value: '150+', label: 'enterprise SSO rollouts to AmLaw 200 firms' },
   { value: '0 → $M', label: 'ARR built from scratch at Manatt (legal SaaS)' },
 ];
@@ -18,7 +18,7 @@ const STATS = [
 const PROOF_POINTS = [
   {
     title: 'Identity at billions-scale',
-    description: 'At Law Business Research I re-platformed the identity and subscription system serving billions of requests a month across 10+ products, unifying access models and unlocking new revenue.',
+    description: 'At ALM I re-platformed the identity and subscription system serving billions of requests a month across 10+ products, unifying access models and unlocking new revenue.',
   },
   {
     title: 'AI agents that actually ship',
@@ -33,7 +33,7 @@ const PROOF_POINTS = [
 const OPERATING_POINTS = [
   {
     title: 'Pick the narrowest decision',
-    body: 'At LBR I focused on unifying 10+ identity surfaces into one model — not a rebrand, not a migration. The narrow decision unlocked revenue. I look for the same in new problems.',
+    body: 'At ALM I focused on unifying 10+ identity surfaces into one model — not a rebrand, not a migration. The narrow decision unlocked revenue. I look for the same in new problems.',
   },
   {
     title: 'Ship the code, not the deck',
@@ -215,7 +215,7 @@ function HeroSection() {
             <div className="space-y-3">
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4 border-t border-[var(--border-subtle)] pt-3">
                 <span className="font-caption whitespace-nowrap flex-shrink-0" style={{ color: 'var(--text-tertiary)' }}>SHIPPED</span>
-                <span className="font-body-small sm:text-right" style={{ color: 'var(--text-primary)' }}>lupi.live viewer, lupine.science research, Obsess 3D, Manatt document AI, LBR platform work</span>
+                <span className="font-body-small sm:text-right" style={{ color: 'var(--text-primary)' }}>lupi.live viewer, lupine.science research, Obsess 3D, Manatt document AI, ALM platform work</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4 border-t border-[var(--border-subtle)] pt-3">
                 <span className="font-caption" style={{ color: 'var(--text-tertiary)' }}>TARGET</span>

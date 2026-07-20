@@ -5,7 +5,7 @@
  *  - parseRequirements no longer splits on "-" (kept "5–8+ years", "type-safe", "go-to-market" intact)
  *  - videoId is now slugified (commas/slashes/parens stripped) -> safe filenames/URLs
  *  - parseFitPoints / selectProofPoints are implemented (signal-matched), not stubs
- *  - proof library matches the verified ground truth (LBR / lupi.live / lupine.science / Manatt / Obsess / flagships)
+ *  - proof library matches the verified ground truth (ALM / lupi.live / lupine.science / Manatt / Obsess / flagships)
  *
  * Interfaces are unchanged, so this is a drop-in replacement for src/data/compositionSchema.ts.
  */
@@ -144,7 +144,7 @@ const PROOF_LIBRARY: ProofPointMapping[] = [
   },
   {
     flagshipSlug: 'lbr-identity',
-    title: 'LBR — Identity & Platform',
+    title: 'ALM — Identity & Platform',
     description: 'Re-platformed enterprise identity & subscription at billions of requests/mo; SSO/SAML/OIDC for 150+ AmLaw 200 firms.',
     stat: 'Identity/SSO at billions of requests/mo, 150+ AmLaw 200',
     relevanceTags: ['Identity', 'SSO', 'SAML', 'OIDC', 'Subscription', 'Enterprise'],
@@ -152,7 +152,7 @@ const PROOF_LIBRARY: ProofPointMapping[] = [
   },
   {
     flagshipSlug: 'lbr-workspace',
-    title: 'AI API Execution Workspace (LBR)',
+    title: 'AI API Execution Workspace (ALM)',
     description: 'Type-safe AI API workspace (oRPC) with live introspection and self-improving accuracy across internal APIs.',
     stat: 'Type-safe AI API platform shipped at enterprise scale',
     relevanceTags: ['AI Platform', 'DevTools', 'TypeScript', 'APIs'],

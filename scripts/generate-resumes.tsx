@@ -131,7 +131,7 @@ const TEKSHAPERS_STRENGTHS = [
 
 const TEKSHAPERS_RECENT_JOBS = [
   {
-    company: 'Law Business Research',
+    company: 'ALM',
     role: 'Technical Product Manager',
     date: 'Jan 2024 - Jun 2026',
     bullets: [
@@ -588,11 +588,19 @@ function renderCoverLetterPage(role: TailoredRole, letterText: string): Promise<
       ctx.font = '9px Mono';
       ctx.fillStyle = localPalette.faint;
       ctx.fillText('alexwelcing@gmail.com  ·  welc.ing  ·  github.com/alexwelcing  ·  linkedin.com/in/alexwelcing', MARGIN_X, 78);
-      // Target role strip
-      ctx.font = '700 9px Mono';
+      // Target role strip — company + role only (no label), auto-fit to width
       ctx.fillStyle = localPalette.accent;
-      const roleStrip = `COVER LETTER  ·  ${safeCompany.toUpperCase()}  ·  ${safeTitle.toUpperCase()}${safeLocation ? '  ·  ' + safeLocation.toUpperCase() : ''}`;
-      ctx.fillText(roleStrip.slice(0, 130), MARGIN_X, 100);
+      const stripFull = `${safeCompany.toUpperCase()}${safeTitle ? '  ·  ' + safeTitle.toUpperCase() : ''}`;
+      const stripW = (t: string, size: number) => { ctx.font = `700 ${size}px Mono`; return ctx.measureText(t).width; };
+      let stripSize = 9;
+      while (stripSize > 7 && stripW(stripFull, stripSize) > CONTENT_W) stripSize -= 0.5;
+      let stripText = stripFull;
+      if (stripW(stripText, stripSize) > CONTENT_W) {
+        while (stripText.length > 4 && stripW(stripText + '…', stripSize) > CONTENT_W) stripText = stripText.slice(0, -1);
+        stripText = stripText.replace(/[\s·—–-]+$/, '') + '…';
+      }
+      ctx.font = `700 ${stripSize}px Mono`;
+      ctx.fillText(stripText, MARGIN_X, 100);
       // Divider
       ctx.fillStyle = localPalette.border;
       ctx.fillRect(MARGIN_X, 116, CONTENT_W, 1);
@@ -910,7 +918,7 @@ const BASE_PROOF_LIBRARY: ProofPoint[] = [
   },
   {
     point: 'Enterprise deployment and trust',
-    detail: 'Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.',
+    detail: 'ALM: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.',
   },
   {
     point: 'Document and knowledge-work AI',
@@ -1210,7 +1218,7 @@ function rolePitchVariables(role: TailoredRole, packetUrl: string) {
   const proof = role.proof.length >= 3 ? role.proof : [
     ...role.proof,
     '12+ years shipping product, code, and judgment end-to-end',
-    'Billions of monthly requests served by systems rebuilt at LBR',
+    'Billions of monthly requests served by systems rebuilt at ALM',
     '150+ enterprise SSO rollouts to AmLaw 200 firms',
   ];
   return {
@@ -1226,7 +1234,7 @@ function rolePitchVariables(role: TailoredRole, packetUrl: string) {
     fitPoint3: shortText(fit3?.point, 'Hands-on builder mentality', 58),
     fitPoint3Evidence: shortText(fit3?.detail, role.intro, 134),
     proof1: shortText(proof[0], '12+ years shipping product, code, and judgment end-to-end.', 118),
-    proof2: shortText(proof[1], 'Billions of monthly requests served by systems rebuilt at LBR.', 118),
+    proof2: shortText(proof[1], 'Billions of monthly requests served by systems rebuilt at ALM.', 118),
     proof3: shortText(proof[2], '150+ enterprise SSO rollouts to AmLaw 200 firms.', 118),
     ctaText: `Open the tailored packet for ${role.company}.`,
     packetUrl,
@@ -1331,13 +1339,16 @@ count += 1;
 console.log(`[resumes] plain → ${pageCount(plainBuf)} page(s)`);
 
 // Special canvas-built marketing resume packet.
-await emitTekshapersPacket();
-console.log('[resumes] tekshapers-marketing-expert-genai → canvas packet');
+if (!process.env.ONLY_SLUG) {
+  await emitTekshapersPacket();
+  console.log('[resumes] tekshapers-marketing-expert-genai → canvas packet');
+}
 
 // Base
 await emit(undefined, resolve(publicDir, 'resume.pdf'), resolve(publicDir, 'resume-light.pdf'));
 // Per role
-for (const role of roles) {
+const onlySlug = process.env.ONLY_SLUG;
+for (const role of (onlySlug ? roles.filter((r) => r.slug === onlySlug) : roles)) {
   await emitPacket(role, 'curated-role');
 }
 
@@ -1349,7 +1360,7 @@ const topTargets = parseCsvFile<CsvTopTarget>(resolve(here, '../LinkedIn_Promote
 const companyMap = new Map(companyProfiles.map((c) => [c.Company.toLowerCase(), c]));
 const topTargetMap = new Map(topTargets.map((t) => [`${t.Company}||${t['Role Title']}`.toLowerCase(), t]));
 
-for (const target of topTargets) {
+for (const target of (process.env.ONLY_SLUG ? [] : topTargets)) {
   const match = targetRoles.find(
     (r) => r.Company === target.Company && r['Role Title'] === target['Role Title'],
   );

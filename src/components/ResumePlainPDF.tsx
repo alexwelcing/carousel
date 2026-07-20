@@ -1,6 +1,6 @@
 import { Document, Page, Text, View, StyleSheet, Link, Font } from '@react-pdf/renderer';
 import type { TailoredRole } from '../data/roles';
-import { JOBS } from '../data/experience';
+import { JOBS, EDUCATION, CERTIFICATIONS } from '../data/experience';
 
 Font.registerHyphenationCallback((word) => [word]);
 
@@ -21,10 +21,10 @@ const s = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     color: INK,
     fontFamily: 'Helvetica',
-    fontSize: 9.5,
-    lineHeight: 1.4,
-    paddingTop: 28,
-    paddingBottom: 28,
+    fontSize: 9,
+    lineHeight: 1.32,
+    paddingTop: 24,
+    paddingBottom: 24,
     paddingHorizontal: 58,
   },
 
@@ -56,7 +56,7 @@ const s = StyleSheet.create({
   role: { fontSize: 9.5, color: SUB, fontFamily: 'Helvetica-Oblique', marginTop: 1, marginBottom: 3 },
   bulletRow: { flexDirection: 'row', marginBottom: 2, paddingRight: 6 },
   bulletDot: { width: 10, fontSize: 9.5, color: FAINT },
-  bulletText: { flex: 1, fontSize: 9.5, color: SUB, lineHeight: 1.4 },
+  bulletText: { flex: 1, fontSize: 9, color: SUB, lineHeight: 1.3 },
 
   /* Two-up rows for skills/projects */
   line: { flexDirection: 'row', marginBottom: 3 },
@@ -70,7 +70,7 @@ const s = StyleSheet.create({
   projDesc: { fontSize: 9.5, color: SUB, marginBottom: 3 },
 
   /* Education */
-  eduRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
+  eduRow: { marginBottom: 4 },
   eduSchool: { fontFamily: 'Helvetica-Bold', fontSize: 9.5 },
   eduDegree: { fontSize: 9.5, color: SUB },
 });
@@ -89,7 +89,7 @@ export default function ResumePlainPDFDocument(
 ) {
   const summary = role
     ? role.intro
-    : 'Product-minded engineer who owns problems end to end — from strategy to production code. Fifteen years across AI and enterprise platforms: multi-agent systems, LLM products, and identity infrastructure at billions-scale, built with the autonomy and pace of a founding engineer.';
+    : 'Product-minded engineer who owns problems end to end — from strategy to production code. A decade across AI and enterprise platforms: multi-agent systems, LLM products, and identity infrastructure at billions-scale, built with the autonomy and pace of a founding engineer.';
 
   return (
     <Document
@@ -102,7 +102,7 @@ export default function ResumePlainPDFDocument(
         <Text style={s.name}>Alex Welcing</Text>
         <Text style={s.title}>Technical Product Manager · AI Researcher</Text>
         <Text style={s.contact}>
-          New York, NY  ·  alexwelcing@gmail.com  ·{' '}
+          New York, NY  ·  817-734-5375  ·  alexwelcing@gmail.com  ·{' '}
           <Link src="https://github.com/alexwelcing" style={s.contactLink}>github.com/alexwelcing</Link>
           {'  ·  '}
           <Link src="https://linkedin.com/in/alexwelcing" style={s.contactLink}>linkedin.com/in/alexwelcing</Link>
@@ -172,10 +172,15 @@ export default function ResumePlainPDFDocument(
         </Section>
 
         <Section title="EDUCATION">
-          <View style={s.eduRow}>
-            <Text style={s.eduSchool}>University of Texas at Dallas</Text>
-            <Text style={s.eduDegree}>B.S. Marketing</Text>
-          </View>
+          {EDUCATION.map((e) => (
+            <View key={e.school} style={s.eduRow}>
+              <Text style={s.eduSchool}>{e.school}</Text>
+              <Text style={s.eduDegree}>{e.credential} · {e.date}</Text>
+            </View>
+          ))}
+          {CERTIFICATIONS.length ? (
+            <Text style={s.eduDegree}>Certifications: {CERTIFICATIONS.join(' · ')}</Text>
+          ) : null}
         </Section>
       </Page>
     </Document>

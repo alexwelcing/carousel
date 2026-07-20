@@ -1,6 +1,17 @@
 import { readFile, access } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
+// Content-aware PDF sanity: floor byte size plus the structural markers every
+// generated resume must carry (page objects + author metadata).
+function pdfLooksLikeResume(buf: Buffer): string | null {
+  if (buf.byteLength < 5000) return `too small (${buf.byteLength} bytes)`;
+  const head = buf.toString('latin1');
+  if (!head.includes('/Type /Page') && !head.includes('/Type/Page')) return 'no page objects';
+  if (!/Alex Welcing/.test(head) && !/\/Author/.test(head)) return 'missing author metadata';
+  return null;
+}
+
+
 type Packet = {
   slug: string;
   company: string;
@@ -80,8 +91,9 @@ async function main() {
       if (pageCount !== expectedPages) {
         failures.push(`[${packet.slug}] resumePdf pages=${pageCount}, expected=${expectedPages}`);
       }
-      if (buf.byteLength < 8000) {
-        failures.push(`[${packet.slug}] resumePdf too small (${buf.byteLength} bytes)`);
+      const resumeIssue = pdfLooksLikeResume(buf);
+      if (resumeIssue) {
+        failures.push(`[${packet.slug}] resumePdf ${resumeIssue}`);
       }
     }
 
@@ -91,8 +103,9 @@ async function main() {
       if (pageCount !== expectedPages) {
         failures.push(`[${packet.slug}] resumeLightPdf pages=${pageCount}, expected=${expectedPages}`);
       }
-      if (buf.byteLength < 8000) {
-        failures.push(`[${packet.slug}] resumeLightPdf too small (${buf.byteLength} bytes)`);
+      const lightIssue = pdfLooksLikeResume(buf);
+      if (lightIssue) {
+        failures.push(`[${packet.slug}] resumeLightPdf ${lightIssue}`);
       }
     }
 

@@ -88,7 +88,7 @@ export const flagships: Flagship[] = [
   {
     slug: 'lbr-workspace',
     name: 'AI API Execution Workspace',
-    tag: 'ENTERPRISE AI PLATFORM · LBR',
+    tag: 'ENTERPRISE AI PLATFORM · ALM',
     status: 'SHIPPED AT SCALE',
     description:
       'A type-safe workspace for executing AI APIs with live introspection and self-improving usage accuracy across three internal APIs — built on identity infrastructure I re-architected for billions of monthly requests.',
