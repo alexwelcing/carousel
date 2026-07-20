@@ -1,0 +1,31 @@
+name: packet-qa
+on:
+  push:
+    branches: [main, pipeline-v2]
+  pull_request:
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install (pipeline subset)
+        run: npm install --no-save --no-audit --no-fund @react-pdf/renderer @napi-rs/canvas @chenglou/pretext csv-parse tsx react react-dom typescript @types/react @types/node
+      - name: Typecheck
+        run: npx tsc --noEmit -p tsconfig.app.json
+      - name: Compose generated roles
+        run: npx tsx scripts/compose-roles.ts
+        env:
+          TSX_TSCONFIG_PATH: ./tsconfig.app.json
+      - name: Generate sample packet
+        run: npx tsx scripts/generate-resumes.tsx
+        env:
+          TSX_TSCONFIG_PATH: ./tsconfig.app.json
+          ONLY_SLUG: mastercard-manager-forward-deployed-ai-engineer
+      - name: Validate packets
+        run: npx tsx scripts/validate-resume-packets.ts
+        env:
+          TSX_TSCONFIG_PATH: ./tsconfig.app.json
