@@ -1,7 +1,16 @@
 {
-  "$schema": "./leads.schema.json",
-  "comment": "Input of record for generated application packets. One row per live lead. track selects the narrative template: identity | agents | enterprise | builder.",
+  "comment": "Input of record for generated application packets. Synced from the job tracker (Lauren Leads). Manual fields (track/accent/slug) survive re-sync.",
   "leads": [
+    {
+      "company": "Mastercard",
+      "roleTitle": "Manager, Forward-Deployed AI Engineer — AI Mobilization & Transformation",
+      "location": "Harrison, NY",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=3f28603ca5886f93",
+      "comp": "$161,000 - $266,000",
+      "track": "agents",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
     {
       "company": "JPMorganChase",
       "roleTitle": "AI/LLM Product Manager - Senior Associate",
@@ -10,6 +19,67 @@
       "comp": "$128,250 - $195,000",
       "track": "agents",
       "accent": "#005EB8",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Thomson Reuters",
+      "roleTitle": "Engineering Manager, Materia AI",
+      "location": "Brooklyn, NY (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=708a4db7faed8f79",
+      "comp": "$94,900 - $203,000",
+      "track": "agents",
+      "ats": "Workday",
+      "status": "to-apply"
+    },
+    {
+      "company": "Capital One",
+      "roleTitle": "Manager, Product Manager - Capital One Travel",
+      "location": "New York, NY",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=1b2294d2b183fa1b",
+      "comp": "$179,700 - $205,100",
+      "track": "builder",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Realtor.com",
+      "roleTitle": "Lead Product Manager, Partner Marketplace & Data Platforms",
+      "location": "Austin, TX",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=1c4140c7b9545460",
+      "comp": "Not listed",
+      "track": "enterprise",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Realtor.com / News Corp",
+      "roleTitle": "Lead Product Manager, Partner Marketplace & Data Platforms",
+      "location": "Austin, TX",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=d777b2250504cd57",
+      "comp": "Not listed",
+      "track": "enterprise",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Lucasfilm",
+      "roleTitle": "Sr Product Manager (Customer Solutions & Integration – Skywalker Sound)",
+      "location": "Los Angeles, CA (Remote)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=b14fa44ef3f3f48e",
+      "comp": "$117,500 - $157,500",
+      "track": "builder",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Optum",
+      "roleTitle": "Senior Manager of Technical Project and Program Management - Remote",
+      "location": "Remote (listed Austin, TX)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=5bbd92f47001cc45",
+      "comp": "$112,700 - $193,200",
+      "track": "builder",
+      "ats": "Company site via Indeed",
       "status": "to-apply"
     },
     {
@@ -20,6 +90,47 @@
       "comp": "$134,300 - $255,100",
       "track": "identity",
       "accent": "#049FD9",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Snap Inc.",
+      "roleTitle": "Product Manager, Sponsored AR",
+      "location": "Palo Alto, CA (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=be1f4af47725a454",
+      "comp": "$178,000 - $313,000",
+      "track": "builder",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "DocuSign",
+      "roleTitle": "Senior Product Manager",
+      "location": "Chicago, IL (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=4c7095423658c8b1",
+      "comp": "$140,100 - $206,775",
+      "track": "builder",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "RealPage",
+      "roleTitle": "Senior Director, Internal AI Product Owner",
+      "location": "Richardson, TX (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=2a2191dfb2b377a9",
+      "comp": "$157,600 - $268,400",
+      "track": "agents",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Dow Jones / News Corp",
+      "roleTitle": "Senior Principal Product Manager - Data Platform",
+      "location": "New York, NY (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=ab9ecb1138f45690",
+      "comp": "$175,000 - $215,000",
+      "track": "enterprise",
+      "ats": "Company site via Indeed",
       "status": "to-apply"
     },
     {
@@ -30,6 +141,224 @@
       "comp": "$199,500 - $262,000",
       "track": "agents",
       "accent": "#00B4EF",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Ruxlo / PropertyPilot",
+      "roleTitle": "Head of Product",
+      "location": "Manasquan, NJ (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=86056f048ca111cd",
+      "comp": "Not listed",
+      "track": "builder",
+      "ats": "Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Dow Jones / News Corp",
+      "roleTitle": "Principal Product Manager - Subscriber Activation & Retention",
+      "location": "New York, NY (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=4c9deb8b649873ab",
+      "comp": "$150,000 - $185,000",
+      "track": "enterprise",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "CorGTA",
+      "roleTitle": "AI Tech Lead – Wealth & Asset Management",
+      "location": "Newark, NJ (Hybrid)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=85538ac7d84fb0d8",
+      "comp": "$180,000 - $210,000",
+      "track": "agents",
+      "ats": "Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "Bombas",
+      "roleTitle": "Lead Digital Product Manager – Attract & Discover",
+      "location": "New York, NY (On-site/HQ)",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=ed9c8e85118c6ade",
+      "comp": "$160,000 - $175,000",
+      "track": "builder",
+      "ats": "Company site via Indeed",
+      "status": "to-apply"
+    },
+    {
+      "company": "SymphonyAI",
+      "roleTitle": "VP, AI Value Delivery - Retail (Remote)",
+      "location": "Remote (listing based in New York, NY)",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4390355858/",
+      "comp": "Not listed",
+      "track": "agents",
+      "ats": "LinkedIn",
+      "status": "to-apply"
+    },
+    {
+      "company": "Wealth.com",
+      "roleTitle": "Senior Product Designer, AI-Native Product",
+      "location": "New York, NY (Hybrid; 3 days in office)",
+      "applyUrl": "https://jobs.ashbyhq.com/wealth-com/c1c42030-5a88-49bc-aa4e-137d793763bb/application",
+      "comp": "$190,000 - $200,000",
+      "track": "agents",
+      "ats": "Ashby",
+      "status": "to-apply"
+    },
+    {
+      "company": "Walmart",
+      "roleTitle": "(USA) Principal, Product Manager",
+      "location": "Hoboken, NJ / Sunnyvale, CA",
+      "applyUrl": "https://careers.walmart.com/us/en/jobs/R-2546056",
+      "comp": "Hoboken: $132,000 - $264,000; Sunnyvale: $143,000 - $286,000",
+      "track": "enterprise",
+      "ats": "Phenom",
+      "status": "to-apply"
+    },
+    {
+      "company": "InVitro Cell Research, LLC",
+      "roleTitle": "AI & LLM Applications Scientist",
+      "location": "Englewood, NJ",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4437272591/",
+      "comp": "$155,000 - $215,000 + annual bonus",
+      "track": "agents",
+      "ats": "LinkedIn",
+      "status": "to-apply"
+    },
+    {
+      "company": "CoreWeave / Weights & Biases",
+      "roleTitle": "Engineering Manager, Launch & Sandboxes",
+      "location": "Livingston, NJ / New York, NY",
+      "applyUrl": "https://coreweave.com/careers/job?board=weights_and_biases&gh_jid=4667333006",
+      "comp": "$165,000 to $242,000",
+      "track": "builder",
+      "status": "to-apply"
+    },
+    {
+      "company": "Primary",
+      "roleTitle": "Forward Deployed Product Manager - Finance",
+      "location": "New York, NY (On-site)",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4437281542/",
+      "track": "agents",
+      "ats": "LinkedIn",
+      "status": "to-apply"
+    },
+    {
+      "company": "Baseten",
+      "roleTitle": "Applied AI Inference Engineer",
+      "location": "New York, NY / San Francisco, CA",
+      "applyUrl": "https://jobs.ashbyhq.com/baseten/90e9ff4e-1225-4b1b-b0b4-2362e36d9cfa/application",
+      "comp": "$165,000 - $330,000",
+      "track": "agents",
+      "ats": "Ashby",
+      "status": "to-apply"
+    },
+    {
+      "company": "World Wide Technology",
+      "roleTitle": "AI Services Consultant - Global",
+      "location": "Multiple U.S. locations",
+      "applyUrl": "https://myjobs.adp.com/wwtexternalcareersite/cx/job-details?reqId=5001197483806",
+      "comp": "$170,000 - $190,000",
+      "track": "agents",
+      "ats": "ADP Recruiting",
+      "status": "to-apply"
+    },
+    {
+      "company": "LangChain",
+      "roleTitle": "Product Manager, LangSmith",
+      "location": "New York, NY / Boston, MA / San Francisco, CA",
+      "applyUrl": "https://jobs.ashbyhq.com/langchain/27af5f96-b287-4bcc-8679-f96686dc7c8d/application",
+      "comp": "$180,000 - $215,000",
+      "track": "builder",
+      "ats": "Ashby",
+      "status": "to-apply"
+    },
+    {
+      "company": "NVIDIA",
+      "roleTitle": "Principal Product Manager",
+      "location": "Santa Clara, CA",
+      "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Product-Manager_JR2017591",
+      "comp": "240,000 USD - 379,500",
+      "track": "enterprise",
+      "ats": "Workday",
+      "status": "to-apply"
+    },
+    {
+      "company": "State Street",
+      "roleTitle": "AI Product Readiness Program Manager - VP",
+      "location": "Burlington, MA",
+      "applyUrl": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/AI-Product-Readiness-Program-Manager---VP_R-793756",
+      "comp": "$110,000 - $188,750",
+      "track": "agents",
+      "ats": "Workday",
+      "status": "to-apply"
+    },
+    {
+      "company": "PwC",
+      "roleTitle": "Strategy& Fit For Growth AI Strategy Manager",
+      "location": "Multiple U.S. locations (including New York, NY)",
+      "applyUrl": "https://jobs.us.pwc.com/job/-/-/932/90424145648",
+      "comp": "$99,000 - $232,000",
+      "track": "agents",
+      "ats": "Workday",
+      "status": "to-apply"
+    },
+    {
+      "company": "Databricks",
+      "roleTitle": "Sr. Product Manager - Technical",
+      "location": "New York City, NY",
+      "applyUrl": "https://www.databricks.com/company/careers/product/sr-product-manager---technical-8387085002",
+      "comp": "$156,600 - $215,250",
+      "track": "builder",
+      "ats": "Greenhouse",
+      "status": "to-apply"
+    },
+    {
+      "company": "Selective Insurance",
+      "roleTitle": "Forward Deployed AI Leader - Excess & Surplus (Hybrid)",
+      "location": "Short Hills, NJ (Hybrid)",
+      "applyUrl": "https://jobs.selective.com/jobs/5488?lang=en-us",
+      "comp": "$163,000 - $220,000",
+      "track": "agents",
+      "ats": "Phenom",
+      "status": "to-apply"
+    },
+    {
+      "company": "Google",
+      "roleTitle": "Product Manager, Google Docs",
+      "location": "New York, NY",
+      "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/80109378945852102-product-manager/",
+      "comp": "$192,000 - $279,000 + 20% bonus target + equity",
+      "track": "builder",
+      "ats": "Google Careers",
+      "status": "to-apply"
+    },
+    {
+      "company": "Bloomberg",
+      "roleTitle": "Technical Product Manager - AI Ready Data",
+      "location": "New York, NY",
+      "applyUrl": "https://bloomberg.avature.net/careers/JobDetail/Technical-Product-Manager-AI-Ready-Data/17713",
+      "comp": "$140,000 - $295,000",
+      "track": "agents",
+      "ats": "Avature",
+      "status": "to-apply"
+    },
+    {
+      "company": "Goldman Sachs",
+      "roleTitle": "Asset & Wealth Management, Asset Management, Digital Advocacy",
+      "location": "New York, NY",
+      "applyUrl": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/165846?mode=job",
+      "comp": "$85000 - $160000",
+      "track": "builder",
+      "status": "to-apply"
+    },
+    {
+      "company": "Humana",
+      "roleTitle": "Lead AI Product Manager",
+      "location": "New York, NY",
+      "applyUrl": "https://careers.humana.com/us/en/job/R-414064/Lead-AI-Product-Manager",
+      "comp": "$151,600 - $208,400",
+      "track": "agents",
+      "ats": "Phenom",
       "status": "to-apply"
     }
   ]

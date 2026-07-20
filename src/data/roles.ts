@@ -61960,7 +61960,11 @@ export function getRole(slug: string | undefined): TailoredRole | undefined {
 /*  Pipeline v2: leads.json -> compose-roles.ts -> roles.generated.json  */
 /*  Generated entries merge in at build time; curated slugs win.        */
 /* ------------------------------------------------------------------ */
+const norm = (v: string) => v.toLowerCase().replace(/[^a-z0-9]+/g, '');
 const generatedRoles = (generatedRolesJson as TailoredRole[]).filter(
-  (g) => !roles.some((r) => r.slug === g.slug),
+  (g) => !roles.some(
+    (r) => r.slug === g.slug
+      || (norm(r.company) === norm(g.company) && norm(r.roleTitle) === norm(g.roleTitle)),
+  ),
 );
 roles.push(...generatedRoles);
