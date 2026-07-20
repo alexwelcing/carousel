@@ -1,0 +1,24 @@
+Hiring Team at Circle
+
+I am applying for the Lead Product Manager, Token role (New York City Metropolitan Area).
+
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
+
+Why I am a strong fit:
+- Circle is building Programmable money / developer APIs, wallets, payment rails; emerging agentic-commerce /… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- platform PM with security/identity depth: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Ive shipped the work this role calls for — including: Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.
+
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-hnfj2s
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-hnfj2s

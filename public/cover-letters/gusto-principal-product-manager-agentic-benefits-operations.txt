@@ -2,26 +2,23 @@ Hiring Team at Gusto
 
 I am applying for the Principal Product Manager, Agentic Benefits Operations role (New York, NY).
 
-My pitch for this role is simple: I bring experience shipping production AI agents for ops-heavy, document-laden workflows and translating that into measurable automation/cost wins.
-
-Very strong: Alex's AI-agents & devtools PM work (Obsess) plus document-AI/ops experience (Manatt) maps directly to agentic back-office automation; identity/security background helps with benefits-data compliance.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 8+ yrs PM, several at principal/staff level: I bring experience shipping production AI agents for ops-heavy, document-laden workflows and translating that into measurable automation/cost wins.
+- Gusto is building AI generates ~50% of new code and handles ~50% of support; payroll runnable inside… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- I ship production AI agents for ops-heavy, document-laden workflows and translating that into measurable automation/cost wins: Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Document and knowledge-work AI
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-169mqgy
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-169mqgy

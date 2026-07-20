@@ -2,26 +2,23 @@ Hiring Team at Datadog
 
 I am applying for the Director, Product Management - AI Observability role (New York, NY).
 
-My pitch for this role is simple: I bring experience Obsess AI-agents & developer-tools PM work plus document-AI at Manatt to show end-to-end ownership of AI/LLM products; frame as the AI-native PM who can define agent observability.
-
-Strong fit on AI/agents and devtools, but this is a people-leadership Director role; Alex's PM scope skews IC/lead so the management bar may be a gap.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Platform and developer-tooling product work.
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
-- 10+ yrs PM incl. people leadership: I bring experience Obsess AI-agents & developer-tools PM work plus document-AI at Manatt to show end-to-end ownership of AI/LLM products; frame as the AI-native PM who can define agent observability.
+- Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- native PM who can define agent observability: Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Ive shipped the work this role calls for — including: Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Document and knowledge-work AI
-- Platform and developer-tooling product work
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1lptptl
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-1lptptl

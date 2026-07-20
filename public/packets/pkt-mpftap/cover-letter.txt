@@ -1,0 +1,19 @@
+Hiring Team at EliseAI
+
+I am applying for the Product Solutions Lead role (New York, NY).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Why I am a strong fit:
+- EliseAI is building Domain-specific conversational AI agents automating operations across multifamily housing and… — my relevant shipped work: Lupine Science — Alexs materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.
+- I translat AI-agent capabilities into deployed customer solutions — bridge technical product depth and customer outcomes: Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Ive shipped the work this role calls for — including: Led the 3D experience platform at Obsess — avatars, analytics, SOC 2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-mpftap
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-mpftap

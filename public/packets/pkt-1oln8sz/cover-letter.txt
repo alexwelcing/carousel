@@ -1,0 +1,24 @@
+Hiring Team at Scientific ML / Materials AI
+
+I am applying for the Scientific ML Product Roles role (NYC / Remote / Research-product teams).
+
+My pitch for this role is simple: Built for scientific AI, materials discovery, research-product, simulation, ML platform, and computational-science roles connecting mathematical work to usable product surfaces.
+
+Why I am a strong fit:
+- Two surfaces for one scientific system: lupi.live is the R3F/WebGL molecule viewer for inspecting molecular structures and trajectories; lupine.science is the company and mathematical research layer around MLIP benchmarks and phase-change simulation.
+- Research-grade work presented as product: Built Python scientific-computing pipelines and TypeScript/WebGL interfaces so technical claims, model behavior, and molecular visualization become inspectable rather than hidden in notebooks.
+- Broad enough to connect science, product, and GTM: Across Manatt, LBR, Obsess, and Arkadium I have repeatedly translated complex expert domains into systems with users, revenue, and deployment constraints — the same muscle scientific AI needs to leave the lab.
+
+A few shipped reference points:
+- lupi.live: R3F/WebGL molecule viewer live in browser
+- lupine.science: mathematical/company research layer for materials-science AI
+- MLIP benchmarks, phase-change simulation, Python pipelines, and product-facing visualization
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1oln8sz
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1oln8sz

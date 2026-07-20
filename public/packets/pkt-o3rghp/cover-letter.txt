@@ -1,0 +1,24 @@
+Hiring Team at Capital One
+
+I am applying for the Senior Product Manager, AI & Developer Productivity Data Strategy role (New York, NY).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.
+
+Why I am a strong fit:
+- Capital One is building Enterprise AI/ML platforms, agentic AI for customer assistance, developer productivity, and data… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- I build AI developer tooling at Obsess and the metrics proving developer productivity gains: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+- Ive shipped the work this role calls for — including: Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
+
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-o3rghp
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-o3rghp

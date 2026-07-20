@@ -1,0 +1,22 @@
+Hiring Team at Rockstar Games
+
+I am applying for the Associate Principal Product Manager, Platform role (Manhattan, NY).
+
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+
+Why I am a strong fit:
+- Rockstar Games is building No prominent public AI product; AI a contentious internal/labor topic — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- a platform PM with identity/accounts and security experience for large-scale online services: Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Ive shipped the work this role calls for — including: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
+
+A few shipped reference points:
+- Private subsidiary of Take-Two Interactive (NASDAQ: TTWO)
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-10oe3qg
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-10oe3qg

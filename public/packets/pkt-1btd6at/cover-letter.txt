@@ -2,26 +2,23 @@ Hiring Team at Twilio
 
 I am applying for the Staff Product Manager - Enterprise AI role (United States).
 
-My pitch for this role is simple: I bring experience building AI agents and developer platforms (Obsess) that enterprises adopt; tie to conversational AI.
-
-Excellent fit: Obsess AI-agents/devtools + platform PM map directly to enterprise AI/agentic communications.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Platform and developer-tooling product work, Hands-on product plus engineering range.
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Platform and developer-tooling product work: Obsess and internal platform work: built developer-facing systems, APIs, and product surfaces that other teams depended on.
-- 8+ yrs PM, ideally platform/AI: I bring experience building AI agents and developer platforms (Obsess) that enterprises adopt; tie to conversational AI.
+- Twilio is building ConversationRelay and AI Assistants, agentic/conversational AI for customer engagement, and Segment… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- I build AI agents and developer platforms (Obsess) that enterprises adopt; tie to conversational AI: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+- Ive shipped the work this role calls for — including: Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Platform and developer-tooling product work
-- Hands-on product plus engineering range
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1btd6at
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-1btd6at

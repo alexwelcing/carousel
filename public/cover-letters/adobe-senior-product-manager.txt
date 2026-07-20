@@ -1,0 +1,23 @@
+Hiring Team at Adobe
+
+I am applying for the Senior Product Manager role (New York, NY).
+
+My pitch for this role is simple: I'm a product PM who has driven subscription growth at scale. Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.
+
+Why I am a strong fit:
+- Adobe is building Firefly generative AI, Acrobat AI Assistant, AI in Creative Cloud and Experience Cloud; heavy push… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- AI product launches and subscription/user-growth wins to fit Adobes product-led-growth + AI culture: Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Ive shipped the work this role calls for — including: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
+
+A few shipped reference points:
+- Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-tqwd0l
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-tqwd0l

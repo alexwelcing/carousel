@@ -2,26 +2,23 @@ Hiring Team at SecurityScorecard
 
 I am applying for the Senior Product Manager, AI role (New York City Metropolitan Area).
 
-My pitch for this role is simple: I bring experience the agent story (CreateSuite: autonomous orchestration, git-backed persistence, six providers) and back it with LBR's type-safe AI API workspace. Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
-
-On the agent side Alex isn't theoretical -- his solo-built CreateSuite is an autonomous multi-agent orchestration system with git-backed persistence spanning six model providers. That pairs naturally with SecurityScorecard's push into Agentic AI workflows for risk detection/response and his developer-facing AI API platform at LBR.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Platform and developer-tooling product work.
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 5+ yrs PM: I bring experience the agent story (CreateSuite: autonomous orchestration, git-backed persistence, six providers) and back it with LBR's type-safe AI API workspace. Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+- SecurityScorecard is building Agentic AI workflows for risk detection/response; LLM pipelines, retrieval, eval frameworks — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- hands-on agentic AI shipping at Obsess + security credibility from LBR: Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
+- Ive shipped the work this role calls for — including: Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Platform and developer-tooling product work
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-9is3cv
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-9is3cv

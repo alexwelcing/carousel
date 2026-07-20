@@ -1,0 +1,24 @@
+Hiring Team at Morgan Stanley
+
+I am applying for the Product Manager- AI and Transformation Strategy role (New York, NY).
+
+My pitch for this role is simple: I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.
+
+Why I am a strong fit:
+- Morgan Stanley is building Enterprise GenAI (AI @ Morgan Stanley Assistant/Debrief built with OpenAI) for advisors; AI/data… — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- AI deployment in regulated/professional settings (Manatt document: Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
+- Ive shipped the work this role calls for — including: Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.
+
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-11c7azp
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-11c7azp

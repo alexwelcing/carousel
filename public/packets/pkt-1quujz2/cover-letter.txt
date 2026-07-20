@@ -1,0 +1,24 @@
+Hiring Team at Bloomberg
+
+I am applying for the Technical Product Manager - Data AI role (New York, NY).
+
+My pitch for this role is simple: I'm a product-builder who has shipped document AI end-to-end. Devised AI-based document scanning for legal publication — automated image selection, sharpened knowledge-graph precision, eliminated manual error.
+
+Why I am a strong fit:
+- Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- I apply LLMs to extract/structure messy enterprise documents and data (Manatt), tied to measurable quality gains: Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Ive shipped the work this role calls for — including: Shipped document understanding pipelines that turned unstructured legal text into structured graph data.
+
+A few shipped reference points:
+- Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Devised AI-based document scanning for legal publication — automated image selection, sharpened knowledge-graph precision, eliminated manual error.
+- Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1quujz2
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1quujz2

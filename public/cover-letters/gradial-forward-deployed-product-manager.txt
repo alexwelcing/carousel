@@ -2,26 +2,23 @@ Hiring Team at Gradial
 
 I am applying for the Forward Deployed Product Manager role (New York, NY).
 
-My pitch for this role is simple: I bring experience hands-on, customer-embedded shipping of AI agents into enterprise workflows; emphasize technical + client-facing combo.
-
-Excellent fit: AI-agents + devtools/platform PM (Obsess) plus enterprise document/workflow experience map directly to deploying agents at clients.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Platform and developer-tooling product work.
+My pitch for this role is simple: I'm a hands-on PM who translates customer workflow pain into usable systems. I led enterprise 3D platform work at Obsess and have shipped AI/API tooling where adoption depends on trust, iteration, and implementation detail.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
-- 5+ yrs PM, ideally customer-facing/FDE: I bring experience hands-on, customer-embedded shipping of AI agents into enterprise workflows; emphasize technical + client-facing combo.
+- Enterprise workflow platform PM: Led Obsess 3D platform for global brand deployments: avatars, analytics, and SOC 2.
+- AI tooling with implementation depth: Shipped an oRPC AI API workspace with live introspection and accuracy feedback loops.
+- High-trust customer deployment: Ran SSO, SAML, and OIDC onboarding for 150+ AmLaw 200 firms while owning platform outcomes.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Document and knowledge-work AI
-- Platform and developer-tooling product work
+A few shipped reference points:
+- Enterprise platform work for Alo, Moncler, and Ralph Lauren at Obsess
+- SSO/SAML/OIDC onboarding for 150+ AmLaw 200 firms
+- 1000+ Lupine repo commits in 2026
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-7nad9c
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-7nad9c

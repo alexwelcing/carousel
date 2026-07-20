@@ -1,0 +1,24 @@
+Hiring Team at Tessera Labs
+
+I am applying for the Product Manager role (New York, NY).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Why I am a strong fit:
+- Tessera Labs is building Multi-agent AI for governed, automated enterprise software migration/modernization (SAP… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- multi-agent product experience and 0-to-1 building; frame document-AI/platform work as governing complex, high-stakes enterprise automation: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+- Ive shipped the work this role calls for — including: Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1pfqycf
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1pfqycf

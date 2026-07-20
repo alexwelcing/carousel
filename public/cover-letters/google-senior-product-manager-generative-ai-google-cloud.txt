@@ -2,26 +2,23 @@ Hiring Team at Google
 
 I am applying for the Senior Product Manager, Generative AI, Google Cloud role (New York, NY).
 
-My pitch for this role is simple: I bring experience shipping AI/agent developer tools at Obsess and document-AI products at Manatt; position as an enterprise generative-AI PM who ships, not just strategizes.
-
-Strong fit: IC senior PM on generative-AI devtools maps cleanly to Alex's Obsess (AI agents/devtools) and document-AI (Manatt) experience.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Platform and developer-tooling product work.
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
-- 5+ years product management: I bring experience shipping AI/agent developer tools at Obsess and document-AI products at Manatt; position as an enterprise generative-AI PM who ships, not just strategizes.
+- Google is building Gemini models, Vertex AI / Cloud AI agent platforms, Google Labs generative media (Imagen, Veo),… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- I ship AI/agent developer tools at Obsess and document: Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Document and knowledge-work AI
-- Platform and developer-tooling product work
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-gpoptj
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-gpoptj

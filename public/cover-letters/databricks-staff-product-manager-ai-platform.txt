@@ -1,0 +1,27 @@
+Hiring Team at Databricks
+
+I am applying for the Staff Product Manager, AI Platform role (San Francisco, CA).
+
+My pitch for this role is simple: Obsess: 3D/agent platform for Alo/Moncler/Ralph Lauren; CreateSuite multi-agent orchestration built solo
+
+Staff PM owning core AI platform capabilities (model serving, agents, ML tooling) on Databricks — setting strategy for how customers build and deploy AI/agentic apps My track record — Obsess: 3D/agent platform for Alo/Moncler/Ralph Lauren; CreateSuite multi-agent orchestration built solo — maps directly to the ai agents & developer tools work this role demands.
+
+The strongest proof for this application is that I have already done adjacent work across $220–$260K base (estimate), $10B raised, AI focus: Mosaic AI, Agent Bricks, model training/serving, and GenAI tooling on the Lakehouse; acquired MosaicML, Tabular, and oth….
+
+Why I am a strong fit:
+- Obsess agent-platform work as 'building the platform customers use to ship agentic AI apps.': Obsess: 3D/agent platform for Alo/Moncler/Ralph Lauren; CreateSuite multi-agent orchestration built solo
+- on AI/agents platform; Staff level expects deep ML-platform tenure (stretch).: Obsess: 3D/agent platform for Alo/Moncler/Ralph Lauren; CreateSuite multi-agent orchestration built solo
+- I meet the bar on 'Deep understanding of LLMs, agents, model serving' — the work itself is in my shipped portfolio.: Obsess: 3D/agent platform for Alo/Moncler/Ralph Lauren; CreateSuite multi-agent orchestration built solo
+
+Selected proof points:
+- $220–$260K base (estimate)
+- $10B raised
+- AI focus: Mosaic AI, Agent Bricks, model training/serving, and GenAI tooling on the Lakehouse; acquired MosaicML, Tabular, and oth…
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

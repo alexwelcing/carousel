@@ -2,26 +2,23 @@ Hiring Team at The D. E. Shaw Group
 
 I am applying for the Senior Product Manager - Applied AI role (New York, NY).
 
-My pitch for this role is simple: I bring experience 'shipped AI agents and document-AI that augmented expert knowledge workers' (Obsess + Manatt).
-
-Excellent fit: directly matches Alex's AI-agents + document-AI PM experience for knowledge workers.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Hands-on product plus engineering range.
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
-- 6+ yrs PM, ideally AI/ML applied: I bring experience 'shipped AI agents and document-AI that augmented expert knowledge workers' (Obsess + Manatt).
+- The D. E. Shaw Group is building Applied AI/ML for research and internal platforms; building AI-powered tooling for private-equity… — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- shipped AI agents and document-AI that augmented expert knowledge workers (Obsess + Manatt): Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Ive shipped the work this role calls for — including: Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Document and knowledge-work AI
-- Hands-on product plus engineering range
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-14g58t5
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-14g58t5

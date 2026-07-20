@@ -1,0 +1,24 @@
+Hiring Team at Reflection
+
+I am applying for the Product Manager - OSS role (New York, NY).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Why I am a strong fit:
+- Reflection is building Frontier open-source LLMs, autonomous coding systems/agents; part of NVIDIAs Nemotron open-model… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- agent PM experience: Integrated MCP servers and agent skills into production research tooling.
+- Ive shipped the work this role calls for — including: Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-8zb67c
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-8zb67c

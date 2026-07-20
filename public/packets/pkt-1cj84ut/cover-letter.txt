@@ -1,0 +1,19 @@
+Hiring Team at Hopper
+
+I am applying for the Principal Product Manager, HTS API Marketplace role (Dallas, TX).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+
+Why I am a strong fit:
+- Hopper is building Predictive price-forecasting ML (core IP) and fintech-as-a-service add-ons (price freeze,… — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- platform/API and partner: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1cj84ut
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1cj84ut

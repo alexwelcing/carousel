@@ -2,26 +2,23 @@ Hiring Team at Gartner
 
 I am applying for the Sr. Platform Product Manager, AI Platform role (Stamford, CT).
 
-My pitch for this role is simple: I bring experience AI-platform/devtools framing: Obsess agent tooling + Manatt RAG/document-AI as proof Alex builds the AI platform others build on.
-
-Very strong: AI/agents + platform/devtools is exactly this role; document-AI/RAG (Manatt) reinforces the fit.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Platform and developer-tooling product work.
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
-- 6+ yrs PM, platform focus: I bring experience AI-platform/devtools framing: Obsess agent tooling + Manatt RAG/document-AI as proof Alex builds the AI platform others build on.
+- Gartner is building AskGartner AI tool for accessing proprietary insights; building an internal AI platform to deliver… — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- AI-platform/devtools framing: Obsess agent tooling + Manatt RAG/document-AI as proof Alex builds the AI platform others build on: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+- Ive shipped the work this role calls for — including: Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Document and knowledge-work AI
-- Platform and developer-tooling product work
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1jlwza3
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-1jlwza3

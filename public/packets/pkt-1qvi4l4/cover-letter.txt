@@ -1,0 +1,24 @@
+Hiring Team at Scaled Cognition
+
+I am applying for the Product Manager role (New York City Metropolitan Area).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
+
+Why I am a strong fit:
+- Scaled Cognition is building Agentic foundation models / agent-native training (core product) — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- the rare PM who has actually shipped AI-agent + devtool products (Obsess), able to translate APT-1s research edge into developer-ready product: Integrated MCP servers and agent skills into production research tooling.
+- Ive shipped the work this role calls for — including: Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1qvi4l4
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1qvi4l4

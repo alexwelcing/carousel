@@ -1,0 +1,24 @@
+Hiring Team at NVIDIA
+
+I am applying for the Product Manager - Open Models role (California, United States).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Why I am a strong fit:
+- NVIDIA is building Full AI stack: GPUs, CUDA, NIM microservices, Nemotron open models, AI infrastructure software, and… — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- tools/AI PM track record: Integrated MCP servers and agent skills into production research tooling.
+- Ive shipped the work this role calls for — including: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-tlicd4
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-tlicd4

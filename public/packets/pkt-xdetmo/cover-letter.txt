@@ -1,0 +1,19 @@
+Hiring Team at Pax8
+
+I am applying for the Sr. Product Manager - Platform Engineering role (United States).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+
+Why I am a strong fit:
+- Pax8 is building AI and enablement in the Pax8 Marketplace; platform engineering for a global cloud commerce… — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- I engineer PM who improves developer velocity and reliability: Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.
+- Ive shipped the work this role calls for — including: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-xdetmo
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-xdetmo

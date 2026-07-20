@@ -1,0 +1,22 @@
+Hiring Team at Moxxi Digital
+
+I am applying for the Lead AI Product Manager role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Built High Era — a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator.
+
+Why I am a strong fit:
+- Moxxi Digital is building 'AI-native automations,' ad-serving and audience-management optimization — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- Arkadium platform-PM + AI-automation as ready-made to ship AI-native ad automation without ramp time. Verify the roles scope and company stability first: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+A few shipped reference points:
+- Bootstrapped, small NYC performance-marketing/adtech firm (small/intermediary-is
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-8q2lip
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-8q2lip

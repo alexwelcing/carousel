@@ -1,0 +1,24 @@
+Hiring Team at Scale AI
+
+I am applying for the Product Manager, Data Engine role (New York City Metropolitan Area).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Why I am a strong fit:
+- Scale AI is building Data Engine for training data; LLM evaluation & test/eval (incl — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- AI/agents + document: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Built High Era — a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator.
+
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-43epsc
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-43epsc

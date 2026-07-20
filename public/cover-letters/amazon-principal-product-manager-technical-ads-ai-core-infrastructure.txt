@@ -1,0 +1,27 @@
+Hiring Team at Amazon
+
+I am applying for the Principal Product Manager - Technical, Ads AI Core Infrastructure role (New York, NY).
+
+My pitch for this role is simple: Arkadium: NLP partnerships, $1M+ revenue contribution; LBR workspace rebuilds
+
+Principal technical PM owning core AI infrastructure for Amazon Ads — the foundational ML/AI platform services (model serving, pipelines, tooling) that ads applications depend on My track record — Arkadium: NLP partnerships, $1M+ revenue contribution; LBR workspace rebuilds — maps directly to the platform pm work this role demands.
+
+The strongest proof for this application is that I have already done adjacent work across $200–$240K base (estimate), $600B raised, AI focus: Bedrock/Nova foundation models, advertising AI (measurement, MMM), agentic AI, and identity/authorization infra for AI a….
+
+Why I am a strong fit:
+- owning AI/agent platform infrastructure that other product teams built on, with measurable scale.: Arkadium: NLP partnerships, $1M+ revenue contribution; LBR workspace rebuilds
+- Domain fit on AI platforms is strong, but Principal/L7 expects very senior, large-scope tenure — a stretch.: Arkadium: NLP partnerships, $1M+ revenue contribution; LBR workspace rebuilds
+- I meet the bar on '8-10+ yrs technical PM, platform/infra' — the work itself is in my shipped portfolio.: Arkadium: NLP partnerships, $1M+ revenue contribution; LBR workspace rebuilds
+
+Selected proof points:
+- $200–$240K base (estimate)
+- $600B raised
+- AI focus: Bedrock/Nova foundation models, advertising AI (measurement, MMM), agentic AI, and identity/authorization infra for AI a…
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+https://github.com/alexwelcing
+https://linkedin.com/in/alexwelcing

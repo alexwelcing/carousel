@@ -1,0 +1,24 @@
+Hiring Team at AI Product / Platform
+
+I am applying for the Principal / Staff Product Roles role (NYC / Remote / Hybrid).
+
+My pitch for this role is simple: Built for broadly technical AI product, platform PM, and product-leadership roles where production judgment matters: AI systems, enterprise deployment, and hands-on TypeScript/Python builder credibility.
+
+Why I am a strong fit:
+- AI product shipped as working systems: Built lupi.live as a real R3F/WebGL molecule viewer and lupine.science as the research/company layer behind the materials-science work; shipped an AI API execution workspace at LBR with type safety, live introspection, and self-improving usage accuracy.
+- Platform judgment from enterprise systems: Re-platformed identity and subscription infrastructure across 10+ LBR products serving billions of monthly requests, then translated the same operating discipline into AI, document intelligence, and developer-facing workflows.
+- Product taste plus implementation depth: Led 3D commerce platform work for Alo, Moncler, and Ralph Lauren at Obsess, built legal document AI and IAM at Manatt, and can prototype in TypeScript/Python rather than handing execution to someone else.
+
+A few shipped reference points:
+- 12+ years shipping product, code, and judgment end-to-end
+- Billions of monthly requests served by systems rebuilt at LBR
+- AI, document understanding, 3D interfaces, and enterprise platforms in one operating model
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1eihmyl
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1eihmyl

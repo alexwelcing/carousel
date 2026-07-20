@@ -1,0 +1,19 @@
+Hiring Team at Permutive
+
+I am applying for the Senior Product Manager (Curation) role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+
+Why I am a strong fit:
+- Permutive is building AI-driven audience modeling and proprietary taxonomy to build curated, privacy-safe targeting… — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- platform/data PM and identity/privacy experience (LBR), framing first-party data & privacy as core to curation: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+- Ive shipped the work this role calls for — including: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1lfrmr7
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1lfrmr7

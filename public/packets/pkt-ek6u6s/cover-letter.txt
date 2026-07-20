@@ -2,26 +2,23 @@ Hiring Team at JPMorganChase
 
 I am applying for the Senior Product Manager - Applied AI - Vice President role (New York, NY).
 
-My pitch for this role is simple: I bring experience as a builder who turns AI prototypes into adopted, measurable products — cite agent/devtool launches and document-AI outcomes.
-
-Strong: applied-AI delivery is squarely Alex's wheelhouse (Obsess agents, Manatt doc-AI).
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Document and knowledge-work AI, Hands-on product plus engineering range.
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Document and knowledge-work AI: Manatt: AI document scanning and knowledge-graph improvements for legal publishing workflows where precision mattered.
-- 6-9+ yrs PM incl. applied AI/ML: I bring experience as a builder who turns AI prototypes into adopted, measurable products — cite agent/devtool launches and document-AI outcomes.
+- JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,… — my relevant shipped work: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- a builder who turns AI prototypes into adopted, measurable products — cite agent/devtool launches and document-AI outcomes: Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.
+- Ive shipped the work this role calls for — including: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Document and knowledge-work AI
-- Hands-on product plus engineering range
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-ek6u6s
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-ek6u6s

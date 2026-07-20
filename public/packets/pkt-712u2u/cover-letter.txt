@@ -1,0 +1,24 @@
+Hiring Team at Bloomberg
+
+I am applying for the Product Manager - Data User Experience - BQuant role (New York, NY).
+
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.
+
+Why I am a strong fit:
+- Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- developer-tools PM experience at Obsess — building productive tooling experiences for technical end users: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
+- Ive shipped the work this role calls for — including: Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.
+
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-712u2u
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-712u2u

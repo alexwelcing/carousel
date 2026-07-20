@@ -1,0 +1,23 @@
+Hiring Team at Gen
+
+I am applying for the Senior Product Manager – Norton 360 role (New York, NY).
+
+My pitch for this role is simple: I'm a product PM who has driven subscription growth at scale. Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+
+Why I am a strong fit:
+- Gen is building 'Gen AI Foundry' trust layer; Norton 'Family Assistant' secure AI agent; AI-enhanced security;… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- security/identity PM track record plus subscription bundle growth — exactly Norton 360s needs: Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.
+- Ive shipped the work this role calls for — including: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+
+A few shipped reference points:
+- Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-10pbrjr
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-10pbrjr

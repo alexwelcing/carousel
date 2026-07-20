@@ -1,0 +1,24 @@
+Hiring Team at Bloomberg
+
+I am applying for the Technical Product Manager - AI Ready Data role (New York, NY).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+
+Why I am a strong fit:
+- Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Manatt document-AI work as making enterprise data AI-ready for RAG and agent pipelines.: Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
+- Ive shipped the work this role calls for — including: Shipped document understanding pipelines that turned unstructured legal text into structured graph data.
+
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-13o6yg
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-13o6yg

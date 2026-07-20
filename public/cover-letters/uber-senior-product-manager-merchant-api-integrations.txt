@@ -1,0 +1,19 @@
+Hiring Team at Uber
+
+I am applying for the Senior Product Manager - Merchant API Integrations role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.
+
+Why I am a strong fit:
+- Uber is building ML for pricing/matching/ETA, AV (autonomous vehicle) integrations and partnerships, merchant/API… — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- tools and API/platform PM experience from Obsess and Arkadium: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+- Ive shipped the work this role calls for — including: Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1c8f4fg
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1c8f4fg

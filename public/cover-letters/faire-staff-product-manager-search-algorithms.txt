@@ -2,26 +2,23 @@ Hiring Team at Faire
 
 I am applying for the Staff Product Manager, Search Algorithms role (New York, NY).
 
-My pitch for this role is simple: I bring experience Lean on platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable.
-
-Moderate: platform PM and AI fluency help, but search/ranking ML-product depth is a specific gap vs Alex's agents/security focus.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Shipped RAG-powered semantic search over an editorial corpus, deployed at alexwelcing.com.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 8+ yrs PM incl. staff level: I bring experience Lean on platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable.
+- Faire is building AI for discovery, recommendations, merchandising and logistics across the marketplace — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- platform PM and AI experience; frame any retrieval/ranking exposure from document-AI (relevance, embeddings) as transferable: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Ive shipped the work this role calls for — including: Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Document and knowledge-work AI
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1n7yrfr
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-1n7yrfr

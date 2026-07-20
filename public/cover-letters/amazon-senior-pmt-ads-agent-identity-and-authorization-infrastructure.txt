@@ -2,26 +2,23 @@ Hiring Team at Amazon
 
 I am applying for the Senior PMT, Ads Agent Identity and Authorization Infrastructure role (New York, NY).
 
-My pitch for this role is simple: I bring experience 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization.
-
-Outstanding fit: directly combines Alex's identity & security PM (LBR) with AI-agents (Obsess) experience.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Platform and developer-tooling product work.
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 6+ yrs technical PM, identity/security or platform: I bring experience 'identity & security PM (LBR) + AI-agents PM (Obsess)' = built secure agent authorization.
+- Amazon is building Bedrock/Nova foundation models, advertising AI (measurement, MMM), agentic AI, and… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- identity & security PM (LBR) + AI-agents PM (Obsess) = built secure agent authorization: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
+- Ive shipped the work this role calls for — including: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Platform and developer-tooling product work
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-q19dma
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-q19dma

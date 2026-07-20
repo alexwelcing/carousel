@@ -2,26 +2,23 @@ Hiring Team at JPMorganChase
 
 I am applying for the Fraud AI/ML Platform Product Director role (New York, NY).
 
-My pitch for this role is simple: I bring experience building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust.
-
-Strong: Alex's identity & security PM work at LBR and AI/agents + devtools platform experience map directly to a fraud ML platform serving internal model-builders. Gap is bank-scale fraud domain depth and the Director seniority bar.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Platform and developer-tooling product work.
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 8-12+ yrs product management, incl. ML/data platforms: I bring experience building developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust.
+- JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,… — my relevant shipped work: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- I build developer-facing AI/platform tooling (Obsess agents/devtools) and security/identity rigor (LBR) as proof he can ship an internal ML platform that risk/fraud teams trust: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Platform and developer-tooling product work
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-pkgpum
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-pkgpum

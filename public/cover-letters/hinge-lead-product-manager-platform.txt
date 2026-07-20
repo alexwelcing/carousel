@@ -1,0 +1,22 @@
+Hiring Team at Hinge
+
+I am applying for the Lead Product Manager, Platform role (New York, NY).
+
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+
+Why I am a strong fit:
+- Hinge is building AI-driven matching/recommendations, ML profile ranking, AI features to improve dating outcomes — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- Arkadium platform PM + Obsess devtools: I build the internal systems and tooling that let product teams move faster.: Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Ive shipped the work this role calls for — including: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1q3x9ip
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1q3x9ip

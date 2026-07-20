@@ -2,26 +2,23 @@ Hiring Team at Datadog
 
 I am applying for the Product Manager II - Model Lab role (New York, NY).
 
-My pitch for this role is simple: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
-
-Datadog's emphasis on LLM/Agent Observability lines up with the identity and access work Alex has actually shipped -- Alex's LBR work re-architecting enterprise identity (SSO/SAML/OIDC, 150+ AmLaw 200 firms) and subscription/entitlements at billions of requests/mo, plus at Manatt he led IAM for a research platform serving 1,000+ clients.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+My pitch for this role is simple: I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 3-5 yrs PM: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+- Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Obsess agent/devtools PM and Manatt document: Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Ive shipped the work this role calls for — including: Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Document and knowledge-work AI
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-hbho7m
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-hbho7m

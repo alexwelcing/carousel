@@ -1,0 +1,22 @@
+Hiring Team at Google
+
+I am applying for the Group Product Manager, Generative Media, Google Labs role (New York, NY).
+
+My pitch for this role is simple: I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.
+
+Why I am a strong fit:
+- Google is building Gemini models, Vertex AI / Cloud AI agent platforms, Google Labs generative media (Imagen, Veo),… — my relevant shipped work: Lupine Science — Alexs materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.
+- the Obsess generative-AI agent work and Arkadium consumer/creative platform scale as evidence of shipping AI-powered creative experiences to large audiences: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
+- Ive shipped the work this role calls for — including: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-quajot
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-quajot

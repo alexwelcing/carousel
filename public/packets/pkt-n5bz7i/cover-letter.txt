@@ -1,0 +1,24 @@
+Hiring Team at Forward-Deployed AI
+
+I am applying for the Customer-Facing Applied AI Roles role (NYC / Remote / Customer-facing).
+
+My pitch for this role is simple: Built for FDE, forward-deployed PM, AI solutions, customer engineering, and applied-AI roles where credibility depends on both technical execution and direct customer trust.
+
+Why I am a strong fit:
+- Customer-facing technical deployment is familiar territory: Configured SAML/OIDC SSO for 150+ AmLaw 200 firms and handled high-trust onboarding where security, legal, and product teams all had to align before value could ship.
+- I build the demo into the system: Built lupi.live and lupine.science across viewer, research narrative, and Python scientific-computing pipelines; at LBR, shipped an AI API workspace that turned internal AI capabilities into usable product infrastructure.
+- Domain translation without losing engineering precision: At Manatt, converted expert legal publishing workflows into AI-assisted document scanning and structured extraction; at Obsess, translated global-brand requirements into 3D commerce platform capabilities.
+
+A few shipped reference points:
+- 150+ enterprise SSO deployments with security-conscious buyers
+- Applied AI work across legal documents, scientific ML, agents, and platform APIs
+- Comfortable bridging customer calls, product decisions, and working code
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-n5bz7i
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-n5bz7i

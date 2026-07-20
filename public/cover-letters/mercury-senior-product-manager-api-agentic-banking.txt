@@ -1,0 +1,24 @@
+Hiring Team at Mercury
+
+I am applying for the Senior Product Manager - API & Agentic Banking role (New York, NY).
+
+My pitch for this role is simple: I build at the boundary of product and code: enterprise identity/subscription systems, AI API tooling, and agent/document/search prototypes with real implementation detail.
+
+Why I am a strong fit:
+- API and access-control product depth: Rebuilt identity/subscription across 10+ LBR products serving billions of monthly requests.
+- Developer-facing AI systems: Shipped an oRPC AI API workspace with live introspection and accuracy feedback loops.
+- Hands-on AI builder credibility: Built Lupine and lupi.live: MLIP benchmarks, phase-change simulation, and WebGL visualization.
+
+A few shipped reference points:
+- Billions of monthly requests behind rebuilt identity/subscription systems
+- Type-safe AI API workspace and developer-facing AI tooling
+- 1000+ Lupine repo commits in 2026
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-t9kjcl
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-t9kjcl

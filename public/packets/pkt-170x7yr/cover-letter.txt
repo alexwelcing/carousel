@@ -1,0 +1,19 @@
+Hiring Team at Cockroach Labs
+
+I am applying for the Staff Product Manager (Data Onboarding) role (New York, NY).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
+
+Why I am a strong fit:
+- Cockroach Labs is building Database infrastructure underpinning AI/agent apps; reliability, scale, and Postgres compatibility… — my relevant shipped work: Lupine Science — Alexs materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.
+- devtools/developer-experience wins (Obsess) — frame onboarding as a DX/adoption funnel he has optimized before: Integrated MCP servers and agent skills into production research tooling.
+- Ive shipped the work this role calls for — including: Led the 3D experience platform at Obsess — avatars, analytics, SOC 2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-170x7yr
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-170x7yr

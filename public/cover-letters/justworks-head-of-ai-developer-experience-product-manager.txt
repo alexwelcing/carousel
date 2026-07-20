@@ -1,0 +1,24 @@
+Hiring Team at Justworks
+
+I am applying for the Head of AI Developer Experience Product Manager role (Remote).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
+
+Why I am a strong fit:
+- Justworks is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- agent and devtools product work (Obsess) and document: Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-pijwtl
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-pijwtl

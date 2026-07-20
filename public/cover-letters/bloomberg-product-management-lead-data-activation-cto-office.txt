@@ -1,0 +1,24 @@
+Hiring Team at Bloomberg
+
+I am applying for the Product Management Lead, Data Activation - CTO Office role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+
+Why I am a strong fit:
+- Bloomberg is building BloombergGPT/finance LLMs, GenAI developer platform, AI-ready data, document & content extraction… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- document-AI and platform work as turning messy enterprise data into activated, AI-consumable products.: Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+- Ive shipped the work this role calls for — including: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-hi1p9b
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-hi1p9b

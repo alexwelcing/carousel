@@ -1,0 +1,19 @@
+Hiring Team at Duolingo
+
+I am applying for the Senior Product Manager, Notifications role (New York, NY).
+
+My pitch for this role is simple: I'm a product PM who has driven subscription growth at scale. Built the type-safe AI API workspace with self-improving usage accuracy at LBR.
+
+Why I am a strong fit:
+- Duolingo is building GPT-powered features (Duolingo Max, Video Call/Lily AI tutor), AI-generated content, 'AI-first'… — my relevant shipped work: Lupine Science — Alexs materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.
+- retention and engagement growth wins: Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.
+- Ive shipped the work this role calls for — including: Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1267k60
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1267k60

@@ -1,0 +1,24 @@
+Hiring Team at Scale AI
+
+I am applying for the Product Manager, Public Sector GenAI Test & Evaluation (T&E) role (New York City Metropolitan Area).
+
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Why I am a strong fit:
+- Scale AI is building Data Engine for training data; LLM evaluation & test/eval (incl — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- AI + security/identity intersection; frame document-AI eval and security rigor as directly relevant to GenAI T&E: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Ive shipped the work this role calls for — including: Unified access models across legacy and new product surfaces, unlocking new revenue.
+
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1nom5h
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1nom5h

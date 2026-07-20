@@ -1,0 +1,22 @@
+Hiring Team at Warner Bros. Discovery
+
+I am applying for the Staff Product Manager, Ad XP role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+
+Why I am a strong fit:
+- Warner Bros. Discovery is building Streaming personalization and search, ad experience/ad-tech, recommendation ML, content discovery — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- monetization/subscription growth experience: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1osxe60
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1osxe60

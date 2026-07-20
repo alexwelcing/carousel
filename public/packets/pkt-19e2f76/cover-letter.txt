@@ -1,0 +1,24 @@
+Hiring Team at NTT DATA North America
+
+I am applying for the AI Product Manager role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Why I am a strong fit:
+- NTT DATA North America is building 'tsuzumi' LLM family (tsuzumi 2, Oct 2025); private/secure GenAI; partnerships with NVIDIA and… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- AI and enterprise AI delivery: Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Ive shipped the work this role calls for — including: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-19e2f76
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-19e2f76

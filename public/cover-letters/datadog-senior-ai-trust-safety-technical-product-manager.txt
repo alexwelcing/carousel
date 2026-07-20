@@ -1,0 +1,24 @@
+Hiring Team at Datadog
+
+I am applying for the Senior AI Trust & Safety Technical Product Manager role (Remote).
+
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Unified access models across legacy and new product surfaces, unlocking new revenue.
+
+Why I am a strong fit:
+- Datadog is building AI agents, document AI, identity, platform PM, enterprise SaaS, developer tools — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- the intersection of LBR security/identity and Obsess/Manatt AI work: Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.
+- Ive shipped the work this role calls for — including: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-et9nyf
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-et9nyf

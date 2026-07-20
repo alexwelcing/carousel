@@ -1,0 +1,24 @@
+Hiring Team at Moody's Corporation
+
+I am applying for the Data Product Manager role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+
+Why I am a strong fit:
+- Moody's Corporation is building GenAI research assistant (Moody's CoPilot/Research Assistant), AI over credit/risk data, AI-driven… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- document-AI/data-product work — frame as making complex regulated data trustworthy and consumable by AI and analytics users: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-12mtccr
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-12mtccr

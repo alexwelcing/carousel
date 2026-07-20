@@ -2,26 +2,23 @@ Hiring Team at Bubble
 
 I am applying for the Senior Product Manager, AI role (New York City Metropolitan Area).
 
-My pitch for this role is simple: I bring experience Obsess 'AI agents & developer tools PM' as near-identical to Bubble's AI app-builder problem space.
-
-Excellent: devtools + AI-agents is Alex's exact sweet spot (Obsess agents/devtools).
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Platform and developer-tooling product work, Hands-on product plus engineering range.
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Platform and developer-tooling product work: Obsess and internal platform work: built developer-facing systems, APIs, and product surfaces that other teams depended on.
-- 5+ yrs PM: I bring experience Obsess 'AI agents & developer tools PM' as near-identical to Bubble's AI app-builder problem space.
+- Bubble is building AI Agent dev assistant (builds pages in apps design system); native mobile; GenAI app-generation — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Obsess AI agents & developer tools PM as near-identical to Bubbles AI app-builder problem space: Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Ive shipped the work this role calls for — including: Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Platform and developer-tooling product work
-- Hands-on product plus engineering range
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-qepzbd
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-qepzbd

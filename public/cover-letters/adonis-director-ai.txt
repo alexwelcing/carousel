@@ -2,26 +2,23 @@ Hiring Team at Adonis
 
 I am applying for the Director, AI role (New York, NY).
 
-My pitch for this role is simple: My document-AI work at Manatt, especially extraction/accuracy on regulated legal docs, is directly relevant to claims/denials accuracy: 'I ship trustworthy AI on messy regulated documents.'
-
-Strong on AI-agents/devtools + document-AI (claims docs); healthcare domain is the gap.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 7+ yrs product/AI leadership: My document-AI work at Manatt, especially extraction/accuracy on regulated legal docs, is directly relevant to claims/denials accuracy: 'I ship trustworthy AI on messy regulated documents.'
+- Adonis is building 'Intelligence, AI Agents, and Orchestration' platform; AI agents automating RCM workflows — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Manatt document-AI (extraction/accuracy on regulated legal docs) as a direct analog to claims/denials accuracy: I ship trustworthy AI on messy regulated documents.: Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Document and knowledge-work AI
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-r48pk7
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-r48pk7

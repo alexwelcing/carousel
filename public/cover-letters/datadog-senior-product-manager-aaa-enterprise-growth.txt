@@ -2,26 +2,18 @@ Hiring Team at Datadog
 
 I am applying for the Senior Product Manager, AAA/Enterprise Growth role (New York, NY).
 
-My pitch for this role is simple: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
-
-This role sits squarely in Alex's wheelhouse: at LBR (Law Business Research) Alex re-platformed the identity & subscription system to handle billions of requests/mo across 10+ products, and ran SSO/SAML/OIDC onboarding for 150+ AmLaw 200 firms. That identity-and-security work maps directly onto Datadog's focus on LLM/Agent Observability.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+My pitch for this role is simple: I'm a product PM who has driven subscription growth at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 5+ yrs PM incl. growth/PLG: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+- Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data… — my relevant shipped work: Lupine Science — Alexs materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.
+- growth wins at Arkadium: Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Ive shipped the work this role calls for — including: Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Document and knowledge-work AI
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-5snw1u
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-5snw1u

@@ -1,0 +1,23 @@
+Hiring Team at PatientNow
+
+I am applying for the Principal Product Manager role (Brooklyn, NY).
+
+My pitch for this role is simple: I'm a product PM who has driven subscription growth at scale. Shipped High Era as a single-operator production platform on GCP — content generation, workflow engine, analytics.
+
+Why I am a strong fit:
+- PatientNow is building Patient acquisition/engagement automation, CRM; expanding via integrations — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.
+- document-AI and identity/security (LBR) as directly relevant to HIPAA-grade patient-record and engagement products: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+- Ive shipped the work this role calls for — including: Built contextual, data-informed content systems that drove cross-platform adoption at Arkadium.
+
+A few shipped reference points:
+- Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-mnyocf
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-mnyocf

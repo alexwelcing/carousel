@@ -1,0 +1,24 @@
+Hiring Team at Prime Video & Amazon MGM Studios
+
+I am applying for the Principal Product Manager, Tech - Ad Products, Prime Video role (New York, NY).
+
+My pitch for this role is simple: I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.
+
+Why I am a strong fit:
+- Prime Video & Amazon MGM Studios is building Ad targeting/measurement, applied science for ad formats, recommendation/personalization — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- technical-PM scope and AI/platform delivery; tie identity/security and document-AI rigor to ad measurement/privacy and large-scale technical roadmaps: Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-760uhe
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-760uhe

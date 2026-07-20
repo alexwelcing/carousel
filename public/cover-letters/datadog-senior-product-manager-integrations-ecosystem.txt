@@ -1,0 +1,19 @@
+Hiring Team at Datadog
+
+I am applying for the Senior Product Manager - Integrations & Ecosystem role (New York, NY).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Worked hands-on with Claude, OpenAI, Gemini, and Copilot as integration partners, not just API consumers.
+
+Why I am a strong fit:
+- Datadog is building LLM/Agent Observability, AI Guard, Sensitive Data Scanner, GPU monitoring, Model Lab, AI & Data… — my relevant shipped work: Lupine Science — Alexs materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.
+- devtools/platform PM work and developer-ecosystem enablement at Obsess/Arkadium: Led the 3D experience platform at Obsess — avatars, analytics, SOC 2 — shipping for global enterprise brands.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1xix9bj
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1xix9bj

@@ -2,26 +2,21 @@ Hiring Team at Publicis Groupe
 
 I am applying for the Manager, AI Engineering role (New York, NY).
 
-My pitch for this role is simple: I bring experience Anchor the pitch on identity-and-access depth: LBR's SSO/SAML/OIDC rollout and Manatt IAM for 1,000+ clients. Pitch him as an engineering-fluent PM who can take 'CoreAI' system unifying first-party data (Epsilon identity graph) with €300M AI investment from concept to shipped product.
-
-Alex has lived this problem from the inside: at LBR (Law Business Research) Alex re-platformed the identity & subscription system to handle billions of requests/mo across 10+ products, and ran SSO/SAML/OIDC onboarding for 150+ AmLaw 200 firms. Combined with leading IAM at Manatt for 1,000+ clients, it's a direct fit for Publicis Groupe's trust-and-security surface.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 6+ yrs in AI/ML engineering or technical product/eng leadership: I bring experience Anchor the pitch on identity-and-access depth: LBR's SSO/SAML/OIDC rollout and Manatt IAM for 1,000+ clients. Pitch him as an engineering-fluent PM who can take 'CoreAI' system unifying first-party data (Epsilon identity graph) with €300M AI investment from concept to shipped product.
+- Publicis Groupe is building 'CoreAI' system unifying first-party data (Epsilon identity graph) with €300M AI investment; Adobe… — my relevant shipped work: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- If technical-enough, frame identity-graph + AI experience for CoreAI; otherwise this leans eng-management vs Alexs PM track: Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Ive shipped the work this role calls for — including: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Document and knowledge-work AI
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-reolio
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-reolio

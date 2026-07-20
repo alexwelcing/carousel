@@ -1,0 +1,24 @@
+Hiring Team at Document Intelligence / Knowledge AI
+
+I am applying for the Document AI / Knowledge Product Roles role (NYC / Remote / Regulated domains).
+
+My pitch for this role is simple: Built for legal AI, document intelligence, enterprise search, knowledge management, RAG, and expert-workflow products where extraction quality and trust drive adoption.
+
+Why I am a strong fit:
+- I have shipped document AI in legal publishing: At Manatt, built AI-based document scanning for legal publication, automated image selection, sharpened knowledge-graph precision, and reduced manual error in a domain where correctness mattered.
+- Expert workflows need trust infrastructure: Led IAM for a research platform serving 1,000+ clients and later handled enterprise SSO for 150+ AmLaw 200 firms at LBR, giving me the access-control and deployment context behind document AI adoption.
+- I can connect retrieval, UX, and product outcomes: Built semantic-search work with OpenAI embeddings and pgvector on alexwelcing.com, and led platform work where search, structured content, and user trust determined whether the product became useful.
+
+A few shipped reference points:
+- AI document scanning shipped at a top legal/professional-services firm
+- IAM for 1,000+ client research platform users
+- Strong fit for legal AI, knowledge AI, RAG, and expert document workflows
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1c96ato
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1c96ato

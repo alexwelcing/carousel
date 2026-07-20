@@ -1,0 +1,24 @@
+Hiring Team at Capital One
+
+I am applying for the Senior Data Product Manager role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+
+Why I am a strong fit:
+- Capital One is building Enterprise AI/ML platforms, agentic AI for customer assistance, developer productivity, and data… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- I ship data/document-AI products that turned raw data into trusted, consumable assets: Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+- Ive shipped the work this role calls for — including: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-48uqum
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-48uqum

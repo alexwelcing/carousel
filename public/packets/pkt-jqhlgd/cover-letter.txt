@@ -2,26 +2,23 @@ Hiring Team at JPMorganChase
 
 I am applying for the Vice President, Product Manager — Identity role (New York, NY).
 
-My pitch for this role is simple: I bring experience LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece — this is the closest-fit role in the batch.
-
-Excellent: this is Alex's strongest direct match — identity & security PM at LBR maps 1:1 to a VP Identity product role.
-
-The strongest proof for this application is that I have already done adjacent work across Enterprise deployment and trust, Hands-on product plus engineering range, Multi-agent systems built end to end.
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
 
 Why I am a strong fit:
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- Hands-on product plus engineering range: Architect PM who prototypes in TypeScript and Python, ships production systems, and closes the loop with customers.
-- 6-9+ yrs PM with identity/security/IAM: I bring experience LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece — this is the closest-fit role in the batch.
+- JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,… — my relevant shipped work: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Lead unapologetically with LBR identity & security PM ownership (authN/authZ, identity lifecycle) as the centerpiece — this is the closest-fit role in the batch: Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Ive shipped the work this role calls for — including: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
 
-Selected proof points:
-- Enterprise deployment and trust
-- Hands-on product plus engineering range
-- Multi-agent systems built end to end
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-jqhlgd
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-jqhlgd

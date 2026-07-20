@@ -1,0 +1,19 @@
+Hiring Team at Daloopa
+
+I am applying for the Product Manager - AI role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Operated as the only PM in a build that shipped a full marketing-automation OS to production on Google Cloud.
+
+Why I am a strong fit:
+- Daloopa is building Data extraction/structuring AI; MCP integration to feed AI systems accurate financial data — my relevant shipped work: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Manatt document-AI as I build extraction pipelines where accuracy on messy source docs is the product - exactly Daloopas core challenge: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1eg2x2y
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1eg2x2y

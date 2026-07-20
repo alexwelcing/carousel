@@ -2,26 +2,23 @@ Hiring Team at BNY
 
 I am applying for the Director, POM Technical Product Management, AI Hub role (New York, NY).
 
-My pitch for this role is simple: I bring experience Strongest BNY fit — lead with building AI/agent developer platforms and tooling that let other teams ship agents safely.
-
-Excellent: AI devtools/platform PM (Obsess developer tools) is a direct match for an internal AI developer platform.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Platform and developer-tooling product work, Hands-on product plus engineering range.
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Platform and developer-tooling product work: Obsess and internal platform work: built developer-facing systems, APIs, and product surfaces that other teams depended on.
-- 10+ yrs technical PM: I bring experience Strongest BNY fit — lead with building AI/agent developer platforms and tooling that let other teams ship agents safely.
+- BNY is building 'Eliza' internal agent-building platform (125+ live use cases, 134 'digital employees'); OpenAI and… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- I build AI/agent developer platforms and tooling that let other teams ship agents safely: Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Ive shipped the work this role calls for — including: Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Platform and developer-tooling product work
-- Hands-on product plus engineering range
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-q12gvb
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-q12gvb

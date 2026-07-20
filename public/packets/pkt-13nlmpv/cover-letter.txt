@@ -1,0 +1,24 @@
+Hiring Team at Identity / Security / Trust for AI
+
+I am applying for the AI Trust / Identity Platform Roles role (NYC / Remote / Enterprise platform).
+
+My pitch for this role is simple: Built for identity, security, trust, access-control, agent-governance, fintech/enterprise platform, and AI-safety-adjacent PM roles where automation must remain auditable.
+
+Why I am a strong fit:
+- Identity at real enterprise scale: Re-platformed the identity and subscription system at LBR across 10+ products serving billions of monthly requests, with SAML/OIDC rollout for 150+ AmLaw 200 firms.
+- Agent security is the same control problem in a new shape: My AI and agent work forces the same questions enterprise IAM asks: what tools can act, which credentials they inherit, how actions are audited, and how trust survives automation.
+- Can translate compliance into product behavior: Led IAM for Manatt research products, built legal document AI under expert review constraints, and shipped platform changes where security requirements had to become usable workflows.
+
+A few shipped reference points:
+- Billions of monthly requests behind rebuilt identity/subscription systems
+- 150+ SAML/OIDC enterprise SSO integrations
+- Direct fit for agent access control, MCP governance, trust, and regulated platform work
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-13nlmpv
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-13nlmpv

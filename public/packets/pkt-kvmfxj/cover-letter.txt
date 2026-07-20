@@ -1,0 +1,19 @@
+Hiring Team at Modular
+
+I am applying for the Product Manager, Cloud role (United States).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Why I am a strong fit:
+- Modular is building Mojo programming language (Python-superset for AI/HPC) and MAX platform (inference/serving stack) — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- developer-tools/platform PM and DX wins; be honest about ramping on low-level AI-infra, emphasize developer-adoption craft: Lupine Science — Alexs materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.
+- Ive shipped the work this role calls for — including: Led the 3D experience platform at Obsess — avatars, analytics, SOC 2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-kvmfxj
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-kvmfxj

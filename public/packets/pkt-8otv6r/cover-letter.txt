@@ -1,0 +1,19 @@
+Hiring Team at CoreWeave
+
+I am applying for the Staff Product Manager, Data Services role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Why I am a strong fit:
+- CoreWeave is building The 'essential cloud for AI': GPU clusters, AI training/inference infra, data-center and managed… — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- data familiarity, acknowledging the infra: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-8otv6r
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-8otv6r

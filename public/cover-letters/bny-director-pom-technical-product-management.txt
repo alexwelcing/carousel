@@ -1,0 +1,24 @@
+Hiring Team at BNY
+
+I am applying for the Director, POM Technical Product Management role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+
+Why I am a strong fit:
+- BNY is building 'Eliza' internal agent-building platform (125+ live use cases, 134 'digital employees'); OpenAI and… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- a platform/devtools PM who has built developer-facing infrastructure with security baked in: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+- Ive shipped the work this role calls for — including: Unified access models across legacy and new product surfaces, unlocking new revenue.
+
+A few shipped reference points:
+- Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-15lti0k
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-15lti0k

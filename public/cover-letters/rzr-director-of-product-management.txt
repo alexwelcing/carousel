@@ -1,0 +1,22 @@
+Hiring Team at RZR
+
+I am applying for the Director of Product Management role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+
+Why I am a strong fit:
+- RZR is building AI for audience discovery, contextual bidding, and behavioral modeling; scaling a self-serve DSP… — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- platform/API PM and identity/privacy depth (LBR) reframed for privacy-first ad-tech infrastructure: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+- Ive shipped the work this role calls for — including: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+
+A few shipped reference points:
+- Private (growth-stage ad-tech)
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1rwi0re
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1rwi0re

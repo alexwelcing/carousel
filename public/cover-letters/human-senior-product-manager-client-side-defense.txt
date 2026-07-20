@@ -1,0 +1,19 @@
+Hiring Team at HUMAN
+
+I am applying for the Senior Product Manager, Client Side Defense role (New York, NY).
+
+My pitch for this role is simple: I'm a technical PM who has rebuilt enterprise identity at scale. Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+
+Why I am a strong fit:
+- HUMAN is building ML/behavioral analysis, device fingerprinting and botnet detection; verifies 20T+ interactions/week… — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- security/identity PM credibility from LBR; frame web/client-side security as an extension of his security product expertise: Set access-control policy across the research platform during its transition from on-prem to multi-tenant cloud.
+- Ive shipped the work this role calls for — including: Unified access models across legacy and new product surfaces, unlocking new revenue.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-2oq3vi
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-2oq3vi

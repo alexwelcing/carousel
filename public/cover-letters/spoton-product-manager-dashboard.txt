@@ -2,26 +2,18 @@ Hiring Team at SpotOn
 
 I am applying for the Product Manager (Dashboard) role (New York, NY).
 
-My pitch for this role is simple: I bring experience Open on platform scope -- LBR's identity/subscription infrastructure -- and add the AI API workspace. Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
-
-Alex brings enterprise platform depth -- re-architecting LBR's identity and subscription systems at billions of requests/mo -- alongside a personally built multi-agent system. Both serve SpotOn's AI/automation in restaurant operations.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Platform and developer-tooling product work.
+My pitch for this role is simple: I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 4-7 yrs product management: I bring experience Open on platform scope -- LBR's identity/subscription infrastructure -- and add the AI API workspace. Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+- SpotOn is building AI/automation in restaurant operations, analytics, and dashboard insights; data-driven merchant… — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- platform/dashboard and growth: Shipped High Era as a single-operator production platform on GCP — content generation, workflow engine, analytics.
+- Ive shipped the work this role calls for — including: Unified access models across legacy and new product surfaces, unlocking new revenue.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Platform and developer-tooling product work
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-x5rw47
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-x5rw47

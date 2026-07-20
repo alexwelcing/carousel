@@ -1,0 +1,19 @@
+Hiring Team at dbt Labs
+
+I am applying for the Staff Product Manager- Developer Experience role (United States).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Integrated MCP servers and agent skills into production research tooling.
+
+Why I am a strong fit:
+- dbt Labs is building AI-ready data, dbt Fusion engine (Rust rewrite), developer tooling and the dbt MCP/AI integrations… — my relevant shipped work: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- tools PM experience at Obsess and platform PM at Arkadium: Led the 3D experience platform at Obsess — avatars, analytics, SOC 2 — shipping for global enterprise brands.
+- Ive shipped the work this role calls for — including: Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1pmlkyp
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1pmlkyp

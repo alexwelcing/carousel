@@ -1,0 +1,23 @@
+Hiring Team at Duolingo
+
+I am applying for the Senior Product Manager, Monetization role (New York, NY).
+
+My pitch for this role is simple: I'm a product PM who has driven subscription growth at scale. Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+
+Why I am a strong fit:
+- Duolingo is building GPT-powered features (Duolingo Max, Video Call/Lily AI tutor), AI-generated content, 'AI-first'… — my relevant shipped work: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- quantify conversion/retention impact and frame as a freemium monetization specialist: Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.
+- Ive shipped the work this role calls for — including: Unified access models across legacy and new product surfaces, unlocking new revenue.
+
+A few shipped reference points:
+- Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-z8gfe5
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-z8gfe5

@@ -1,27 +1,19 @@
 Hiring Team at FactSet
 
-I am applying for the Principal Product Manager, AI Data Solutions role (New York, NY).
+I am applying for the Principal Product Manager, AI Data Solutions role (Norwalk, CT).
 
-My pitch for this role is simple: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a technical PM who has led at IC/lead scope; be transparent that this title implies broader people-management than his current span.
-
-Alex has lived this problem from the inside: at LBR (Law Business Research) Alex re-platformed the identity & subscription system to handle billions of requests/mo across 10+ products, and ran SSO/SAML/OIDC onboarding for 150+ AmLaw 200 firms. Combined with leading IAM at Manatt for 1,000+ clients, it's a direct fit for FactSet's trust-and-security surface.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+My pitch for this role is simple: At FactSet, same role as the NY posting, based in Norwalk, CT: owns AI data solutions productizing financial data for AI/LLM workflows My track record — Manatt: AI document scanning + knowledge graphs; High Era; NextDocsSearch — maps directly to the document ai work this role demands.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 8-10+ yrs PM, data or AI products: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a technical PM who has led at IC/lead scope; be transparent that this title implies broader people-management than his current span.
+- only pursue if open to Norwalk commute.: Manatt: AI document scanning + knowledge graphs; High Era; NextDocsSearch
+- CT location may be less convenient than NYC).: Manatt: AI document scanning + knowledge graphs; High Era; NextDocsSearch
+- I meet the bar on 'Retrieval / structured data / APIs' — the work itself is in my shipped portfolio.: Manatt: AI document scanning + knowledge graphs; High Era; NextDocsSearch
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Document and knowledge-work AI
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1o2a98x
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-1o2a98x

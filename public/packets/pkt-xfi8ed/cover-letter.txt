@@ -1,0 +1,22 @@
+Hiring Team at Microsoft AI
+
+I am applying for the Principal Product Manager, Content Monetization role (New York, NY).
+
+My pitch for this role is simple: I'm a product PM who has driven subscription growth at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Why I am a strong fit:
+- Microsoft AI is building Copilot consumer app and M365 Copilot, in-house MAI models (MAI-Voice-1, MAI-1, MAI-Image-1),… — my relevant shipped work: Lupine Science — Alexs materials-science AI platform: shipped MLIP benchmarks, phase-change trajectory simulation, and a TypeScript/WebGL browser for real-time molecular visualization. Combines research-grade physics with a shipping product surface.
+- subscription/monetization growth and AI: Pioneered NLP-driven AI content partnerships at Arkadium, driving $1M+ projected annual revenue contribution.
+- Ive shipped the work this role calls for — including: Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-xfi8ed
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-xfi8ed

@@ -1,0 +1,24 @@
+Hiring Team at Headway
+
+I am applying for the Staff Product Manager, AI Platform role (New York, United States).
+
+My pitch for this role is simple: I'm a hands-on PM who has shipped production multi-agent systems. Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Why I am a strong fit:
+- Headway is building Human-AI collaboration to streamline provider workflows; acqui-hired AI talent from Tezi — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- Obsess (AI agents/devtools) + Arkadium (platform PM): 'I build the AI platform layer that lets the whole org ship AI features.' Address healthcare with Manatt regulated-domain credibility: Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Ive shipped the work this role calls for — including: Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+
+A few shipped reference points:
+- Created CreateSuite: an autonomous multi-agent orchestration platform with git-backed persistence across 6 model providers.
+- Built an inter-agent mailbox for cross-agent communication, modeled on git-style storage.
+- Led the 3D experience platform at Obsess — avatars, analytics, SOC2 — shipping for global enterprise brands.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-hx5ysg
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-hx5ysg

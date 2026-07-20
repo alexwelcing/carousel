@@ -1,0 +1,22 @@
+Hiring Team at Goldman Sachs
+
+I am applying for the Asset & Wealth Management, Product Management, Vice President - New York role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+
+Why I am a strong fit:
+- Goldman Sachs is building Firmwide GS AI assistant, generative AI in engineering and AWM workflows, ML across trading/risk… — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- platform PM and AI-tooling experience — frame as modernizing advisor/client workflows with AI, while noting transferable security/identity rigor for a regulated environment: Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Ive shipped the work this role calls for — including: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1ogihip
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1ogihip

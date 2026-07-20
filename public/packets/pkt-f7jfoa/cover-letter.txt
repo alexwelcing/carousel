@@ -1,0 +1,24 @@
+Hiring Team at Agent DevTools / AI Infrastructure
+
+I am applying for the Agent Platform / DevTools Roles role (NYC / Remote / Platform teams).
+
+My pitch for this role is simple: Built for agent platforms, AI infrastructure, developer tools, model observability, orchestration, and internal-platform roles where developer workflow and trust boundaries matter.
+
+Why I am a strong fit:
+- Developer workflow instincts from shipped platform work: Designed and shipped a type-safe AI API execution workspace at LBR using oRPC, live introspection, and feedback loops that improved accuracy across three internal APIs.
+- Agent access and trust map to my identity background: Rebuilt identity/subscription infrastructure across 10+ products and delivered SAML/OIDC for 150+ firms; agent tools inherit the same questions: who can call what, with which credentials, under which audit surface.
+- Hands-on enough to reason below the roadmap: Built TypeScript/WebGL interfaces, Python research pipelines, and AI workflow tooling; I can evaluate SDK/API ergonomics, failure modes, and developer adoption from first principles.
+
+A few shipped reference points:
+- Type-safe AI API workspace shipped in production
+- Identity/access platform serving billions of monthly requests
+- Strong fit for LangSmith-style evals, Datadog-style observability, and MCP/agent governance
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-f7jfoa
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-f7jfoa

@@ -1,0 +1,22 @@
+Hiring Team at Warner Bros. Discovery
+
+I am applying for the Principal Product Manager, Search role (New York, NY).
+
+My pitch for this role is simple: I'm a product-builder who has shipped document AI end-to-end. Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+
+Why I am a strong fit:
+- Warner Bros. Discovery is building Streaming personalization and search, ad experience/ad-tech, recommendation ML, content discovery — and my shipped work maps to it.: See experience.ts (LBR/Obsess/Manatt/Arkadium) for adjacent work.
+- driven discovery PM who can modernize streaming search: Built NextDocsSearch: semantic-search platform with OpenAI embeddings + pgvector, deployed at alexwelcing.com.
+- Ive shipped the work this role calls for — including: Built AI-based document scanning and led IAM for a research platform serving 1,000+ clients at Manatt.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-73qmhw
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-73qmhw

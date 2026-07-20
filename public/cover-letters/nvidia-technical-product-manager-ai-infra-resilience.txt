@@ -1,0 +1,22 @@
+Hiring Team at NVIDIA
+
+I am applying for the Technical Product Manager - AI Infra Resilience role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Built High Era — a full go-to-market automation OS (FastAPI + SvelteKit + GCP), architected end-to-end as a single operator.
+
+Why I am a strong fit:
+- NVIDIA is building Full AI stack: GPUs, CUDA, NIM microservices, Nemotron open models, AI infrastructure software, and… — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- depth as a growth area: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+- Ive shipped the work this role calls for — including: Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1iom9zq
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1iom9zq

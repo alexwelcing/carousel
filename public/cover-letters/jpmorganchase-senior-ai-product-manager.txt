@@ -2,26 +2,23 @@ Hiring Team at JPMorganChase
 
 I am applying for the Senior AI Product Manager role (New York, NY).
 
-My pitch for this role is simple: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
-
-Alex has lived this problem from the inside: at LBR (Law Business Research) Alex re-platformed the identity & subscription system to handle billions of requests/mo across 10+ products, and ran SSO/SAML/OIDC onboarding for 150+ AmLaw 200 firms. Combined with leading IAM at Manatt for 1,000+ clients, it's a direct fit for JPMorganChase's trust-and-security surface.
-
-The strongest proof for this application is that I have already done adjacent work across Multi-agent systems built end to end, Enterprise deployment and trust, Document and knowledge-work AI.
+My pitch for this role is simple: I'm a technical PM with 12+ years across AI, identity, and platforms. I've shipped AI, platform, and identity products end-to-end across multiple regulated and consumer companies.
 
 Why I am a strong fit:
-- Multi-agent systems built end to end: CreateSuite: autonomous agents with persistence, inter-agent messaging, and six model providers running in one orchestration layer.
-- Enterprise deployment and trust: Law Business Research: 150+ enterprise SSO integrations and identity systems serving high-trust legal customers at scale.
-- 5-8+ yrs PM with AI/ML or data products: I bring experience Lead the cover letter with LBR enterprise identity and access at scale (SSO/SAML/OIDC, billions of requests/mo). Position him as a hands-on technical PM comfortable owning ambiguous, technical 0-to-1 work.
+- JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,… — my relevant shipped work: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- concrete AI/agent products shipped at Obsess and Manatt document-AI, quantifying adoption/impact to show end-to-end AI PM execution: Took a legal-publishing SaaS from beta to millions in ARR with enterprise-grade data governance at Manatt.
+- Ive shipped the work this role calls for — including: Built NextDocsSearch with OpenAI embeddings served from pgvector in Supabase.
 
-Selected proof points:
-- Multi-agent systems built end to end
-- Enterprise deployment and trust
-- Document and knowledge-work AI
+A few shipped reference points:
+- Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- Unified access models across legacy and new product surfaces, unlocking new revenue.
+- Shipped a type-safe AI API workspace (oRPC) with self-improving accuracy.
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1xqoe5
 
 I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
 
 Best regards,
 Alex Welcing
 alexwelcing@gmail.com
-https://github.com/alexwelcing
-https://linkedin.com/in/alexwelcing
+welc.ing/r/pkt-1xqoe5

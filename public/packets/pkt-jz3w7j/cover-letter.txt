@@ -1,0 +1,22 @@
+Hiring Team at Morgan Stanley
+
+I am applying for the VP, Senior Product Manager-Data Products & Platforms role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+Why I am a strong fit:
+- Morgan Stanley is building Enterprise GenAI (AI @ Morgan Stanley Assistant/Debrief built with OpenAI) for advisors; AI/data… — my relevant shipped work: Pioneered NLP-driven AI content partnerships at Arkadium, cutting go-to-market time by 25%.
+- platform PM building governed, reusable services; tie security/identity rigor to data governance: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+- Ive shipped the work this role calls for — including: Drove cross-platform adoption of contextual, data-informed content systems at Arkadium.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-jz3w7j
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-jz3w7j

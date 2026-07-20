@@ -1,0 +1,22 @@
+Hiring Team at JPMorganChase
+
+I am applying for the Vice President, Product Manager - Payments role (New York, NY).
+
+My pitch for this role is simple: I'm a platform PM who has shipped developer tools at scale. Set the multi-year SaaS platform strategy for enterprise brand deployments at Obsess.
+
+Why I am a strong fit:
+- JPMorganChase is building Firmwide AI/ML at scale: LLM Suite, fraud/risk ML platforms, applied AI across CIB, payments,… — my relevant shipped work: Re-platformed the identity & subscription system handling billions of monthly requests across 10+ products.
+- via security/identity and API-platform experience (auth, fraud-adjacent trust) as foundational to safe payments products: Designed and shipped a type-safe workspace for executing AI APIs with live introspection across three internal APIs.
+- Ive shipped the work this role calls for — including: Re-platformed the identity & subscription system at LBR, unifying access across 10+ products.
+
+A few shipped reference points:
+- Public company
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-mc6okc
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-mc6okc
