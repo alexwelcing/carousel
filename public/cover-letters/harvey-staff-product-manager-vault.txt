@@ -1,0 +1,24 @@
+Hiring Team at Harvey
+
+I am applying for the Staff Product Manager, Vault role (New York, NY).
+
+My pitch for this role is simple: Vault is the rare role where every chapter of my career converges: I built AI document extraction and knowledge systems for a major law firm, ran identity and access for 150+ AmLaw 200 firms, and shipped the agent-platform eval machinery that makes AI answers trustworthy over sensitive documents.
+
+Why I am a strong fit:
+- Document intelligence for legal is my shipped track record: At Manatt I turned expert legal workflows into production AI document systems — scanning, extraction, and knowledge-graph organization over exactly the kind of sensitive documents Vault manages — adopted firm-wide by attorneys, not just approved by IT.
+- I already serve Vault’s buyer: the AmLaw firm: At ALM I ran identity and access for 150+ AmLaw 200 firms — SAML/OIDC SSO, workspace-level access boundaries, SOC 2 — the same security-conscious law-firm stakeholders who decide whether Vault holds their documents.
+- AI-enabled search, Q&A, and extraction with eval discipline: I built a multi-agent orchestration platform and a type-safe AI API workspace with live introspection and evals across LLM providers — the reliability machinery document Q&A needs before law firms will trust an answer over their own files.
+
+A few shipped reference points:
+- Production legal document AI shipped at Manatt: extraction, scanning, knowledge graphs
+- 150+ AmLaw 200 SSO/SAML deployments — Vault’s exact customer, already my customer
+- Agent platform + eval harness shipped at ALM against billions of monthly requests
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1mabqjc
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1mabqjc

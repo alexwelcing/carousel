@@ -615,8 +615,9 @@
       "comp": "$177.7K-$266.5K + equity + bonus",
       "track": "enterprise",
       "accent": "#C6A15B",
-      "status": "to-apply",
-      "wave": 4
+      "status": "applied",
+      "wave": 4,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "Harvey",
@@ -626,7 +627,7 @@
       "comp": "$215K-$300K + equity",
       "track": "enterprise",
       "accent": "#C6A15B",
-      "status": "to-apply",
+      "status": "skipped-per-alex",
       "wave": 4
     },
     {
@@ -636,8 +637,9 @@
       "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/7918885",
       "track": "agents",
       "accent": "#F22F46",
-      "status": "to-apply",
-      "wave": 4
+      "status": "applied",
+      "wave": 4,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "SecurityScorecard",
@@ -646,8 +648,9 @@
       "applyUrl": "https://job-boards.greenhouse.io/securityscorecard/jobs/7974823",
       "track": "identity",
       "accent": "#2C9BF0",
-      "status": "to-apply",
-      "wave": 4
+      "status": "applied",
+      "wave": 4,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "The New York Times",
@@ -656,8 +659,9 @@
       "applyUrl": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4681393005",
       "track": "enterprise",
       "accent": "#6BA3C4",
-      "status": "to-apply",
-      "wave": 4
+      "status": "applied",
+      "wave": 4,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "Sendbird",
@@ -666,8 +670,9 @@
       "applyUrl": "https://sendbird.com/careers?gh_jid=8293482002",
       "track": "agents",
       "accent": "#742DDD",
-      "status": "to-apply",
-      "wave": 4
+      "status": "applied",
+      "wave": 4,
+      "appliedDate": "2026-07-21"
     }
   ]
 }

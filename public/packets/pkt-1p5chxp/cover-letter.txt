@@ -1,0 +1,24 @@
+Hiring Team at The New York Times
+
+I am applying for the Senior Technical Product Manager, Messaging Platforms role (New York, NY).
+
+My pitch for this role is simple: A decade of enterprise platform work: legal-publishing SaaS from beta to millions in ARR, 3D commerce for global brands, and identity infrastructure at billions of requests per month — always owning the path from requirement to production.
+
+Why I am a strong fit:
+- Enterprise delivery is my default mode: Took a legal-publishing SaaS from beta to millions in ARR at Manatt and shipped 3D-commerce platforms for Alo, Moncler, and Ralph Lauren at Obsess.
+- Governance and trust built in: SOC 2, IAM, and data-boundary discipline from running identity for 50%+ of AmLaw 200 firms — regulated-industry requirements are familiar ground.
+- Technical depth to hold the whole system: I prototype in TypeScript and Python, shipped an AI API workspace with live introspection, and built my own multi-agent stack — implementation detail never gets lost in translation.
+
+A few shipped reference points:
+- Enterprise 3D-commerce deployments for Alo, Moncler, and Ralph Lauren at Obsess
+- Legal-publishing SaaS taken from beta to millions in ARR at Manatt
+- AI document scanning and knowledge-graph extraction shipped for legal workflows
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1p5chxp
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1p5chxp
