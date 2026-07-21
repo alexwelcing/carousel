@@ -961,8 +961,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/siena/bece1b22-9932-4621-ba86-4c5352344cf2",
       "track": "agents",
       "accent": "#E85D3D",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "Footprint",
@@ -971,8 +972,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/footprint/484f5345-2614-4188-b522-dd36cf57170a",
       "track": "identity",
       "accent": "#5C3EE8",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "Oscilar",
@@ -981,8 +983,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/oscilar/a951fe3d-3784-47ba-99b7-11117676d20e",
       "track": "identity",
       "accent": "#2563EB",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "Sardine",
@@ -991,8 +994,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/sardine/4ff32b5d-13c6-4024-826c-04ed2881d688",
       "track": "identity",
       "accent": "#0EA5E9",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "SmarterDx",
@@ -1001,8 +1005,9 @@
       "applyUrl": "https://job-boards.greenhouse.io/smarterdx/jobs/5173484007",
       "track": "enterprise",
       "accent": "#0D9488",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "LlamaIndex",
@@ -1011,8 +1016,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/llamaindex/0d746429-0038-4ab1-950e-321f09084d4b",
       "track": "builder",
       "accent": "#A855F7",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "Composio",
@@ -1021,8 +1027,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/composio/018e087b-d1cf-4761-8fbd-fc3f2e5aac81",
       "track": "builder",
       "accent": "#F97316",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "Mem0",
@@ -1031,8 +1038,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/mem0/5fdf00fb-0046-4731-85f3-c27d796c7c7e",
       "track": "agents",
       "accent": "#10B981",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "E2B",
@@ -1041,8 +1049,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/e2b/a9ddb7bc-9cc7-43d2-8e46-9c8de4666a04",
       "track": "builder",
       "accent": "#F59E0B",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     },
     {
       "company": "Casca",
@@ -1051,8 +1060,9 @@
       "applyUrl": "https://jobs.ashbyhq.com/casca/f3143f0e-6b8a-4a6a-bbb7-7b14818a9667",
       "track": "enterprise",
       "accent": "#16A34A",
-      "status": "to-apply",
-      "wave": 7
+      "status": "applied",
+      "wave": 7,
+      "appliedDate": "2026-07-21"
     }
   ]
 }
