@@ -27,6 +27,11 @@ export const applicationPacketOverrides: Record<string, ApplicationPacketOverrid
     coverLetterLead: 'I have already spent years solving the enterprise identity and trust problems that agent infrastructure is now inheriting.',
     recruiterNote: 'Strongest when leading with SSO, OIDC, access boundaries, and trust in agent workflows.',
   },
+  'harvey-staff-product-manager-vault': {
+    summary: 'A Vault-specific packet: legal document AI shipped at Manatt, the AmLaw 200 customer base served at ALM, and agent-platform eval discipline — one narrative aimed at document & knowledge management.',
+    coverLetterLead: 'Vault is the rare role where every chapter of my career converges: I built AI document extraction and knowledge systems for a major law firm, ran identity and access for 150+ AmLaw 200 firms, and shipped the agent-platform eval machinery that makes AI answers trustworthy over sensitive documents.',
+    recruiterNote: 'Lead with Manatt document AI and the AmLaw customer overlap; the agent/eval work closes the technical bar.',
+  },
   harvey: {
     summary: 'A legal-AI packet that pairs document intelligence, AmLaw familiarity, and prototype-to-production range in a single narrative.',
     coverLetterLead: 'My legal AI background is not adjacent to Harvey; it is the foundation of why I can help ship agentic legal workflows that teams will trust.',

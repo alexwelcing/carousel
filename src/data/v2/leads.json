@@ -606,6 +606,68 @@
       "status": "applied",
       "wave": 2,
       "appliedDate": "2026-07-20"
+    },
+    {
+      "company": "Harvey",
+      "roleTitle": "Staff Product Manager, Vault",
+      "location": "New York",
+      "applyUrl": "https://jobs.ashbyhq.com/harvey/d1669780-6956-4e5b-bc84-590267c565ea",
+      "comp": "$177.7K-$266.5K + equity + bonus",
+      "track": "enterprise",
+      "accent": "#C6A15B",
+      "status": "to-apply",
+      "wave": 4
+    },
+    {
+      "company": "Harvey",
+      "roleTitle": "Staff Product Manager, New Verticals",
+      "location": "New York",
+      "applyUrl": "https://jobs.ashbyhq.com/harvey/2cbe13b9-a44b-47d3-abb8-45d9a98b05f6",
+      "comp": "$215K-$300K + equity",
+      "track": "enterprise",
+      "accent": "#C6A15B",
+      "status": "to-apply",
+      "wave": 4
+    },
+    {
+      "company": "Twilio",
+      "roleTitle": "Staff Product Manager - Enterprise AI",
+      "location": "Remote US",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/7918885",
+      "track": "agents",
+      "accent": "#F22F46",
+      "status": "to-apply",
+      "wave": 4
+    },
+    {
+      "company": "SecurityScorecard",
+      "roleTitle": "Senior/Principal Product Manager, AI",
+      "location": "New York City (Hybrid)",
+      "applyUrl": "https://job-boards.greenhouse.io/securityscorecard/jobs/7974823",
+      "track": "identity",
+      "accent": "#2C9BF0",
+      "status": "to-apply",
+      "wave": 4
+    },
+    {
+      "company": "The New York Times",
+      "roleTitle": "Senior Technical Product Manager, Messaging Platforms",
+      "location": "New York, NY",
+      "applyUrl": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4681393005",
+      "track": "enterprise",
+      "accent": "#6BA3C4",
+      "status": "to-apply",
+      "wave": 4
+    },
+    {
+      "company": "Sendbird",
+      "roleTitle": "Forward Deployed Product Manager",
+      "location": "San Mateo, CA",
+      "applyUrl": "https://sendbird.com/careers?gh_jid=8293482002",
+      "track": "agents",
+      "accent": "#742DDD",
+      "status": "to-apply",
+      "wave": 4
     }
   ]
 }

@@ -1,6 +1,9 @@
 import { getAnonymousShareId } from '@/lib/shareLinks';
 import generatedRolesJson from './v2/roles.generated.json';
 
+
+
+
 /* ------------------------------------------------------------------ */
 /*  Per-role tailored landing-page data                                */
 /*  Each entry powers a page at /role/:slug — share one URL per app.   */
@@ -61961,6 +61964,39 @@ export function getRole(slug: string | undefined): TailoredRole | undefined {
 /*  Generated entries merge in at build time; curated slugs win.        */
 /* ------------------------------------------------------------------ */
 const norm = (v: string) => v.toLowerCase().replace(/[^a-z0-9]+/g, '');
+/** WAVE-4 FLAGSHIP — hand-curated, keyword-mirrored against the live Vault posting. */
+const harveyVaultRole: TailoredRole = {
+  slug: 'harvey-staff-product-manager-vault',
+  company: 'Harvey',
+  roleTitle: 'Staff Product Manager, Vault',
+  location: 'New York, NY',
+  applyUrl: 'https://jobs.ashbyhq.com/harvey/d1669780-6956-4e5b-bc84-590267c565ea',
+  accent: '#C6A15B',
+  tagline: '[ DOCUMENT & KNOWLEDGE PLATFORMS · LEGAL AI ]',
+  headline: 'I have spent a decade turning law-firm documents into systems lawyers trust — Vault is the product I have been building toward.',
+  intro: 'Legal document and knowledge management is my home domain: AI document extraction and knowledge graphs at Manatt, publishing and identity infrastructure for the AmLaw 200 at ALM, and production agent platforms with evals — the exact foundation Vault sits on.',
+  whyFit: [
+    {
+      point: 'Document intelligence for legal is my shipped track record',
+      detail: 'At Manatt I turned expert legal workflows into production AI document systems — scanning, extraction, and knowledge-graph organization over exactly the kind of sensitive documents Vault manages — adopted firm-wide by attorneys, not just approved by IT.',
+    },
+    {
+      point: 'I already serve Vault\u2019s buyer: the AmLaw firm',
+      detail: 'At ALM I ran identity and access for 150+ AmLaw 200 firms — SAML/OIDC SSO, workspace-level access boundaries, SOC 2 — the same security-conscious law-firm stakeholders who decide whether Vault holds their documents.',
+    },
+    {
+      point: 'AI-enabled search, Q&A, and extraction with eval discipline',
+      detail: 'I built a multi-agent orchestration platform and a type-safe AI API workspace with live introspection and evals across LLM providers — the reliability machinery document Q&A needs before law firms will trust an answer over their own files.',
+    },
+  ],
+  proof: [
+    'Production legal document AI shipped at Manatt: extraction, scanning, knowledge graphs',
+    '150+ AmLaw 200 SSO/SAML deployments — Vault\u2019s exact customer, already my customer',
+    'Agent platform + eval harness shipped at ALM against billions of monthly requests',
+  ],
+};
+roles.push(harveyVaultRole);
+
 const generatedRoles = (generatedRolesJson as TailoredRole[]).filter(
   (g) => !roles.some(
     (r) => r.slug === g.slug
