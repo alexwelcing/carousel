@@ -1,0 +1,24 @@
+Hiring Team at Composio
+
+I am applying for the Forward Deployed Research Engineer role (San Francisco).
+
+My pitch for this role is simple: Architect PM who builds: lupi.live and lupine.science shipped solo as a materials-science AI stack, a marketing-automation OS deployed on GCP, and enterprise platforms rebuilt at billions-scale — 12+ years of end-to-end ownership.
+
+Why I am a strong fit:
+- Zero-to-one range, repeatedly proven: Shipped lupi.live (R3F/WebGL molecule viewer), lupine.science (MLIP research layer), and a GCP marketing-automation OS — each solo, from concept to production.
+- Enterprise-scale judgment when it matters: Re-platformed identity infrastructure at ALM serving billions of monthly requests — startup pace with big-system discipline.
+- AI-native building style: Multi-agent orchestration across LLM providers, evals, document AI, and semantic search — AI is my default toolkit, not an add-on.
+
+A few shipped reference points:
+- 12+ years shipping product, code, and judgment end-to-end
+- lupi.live and lupine.science: materials-science AI stack shipped solo
+- 3D web, semantic search, and scientific computing in production
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1gn6t2v
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1gn6t2v
