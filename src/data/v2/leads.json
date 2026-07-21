@@ -3,7 +3,7 @@
   "leads": [
     {
       "company": "Mastercard",
-      "roleTitle": "Manager, Forward-Deployed AI Engineer \u2014 AI Mobilization & Transformation",
+      "roleTitle": "Manager, Forward-Deployed AI Engineer — AI Mobilization & Transformation",
       "location": "Harrison, NY",
       "applyUrl": "https://www.indeed.com/viewjob?jk=3f28603ca5886f93",
       "comp": "$161,000 - $266,000",
@@ -64,7 +64,7 @@
     },
     {
       "company": "Lucasfilm",
-      "roleTitle": "Sr Product Manager (Customer Solutions & Integration \u2013 Skywalker Sound)",
+      "roleTitle": "Sr Product Manager (Customer Solutions & Integration – Skywalker Sound)",
       "location": "Los Angeles, CA (Remote)",
       "applyUrl": "https://www.indeed.com/viewjob?jk=b14fa44ef3f3f48e",
       "comp": "$117,500 - $157,500",
@@ -166,7 +166,7 @@
     },
     {
       "company": "CorGTA",
-      "roleTitle": "AI Tech Lead \u2013 Wealth & Asset Management",
+      "roleTitle": "AI Tech Lead – Wealth & Asset Management",
       "location": "Newark, NJ (Hybrid)",
       "applyUrl": "https://www.indeed.com/viewjob?jk=85538ac7d84fb0d8",
       "comp": "$180,000 - $210,000",
@@ -176,7 +176,7 @@
     },
     {
       "company": "Bombas",
-      "roleTitle": "Lead Digital Product Manager \u2013 Attract & Discover",
+      "roleTitle": "Lead Digital Product Manager – Attract & Discover",
       "location": "New York, NY (On-site/HQ)",
       "applyUrl": "https://www.indeed.com/viewjob?jk=ed9c8e85118c6ade",
       "comp": "$160,000 - $175,000",
@@ -672,6 +672,176 @@
       "accent": "#742DDD",
       "status": "applied",
       "wave": 4,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Anthropic",
+      "roleTitle": "Product Manager, Compute Platform",
+      "location": "San Francisco | New York | Seattle",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5124623008",
+      "track": "enterprise",
+      "accent": "#D97757",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "OpenAI",
+      "roleTitle": "Forward Deployed Engineer (FDE) - NYC",
+      "location": "New York City",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/cf31f5f6-4e67-4695-808c-9cdd2e1fa3b1",
+      "track": "agents",
+      "accent": "#10A37F",
+      "status": "dropped-profile-too-obvious",
+      "wave": 5
+    },
+    {
+      "company": "Ramp",
+      "roleTitle": "Product Manager | Agentic CX",
+      "location": "New York, NY (HQ)",
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/a3afd259-ba6b-4eb0-a1b6-05d01dddacd8",
+      "track": "agents",
+      "accent": "#B4D400",
+      "status": "blocked-application-limit",
+      "wave": 5
+    },
+    {
+      "company": "Decagon",
+      "roleTitle": "Senior Agent Product Manager",
+      "location": "New York City",
+      "applyUrl": "https://jobs.ashbyhq.com/decagon/e31c0645-7325-43b9-9d58-0acc40904240",
+      "track": "agents",
+      "accent": "#7C5CFF",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Scale AI",
+      "roleTitle": "Forward Deployed Product Manager, Enterprise",
+      "location": "New York, NY",
+      "applyUrl": "https://job-boards.greenhouse.io/scaleai/jobs/4673051005",
+      "track": "agents",
+      "accent": "#6C4FF7",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Cohere",
+      "roleTitle": "Forward Deployed Engineer, Agentic Platform",
+      "location": "United States",
+      "applyUrl": "https://jobs.ashbyhq.com/cohere/b0bcef37-1d20-414f-aade-c54942d63df9",
+      "track": "agents",
+      "accent": "#6FBF9E",
+      "status": "dropped-profile-too-obvious",
+      "wave": 5
+    },
+    {
+      "company": "Vanta",
+      "roleTitle": "Senior Product Manager, GRC Platform",
+      "location": "Remote U.S.",
+      "applyUrl": "https://jobs.ashbyhq.com/vanta/7816b5fe-e916-43b8-9200-d0d45298ba9f",
+      "track": "identity",
+      "accent": "#6C50F0",
+      "status": "skipped-profile",
+      "wave": 5
+    },
+    {
+      "company": "Together AI",
+      "roleTitle": "Product Manager, AI Infrastructure",
+      "location": "San Francisco",
+      "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5172169007",
+      "track": "enterprise",
+      "accent": "#0F6FFF",
+      "status": "dropped-profile-too-obvious",
+      "wave": 5
+    },
+    {
+      "company": "Exa",
+      "roleTitle": "Forward Deployed Engineer",
+      "location": "San Francisco, CA",
+      "applyUrl": "https://jobs.ashbyhq.com/exa/8932d319-b456-4ee0-9efd-16d82be8de80",
+      "track": "builder",
+      "accent": "#1F6FEB",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Notion",
+      "roleTitle": "Forward Deployed Engineer, GTM",
+      "location": "San Francisco, CA",
+      "applyUrl": "https://jobs.ashbyhq.com/notion/10437426-14c8-4c45-8075-67959ce80393",
+      "track": "agents",
+      "accent": "#C4A25F",
+      "status": "dropped-profile-too-obvious",
+      "wave": 5
+    },
+    {
+      "company": "Norm Ai",
+      "roleTitle": "Forward Deployed Engineer",
+      "location": "New York City",
+      "applyUrl": "https://jobs.ashbyhq.com/norm-ai/366d4079-4842-469d-a5e0-3cc891a136b4",
+      "track": "agents",
+      "accent": "#3B6B4F",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Stack AI",
+      "roleTitle": "Forward Deployed Engineer - Healthcare",
+      "location": "NYC Office",
+      "applyUrl": "https://jobs.ashbyhq.com/stack-ai/f6b1d010-12ea-460e-aebb-85e2f7e6de45",
+      "track": "agents",
+      "accent": "#3D6BFF",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Kognitos",
+      "roleTitle": "Forward Deployed Engineer",
+      "location": "Remote - USA",
+      "applyUrl": "https://jobs.ashbyhq.com/kognitos/75ef6778-ee45-4eb5-b2fa-02834f78a986",
+      "track": "agents",
+      "accent": "#7A4FE0",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Artisan",
+      "roleTitle": "Forward Deployed Engineer",
+      "location": "New York",
+      "applyUrl": "https://jobs.ashbyhq.com/artisan/558908d9-bbbb-4d98-9e8c-a03cc647fcba",
+      "track": "agents",
+      "accent": "#C74634",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "AirOps",
+      "roleTitle": "Product Manager, New Verticals",
+      "location": "New York City (Onsite)",
+      "applyUrl": "https://jobs.ashbyhq.com/airops/b52cef06-1909-4c31-865a-5882af69c177",
+      "track": "builder",
+      "accent": "#1F8A70",
+      "status": "applied",
+      "wave": 5,
+      "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Tabs",
+      "roleTitle": "Senior Product Manager, Contracts",
+      "location": "New York City, NY",
+      "applyUrl": "https://jobs.ashbyhq.com/tabs/dfbb9b61-18a2-4c53-8f41-31c8e446374c",
+      "track": "enterprise",
+      "accent": "#2D2A6E",
+      "status": "applied",
+      "wave": 5,
       "appliedDate": "2026-07-21"
     }
   ]

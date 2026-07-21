@@ -1,0 +1,24 @@
+Hiring Team at Vanta
+
+I am applying for the Senior Product Manager, GRC Platform role (Remote U.S.).
+
+My pitch for this role is simple: Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.
+
+Why I am a strong fit:
+- Identity at billions-scale is my track record: Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries.
+- Enterprise deployment with security-conscious buyers: Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped.
+- I prototype and ship, not just spec: Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern.
+
+A few shipped reference points:
+- Billions of monthly requests served by identity systems I re-platformed at ALM
+- 150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers
+- Unified access model across 10+ products
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-1jofbyf
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-1jofbyf
