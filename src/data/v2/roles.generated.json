@@ -1078,5 +1078,788 @@
       "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
       "MCP servers, sub-agents, and skills shipped as independent systems"
     ]
+  },
+  {
+    "slug": "fluidstack-product-manager-managed-services",
+    "company": "Fluidstack",
+    "roleTitle": "Product Manager, Managed Services",
+    "applyUrl": "https://jobs.ashbyhq.com/fluidstack/9471f22a-fd25-46ed-a93d-71b809b73f61",
+    "accent": "#33CCFF",
+    "tagline": "[ ENTERPRISE PLATFORM · DELIVERY ]",
+    "headline": "I turn enterprise requirements into shipped platforms — with the trust, governance, and rollout discipline that scale demands.",
+    "intro": "A decade of enterprise platform work: legal-publishing SaaS from beta to millions in ARR, 3D commerce for global brands, and identity infrastructure at billions of requests per month — always owning the path from requirement to production.",
+    "whyFit": [
+      {
+        "point": "Enterprise delivery is my default mode",
+        "detail": "Took a legal-publishing SaaS from beta to millions in ARR at Manatt and shipped 3D-commerce platforms for Alo, Moncler, and Ralph Lauren at Obsess."
+      },
+      {
+        "point": "Governance and trust built in",
+        "detail": "SOC 2, IAM, and data-boundary discipline from running identity for 50%+ of AmLaw 200 firms — regulated-industry requirements are familiar ground."
+      },
+      {
+        "point": "Technical depth to hold the whole system",
+        "detail": "I prototype in TypeScript and Python, shipped an AI API workspace with live introspection, and built my own multi-agent stack — implementation detail never gets lost in translation."
+      }
+    ],
+    "proof": [
+      "Enterprise 3D-commerce deployments for Alo, Moncler, and Ralph Lauren at Obsess",
+      "Legal-publishing SaaS taken from beta to millions in ARR at Manatt",
+      "AI document scanning and knowledge-graph extraction shipped for legal workflows"
+    ]
+  },
+  {
+    "slug": "sierra-product-manager-agent-development",
+    "company": "Sierra",
+    "roleTitle": "Product Manager, Agent Development",
+    "applyUrl": "https://jobs.ashbyhq.com/Sierra/effd7cd2-8a28-4bae-a3b8-40720ba09717",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "artian-ai-senior-product-manager",
+    "company": "Artian AI",
+    "roleTitle": "Senior Product Manager",
+    "applyUrl": "https://jobs.ashbyhq.com/artian/6c61f5d5-0702-416d-ad47-c6203ece2fd1",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "tremendous-senior-product-manager-ai-enablement",
+    "company": "Tremendous",
+    "roleTitle": "Senior Product Manager - AI Enablement",
+    "applyUrl": "https://jobs.ashbyhq.com/tremendous/5f077153-5512-4390-a6b9-b9857e63ee49",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "cresta-forward-deployed-product-manager-ai-agent",
+    "company": "Cresta",
+    "roleTitle": "Forward Deployed Product Manager, AI Agent",
+    "applyUrl": "https://job-boards.greenhouse.io/cresta/jobs/4738837008",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "figma-product-manager-ai-platform",
+    "company": "Figma",
+    "roleTitle": "Product Manager, AI Platform",
+    "applyUrl": "https://job-boards.greenhouse.io/figma/jobs/5830640004",
+    "accent": "#33CCFF",
+    "tagline": "[ BUILDER · ZERO TO ONE ]",
+    "headline": "I take products from nothing to shipped — strategy, system design, and the code, in one person.",
+    "intro": "Architect PM who builds: lupi.live and lupine.science shipped solo as a materials-science AI stack, a marketing-automation OS deployed on GCP, and enterprise platforms rebuilt at billions-scale — 12+ years of end-to-end ownership.",
+    "whyFit": [
+      {
+        "point": "Zero-to-one range, repeatedly proven",
+        "detail": "Shipped lupi.live (R3F/WebGL molecule viewer), lupine.science (MLIP research layer), and a GCP marketing-automation OS — each solo, from concept to production."
+      },
+      {
+        "point": "Enterprise-scale judgment when it matters",
+        "detail": "Re-platformed identity infrastructure at ALM serving billions of monthly requests — startup pace with big-system discipline."
+      },
+      {
+        "point": "AI-native building style",
+        "detail": "Multi-agent orchestration across LLM providers, evals, document AI, and semantic search — AI is my default toolkit, not an add-on."
+      }
+    ],
+    "proof": [
+      "12+ years shipping product, code, and judgment end-to-end",
+      "lupi.live and lupine.science: materials-science AI stack shipped solo",
+      "3D web, semantic search, and scientific computing in production"
+    ]
+  },
+  {
+    "slug": "webflow-staff-product-manager-ai",
+    "company": "Webflow",
+    "roleTitle": "Staff Product Manager, AI",
+    "applyUrl": "https://job-boards.greenhouse.io/webflow/jobs/8054709",
+    "accent": "#33CCFF",
+    "tagline": "[ BUILDER · ZERO TO ONE ]",
+    "headline": "I take products from nothing to shipped — strategy, system design, and the code, in one person.",
+    "intro": "Architect PM who builds: lupi.live and lupine.science shipped solo as a materials-science AI stack, a marketing-automation OS deployed on GCP, and enterprise platforms rebuilt at billions-scale — 12+ years of end-to-end ownership.",
+    "whyFit": [
+      {
+        "point": "Zero-to-one range, repeatedly proven",
+        "detail": "Shipped lupi.live (R3F/WebGL molecule viewer), lupine.science (MLIP research layer), and a GCP marketing-automation OS — each solo, from concept to production."
+      },
+      {
+        "point": "Enterprise-scale judgment when it matters",
+        "detail": "Re-platformed identity infrastructure at ALM serving billions of monthly requests — startup pace with big-system discipline."
+      },
+      {
+        "point": "AI-native building style",
+        "detail": "Multi-agent orchestration across LLM providers, evals, document AI, and semantic search — AI is my default toolkit, not an add-on."
+      }
+    ],
+    "proof": [
+      "12+ years shipping product, code, and judgment end-to-end",
+      "lupi.live and lupine.science: materials-science AI stack shipped solo",
+      "3D web, semantic search, and scientific computing in production"
+    ]
+  },
+  {
+    "slug": "yipitdata-ai-product-manager",
+    "company": "YipitData",
+    "roleTitle": "AI Product Manager",
+    "applyUrl": "https://job-boards.greenhouse.io/yipitdata/jobs/8031925",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "alphasense-senior-product-manager-ai-workflows-expert-research",
+    "company": "AlphaSense",
+    "roleTitle": "Senior Product Manager - AI Workflows (Expert Research)",
+    "applyUrl": "https://job-boards.greenhouse.io/alphasense/jobs/8596193002",
+    "accent": "#33CCFF",
+    "tagline": "[ ENTERPRISE PLATFORM · DELIVERY ]",
+    "headline": "I turn enterprise requirements into shipped platforms — with the trust, governance, and rollout discipline that scale demands.",
+    "intro": "A decade of enterprise platform work: legal-publishing SaaS from beta to millions in ARR, 3D commerce for global brands, and identity infrastructure at billions of requests per month — always owning the path from requirement to production.",
+    "whyFit": [
+      {
+        "point": "Enterprise delivery is my default mode",
+        "detail": "Took a legal-publishing SaaS from beta to millions in ARR at Manatt and shipped 3D-commerce platforms for Alo, Moncler, and Ralph Lauren at Obsess."
+      },
+      {
+        "point": "Governance and trust built in",
+        "detail": "SOC 2, IAM, and data-boundary discipline from running identity for 50%+ of AmLaw 200 firms — regulated-industry requirements are familiar ground."
+      },
+      {
+        "point": "Technical depth to hold the whole system",
+        "detail": "I prototype in TypeScript and Python, shipped an AI API workspace with live introspection, and built my own multi-agent stack — implementation detail never gets lost in translation."
+      }
+    ],
+    "proof": [
+      "Enterprise 3D-commerce deployments for Alo, Moncler, and Ralph Lauren at Obsess",
+      "Legal-publishing SaaS taken from beta to millions in ARR at Manatt",
+      "AI document scanning and knowledge-graph extraction shipped for legal workflows"
+    ]
+  },
+  {
+    "slug": "unframe-group-product-manager-product-solutions-remote",
+    "company": "Unframe",
+    "roleTitle": "Group Product Manager, Product Solutions (Remote)",
+    "applyUrl": "https://job-boards.eu.greenhouse.io/unframe/jobs/4927412101",
+    "accent": "#33CCFF",
+    "tagline": "[ ENTERPRISE PLATFORM · DELIVERY ]",
+    "headline": "I turn enterprise requirements into shipped platforms — with the trust, governance, and rollout discipline that scale demands.",
+    "intro": "A decade of enterprise platform work: legal-publishing SaaS from beta to millions in ARR, 3D commerce for global brands, and identity infrastructure at billions of requests per month — always owning the path from requirement to production.",
+    "whyFit": [
+      {
+        "point": "Enterprise delivery is my default mode",
+        "detail": "Took a legal-publishing SaaS from beta to millions in ARR at Manatt and shipped 3D-commerce platforms for Alo, Moncler, and Ralph Lauren at Obsess."
+      },
+      {
+        "point": "Governance and trust built in",
+        "detail": "SOC 2, IAM, and data-boundary discipline from running identity for 50%+ of AmLaw 200 firms — regulated-industry requirements are familiar ground."
+      },
+      {
+        "point": "Technical depth to hold the whole system",
+        "detail": "I prototype in TypeScript and Python, shipped an AI API workspace with live introspection, and built my own multi-agent stack — implementation detail never gets lost in translation."
+      }
+    ],
+    "proof": [
+      "Enterprise 3D-commerce deployments for Alo, Moncler, and Ralph Lauren at Obsess",
+      "Legal-publishing SaaS taken from beta to millions in ARR at Manatt",
+      "AI document scanning and knowledge-graph extraction shipped for legal workflows"
+    ]
+  },
+  {
+    "slug": "onos-health-forward-deployed-product-manager",
+    "company": "Onos Health",
+    "roleTitle": "Forward-Deployed Product Manager",
+    "applyUrl": "https://jobs.ashbyhq.com/onoshealth/c8d76ba9-ef67-4a21-abe9-fbbe40251311",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "prosper-ai-ai-product-manager",
+    "company": "Prosper AI",
+    "roleTitle": "AI Product Manager",
+    "applyUrl": "https://jobs.ashbyhq.com/prosper-ai/7ad5dfff-0dd8-4e05-99ea-716cac730b30",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "sierra-product-manager-agent-data-platform",
+    "company": "Sierra",
+    "roleTitle": "Product Manager, Agent Data Platform",
+    "applyUrl": "https://jobs.ashbyhq.com/Sierra/422cb7bb-ab03-447b-808c-6d72f59bbd2f",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "traba-staff-product-manager-ai-agents",
+    "company": "Traba",
+    "roleTitle": "Staff Product Manager (AI Agents)",
+    "applyUrl": "https://jobs.ashbyhq.com/traba/9cac977e-24c2-4547-a65e-9eb3abcf1e13",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "workos-product-manager",
+    "company": "WorkOS",
+    "roleTitle": "Product Manager",
+    "applyUrl": "https://jobs.ashbyhq.com/workos/5550ddd5-c3eb-459a-aa4d-8b1216346d88",
+    "accent": "#33CCFF",
+    "tagline": "[ IDENTITY · ENTERPRISE TRUST ]",
+    "headline": "I built enterprise identity for 150+ firms at billions-scale — access, trust, and deployment are my home turf.",
+    "intro": "Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.",
+    "whyFit": [
+      {
+        "point": "Identity at billions-scale is my track record",
+        "detail": "Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries."
+      },
+      {
+        "point": "Enterprise deployment with security-conscious buyers",
+        "detail": "Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped."
+      },
+      {
+        "point": "I prototype and ship, not just spec",
+        "detail": "Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern."
+      }
+    ],
+    "proof": [
+      "Billions of monthly requests served by identity systems I re-platformed at ALM",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Unified access model across 10+ products"
+    ]
+  },
+  {
+    "slug": "firecrawl-head-of-product",
+    "company": "Firecrawl",
+    "roleTitle": "Head of Product",
+    "applyUrl": "https://jobs.ashbyhq.com/firecrawl/bda40f47-a69b-44d4-ac1a-3f86f20d802d",
+    "accent": "#33CCFF",
+    "tagline": "[ BUILDER · ZERO TO ONE ]",
+    "headline": "I take products from nothing to shipped — strategy, system design, and the code, in one person.",
+    "intro": "Architect PM who builds: lupi.live and lupine.science shipped solo as a materials-science AI stack, a marketing-automation OS deployed on GCP, and enterprise platforms rebuilt at billions-scale — 12+ years of end-to-end ownership.",
+    "whyFit": [
+      {
+        "point": "Zero-to-one range, repeatedly proven",
+        "detail": "Shipped lupi.live (R3F/WebGL molecule viewer), lupine.science (MLIP research layer), and a GCP marketing-automation OS — each solo, from concept to production."
+      },
+      {
+        "point": "Enterprise-scale judgment when it matters",
+        "detail": "Re-platformed identity infrastructure at ALM serving billions of monthly requests — startup pace with big-system discipline."
+      },
+      {
+        "point": "AI-native building style",
+        "detail": "Multi-agent orchestration across LLM providers, evals, document AI, and semantic search — AI is my default toolkit, not an add-on."
+      }
+    ],
+    "proof": [
+      "12+ years shipping product, code, and judgment end-to-end",
+      "lupi.live and lupine.science: materials-science AI stack shipped solo",
+      "3D web, semantic search, and scientific computing in production"
+    ]
+  },
+  {
+    "slug": "augment-forward-deployed-engineer",
+    "company": "Augment",
+    "roleTitle": "Forward-Deployed Engineer",
+    "applyUrl": "https://jobs.ashbyhq.com/go-augment/1900c830-9fa2-45b3-a431-bdf9c067e711",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "remote-senior-forward-deployed-engineer-remote-build",
+    "company": "Remote",
+    "roleTitle": "Senior Forward Deployed Engineer (Remote Build)",
+    "applyUrl": "https://job-boards.greenhouse.io/remotecom/jobs/7774935003",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "okta-principal-product-manager-iam-security-agentic-identity",
+    "company": "Okta",
+    "roleTitle": "Principal Product Manager, IAM Security & Agentic Identity",
+    "applyUrl": "https://job-boards.greenhouse.io/okta/jobs/8018330",
+    "accent": "#33CCFF",
+    "tagline": "[ IDENTITY · ENTERPRISE TRUST ]",
+    "headline": "I built enterprise identity for 150+ firms at billions-scale — access, trust, and deployment are my home turf.",
+    "intro": "Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.",
+    "whyFit": [
+      {
+        "point": "Identity at billions-scale is my track record",
+        "detail": "Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries."
+      },
+      {
+        "point": "Enterprise deployment with security-conscious buyers",
+        "detail": "Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped."
+      },
+      {
+        "point": "I prototype and ship, not just spec",
+        "detail": "Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern."
+      }
+    ],
+    "proof": [
+      "Billions of monthly requests served by identity systems I re-platformed at ALM",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Unified access model across 10+ products"
+    ]
+  },
+  {
+    "slug": "delinea-senior-product-manager-platform",
+    "company": "Delinea",
+    "roleTitle": "Senior Product Manager - Platform",
+    "applyUrl": "https://jobs.ashbyhq.com/delinea/b0d82a51-4494-4928-840a-7800abba8af6",
+    "accent": "#33CCFF",
+    "tagline": "[ IDENTITY · ENTERPRISE TRUST ]",
+    "headline": "I built enterprise identity for 150+ firms at billions-scale — access, trust, and deployment are my home turf.",
+    "intro": "Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.",
+    "whyFit": [
+      {
+        "point": "Identity at billions-scale is my track record",
+        "detail": "Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries."
+      },
+      {
+        "point": "Enterprise deployment with security-conscious buyers",
+        "detail": "Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped."
+      },
+      {
+        "point": "I prototype and ship, not just spec",
+        "detail": "Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern."
+      }
+    ],
+    "proof": [
+      "Billions of monthly requests served by identity systems I re-platformed at ALM",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Unified access model across 10+ products"
+    ]
+  },
+  {
+    "slug": "lastpass-principal-product-manager-identity-security",
+    "company": "LastPass",
+    "roleTitle": "Principal Product Manager, Identity & Security",
+    "applyUrl": "https://job-boards.greenhouse.io/lastpass/jobs/4591804005",
+    "accent": "#33CCFF",
+    "tagline": "[ IDENTITY · ENTERPRISE TRUST ]",
+    "headline": "I built enterprise identity for 150+ firms at billions-scale — access, trust, and deployment are my home turf.",
+    "intro": "Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.",
+    "whyFit": [
+      {
+        "point": "Identity at billions-scale is my track record",
+        "detail": "Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries."
+      },
+      {
+        "point": "Enterprise deployment with security-conscious buyers",
+        "detail": "Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped."
+      },
+      {
+        "point": "I prototype and ship, not just spec",
+        "detail": "Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern."
+      }
+    ],
+    "proof": [
+      "Billions of monthly requests served by identity systems I re-platformed at ALM",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Unified access model across 10+ products"
+    ]
+  },
+  {
+    "slug": "supabase-product-manager-security-trust",
+    "company": "Supabase",
+    "roleTitle": "Product Manager - Security & Trust",
+    "applyUrl": "https://jobs.ashbyhq.com/supabase/202e9ca8-3c98-4dea-add5-0f7e2e98800c",
+    "accent": "#33CCFF",
+    "tagline": "[ IDENTITY · ENTERPRISE TRUST ]",
+    "headline": "I built enterprise identity for 150+ firms at billions-scale — access, trust, and deployment are my home turf.",
+    "intro": "Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.",
+    "whyFit": [
+      {
+        "point": "Identity at billions-scale is my track record",
+        "detail": "Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries."
+      },
+      {
+        "point": "Enterprise deployment with security-conscious buyers",
+        "detail": "Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped."
+      },
+      {
+        "point": "I prototype and ship, not just spec",
+        "detail": "Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern."
+      }
+    ],
+    "proof": [
+      "Billions of monthly requests served by identity systems I re-platformed at ALM",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Unified access model across 10+ products"
+    ]
+  },
+  {
+    "slug": "evenup-sr-staff-principal-pm-ai-orchestration-agentic-workflows",
+    "company": "EvenUp",
+    "roleTitle": "Sr/Staff/Principal PM, AI Orchestration & Agentic Workflows",
+    "applyUrl": "https://jobs.ashbyhq.com/evenup/0a6e4875-9151-49da-95db-8e88fc5a4612",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "january-senior-staff-product-manager-ai-agents",
+    "company": "January",
+    "roleTitle": "Senior/Staff Product Manager, AI Agents",
+    "applyUrl": "https://jobs.ashbyhq.com/january/837101a2-6bc5-44e8-8f93-110638dcaca3",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "jerry-ai-senior-product-manager-ai-agents-and-platform",
+    "company": "Jerry.ai",
+    "roleTitle": "Senior Product Manager, AI Agents and Platform",
+    "applyUrl": "https://jobs.ashbyhq.com/Jerry.ai/f0564d42-34b3-405f-a7ba-a29108d60eb5",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "camunda-senior-product-manager-core-platform",
+    "company": "Camunda",
+    "roleTitle": "Senior Product Manager - Core Platform",
+    "applyUrl": "https://jobs.ashbyhq.com/camunda/b771e145-a5cf-4867-ad13-b54830e3b744",
+    "accent": "#33CCFF",
+    "tagline": "[ ENTERPRISE PLATFORM · DELIVERY ]",
+    "headline": "I turn enterprise requirements into shipped platforms — with the trust, governance, and rollout discipline that scale demands.",
+    "intro": "A decade of enterprise platform work: legal-publishing SaaS from beta to millions in ARR, 3D commerce for global brands, and identity infrastructure at billions of requests per month — always owning the path from requirement to production.",
+    "whyFit": [
+      {
+        "point": "Enterprise delivery is my default mode",
+        "detail": "Took a legal-publishing SaaS from beta to millions in ARR at Manatt and shipped 3D-commerce platforms for Alo, Moncler, and Ralph Lauren at Obsess."
+      },
+      {
+        "point": "Governance and trust built in",
+        "detail": "SOC 2, IAM, and data-boundary discipline from running identity for 50%+ of AmLaw 200 firms — regulated-industry requirements are familiar ground."
+      },
+      {
+        "point": "Technical depth to hold the whole system",
+        "detail": "I prototype in TypeScript and Python, shipped an AI API workspace with live introspection, and built my own multi-agent stack — implementation detail never gets lost in translation."
+      }
+    ],
+    "proof": [
+      "Enterprise 3D-commerce deployments for Alo, Moncler, and Ralph Lauren at Obsess",
+      "Legal-publishing SaaS taken from beta to millions in ARR at Manatt",
+      "AI document scanning and knowledge-graph extraction shipped for legal workflows"
+    ]
+  },
+  {
+    "slug": "meridianlink-senior-product-manager-ai-platform-fintech",
+    "company": "MeridianLink",
+    "roleTitle": "Senior Product Manager - AI Platform (FinTech)",
+    "applyUrl": "https://jobs.ashbyhq.com/meridianlink/b85e5a73-a260-40e8-983b-87ea7342d153",
+    "accent": "#33CCFF",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
   }
 ]

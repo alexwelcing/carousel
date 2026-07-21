@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, ArrowRight, ExternalLink, Check, Download, Play, X } from 'lucide-react';
 import AmbientField from '@/components/AmbientField';
+import RoleSigil from '@/components/RoleSigil';
 import { applicationPacketOverrides, getApplicationPacketLinks } from '@/data/applicationPackets';
 import { getRole } from '@/data/roles';
 
@@ -98,6 +99,11 @@ export default function Role() {
   // All hooks must be called in the same order on every render, so they
   // run BEFORE any early-return based on `role`.
   const accent = role?.accent ?? '#FF3366';
+  const taglineU = (role?.tagline ?? '').toUpperCase();
+  const sigilTrack = taglineU.includes('IDENTITY') ? 'identity'
+    : taglineU.includes('AGENT') ? 'agents'
+    : (taglineU.includes('ENTERPRISE') || taglineU.includes('DELIVERY')) ? 'enterprise'
+    : 'builder';
   const safeHeadline = sanitizeDisplay(role?.headline, 180);
   const safeIntro = sanitizeDisplay(role?.intro, 400).replace(/\.$/, '');
   const safeTagline = sanitizeDisplay(role?.tagline, 80);
@@ -215,7 +221,8 @@ export default function Role() {
           paddingRight: 'clamp(20px, 5vw, 80px)',
         }}
       >
-        <div className="w-full max-w-[860px]">
+        {role && <RoleSigil slug={role.slug} track={sigilTrack} accent={accent} opacity={0.4} />}
+        <div className="w-full max-w-[860px]" style={{ position: 'relative' }}>
           <motion.span
             className="font-caption block mb-6"
             style={{ color: accent }}
