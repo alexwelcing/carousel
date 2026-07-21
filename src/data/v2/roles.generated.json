@@ -2521,5 +2521,305 @@
       "Legal-publishing SaaS taken from beta to millions in ARR at Manatt",
       "AI document scanning and knowledge-graph extraction shipped for legal workflows"
     ]
+  },
+  {
+    "slug": "rogo-product-manager-agents",
+    "company": "Rogo",
+    "roleTitle": "Product Manager, Agents",
+    "location": "New York City",
+    "applyUrl": "https://jobs.ashbyhq.com/rogo/1d838efc-7c1d-45d1-b2c2-85e6cb4ab6df",
+    "accent": "#123C8C",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "tennr-product-manager",
+    "company": "Tennr",
+    "roleTitle": "Product Manager",
+    "location": "New York City",
+    "applyUrl": "https://jobs.ashbyhq.com/tennr/638715dd-77e6-4a0e-a4d1-2f67c3dd74f8",
+    "accent": "#E4572E",
+    "tagline": "[ ENTERPRISE PLATFORM · DELIVERY ]",
+    "headline": "I turn enterprise requirements into shipped platforms — with the trust, governance, and rollout discipline that scale demands.",
+    "intro": "A decade of enterprise platform work: legal-publishing SaaS from beta to millions in ARR, 3D commerce for global brands, and identity infrastructure at billions of requests per month — always owning the path from requirement to production.",
+    "whyFit": [
+      {
+        "point": "Enterprise delivery is my default mode",
+        "detail": "Took a legal-publishing SaaS from beta to millions in ARR at Manatt and shipped 3D-commerce platforms for Alo, Moncler, and Ralph Lauren at Obsess."
+      },
+      {
+        "point": "Governance and trust built in",
+        "detail": "SOC 2, IAM, and data-boundary discipline from running identity for 50%+ of AmLaw 200 firms — regulated-industry requirements are familiar ground."
+      },
+      {
+        "point": "Technical depth to hold the whole system",
+        "detail": "I prototype in TypeScript and Python, shipped an AI API workspace with live introspection, and built my own multi-agent stack — implementation detail never gets lost in translation."
+      }
+    ],
+    "proof": [
+      "Enterprise 3D-commerce deployments for Alo, Moncler, and Ralph Lauren at Obsess",
+      "Legal-publishing SaaS taken from beta to millions in ARR at Manatt",
+      "AI document scanning and knowledge-graph extraction shipped for legal workflows"
+    ]
+  },
+  {
+    "slug": "extend-forward-deployed-engineer",
+    "company": "Extend",
+    "roleTitle": "Forward Deployed Engineer",
+    "location": "New York City",
+    "applyUrl": "https://jobs.ashbyhq.com/extend/a28fb488-7c82-4bb5-8876-c20e209d2ac5",
+    "accent": "#2F6BFF",
+    "tagline": "[ BUILDER · ZERO TO ONE ]",
+    "headline": "I take products from nothing to shipped — strategy, system design, and the code, in one person.",
+    "intro": "Architect PM who builds: lupi.live and lupine.science shipped solo as a materials-science AI stack, a marketing-automation OS deployed on GCP, and enterprise platforms rebuilt at billions-scale — 12+ years of end-to-end ownership.",
+    "whyFit": [
+      {
+        "point": "Zero-to-one range, repeatedly proven",
+        "detail": "Shipped lupi.live (R3F/WebGL molecule viewer), lupine.science (MLIP research layer), and a GCP marketing-automation OS — each solo, from concept to production."
+      },
+      {
+        "point": "Enterprise-scale judgment when it matters",
+        "detail": "Re-platformed identity infrastructure at ALM serving billions of monthly requests — startup pace with big-system discipline."
+      },
+      {
+        "point": "AI-native building style",
+        "detail": "Multi-agent orchestration across LLM providers, evals, document AI, and semantic search — AI is my default toolkit, not an add-on."
+      }
+    ],
+    "proof": [
+      "12+ years shipping product, code, and judgment end-to-end",
+      "lupi.live and lupine.science: materials-science AI stack shipped solo",
+      "3D web, semantic search, and scientific computing in production"
+    ]
+  },
+  {
+    "slug": "taktile-senior-forward-deployed-engineer",
+    "company": "Taktile",
+    "roleTitle": "Senior Forward Deployed Engineer",
+    "location": "New York City",
+    "applyUrl": "https://jobs.ashbyhq.com/taktile/5a16ec1c-d81d-44b2-8c24-19e832e49c38",
+    "accent": "#5A4FF0",
+    "tagline": "[ IDENTITY · ENTERPRISE TRUST ]",
+    "headline": "I built enterprise identity for 150+ firms at billions-scale — access, trust, and deployment are my home turf.",
+    "intro": "Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.",
+    "whyFit": [
+      {
+        "point": "Identity at billions-scale is my track record",
+        "detail": "Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries."
+      },
+      {
+        "point": "Enterprise deployment with security-conscious buyers",
+        "detail": "Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped."
+      },
+      {
+        "point": "I prototype and ship, not just spec",
+        "detail": "Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern."
+      }
+    ],
+    "proof": [
+      "Billions of monthly requests served by identity systems I re-platformed at ALM",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Unified access model across 10+ products"
+    ]
+  },
+  {
+    "slug": "sola-founding-product-manager",
+    "company": "Sola",
+    "roleTitle": "Founding Product Manager",
+    "location": "New York City",
+    "applyUrl": "https://jobs.ashbyhq.com/sola/10c7e3d9-2594-4d95-a7d8-6c8560be61f2",
+    "accent": "#FF7A29",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "pylon-senior-agent-product-manager",
+    "company": "Pylon",
+    "roleTitle": "Senior Agent Product Manager",
+    "location": "New York, NY",
+    "applyUrl": "https://jobs.ashbyhq.com/pylon/03572ab3-63c0-4979-b099-044e01ff292a",
+    "accent": "#8B5CF6",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "gradient-labs-senior-agent-product-manager",
+    "company": "Gradient Labs",
+    "roleTitle": "Senior Agent Product Manager",
+    "location": "New York",
+    "applyUrl": "https://jobs.ashbyhq.com/gradient-labs/451154da-e27f-4c9c-911f-324aee563b2e",
+    "accent": "#10B981",
+    "tagline": "[ AI AGENTS · PRODUCT EXECUTION ]",
+    "headline": "I ship production AI agents and the platforms they run on — from orchestration design to the deployed surface.",
+    "intro": "I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.",
+    "whyFit": [
+      {
+        "point": "Production agents, not prototypes",
+        "detail": "Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs."
+      },
+      {
+        "point": "Platform judgment from billions-scale systems",
+        "detail": "Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces."
+      },
+      {
+        "point": "Customer-facing technical credibility",
+        "detail": "Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product."
+      }
+    ],
+    "proof": [
+      "Multi-agent orchestration platform built end-to-end across multiple LLM providers",
+      "Type-safe AI API execution workspace shipped at ALM with live introspection and evals",
+      "MCP servers, sub-agents, and skills shipped as independent systems"
+    ]
+  },
+  {
+    "slug": "attio-forward-deployed-engineer",
+    "company": "Attio",
+    "roleTitle": "Forward Deployed Engineer",
+    "location": "New York",
+    "applyUrl": "https://jobs.ashbyhq.com/attio/cef00929-63ab-4927-8a3c-1ea1d4224606",
+    "accent": "#3B82F6",
+    "tagline": "[ BUILDER · ZERO TO ONE ]",
+    "headline": "I take products from nothing to shipped — strategy, system design, and the code, in one person.",
+    "intro": "Architect PM who builds: lupi.live and lupine.science shipped solo as a materials-science AI stack, a marketing-automation OS deployed on GCP, and enterprise platforms rebuilt at billions-scale — 12+ years of end-to-end ownership.",
+    "whyFit": [
+      {
+        "point": "Zero-to-one range, repeatedly proven",
+        "detail": "Shipped lupi.live (R3F/WebGL molecule viewer), lupine.science (MLIP research layer), and a GCP marketing-automation OS — each solo, from concept to production."
+      },
+      {
+        "point": "Enterprise-scale judgment when it matters",
+        "detail": "Re-platformed identity infrastructure at ALM serving billions of monthly requests — startup pace with big-system discipline."
+      },
+      {
+        "point": "AI-native building style",
+        "detail": "Multi-agent orchestration across LLM providers, evals, document AI, and semantic search — AI is my default toolkit, not an add-on."
+      }
+    ],
+    "proof": [
+      "12+ years shipping product, code, and judgment end-to-end",
+      "lupi.live and lupine.science: materials-science AI stack shipped solo",
+      "3D web, semantic search, and scientific computing in production"
+    ]
+  },
+  {
+    "slug": "alloy-founding-forward-deployed-engineer",
+    "company": "Alloy",
+    "roleTitle": "Founding Forward Deployed Engineer",
+    "location": "New York City",
+    "applyUrl": "https://www.alloy.com/about/jobs/detail?gh_jid=8610085002",
+    "accent": "#6D28D9",
+    "tagline": "[ IDENTITY · ENTERPRISE TRUST ]",
+    "headline": "I built enterprise identity for 150+ firms at billions-scale — access, trust, and deployment are my home turf.",
+    "intro": "Identity is my deepest domain: I re-platformed identity and subscription infrastructure serving billions of monthly requests, ran SAML/OIDC SSO for 150+ AmLaw 200 firms, and carry that access-boundary discipline into every product I ship.",
+    "whyFit": [
+      {
+        "point": "Identity at billions-scale is my track record",
+        "detail": "Replaced a legacy identity & subscription system across 10+ products at ALM, serving billions of monthly requests with SOC 2 and strict access boundaries."
+      },
+      {
+        "point": "Enterprise deployment with security-conscious buyers",
+        "detail": "Configured SAML / OIDC SSO for 150+ AmLaw 200 firms — high-trust onboarding where security, legal, and product teams all had to align before value shipped."
+      },
+      {
+        "point": "I prototype and ship, not just spec",
+        "detail": "Built a type-safe AI API execution workspace in TypeScript with live introspection, and my own multi-agent stack end-to-end — I understand the systems I govern."
+      }
+    ],
+    "proof": [
+      "Billions of monthly requests served by identity systems I re-platformed at ALM",
+      "150+ enterprise SSO / SAML / OIDC deployments with security-conscious buyers",
+      "Unified access model across 10+ products"
+    ]
+  },
+  {
+    "slug": "reducto-founding-product-manager",
+    "company": "Reducto",
+    "roleTitle": "Founding Product Manager",
+    "location": "San Francisco",
+    "applyUrl": "https://jobs.ashbyhq.com/reducto/64088355-5fe7-44b2-86d8-0cfba391f052",
+    "accent": "#EF4444",
+    "tagline": "[ ENTERPRISE PLATFORM · DELIVERY ]",
+    "headline": "I turn enterprise requirements into shipped platforms — with the trust, governance, and rollout discipline that scale demands.",
+    "intro": "A decade of enterprise platform work: legal-publishing SaaS from beta to millions in ARR, 3D commerce for global brands, and identity infrastructure at billions of requests per month — always owning the path from requirement to production.",
+    "whyFit": [
+      {
+        "point": "Enterprise delivery is my default mode",
+        "detail": "Took a legal-publishing SaaS from beta to millions in ARR at Manatt and shipped 3D-commerce platforms for Alo, Moncler, and Ralph Lauren at Obsess."
+      },
+      {
+        "point": "Governance and trust built in",
+        "detail": "SOC 2, IAM, and data-boundary discipline from running identity for 50%+ of AmLaw 200 firms — regulated-industry requirements are familiar ground."
+      },
+      {
+        "point": "Technical depth to hold the whole system",
+        "detail": "I prototype in TypeScript and Python, shipped an AI API workspace with live introspection, and built my own multi-agent stack — implementation detail never gets lost in translation."
+      }
+    ],
+    "proof": [
+      "Enterprise 3D-commerce deployments for Alo, Moncler, and Ralph Lauren at Obsess",
+      "Legal-publishing SaaS taken from beta to millions in ARR at Manatt",
+      "AI document scanning and knowledge-graph extraction shipped for legal workflows"
+    ]
   }
 ]

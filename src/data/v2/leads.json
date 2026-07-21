@@ -843,6 +843,106 @@
       "status": "applied",
       "wave": 5,
       "appliedDate": "2026-07-21"
+    },
+    {
+      "company": "Rogo",
+      "roleTitle": "Product Manager, Agents",
+      "location": "New York City",
+      "applyUrl": "https://jobs.ashbyhq.com/rogo/1d838efc-7c1d-45d1-b2c2-85e6cb4ab6df",
+      "track": "agents",
+      "accent": "#123C8C",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Tennr",
+      "roleTitle": "Product Manager",
+      "location": "New York City",
+      "applyUrl": "https://jobs.ashbyhq.com/tennr/638715dd-77e6-4a0e-a4d1-2f67c3dd74f8",
+      "track": "enterprise",
+      "accent": "#E4572E",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Extend",
+      "roleTitle": "Forward Deployed Engineer",
+      "location": "New York City",
+      "applyUrl": "https://jobs.ashbyhq.com/extend/a28fb488-7c82-4bb5-8876-c20e209d2ac5",
+      "track": "builder",
+      "accent": "#2F6BFF",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Taktile",
+      "roleTitle": "Senior Forward Deployed Engineer",
+      "location": "New York City",
+      "applyUrl": "https://jobs.ashbyhq.com/taktile/5a16ec1c-d81d-44b2-8c24-19e832e49c38",
+      "track": "identity",
+      "accent": "#5A4FF0",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Sola",
+      "roleTitle": "Founding Product Manager",
+      "location": "New York City",
+      "applyUrl": "https://jobs.ashbyhq.com/sola/10c7e3d9-2594-4d95-a7d8-6c8560be61f2",
+      "track": "agents",
+      "accent": "#FF7A29",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Pylon",
+      "roleTitle": "Senior Agent Product Manager",
+      "location": "New York, NY",
+      "applyUrl": "https://jobs.ashbyhq.com/pylon/03572ab3-63c0-4979-b099-044e01ff292a",
+      "track": "agents",
+      "accent": "#8B5CF6",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Gradient Labs",
+      "roleTitle": "Senior Agent Product Manager",
+      "location": "New York",
+      "applyUrl": "https://jobs.ashbyhq.com/gradient-labs/451154da-e27f-4c9c-911f-324aee563b2e",
+      "track": "agents",
+      "accent": "#10B981",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Attio",
+      "roleTitle": "Forward Deployed Engineer",
+      "location": "New York",
+      "applyUrl": "https://jobs.ashbyhq.com/attio/cef00929-63ab-4927-8a3c-1ea1d4224606",
+      "track": "builder",
+      "accent": "#3B82F6",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Alloy",
+      "roleTitle": "Founding Forward Deployed Engineer",
+      "location": "New York City",
+      "applyUrl": "https://www.alloy.com/about/jobs/detail?gh_jid=8610085002",
+      "track": "identity",
+      "accent": "#6D28D9",
+      "status": "to-apply",
+      "wave": 6
+    },
+    {
+      "company": "Reducto",
+      "roleTitle": "Founding Product Manager",
+      "location": "San Francisco",
+      "applyUrl": "https://jobs.ashbyhq.com/reducto/64088355-5fe7-44b2-86d8-0cfba391f052",
+      "track": "enterprise",
+      "accent": "#EF4444",
+      "status": "to-apply",
+      "wave": 6
     }
   ]
 }

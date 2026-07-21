@@ -1,0 +1,24 @@
+Hiring Team at Sola
+
+I am applying for the Founding Product Manager role (New York City).
+
+My pitch for this role is simple: I build AI products as working systems: multi-agent orchestration across multiple LLM providers, a type-safe AI API execution workspace with evals and live introspection, and enterprise deployments where reliability is non-negotiable.
+
+Why I am a strong fit:
+- Production agents, not prototypes: Built a multi-agent orchestration platform end-to-end across multiple LLM providers, with git-backed persistence and eval loops that improved accuracy across three internal APIs.
+- Platform judgment from billions-scale systems: Re-platformed identity and subscription infrastructure at ALM serving billions of monthly requests — I know what production-grade means for AI surfaces.
+- Customer-facing technical credibility: Enterprise SSO onboarding for 150+ firms and 3D-commerce deployments for Alo, Moncler, and Ralph Lauren — I embed with customers and feed patterns back to product.
+
+A few shipped reference points:
+- Multi-agent orchestration platform built end-to-end across multiple LLM providers
+- Type-safe AI API execution workspace shipped at ALM with live introspection and evals
+- MCP servers, sub-agents, and skills shipped as independent systems
+
+Packet (résumé, cover letter, and a 30-second role pitch): welc.ing/r/pkt-6gdndp
+
+I would welcome the opportunity to discuss how I can contribute quickly, operate with high autonomy, and ship for this team.
+
+Best regards,
+Alex Welcing
+alexwelcing@gmail.com
+welc.ing/r/pkt-6gdndp

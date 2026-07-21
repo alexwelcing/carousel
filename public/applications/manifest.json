@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-21T18:39:39.903Z",
+  "generatedAt": "2026-07-21T19:49:47.104Z",
   "count": 1,
   "packets": [
     {
-      "slug": "tabs-senior-product-manager-contracts",
-      "shareId": "pkt-67ugzg",
-      "sharePath": "/packets/pkt-67ugzg",
-      "company": "Tabs",
-      "roleTitle": "Senior Product Manager, Contracts",
-      "location": "New York City, NY",
-      "applyUrl": "https://jobs.ashbyhq.com/tabs/dfbb9b61-18a2-4c53-8f41-31c8e446374c",
-      "resumePdf": "/packets/pkt-67ugzg/resume.pdf",
-      "resumeLightPdf": "/packets/pkt-67ugzg/resume-light.pdf",
-      "coverLetterTxt": "/packets/pkt-67ugzg/cover-letter.txt",
-      "pitchHtml": "/packets/pkt-67ugzg/pitch.html",
-      "coverLetterPdf": "/packets/pkt-67ugzg/cover-letter.pdf",
+      "slug": "reducto-founding-product-manager",
+      "shareId": "pkt-rnjsdi",
+      "sharePath": "/packets/pkt-rnjsdi",
+      "company": "Reducto",
+      "roleTitle": "Founding Product Manager",
+      "location": "San Francisco",
+      "applyUrl": "https://jobs.ashbyhq.com/reducto/64088355-5fe7-44b2-86d8-0cfba391f052",
+      "resumePdf": "/packets/pkt-rnjsdi/resume.pdf",
+      "resumeLightPdf": "/packets/pkt-rnjsdi/resume-light.pdf",
+      "coverLetterTxt": "/packets/pkt-rnjsdi/cover-letter.txt",
+      "pitchHtml": "/packets/pkt-rnjsdi/pitch.html",
+      "coverLetterPdf": "/packets/pkt-rnjsdi/cover-letter.pdf",
       "source": "curated-role"
     }
   ]
