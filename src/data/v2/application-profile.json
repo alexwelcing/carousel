@@ -1,0 +1,87 @@
+{
+  "comment": "Canonical ATS answers for the apply loop. Edit policy here, never mid-form. Per-ATS aliases map one intent to each vendor's exact option label.",
+  "identity": {
+    "firstName": "Alex",
+    "lastName": "Welcing",
+    "fullName": "Alex Welcing",
+    "email": "alexwelcing@gmail.com",
+    "phone": "817-734-5375",
+    "location": "New York, NY",
+    "locationCombobox": "New York City, New York, United States",
+    "country": "United States",
+    "linkedin": "https://www.linkedin.com/in/alexwelcing",
+    "website": "https://welc.ing",
+    "github": "https://github.com/alexwelcing"
+  },
+  "answers": {
+    "workAuthorizationUS": "Yes",
+    "requiresSponsorship": "No",
+    "over18": "Yes",
+    "contactCurrentEmployer": "Yes",
+    "contactPastEmployers": "Yes",
+    "everTerminated": "No",
+    "essentialFunctions": "Yes",
+    "nonCompeteRestriction": "No",
+    "openToTravel": "Yes",
+    "openToRelocation": "Yes",
+    "inPersonOk": "Yes",
+    "earliestStart": "Two weeks",
+    "aiNotetakerConsent": "Yes",
+    "textConsent": "Yes",
+    "backgroundCheckConsent": "I agree",
+    "referenceCallsAcknowledge": "I acknowledge this."
+  },
+  "salary": {
+    "anchorUSD": 220000,
+    "policy": "If the posting shows a range, answer at or just under its top. If no range, anchor at $220,000. Phrase: '$<amount>, flexible depending on equity and total package.'"
+  },
+  "howHeard": {
+    "preferredOrder": ["Job Board (Indeed, Glassdoor, etc.)", "Search engine", "LinkedIn", "Other"],
+    "otherFreeText": "Ashby job board"
+  },
+  "demographics": {
+    "policy": "Always decline every demographic question.",
+    "aliases": [
+      "Decline To Self Identify",
+      "I decline to self-identify",
+      "I prefer not to answer",
+      "I don't wish to answer",
+      "I do not want to answer",
+      "Prefer not to say",
+      "I prefer not to say"
+    ]
+  },
+  "hardStops": {
+    "neverDo": [
+      "Complete CAPTCHAs",
+      "Create accounts or enter passwords",
+      "Invent street address, SSN, or any government ID",
+      "Claim work authorization for countries other than the US",
+      "Fabricate employment history or credentials (e.g., buyside experience)"
+    ],
+    "parkAndMoveOn": [
+      "iCIMS / Workday / Oracle account walls",
+      "Cross-origin embedded iframes that swallow input (Databricks pattern)",
+      "Forms requiring street address + ZIP (ask Alex)"
+    ]
+  },
+  "atsPlaybook": {
+    "ashby": [
+      "Upload resume FIRST via the autofill input, then wait 3-4s: the form re-renders and refs go stale.",
+      "After autofill, re-check Phone and LinkedIn — autofill re-render clears manually-entered values (Sierra ADP failure).",
+      "Comboboxes: click, type query, wait 1s, click the highlighted option. Never trust form_input alone.",
+      "Watch for stray keystrokes leaking into focused comboboxes (the 'New YorkAshby' failure). End+BackSpace xN to repair.",
+      "'We're updating your forms' warning after submit = wait 5s, find Submit again, click again.",
+      "Verify success via page text 'Success', not the button state."
+    ],
+    "greenhouse": [
+      "form_input works for text fields. Country phone-prefix select is required whenever Phone has a value even if unstarred — set it or submit silently fails (Webflow/Unframe failure).",
+      "Location (City) is a Google-Places combobox: click, type 'New York', click 'New York, NY, USA'.",
+      "Selects are custom dropdowns: click the control, then click the option row.",
+      "Demographics section is optional — skip entirely rather than answering.",
+      "Success = redirect to /confirmation with 'Thank you for applying.'"
+    ],
+    "lever": ["Plain HTML form; standard fill. 404 on /apply means the posting is gone."],
+    "phenom": ["Resume parser can hang the page 60-120s (Mastercard/Qualtrics). Upload a .txt resume variant or park it."]
+  }
+}

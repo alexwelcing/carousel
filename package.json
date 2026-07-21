@@ -22,7 +22,8 @@
     "talent:pitch-all": "PATH=/opt/homebrew/opt/node@22/bin:$PATH TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-pitch-videos.ts --all",
     "talent:pitch-docker": "PATH=/opt/homebrew/opt/node@22/bin:$PATH TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/generate-pitch-videos.ts --top-targets --docker",
     "compose:roles": "TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/compose-roles.ts",
-    "packet:one": "bash scripts/packet-one.sh"
+    "packet:one": "bash scripts/packet-one.sh",
+    "leads:check": "TSX_TSCONFIG_PATH=./tsconfig.app.json tsx scripts/check-leads.ts"
   },
   "dependencies": {
     "@chenglou/pretext": "^0.0.8",
